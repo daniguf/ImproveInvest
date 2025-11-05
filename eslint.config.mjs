@@ -1,6 +1,9 @@
-import { defineConfig, globalIgnores } from "eslint/config";
+// For more info, see https://github.com/storybookjs/eslint-plugin-storybook#configuration-flat-config-format
+import storybook from "eslint-plugin-storybook";
+
 import nextVitals from "eslint-config-next/core-web-vitals";
 import nextTs from "eslint-config-next/typescript";
+import { defineConfig, globalIgnores } from "eslint/config";
 
 const eslintConfig = defineConfig([
   ...nextVitals,
@@ -31,6 +34,17 @@ const eslintConfig = defineConfig([
           argsIgnorePattern: "^_",
         },
       ],
+    },
+  },
+  ...storybook.configs["flat/recommended"],
+  {
+    // 👇 This should match the `stories` property in .storybook/main.js|ts
+    files: ["**/*.stories.@(ts|tsx|js|jsx|mjs|cjs)"],
+    rules: {
+      // 👇 Enable this rule
+      "storybook/csf-component": "error",
+      // 👇 Disable this rule
+      "storybook/default-exports": "off",
     },
   },
 ]);
