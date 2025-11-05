@@ -25,6 +25,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "eslint": "^9",
     "eslint-config-next": "16.0.1",
     "husky": "^9.1.7",
