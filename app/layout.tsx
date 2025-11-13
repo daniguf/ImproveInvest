@@ -1,4 +1,4 @@
-import PrimaryLayout from "@/components/layouts/base/PrimaryLayout";
+import PrimaryLayout from "@/components/layouts/primaryLayout/PrimaryLayout";
 import type { Metadata } from "next";
 import { Merriweather } from "next/font/google";
 import "./globals.css";
