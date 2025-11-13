@@ -18,8 +18,14 @@
 }
 
 @theme inline {
+  --color-primary: var(--brand-primary-deep-blue);
+  --color-secondary: var(--brand-secondary-deeper-blue);
 }
 
 body {
-  font-style: var(--global-font-style);
+  background-color: var(--background);
+
+  min-height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }

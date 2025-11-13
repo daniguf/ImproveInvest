@@ -1,10 +1,12 @@
+import PrimaryLayout from "@/components/layouts/base/PrimaryLayout";
 import type { Metadata } from "next";
 import { Merriweather } from "next/font/google";
 import "./globals.css";
 
 const merriweather = Merriweather({
   subsets: ["latin"],
-  weight: ["400", "700", "800"], // choose the weights you need
+  weight: ["400", "700", "800"],
+  style: "normal",
 });
 
 export const metadata: Metadata = {
@@ -19,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={merriweather.className}>
-      <body>{children}</body>
+      <body>
+        <PrimaryLayout>{children}</PrimaryLayout>
+      </body>
     </html>
   );
 }
