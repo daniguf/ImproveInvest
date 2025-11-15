@@ -1,5 +1,6 @@
 import PrimaryLayout from "@/components/layouts/primaryLayout/PrimaryLayout";
 import type { Metadata } from "next";
+import { NextIntlClientProvider } from "next-intl";
 import { Merriweather } from "next/font/google";
 import "./globals.css";
 
@@ -22,7 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en" className={merriweather.className}>
       <body>
-        <PrimaryLayout>{children}</PrimaryLayout>
+        <NextIntlClientProvider>
+          <PrimaryLayout>{children}</PrimaryLayout>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
