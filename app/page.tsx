@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 
 const Home = () => {
-  const t = useTranslations("home-2");
+  const t = useTranslations("home");
   return <div className="">{t("0513cdd")}</div>;
 };
 

@@ -1,4 +1,11 @@
 {
+  "header": {
+    "home": "Forside",
+    "aboutUs": "Om Os",
+    "contact": "Kontakt",
+    "whyInvest": "Hvorfor Investere?",
+    "whoIsImproveInvest": "Hvem er Improve Invest A/S"
+  },
   "esg": {
     "c82569f": "Politik for integration af bæredygtighedsrisici (ESG)",
     "caaa441": "Edit Gældende for:Aktieselskabet ImproveInvest A/S Godkendt af:Bestyrelsen for ImproveInvest A/S Godkendt pr.: Retsligt grundlag:EU-forordning 2019/2088/EU af 27. november 2019 om bæredygtighedsrelaterede oplysninger i sektoren for finansielle tjenesteydelser (”Disclosure forordningen”), BEK nr. 1254 af 11/06/2021 (Bekendtgørelse om ledelse og styring af pengeinstitutter m.fl.) §4. Versions nr.1.0",
@@ -194,7 +201,7 @@
     "7842087": "Du har ret til at indgive en klage til Datatilsynet, hvis du er utilfreds med den måde, vi behandler dine personoplysninger på. Du finder Datatilsynets kontaktoplysninger påwww.datatilsynet.dk.",
     "3903302": "Vi vil generelt opfordre dig til at læse mere om GDPR, så du er opdateret på reglerne."
   },
-  "home-2": {
+  "home": {
     "0513cdd": "Improve Invest A/S RENOVERINGSFOND",
     "64337c7": "Attraktiv investering i renovation af ejendomme",
     "88a3559": "OM OS",

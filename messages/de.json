@@ -1,5 +1,9 @@
 {
-  "HomePage": {
-    "title": "Hallo welt!"
+  "header": {
+    "home": "Startseite",
+    "aboutUs": "Über Uns",
+    "contact": "Kontakt",
+    "whyInvest": "Warum Investieren?",
+    "whoIsImproveInvest": "Wer ist Improve Invest A/S"
   }
 }

@@ -1,3 +1,4 @@
+import LanguageSwitcher from "../languageSwitcher/LanguageSwitcher";
 import NavItems from "../navItems/NavItems";
 
 export interface IHeader {
@@ -14,8 +15,7 @@ const Header: React.FC = () => {
         <nav className="hidden sm:flex justify-center">
           <NavItems />
         </nav>
-
-        <div className="hidden sm:flex ml-8">Lang</div>
+        <LanguageSwitcher />
       </div>
     </header>
   );

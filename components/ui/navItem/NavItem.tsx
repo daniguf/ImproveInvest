@@ -1,9 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { NAVIGABLE_ITEMS } from "../navItems/NavItems";
 
-type Category = (typeof NAVIGABLE_ITEMS)[number];
+type Category = {
+  id: number;
+  label: string;
+  href?: string;
+  featured?: {
+    name: string;
+    href: string;
+  }[];
+};
 
 export interface INavItem {
   category: Category;
@@ -21,7 +28,7 @@ const NavItem: React.FC<INavItem> = ({
   const haveDropDown = (category.featured?.length ?? 0) > 0;
 
   return (
-    <div className="flex">
+    <div className="flex relative">
       <div className="relative flex items-center">
         <div
           className={`flex items-center gap-1.5 cursor-pointer p-2 rounded-md hover:bg-gray-100 ${isOpen ? "bg-gray-100" : null}`}
@@ -60,7 +67,7 @@ const NavItem: React.FC<INavItem> = ({
         {haveDropDown ? (
           isOpen ? (
             <div
-              className={`absolute inset-x-0 top-full text-sm min-w-64 ${isAnyOpen ? "" : ""}`}
+              className={`absolute inset-x-0 top-full text-sm min-w-56 ${isAnyOpen ? "" : ""}`}
             >
               <div
                 className="absolute inset-0 bg-white shadow"
@@ -70,7 +77,7 @@ const NavItem: React.FC<INavItem> = ({
                 {category.featured?.map((item) => (
                   <div
                     key={item.name}
-                    className="relative px-8 text-base sm:text-sm"
+                    className="relative px-4 text-base sm:text-sm"
                   >
                     <Link
                       href={item.href}

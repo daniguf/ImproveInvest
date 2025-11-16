@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { RefObject, useEffect, useRef, useState } from "react";
 import { useOnClickOutside } from "usehooks-ts";
 import NavItem from "../navItem/NavItem";
@@ -8,30 +9,32 @@ export interface INavItems {
   sampleTextProp: string;
 }
 
-export const NAVIGABLE_ITEMS = [
-  {
-    id: 1,
-    label: "Forside",
-    href: "/",
-  },
-  {
-    id: 2,
-    label: "Om Os",
-    featured: [
-      {
-        name: "Hvorfor Investere?",
-        href: "/hvorfor-investere",
-      },
-      {
-        name: "Hvem er Improve Invest A/S",
-        href: "/hvem-er-improve-invest-a-s",
-      },
-    ],
-  },
-  { id: 3, label: "Kontakt", href: "/kontakt" },
-];
-
 const NavItems: React.FC = () => {
+  const t = useTranslations("header");
+
+  const NAVIGABLE_ITEMS = [
+    {
+      id: 1,
+      label: t("home"),
+      href: "/",
+    },
+    {
+      id: 2,
+      label: t("aboutUs"),
+      featured: [
+        {
+          name: t("whyInvest"),
+          href: "/hvorfor-investere",
+        },
+        {
+          name: t("whoIsImproveInvest"),
+          href: "/hvem-er-improve-invest-a-s",
+        },
+      ],
+    },
+    { id: 3, label: t("contact"), href: "/kontakt" },
+  ];
+
   const [activeIndex, setActiveIndex] = useState<null | number>();
 
   useEffect(() => {
