@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { RefObject, useRef, useState, useTransition } from "react";
+import { useOnClickOutside } from "usehooks-ts";
 
 export interface ILanguageSwitcher {
   sampleTextProp: string;
@@ -24,8 +25,15 @@ const LanguageSwitcher: React.FC = () => {
     setIsOpen(false);
   }
 
+  const navRef = useRef<HTMLDivElement | null>(null);
+
+  useOnClickOutside(navRef as RefObject<HTMLElement>, () => setIsOpen(false));
+
   return (
-    <div className="hidden sm:flex relative ml-7 items-center justify-center">
+    <div
+      className="hidden sm:flex relative ml-7 items-center justify-center"
+      ref={navRef}
+    >
       <div className="relative flex items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
