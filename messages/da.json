@@ -6,6 +6,26 @@
     "whyInvest": "Hvorfor Investere?",
     "whoIsImproveInvest": "Hvem er Improve Invest A/S"
   },
+  "footer": {
+    "footer_top": {
+      "company_desc_paragraph": "Improve Invest A/S er en renoveringsfond, som udøver bæredygtig køb, renovering og salg af ejendomme.",
+      "contact_info": {
+        "header": "Kontakt",
+        "company_name": "Improve Invest A/S",
+        "cvr": "CVR: 44720795",
+        "adress": "Strandvejen 125 2900 Hellerup",
+        "phone": "+45 20 80 39 39"
+      }
+    },
+    "footer_bottom_legal": {
+      "hyperlinks": {
+        "gdpr": "GDPR",
+        "cookies": "Cookies",
+        "esg": "ESG"
+      },
+      "copy_right": "Copyright © Improve Invest"
+    }
+  },
   "esg": {
     "c82569f": "Politik for integration af bæredygtighedsrisici (ESG)",
     "caaa441": "Edit Gældende for:Aktieselskabet ImproveInvest A/S Godkendt af:Bestyrelsen for ImproveInvest A/S Godkendt pr.: Retsligt grundlag:EU-forordning 2019/2088/EU af 27. november 2019 om bæredygtighedsrelaterede oplysninger i sektoren for finansielle tjenesteydelser (”Disclosure forordningen”), BEK nr. 1254 af 11/06/2021 (Bekendtgørelse om ledelse og styring af pengeinstitutter m.fl.) §4. Versions nr.1.0",
