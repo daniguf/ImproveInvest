@@ -1,5 +1,8 @@
+import { useTranslations } from "next-intl";
+
 const Home = () => {
-  return <div className="">Home</div>;
+  const t = useTranslations("home");
+  return <div className="">{t("0513cdd")}</div>;
 };
 
 export default Home;
