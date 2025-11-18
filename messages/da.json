@@ -27,20 +27,61 @@
     }
   },
   "esg": {
-    "c82569f": "Politik for integration af bæredygtighedsrisici (ESG)",
-    "caaa441": "Edit Gældende for:Aktieselskabet ImproveInvest A/S Godkendt af:Bestyrelsen for ImproveInvest A/S Godkendt pr.: Retsligt grundlag:EU-forordning 2019/2088/EU af 27. november 2019 om bæredygtighedsrelaterede oplysninger i sektoren for finansielle tjenesteydelser (”Disclosure forordningen”), BEK nr. 1254 af 11/06/2021 (Bekendtgørelse om ledelse og styring af pengeinstitutter m.fl.) §4. Versions nr.1.0",
-    "2e9ca7e": "1. Indledning",
-    "c7d76c4": "Vi har alle et ansvar for at hjælpe med at sikre, at samfundet løbende forbedrer sig på miljømæssige, sociale og governance (ESG) området. Det er centralt for os alle.Aktieselskabet ImproveInvest A/S er der et ønske om at foretage investeringer i renoveringsprojekter, der bidrager med forbedringer indenfor ESG-området under hensyntagen til interne retningslinjer og investeringspolitik og overordnede risiko- og afkastmålsætning.",
-    "0c7c37d": "2. Integration af bæredygtighedsrisici (ESG) i investeringsstrategi",
-    "3b439a3": "2.1. ImproveInvest A/S er aktive indenfor investeringer i renovering af ejendomme.2.2. ImproveInvest A/S ønsker at øge fokus på anvendelsen af ESG venlige produkter, og selskabet har derfor opstillet en række interne krav til anvendelse",
-    "d004fbd": "3. Integration af bæredygtighedsrisici (ESG) i renoveringsprocessen",
-    "924d0a0": "3.1. Renoveringprincipper:3.1.1. Vi tilstræber altid at følge Dansk Standards principper for ansvarlig renovering.3.1.2. Vi har en præference for renovering ansvarligt og vælge ESG optimerende materialer.3.2. Overskudslikviditet3.2.1. Selskabet overskudslikviditet bliver primært placeret i likvide indlåns konti hos danske banker, som ikke er kendetegnet ved ESG problematisk adfærd.3.2.2. Såfremt selskabets overskudslikviditet bliver placeret i korte obligationer vil dette ske i danske obligationer udstedt af staten, realkreditselskaber eller virksomhedsobligationer.3.2.3. Der vil ikke blive købt obligationer udstedt afi selskaber, der er involveret i udvikling, produktion, distribution eller opbevaring af konventionelle våben, såsom anti-personelminer, klyngebomber, biologiske våben, eller kemiske våben.3.2.4. Der vil ikke blive købt obligationer udstedt af selskaber, der har en stor del af deres indtjening gennem særligt klimabelastende aktiviteter.",
-    "94c2dd8": "4. Integration af bæredygtighedsrisici (ESG) i aflønningspolitik",
-    "40abdf5": "4.1. ImproveInvest har en ambition om at være konkurrencedygtigt lønmæssigt for at kunne tiltrække de rette kompetencer - det gælder både for direktionen og for ansatte på kontrakt. Det betyder, at aflønningen fastsættes på et niveau, der dels afspejler kravene og er konkurrencedygtig i forhold til gældende markedsvilkår, uanset køn. Aflønningen består udelukkende af en fast løn inklusiv eventuel pension.",
-    "eb92874": "5. Opdatering og opfølgning",
-    "a24c9bb": "5.1. ImproveInvest offentliggør politikken på hjemmesiden, ligesom selskabet løbende følge udviklingen på markedet indenfor ESG-renovering, og som minimum genbesøge denne politik årligt.",
-    "6500183": "6. Historik",
-    "79466ab": "28.04.2024 Oprindelig version"
+    "esg_page_header_primary": "Politik for integration af bæredygtighedsrisici (ESG)",
+    "table": {
+      "row_1": {
+        "col_1": "Gældende for:",
+        "col_2": "Aktieselskabet ImproveInvest A/S"
+      },
+      "row_2": {
+        "col_1": "Godkendt af:",
+        "col_2": "Bestyrelsen for ImproveInvest A/S"
+      },
+      "row_3": {
+        "col_1": "Godkendt pr.: ",
+        "col_2": ""
+      },
+      "row_4": {
+        "col_1": "Retsligt grundlag:",
+        "col_2": "EU-forordning 2019/2088/EU af 27. november 2019 om bæredygtighedsrelaterede oplysninger i sektoren for finansielle tjenesteydelser (”Disclosure forordningen”), BEK nr. 1254 af 11/06/2021 (Bekendtgørelse om ledelse og styring af pengeinstitutter m.fl.) §4."
+      },
+      "row_5": {
+        "col_1": "Versions nr.",
+        "col_2": "1.0"
+      }
+    },
+    "block_1": {
+      "header": "1. Indledning",
+      "paragraph": "Vi har alle et ansvar for at hjælpe med at sikre, at samfundet løbende forbedrer sig på miljømæssige, sociale og governance (ESG) området. Det er centralt for os alle. Aktieselskabet ImproveInvest A/S er der et ønske om at foretage investeringer i renoveringsprojekter, der bidrager med forbedringer indenfor ESG-området under hensyntagen til interne retningslinjer og investeringspolitik og overordnede risiko- og afkastmålsætning."
+    },
+    "block_2": {
+      "header": "2. Integration af bæredygtighedsrisici (ESG) i investeringsstrategi",
+      "paragraph_1": "2.1. ImproveInvest A/S er aktive indenfor investeringer i renovering af ejendomme.",
+      "paragraph_2": "2.2. ImproveInvest A/S ønsker at øge fokus på anvendelsen af ESG venlige produkter, og selskabet har derfor opstillet en række interne krav til anvendelse"
+    },
+    "block_3": {
+      "header": "3. Integration af bæredygtighedsrisici (ESG) i renoveringsprocessen",
+      "paragraph_1": "3.1. Renoveringprincipper:",
+      "paragraph_2": "3.1.1. Vi tilstræber altid at følge Dansk Standards principper for ansvarlig renovering.",
+      "paragraph_3": "3.1.2. Vi har en præference for renovering ansvarligt og vælge ESG optimerende materialer.",
+      "paragraph_4": "3.2. Overskudslikviditet",
+      "paragraph_5": "3.2.1. Selskabet overskudslikviditet bliver primært placeret i likvide indlåns konti hos danske banker, som ikke er kendetegnet ved ESG problematisk adfærd.",
+      "paragraph_6": "3.2.2. Såfremt selskabets overskudslikviditet bliver placeret i korte obligationer vil dette ske i danske obligationer udstedt af staten, realkreditselskaber eller virksomhedsobligationer.",
+      "paragraph_7": "3.2.3. Der vil ikke blive købt obligationer udstedt afi selskaber, der er involveret i udvikling, produktion, distribution eller opbevaring af konventionelle våben, såsom anti-personelminer, klyngebomber, biologiske våben, eller kemiske våben.",
+      "paragraph_8": "3.2.4. Der vil ikke blive købt obligationer udstedt af selskaber, der har en stor del af deres indtjening gennem særligt klimabelastende aktiviteter."
+    },
+    "block_4": {
+      "header": "4. Integration af bæredygtighedsrisici (ESG) i aflønningspolitik",
+      "paragraph": "4.1. ImproveInvest har en ambition om at være konkurrencedygtigt lønmæssigt for at kunne tiltrække de rette kompetencer - det gælder både for direktionen og for ansatte på kontrakt. Det betyder, at aflønningen fastsættes på et niveau, der dels afspejler kravene og er konkurrencedygtig i forhold til gældende markedsvilkår, uanset køn. Aflønningen består udelukkende af en fast løn inklusiv eventuel pension."
+    },
+    "block_5": {
+      "header": "5. Opdatering og opfølgning",
+      "paragraph": "5.1. ImproveInvest offentliggør politikken på hjemmesiden, ligesom selskabet løbende følge udviklingen på markedet indenfor ESG-renovering, og som minimum genbesøge denne politik årligt."
+    },
+    "block_6": {
+      "header": "6. Historik",
+      "paragraph": "28.04.2024 Oprindelig version"
+    }
   },
   "om-os": {
     "5e8a5f1": "HVEM?",
