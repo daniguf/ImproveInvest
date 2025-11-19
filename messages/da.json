@@ -307,21 +307,41 @@
   "cookies": {
     "c6b9b1e": "Cookies",
     "2dd59b5": "1. Formål",
-    "db9219a": "Denne politik er udarbejdet i henhold til:a) Bekendtgørelse om krav til information og samtykke ved lagring af eller adgang til oplysninger i slutbrugeres terminaludstyrog har til formål at sikre, at slutbrugere af Selskabets hjemmeside (improveinvest.com & improveinvest.dk) er beskyttet mod uretmæssig lagring og videregivelse af disses oplysninger.Selskabets hjemmesider anvender cookies til at kunne give slutbrugere den bedste onlineoplevelse. Når slutbrugeren anvender vores stationære og mobile hjemmeside og acceptere denne politik, giver de samtykke til brugen af cookies i overensstemmelse med disse vilkår.",
+    "db9219a": "Denne politik er udarbejdet i henhold til: Bekendtgørelse om krav til information og samtykke ved lagring af eller adgang til oplysninger i slutbrugeres terminaludstyrog har til formål at sikre, at slutbrugere af Selskabets hjemmeside (improveinvest.com & improveinvest.dk) er beskyttet mod uretmæssig lagring og videregivelse af disses oplysninger. Selskabets hjemmesider anvender cookies til at kunne give slutbrugere den bedste onlineoplevelse. Når slutbrugeren anvender vores stationære og mobile hjemmeside og acceptere denne politik, giver de samtykke til brugen af cookies i overensstemmelse med disse vilkår.",
     "2d4b431": "2. Cookies",
-    "d29e018": "En cookie er en tekstfil der indeholder en datasekvens, som sendes fra en webserver til en webbrowser og lagres af browseren. Når en hjemmeside besøges, gemmes siden på brugerens computer, mobil eller tilsvarende med det formål at genkende brugeren, næste gang denne besøger hjemmesiden. Cookies kan ikke bruges til at køre programmer eller sende virus til brugerens computer.Nogle cookies bliver liggende på brugerens computer, efter at denne har lukket browseren, mens andre slettes efter 30 minutter eller når browseren lukkes.",
-    "30b150d": "3.Selskabets anvendelse af cookies",
-    "0b09044": "Selskabet kan bruge de oplysninger der modtages via besøgendes cookies til følgende formål:a) At genkende brugerens computer, når disse besøger Selskabet hjemmesiderb) At forbedre hjemmesidens brugervenlighedc) At analysere brugen af hjemmesidend) At tilpasse hjemmesiden til brugerene) At spore brugeren mens disse navigere på hjemmesidenSelskabet bruger ikke cookies til markedsføring på tredjepartssider.",
-    "4aae4b6": "4.Tredjepartscookie",
-    "f320935": "Selskabets hjemmeside gør brug af sporingsprogrammet Google Analytics, med til formål at forbedre brugervenligheden på hjemmesiden. Oplysningerne benytter Selskabet blandt andet til at få viden om, hvor mange besøgende der er, og om brugeradfærden. Selskabet kan blandt andet se hvor de besøgende kommer fra, hvilke sider på www.advicecapital.eu og www.advicecapital.dk de besøger, og hvor længe de opholder sig på siderne. Det giver Selskabet en viden om, hvilke sider der fungerer og hvilke sider der skal forbedres.Google Analytics bruger en række cookies til at indsamle oplysninger og rapportere brugsstatistik, uden personligt at identificere individuelle besøgende over for Google.",
-    "aeaca04": "5.Google Analytics",
+    "d29e018": "En cookie er en tekstfil der indeholder en datasekvens, som sendes fra en webserver til en webbrowser og lagres af browseren. Når en hjemmeside besøges, gemmes siden på brugerens computer, mobil eller tilsvarende med det formål at genkende brugeren, næste gang denne besøger hjemmesiden. Cookies kan ikke bruges til at køre programmer eller sende virus til brugerens computer. Nogle cookies bliver liggende på brugerens computer, efter at denne har lukket browseren, mens andre slettes efter 30 minutter eller når browseren lukkes.",
+    "30b150d": "3. Selskabets anvendelse af cookies",
+    "block_3": {
+      "cookie_policy_intro": "Selskabet kan bruge de oplysninger der modtages via besøgendes cookies til følgende formål:",
+      "cookie_policy_a": "At genkende brugerens computer, når disse besøger Selskabets hjemmesider",
+      "cookie_policy_b": "At forbedre hjemmesidens brugervenlighed",
+      "cookie_policy_c": "At analysere brugen af hjemmesiden",
+      "cookie_policy_d": "At tilpasse hjemmesiden til brugeren",
+      "cookie_policy_e": "At spore brugeren mens disse navigerer på hjemmesiden",
+      "cookie_policy_outro": "Selskabet bruger ikke cookies til markedsføring på tredjepartssider."
+    },
+    "4aae4b6": "4. Tredjepartscookie",
+    "f320935": "Selskabets hjemmeside gør brug af sporingsprogrammet Google Analytics, med til formål at forbedre brugervenligheden på hjemmesiden. Oplysningerne benytter Selskabet blandt andet til at få viden om, hvor mange besøgende der er, og om brugeradfærden. Selskabet kan blandt andet se hvor de besøgende kommer fra, hvilke sider på www.advicecapital.eu og www.advicecapital.dk de besøger, og hvor længe de opholder sig på siderne. Det giver Selskabet en viden om, hvilke sider der fungerer og hvilke sider der skal forbedres. Google Analytics bruger en række cookies til at indsamle oplysninger og rapportere brugsstatistik, uden personligt at identificere individuelle besøgende over for Google.",
+    "aeaca04": "5. Google Analytics",
     "7527009": "Det er muligt at fravælge cookies fra Google Analytics på https://tools.google.com/dlpage/gaoptout",
-    "513d953": "6.Håndtering af cookies",
-    "54924cf": "Uanset hvilken browser der bruges, kan disse indstilles sådan, at den ikke gemmer cookies, nogle browsere kan indstilles til ikke at gemme cookies fra bestemte hjemmesider.I browserens indstillinger kan der slettes cookies. For at læse mere om cookies og få yderligere vejledning om, hvordan du sletter cookies på forskellige browsere, henvises der tilhttp://minecookies.org/cookiehandtering.",
+    "513d953": "6. Håndtering af cookies",
+    "54924cf": "Uanset hvilken browser der bruges, kan disse indstilles sådan, at den ikke gemmer cookies, nogle browsere kan indstilles til ikke at gemme cookies fra bestemte hjemmesider. I browserens indstillinger kan der slettes cookies. For at læse mere om cookies og få yderligere vejledning om, hvordan du sletter cookies på forskellige browsere, henvises der til http://minecookies.org/cookiehandtering.",
     "e0fe9a5": "7. Klager",
-    "cb602d8": "Klager over Selskabets brug af cookies kan rettes påinfo@improveinvest.com",
+    "cb602d8": "Klager over Selskabets brug af cookies kan rettes på info@improveinvest.com",
+
     "bb67bdd": "8. Ikrafttræden",
-    "9c59459": "Denne version af cookiepolitik er gældende fra 15. august 2019.Hvis du har et spørgsmål over cookiepolitikken, kan du kontakte Improve Invest A/S:Improve Invest A/SStrandvejen1252900HellerupCVR: 44720795E-mail: info@improveinvest.comTelefon: 4092 8900"
+    "effective_date": {
+      "heading": "Ikrafttræden",
+      "description": "Denne version af cookiepolitik er gældende fra 15. august 2019.",
+      "guide_to_contact": "Hvis du har et spørgsmål over cookiepolitikken, kan du kontakte Improve Invest A/S:",
+      "contact": {
+        "company": "Improve Invest A/S",
+        "address": "Strandvejen 125, 2900 Hellerup",
+        "cvr": "44720795",
+        "email": "info@improveinvest.com",
+        "phone": "4092 8900"
+      }
+    }
   },
   "hvorfor-investere": {
     "2b14617": "HVORFOR INVESTERE I RENOVERING AF EJENDOMME?",
