@@ -20,11 +20,11 @@
 @theme inline {
   --color-primary: var(--brand-primary-deep-blue);
   --color-secondary: var(--brand-secondary-deeper-blue);
+  --color-tertiary: var(--p-color-text);
 }
 
 body {
   background-color: var(--background);
-
   min-height: 100dvh;
   display: grid;
   grid-template-rows: auto 1fr auto;
