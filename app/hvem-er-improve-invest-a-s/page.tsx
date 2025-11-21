@@ -35,8 +35,64 @@ const WhoIsImproveInvest = () => {
         </div>
       </section>
       {/* Om Os */}
-      <section>
-        {/* <h2 className="text-primary text-5xl font-bold">{t("bcd2427")}</h2> */}
+      <section className="mt-9 bg-[#f6f7f8] rounded-xs">
+        <div className="w-full py-9 px-7">
+          <h2 className="text-center sm:text-start text-primary text-5xl font-bold">
+            {t("5e8a5f1")}
+          </h2>
+        </div>
+        <div className="flex sm:flex-row flex-col justify-evenly gap-y-4 sm:gap-y-0 pb-12">
+          {/* <div className="h-full grid grid-cols-2 grid-rows-2"> */}
+          {/* Christian */}
+          <div className="h-full w-full flex flex-col justify-center p-4 pb-12 border-r border-gray-400">
+            <div className="w-4/5 flex flex-col mx-auto">
+              <h3 className="font-bold text-primary mb-2">{t("77e32ff")}</h3>
+              <div className="flex flex-col justify-center gap-y-4 mx-auto text-tertiary text-md">
+                <p>{t("6adf9e5")}</p>
+                <p>{t("d515940")}</p>
+              </div>
+            </div>
+          </div>
+          {/* Jacques */}
+          <div className="h-full w-full flex flex-col justify-center p-4 pb-12">
+            <div className="w-4/5 sm:w-3/4 flex flex-col mx-auto">
+              <h3 className="font-bold text-primary mb-2">{t("32ee4d1")}</h3>
+              <div className="flex flex-col justify-center gap-y-4 mx-auto text-tertiary text-md">
+                <p>{t("7b7a0cb")}</p>
+                <p>{t("d5fbc21")}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-full flex flex-col p-4 py-14 text-tertiary text-md bg-white">
+          <p className="mx-auto w-4/5 sm:w-3/4">{t("b7cba11")}</p>
+          <div className="w-full flex flex-col sm:flex-row justify-evenly">
+            <div className="flex flex-col justify-center mx-auto">
+              <p className="py-6">{t("abc83eb")}</p>
+              <div>
+                <Image
+                  src="/logo/affliateBrands/partner-revision-logo.jpg"
+                  className="h-auto w-[200px]"
+                  alt="partner accountant"
+                  width={250}
+                  height={166}
+                />
+              </div>
+            </div>
+            <div className="mx-auto">
+              <p className="py-6">{t("f04c315")}</p>
+              <div>
+                <Image
+                  src="/logo/affliateBrands/jasmikne.png"
+                  className="h-auto w-[200px]"
+                  alt="partner accountant"
+                  width={250}
+                  height={166}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   );
