@@ -20,6 +20,11 @@ const NavItems: React.FC = () => {
     },
     {
       id: 2,
+      label: t("projects"),
+      href: "/projekter",
+    },
+    {
+      id: 3,
       label: t("aboutUs"),
       featured: [
         {
@@ -32,7 +37,7 @@ const NavItems: React.FC = () => {
         },
       ],
     },
-    { id: 3, label: t("contact"), href: "/kontakt" },
+    { id: 4, label: t("contact"), href: "/kontakt" },
   ];
 
   const [activeIndex, setActiveIndex] = useState<null | number>();

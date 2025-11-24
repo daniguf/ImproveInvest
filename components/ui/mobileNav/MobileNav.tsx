@@ -23,19 +23,23 @@ const MobileNav: React.FC = () => {
       label: t("home"),
       href: "/",
     },
-
     {
-      id: 2,
+      id: 3,
+      label: t("projects"),
+      href: "/projekter",
+    },
+    {
+      id: 4,
       label: t("whyInvest"),
       href: "/hvorfor-investere",
     },
     {
-      id: 3,
+      id: 5,
       label: t("whoIsImproveInvest"),
       href: "/hvem-er-improve-invest-a-s",
     },
 
-    { id: 3, label: t("contact"), href: "/kontakt" },
+    { id: 6, label: t("contact"), href: "/kontakt" },
   ];
 
   const [isPending, startTransition] = useTransition();
