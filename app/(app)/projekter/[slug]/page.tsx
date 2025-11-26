@@ -10,7 +10,7 @@ type Project = {
   _id: string;
   name: string;
   image?: { asset: { _id: string }; alt?: string };
-  videoFile?: { asset: { _id: string; url: string } };
+  videoUrl?: string;
   url?: string;
   content?: any;
 };
@@ -55,9 +55,9 @@ export default async function ProjectPage({
         </div>
       )}
 
-      {project.videoFile?.asset && (
+      {project.videoUrl && (
         <video controls className="w-full rounded-xl mb-6">
-          <source src={project.videoFile.asset.url} type="video/mp4" />
+          <source src={project.videoUrl} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       )}

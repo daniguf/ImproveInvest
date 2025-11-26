@@ -4,7 +4,7 @@ import { urlFor } from "@/sanity/image";
 import Image from "next/image";
 import Link from "next/link";
 
-type Project = {
+export type Project = {
   _id: string;
   name: string;
   slug: { current: string };

@@ -2,7 +2,7 @@ import PrimaryLayout from "@/components/layouts/primaryLayout/PrimaryLayout";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { Merriweather } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const merriweather = Merriweather({
   subsets: ["latin"],
@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={merriweather.className}>
-      <body>
+      <body className="grid grid-rows-[auto_1fr_auto]">
         <NextIntlClientProvider>
           <PrimaryLayout>{children}</PrimaryLayout>
         </NextIntlClientProvider>
