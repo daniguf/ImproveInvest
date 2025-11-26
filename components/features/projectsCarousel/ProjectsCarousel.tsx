@@ -14,11 +14,11 @@ type Project = {
   url?: string;
 };
 
-export default function ProjectsCarousel({
-  projects,
-}: {
+export interface IProjectsCarousel {
   projects: Project[];
-}) {
+}
+
+export default function ProjectsCarousel({ projects }: IProjectsCarousel) {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const scroll = (dir: "left" | "right") => {
