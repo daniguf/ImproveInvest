@@ -16,9 +16,8 @@ export default async function ProjectsPage() {
   const projects: Project[] = await sanityClient.fetch(allProjectsQuery);
 
   return (
-    <main className="max-w-7xl mx-auto px-6 py-12">
+    <section className="px-6 py-12 min-w-[90dvw] xl:min-w-[1128px]">
       <h1 className="text-3xl font-bold mb-8 text-primary">Projects</h1>
-
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((p) => (
           <Link
@@ -46,6 +45,6 @@ export default async function ProjectsPage() {
           </Link>
         ))}
       </div>
-    </main>
+    </section>
   );
 }
