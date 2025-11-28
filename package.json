@@ -26,7 +26,11 @@
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "sanity": "^4.15.0",
-    "usehooks-ts": "^3.1.1"
+    "usehooks-ts": "^3.1.1",
+    "nodemailer": "^6.9.7",
+    "react-hook-form": "^7.47.0",
+    "@hookform/resolvers": "^3.3.2",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^4.1.2",
@@ -43,6 +47,7 @@
     "@vitest/browser-playwright": "^4.0.7",
     "@vitest/coverage-v8": "^4.0.7",
     "cross-env": "^10.0.0",
+    "@types/nodemailer": "^6.4.14",
     "eslint": "^9",
     "eslint-config-next": "16.0.1",
     "eslint-plugin-storybook": "^10.0.5",

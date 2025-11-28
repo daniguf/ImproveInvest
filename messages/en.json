@@ -269,9 +269,51 @@
     "88a3559": "ABOUT US",
     "cd55c26": "+45 20 80 39 39",
     "29c1007": "ATTRACTIVE INVESTMENT IN PROPERTY RENOVATION",
+    "section_1": {
+      "paragraph_1": "STABLE RETURN - LOW RISK - INVESTMENT INDEPENDENT OF MARKET DEVELOPMENT",
+      "paragraph_2": "Risk diversification through investments in a pool of renovation projects.",
+      "paragraph_3": "Average historical return of 20% p.a. above the general market.",
+      "paragraph_4": "More than 18 years of experience in buying, renovating and selling properties.",
+      "paragraph_5": "More than 25 years of experience with investments and advisory on this.",
+      "paragraph_6": "Access to property projects which are only available through our own network.",
+      "paragraph_7": "An investment independent of market development.",
+      "paragraph_8": "Minimum deposit of DKK 750,000."
+    },
     "56658cf": "STABLE RETURNS - LOW RISK - INVESTMENT INDEPENDENT OF MARKET DEVELOPMENTS",
     "a2eb13b": "Risk diversification through investments in a pool of renovation projects. Average historical return of 20% p.a. over the general market. More than 18 years of experience in buying, renovating, and selling properties. More than 25 years of experience with investments and consulting on this. Access to property projects that are only available through our own network. An investment independent of market developments. Minimum deposit of DKK 750,000.",
     "6929745": "With Improve Invest A/S you get:",
+    "section_2": {
+      "block_1": {
+        "header": "Ownership of property projects that are otherwise not available",
+        "paragraph_1": "Ownership of properties with good locations in Danish major cities.",
+        "paragraph_2": "Access to property projects which are only available via our own network.",
+        "paragraph_3": "Focus on property projects that are too large for smaller investors, and too small for institutional investors."
+      },
+      "block_2": {
+        "header": "A thoroughly tested concept",
+        "paragraph_1": "Based on a thoroughly tested concept with +18 years of experience in property renovation.",
+        "paragraph_2": "The founders of the fund have delivered an avg. annual return of 20% on previous projects.",
+        "paragraph_3": "Renovations are carried out by our own team of known craftsmen.",
+        "paragraph_4": "Good experience with purchasing building materials, which ensures large savings.",
+        "paragraph_5": "Quality control is performed by our own specialists.",
+        "paragraph_6": "We have over 25 years of experience with investments and are a registered provider of alternative investments with the Financial Supervisory Authority."
+      },
+      "block_3": {
+        "header": "Return and seriousness",
+        "paragraph_1": "Expected avg. annual return of 20%.",
+        "paragraph_2": "Opportunity for a wide range of potential upsides that can increase the return.",
+        "paragraph_3": "Founders of the fund have their own money invested in the fund.",
+        "paragraph_4": "Very low fixed costs (1%) with 15% performance-based fee. Not quite no cure no pay, but close.",
+        "paragraph_5": "Although historical return is not a guarantee of future return, the business model has proven to hold over many years - also during financial and Corona crises."
+      },
+      "block_4": {
+        "header": "Risk diversification",
+        "paragraph_1": "Alternative investment that contributes to risk diversification in your portfolio.",
+        "paragraph_2": "The investment does not correlate with the financial markets. Value is created through completed renovation.",
+        "paragraph_3": "Risk diversification through ownership in several renovation projects (and not just one project).",
+        "paragraph_4": "Investment in property projects that increase in value as the investment is made."
+      }
+    },
     "96d36a2": "Ownership of property projects that are otherwise unavailable",
     "bf46cca": "Ownership of properties with good locations in Danish major cities. Access to property projects that are only available through our own network. Focus on property projects that are too large for smaller investors, and too small for institutional investors.",
     "d825883": "A tested concept",
@@ -281,6 +323,18 @@
     "4665d68": "Risk Diversification",
     "307a167": "Alternative investment that contributes to risk diversification in your portfolio. The investment does not correlate with the financial markets. Value is created upon completion of the renovation. Risk diversification through ownership in several renovation projects (and not only one project). Investment in property projects that increase in value as the investment is made.",
     "52f4110": "LIMITED RISK",
+    "section_3": {
+      "81aee53": "There is always risk associated with any investment. However, investing in Improve Invest A/S is an investment in real estate with good locations that are renovated and resold. The risk is therefore relatively low, as the majority of the invested capital is placed in a tangible asset (properties).",
+      "fa44e87": "There can be a risk related to resale, i.e., selling after renovation. To minimize this risk as much as possible, we only invest in properties located in densely populated areas. This ensures that the property can be resold.",
+      "25bab45": "We always calculate the investment's viability in relation to rental. Not because that is the intention, but if the sales target cannot be achieved initially, there must be a good return from temporary rental.",
+      "0aee6db": "To ensure the budget during the renovation process, all agreements are made at a fixed price. Furthermore, payment only occurs after the work is completed or the materials have been delivered.",
+      "e2c2fb9": "Additionally, we operate with 10% of the purchase amount being withheld and only paid out upon final approval of the project. These rules of engagement have historically proven to significantly limit renovation risk.",
+      "414f1ac": "We wish to optimize our investments by utilizing the stable Danish mortgage system, but even here we want limited risk, and therefore a maximum of 60% loan is taken out on each project.",
+      "a7c8044": "Renovations may require municipal approvals, and we work on the basis that projects are always purchased conditionally or with reservations if the renovation requires permits. This eliminates this risk.",
+      "44a6fb4": "Investors in the fund receive a share in all the projects that the fund renovates, not just a single project.",
+      "c58db7c": "For more information, see our Central Investor Information here:",
+      "bx354d4": "PRIIP KID"
+    },
     "81aee53": "There is always risk associated with investment. But investment in Improve Invest A/S is an investment in fixed-term properties with good locations, that are renovated and sold again. The risk is therefore relatively low, as the main part of the invested amount lies in a tangible asset (properties).",
     "fa44e87": "There may be a risk from resale, i.e., resale after the renovation. To reduce this risk as much as possible, we only make investments in properties located in densely populated areas. Thereby, we can ensure that the property can be resold.",
     "25bab45": "We always perform a calculation of an investment in relation to rental. Not because it is the intention, but if the sales target cannot be achieved initially, there must be a good return from a temporary rental.",
@@ -294,6 +348,13 @@
     "0b3c57d": "We believe that in the future there will be a growing demand for renovating homes instead of building new ones. This is particularly due to the desire to take greater environmental considerations. Or as Rambøll concludes in their report 'Analysis of Co2 emissions and total economy in renovation and new construction'. The analysis shows that it is most advantageous - both environmentally and in terms of total economy - to renovate rather than demolish and build new.” At Improve Invest A/S, environmental considerations are important to us.",
     "91c3f5d": "We have therefore established a set of requirements for our own renovation:\nWe contribute significantly positively to at least one of the six EU Taxonomy environmental objectives.\nWe comply with the technical criteria described for the climate and environmental goal(s) chosen.\nWe comply with the 'Do No Significant Harm' (DNSH) criteria.\nWe comply with 'Minimum Social Safeguards'.\nThe points mentioned on this page are not exhaustive but are some concrete examples of the initiatives taken when Improve Invest A/S renovates.",
     "888c09c": "AN IMPORTANT SOCIETAL MEGATREND",
+    "section_4": {
+      "e31e18a": "After the corona crisis, society's property usage has changed radically. We have all learned to shop online instead of in local stores, and it has become completely normal for many of us to work fully or partially from home.",
+      "1fbf97e": "There is therefore an increasing need for conversions of properties in major cities from office spaces and stores to housing. At the same time, it must be housing that is designed for the new post-corona reality. This conversion wave has already started in, for example, New York.",
+      "1a7dafe": "This development also places new demands on our housing. We now need to design our homes so that there is room for home workplaces - perhaps even for several of the residents in the dwelling.",
+      "869c435": "In addition, the Ministry of the Interior estimates that 6,500 new homes must be built per year in the capital area until 2023, to cover the needs of future population growth.",
+      "db14352": "Improve Invest renovations hit right at the heart of this important societal development. That is, conversions of office spaces and stores into new and modernly designed housing."
+    },
     "e31e18a": "After the Corona crisis, society's property use has radically changed. We have all learned to shop online instead of at local businesses, and it has become completely normal for several of us to work fully or partially from home.",
     "1fbf97e": "There is therefore an increasing need for conversion of properties in major cities from office spaces and businesses to residential units. These must simultaneously be homes designed for the new reality after Corona. This conversion wave has already started in, for example, New York.",
     "1a7dafe": "This development also sets new demands for our homes. We now need to design our homes so that there is space for home workspaces - perhaps even for several residents in the home.",
@@ -394,5 +455,28 @@
     "b7cba11": "Improve Invest A/S is registered with the Danish Financial Supervisory Authority (Finanstilsynet) as an AIF (Alternative Investment Fund). This imposes extra demands on our compliance and ongoing reporting. It makes setting up your investment a little more complicated, but it helps to ensure the credibility and correctness of Improve Invest A/S.",
     "abc83eb": "Auditors & Tax Advisors:",
     "f04c315": "Lawyers:"
+  },
+  "ContactForm": {
+    "title": "Contact Us",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "E-mail",
+    "phone": "Phone Number",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "submitting": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again.",
+    "validation": {
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Phone number is required",
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required",
+      "messageMin": "Message must be at least 10 characters"
+    }
   }
 }

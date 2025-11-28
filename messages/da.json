@@ -269,36 +269,73 @@
     "88a3559": "OM OS",
     "cd55c26": "+45 20 80 39 39",
     "29c1007": "ATTRAKTIV INVESTERING I RENOVATION AF EJENDOMME",
-    "56658cf": "STABILT AFKAST - LAV RISIKO - INVESTERING UAFHÆNGING AF MARKEDSUDVIKLINGEN",
-    "a2eb13b": "Risikospredning via investeringer i en pulje af renoveringsprojekter. Gennemsnitligt historisk afkast på 20% p.a. over det generelle marked. Mere end 18 års erfaring i køb, renovering og salg af ejendomme. Mere end 25 års erfaring med investeringer og rådgivning om dette. Adgang til ejendomsprojekter, som kun er tilgængelige via eget netværk. En investering uafhængig af markedsudviklingen. Minimumsindskud på DKK 750.000.",
+    "section_1": {
+      "paragraph_1": "STABILT AFKAST - LAV RISIKO - INVESTERING UAFHÆNGING AF MARKEDSUDVIKLINGEN",
+      "paragraph_2": "Risikospredning via investeringer i en pulje af renoveringsprojekter.",
+      "paragraph_3": "Gennemsnitligt historisk afkast på 20% p.a. over det generelle marked.",
+      "paragraph_4": "Mere end 18 års erfaring i køb, renovering og salg af ejendomme.",
+      "paragraph_5": "Mere end 25 års erfaring med investeringer og rådgivning om dette.",
+      "paragraph_6": "Adgang til ejendomsprojekter, som kun er tilgængelige via eget netværk.",
+      "paragraph_7": "En investering uafhængig af markedsudviklingen.",
+      "paragraph_8": "Minimumsindskud på DKK 750.000."
+    },
     "6929745": "Med Improve Invest A/S får du:",
-    "96d36a2": "Ejerskab af ejendomsprojekter som ellers ikke er tilgængelige",
-    "bf46cca": "Ejerskab af ejendomme med god beliggenhed i danske storbyer. Adgang til ejendomsprojekter, som kun er tilgængelige via eget netværk. Fokus på ejendomsprojekter som er for store for mindre investorer, og for små til instutionelle investorer.",
-    "d825883": "Et gennemtestet koncept",
-    "6116414": "Baseret på gennemtestet koncept med +18 års erfaring med renovering af ejendomme. Stifterne af fonden har på tidligere projekter leveret et gns. årligt afkast på 20%. Renoveringer foretages af eget team af kendte håndværkere. Gode erfaringer med indkøb af byggematerialer,som sikrer store besparelser. Kvalitetskontrol udføres af egne specialister. Vi har over 25 års erfaring med investeringer og registreret udbyder af alternative investeringer hos Finanstilsynet.",
-    "0ed3204": "Afkast og seriøsitet",
-    "ffea26d": "Forventet gns. årligt afkast på 20%. Mulighed for en lang række potentielle upsides, der kan øge afkastet. Stiftere af fonden har selv egne penge investeret i fonden. Meget lave faste omkostninger (1%) med 15% performance baseret fee. Ikke helt no cure no pay, men tæt på. Selvom historisk afkast ikke er en garanti for fremtidigt afkast, har forretningsmodellen vist sig at holde over mange år - også under finans- og Corona kriser.",
-    "4665d68": "Risikospredning",
-    "307a167": "Alternativ investering, der bidrager til risikospredning i din portefølje. Investeringen korrelerer ikke med de finansielle markeder. Værdien skabes ved fuldendt renovering. Riskospredning via ejerskab i flere renoveringsprojekter (og ikke kun et projekt). Investering i ejendomsprojekter som stiger i værdi i takt med investeringen foretages.",
+    "section_2": {
+      "block_1": {
+        "header": "Ejerskab af ejendomsprojekter som ellers ikke er tilgængelige",
+        "paragraph_1": "Ejerskab af ejendomme med god beliggenhed i danske storbyer.",
+        "paragraph_2": "Adgang til ejendomsprojekter, som kun er tilgængelige via eget netværk.",
+        "paragraph_3": "Fokus på ejendomsprojekter som er for store for mindre investorer, og for små til instutionelle investorer."
+      },
+      "block_2": {
+        "header": "Et gennemtestet koncept",
+        "paragraph_1": "Baseret på gennemtestet koncept med +18 års erfaring med renovering af ejendomme.",
+        "paragraph_2": "Stifterne af fonden har på tidligere projekter leveret et gns. årligt afkast på 20%.",
+        "paragraph_3": "Renoveringer foretages af eget team af kendte håndværkere.",
+        "paragraph_4": "Gode erfaringer med indkøb af byggematerialer,som sikrer store besparelser.",
+        "paragraph_5": "Kvalitetskontrol udføres af egne specialister.",
+        "paragraph_6": "Vi har over 25 års erfaring med investeringer og registreret udbyder af alternative investeringer hos Finanstilsynet."
+      },
+      "block_3": {
+        "header": "Afkast og seriøsitet",
+        "paragraph_1": "Forventet gns. årligt afkast på 20%.",
+        "paragraph_2": "Mulighed for en lang række potentielle upsides, der kan øge afkastet.",
+        "paragraph_3": "Stiftere af fonden har selv egne penge investeret i fonden.",
+        "paragraph_4": "Meget lave faste omkostninger (1%) med 15% performance baseret fee. Ikke helt no cure no pay, men tæt på.",
+        "paragraph_5": "Selvom historisk afkast ikke er en garanti for fremtidigt afkast, har forretningsmodellen vist sig at holde over mange år - også under finans- og Corona kriser."
+      },
+      "block_4": {
+        "header": "Risikospredning",
+        "paragraph_1": "Alternativ investering, der bidrager til risikospredning i din portefølje.",
+        "paragraph_2": "Investeringen korrelerer ikke med de finansielle markeder. Værdien skabes ved fuldendt renovering.",
+        "paragraph_3": "Riskospredning via ejerskab i flere renoveringsprojekter (og ikke kun et projekt).",
+        "paragraph_4": "Investering i ejendomsprojekter som stiger i værdi i takt med investeringen foretages."
+      }
+    },
     "52f4110": "BEGRÆNSET RISIKO",
-    "81aee53": "Der er altid risiko forbundet med investering. Men investering i Improve Invest A/S er en investering i fasteejendomme med god beliggenhed, der bliver renoveret og solgt igen. Risikoen er derfor relative lav, da hoveddelen af det investerede beløb ligger i et håndgribeligt aktiv (ejendomme)",
-    "fa44e87": "Der kan være en risiko fra gensalg, altså videresalg efter renoveringen. For at reducere denne risiko mest muligt foretager vi kun investeringer i ejendomme med beliggenhed i tæt befolkede områder. Dermed kan vi sikre, at ejendommen kan videresælges.",
-    "25bab45": "Vi foretager altid en beregning af en investering i forhold til udlejning. Ikke fordi det er hensigten, men hvis salgsmålet ikke kan opnås initialt, så skal der være et godt afkast ved en midlertidig udlejning.",
-    "0aee6db": "For at sikre budgettet i renoveringsprocessen, så indgås alle aftaler på fast pris. Desuden finder betaling først sted efter arbejdet er udført eller materialerne er leveret.",
-    "e2c2fb9": "Vi arbejder desuden med, at 10% af indkøbsbeløbet tilbageholdes og udbetales først ved endelig godkendelse af projektet. Disse leveregler har historisk vist sig at begrænse risikoen ved renovering væsentligt.",
-    "414f1ac": "Vi ønsker at optimere vores investeringer gennem brug afdet stabile danske realkreditsystem, men også her ønsker vi en begrænset risiko, og derfor optages der maksimalt60% lån i hvert projekt",
-    "a7c8044": "Renoveringer kan kræve kommunale godkendelser og vi arbejder med, at projekter altid købes betinget eller med forbehold, såfremt renoveringen kræver tilladelser. Dermed kan denne risiko fjernes.",
-    "44a6fb4": "Investorer i fonden får andel i alle de projekter, som fondenrenoverer, og ikke kun i et enkelt projekt.",
-    "c58db7c": "For mere information se vores Central investor information her: PRIIP KID",
+    "section_3": {
+      "81aee53": "Der er altid risiko forbundet med investering. Men investering i Improve Invest A/S er en investering i fasteejendomme med god beliggenhed, der bliver renoveret og solgt igen. Risikoen er derfor relative lav, da hoveddelen af det investerede beløb ligger i et håndgribeligt aktiv (ejendomme)",
+      "fa44e87": "Der kan være en risiko fra gensalg, altså videresalg efter renoveringen. For at reducere denne risiko mest muligt foretager vi kun investeringer i ejendomme med beliggenhed i tæt befolkede områder. Dermed kan vi sikre, at ejendommen kan videresælges.",
+      "25bab45": "Vi foretager altid en beregning af en investering i forhold til udlejning. Ikke fordi det er hensigten, men hvis salgsmålet ikke kan opnås initialt, så skal der være et godt afkast ved en midlertidig udlejning.",
+      "0aee6db": "For at sikre budgettet i renoveringsprocessen, så indgås alle aftaler på fast pris. Desuden finder betaling først sted efter arbejdet er udført eller materialerne er leveret.",
+      "e2c2fb9": "Vi arbejder desuden med, at 10% af indkøbsbeløbet tilbageholdes og udbetales først ved endelig godkendelse af projektet. Disse leveregler har historisk vist sig at begrænse risikoen ved renovering væsentligt.",
+      "414f1ac": "Vi ønsker at optimere vores investeringer gennem brug afdet stabile danske realkreditsystem, men også her ønsker vi en begrænset risiko, og derfor optages der maksimalt60% lån i hvert projekt",
+      "a7c8044": "Renoveringer kan kræve kommunale godkendelser og vi arbejder med, at projekter altid købes betinget eller med forbehold, såfremt renoveringen kræver tilladelser. Dermed kan denne risiko fjernes.",
+      "44a6fb4": "Investorer i fonden får andel i alle de projekter, som fondenrenoverer, og ikke kun i et enkelt projekt.",
+      "c58db7c": "For mere information se vores Central investor information her:",
+      "bx354d4": "PRIIP KID"
+    },
     "77af2ac": "RENOVERING MED FOKUS PÅ MILJØET",
     "0b3c57d": "Vi mener, at der i fremtiden vil være en stigende efterspørgsel efter at renovere boliger i stedet for at bygge nyt.Det kommer i særdeleshed på grund af ønsket om at tage støre miljømæssige hensyn. Eller som Rambøll konkluderer i deres rapport “Analyse af Co2-udledning og totaløkonomi i renovering og nybyg”. Analysen viser, at det er mest fordelagtigt - både miljømæssigt og totaløkonomisk - at renovere frem for at rive ned og bygge nyt”.I Improve Invest A/S er miljømæssige hensyn vigtige for os.",
     "91c3f5d": "Vi har derfor opstillet en række krav til vores egen renovering:Vi bidrager væsentligt positivt til mindst ét af EU-taksonomiens seks miljømål.Vi overholder de tekniske kriterier, der er beskrevet fordét eller de klima- og miljømål, man vælger.Vi overholder “gør-ikke-nævneværding- skade- kriterierne” (Do No Significant Harm”, DNSH).Vi overholder sociale minimumsgarantier (“MinimumSocial Safeguards”).Punkterne nævnt på denne side er ikke omfattende, mennogle konkrete eksempler på hvilke tiltag som der tages,når Improve Invest A/S renoverer",
     "888c09c": "EN VIGTIG SAMFUNDSMÆSSIG MEGATREND",
-    "e31e18a": "Efter corona krisen har samfundsfundets ejendomsan- vendelse ændret sig radikalt. Vi har alle sammen lært at handle på nettet, i stedet for lokale forretninger og det er blevet helt normalt at flere af os arbejder helt eller delvist hjemmefra.",
-    "1fbf97e": "Der er derfor et stigende behov for konverteringer af ejendomme i storbyerne fra kontorlokaler og forret- ninger til boliger. Det skal samtidig være boliger der er indrettet til den nye virkelighed efter corona. Denne konverterings bølge er allerede startet i f.eks. New York.",
-    "1a7dafe": "Denne udvikling stiller samtidig nogle nye krav til vores boliger. Vi har nu behov for at indrette vores hjem, så der er plads til hjemmearbejdspladser - måske endda for flere af beboerne i boligen.",
-    "869c435": "Dertil skal ligges at indenrigsministeriet estimerer, at der skal bygges 6.500 nye boliger om året i hovedstad- sområdet frem til 2023, for at dække behovet for den fremtidige befolkningsvækst.",
-    "db14352": "Improve Invest renoveringer rammer lige ned i denne vigtige samfundsudvikling. Altså konverteringer af kontorlokaler og forretninger til nye og moderne indrettede boliger.",
+    "section_4": {
+      "e31e18a": "Efter corona krisen har samfundsfundets ejendomsan- vendelse ændret sig radikalt. Vi har alle sammen lært at handle på nettet, i stedet for lokale forretninger og det er blevet helt normalt at flere af os arbejder helt eller delvist hjemmefra.",
+      "1fbf97e": "Der er derfor et stigende behov for konverteringer af ejendomme i storbyerne fra kontorlokaler og forret- ninger til boliger. Det skal samtidig være boliger der er indrettet til den nye virkelighed efter corona. Denne konverterings bølge er allerede startet i f.eks. New York.",
+      "1a7dafe": "Denne udvikling stiller samtidig nogle nye krav til vores boliger. Vi har nu behov for at indrette vores hjem, så der er plads til hjemmearbejdspladser - måske endda for flere af beboerne i boligen.",
+      "869c435": "Dertil skal ligges at indenrigsministeriet estimerer, at der skal bygges 6.500 nye boliger om året i hovedstad- sområdet frem til 2023, for at dække behovet for den fremtidige befolkningsvækst.",
+      "db14352": "Improve Invest renoveringer rammer lige ned i denne vigtige samfundsudvikling. Altså konverteringer af kontorlokaler og forretninger til nye og moderne indrettede boliger."
+    },
     "c448d41": "Kontakt os idag",
     "d142928": "Hos Improve Invest A/S er vi stolte af at kundetilfredshed altid er vores første prioritet. Vi vender tilbage på din henvendelse hurtigst muligt - typisk indenfor 24 timer.",
     "89eaa93": "Improve Invest A/SStrandvejen 1252900 Hellerup",
@@ -387,5 +424,28 @@
     "b7cba11": "Improve Invest A/S er registreret hos Finanstilsynet som en AIF (Alternativ Investerings Fond). Dette stiller nogle ekstrakrav til vores compliance og løbende rapportering. Det gør f.eks. oprettelse af din investering lidt mere besværlig, mener med til at sikre troværdigheden og korrektheden i Improve Invest A/S.",
     "abc83eb": "Revisorer & skatterådgivere:",
     "f04c315": "Advokater:"
+  },
+  "ContactForm": {
+    "title": "Kontakt os",
+    "firstName": "Fornavn",
+    "lastName": "Efternavn",
+    "email": "E-mail",
+    "phone": "Telefonnummer",
+    "subject": "Emne",
+    "message": "Besked",
+    "submit": "Send besked",
+    "submitting": "Sender...",
+    "success": "Besked sendt succesfuldt!",
+    "error": "Kunne ikke sende beskeden. Prøv venligst igen.",
+    "validation": {
+      "firstNameRequired": "Fornavn er påkrævet",
+      "lastNameRequired": "Efternavn er påkrævet",
+      "emailRequired": "E-mail er påkrævet",
+      "emailInvalid": "Indtast venligst en gyldig e-mailadresse",
+      "phoneRequired": "Telefonnummer er påkrævet",
+      "subjectRequired": "Emne er påkrævet",
+      "messageRequired": "Besked er påkrævet",
+      "messageMin": "Beskeden skal være mindst 10 tegn lang"
+    }
   }
 }
