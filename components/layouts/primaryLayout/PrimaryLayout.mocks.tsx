@@ -1,4 +1,4 @@
-import Home from "@/app/page";
+import Home from "@/app/(marketing)/page";
 import { IPrimaryLayout } from "./PrimaryLayout";
 
 const base: IPrimaryLayout = {
