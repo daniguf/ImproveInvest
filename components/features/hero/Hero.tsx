@@ -25,10 +25,16 @@ const Hero: React.FC = () => {
           {t("64337c7")}
         </p>
         <a
-          href="#projects"
-          className="inline-block px-8 py-4 text-white bg-blue-600 hover:bg-blue-700 rounded-full font-semibold text-lg transition-colors"
+          href="projekter"
+          className="inline-block m-2 px-8 py-4 text-white bg-blue-600 hover:bg-blue-700 rounded-full font-semibold text-lg transition-colors"
         >
-          Explore Projects
+          {t("123sd14")}
+        </a>
+        <a
+          href="kontakt"
+          className="inline-block m-2 px-8 py-4 text-white bg-blue-600 hover:bg-blue-700 rounded-full font-semibold text-lg transition-colors"
+        >
+          {t("45628s12")}
         </a>
       </div>
     </section>
