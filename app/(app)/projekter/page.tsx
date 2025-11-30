@@ -18,10 +18,10 @@ export default async function ProjectsPage() {
             href={`/projekter/${project.slug.current}`}
             className="group block rounded-xl overflow-hidden shadow hover:shadow-lg transition"
           >
-            {getFeaturedImage(project)?.asset && (
+            {getFeaturedImage(project)?.image?.asset && (
               <div className="aspect-video relative">
                 <Image
-                  src={urlFor(getFeaturedImage(project)).url()}
+                  src={urlFor(getFeaturedImage(project)?.image).url() || ""}
                   alt={getFeaturedImage(project)?.alt || project.title}
                   fill
                   className="object-cover"

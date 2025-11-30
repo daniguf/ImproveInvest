@@ -28,12 +28,13 @@ export default async function ProjectPage({
   if (!project) notFound();
 
   return (
-    <main className="max-w-5xl mx-auto px-6 py-12">
+    <main className="container max-w-5xl mx-auto px-6 py-12">
       <h1 className="text-4xl font-bold mb-6">{project.title}</h1>
       <Gallery items={project.gallery} />
 
       {project.content && (
-        <div className="prose prose-invert max-w-none">
+        <div className="prose prose-invert max-w-none mt-6">
+          <p className="my-4">{project.address}</p>
           <PortableText value={project.content as TypedObject[]} />
         </div>
       )}

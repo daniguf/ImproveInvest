@@ -42,7 +42,7 @@ export default function Gallery({ items, className = "" }: GalleryProps) {
 
       return (
         <div
-          className={`relative ${isModal ? "w-full h-full" : "aspect-square"}`}
+          className={`relative ${isModal ? "w-full h-full aspect-video" : "aspect-square"}`}
         >
           <Image
             src={imageUrl}

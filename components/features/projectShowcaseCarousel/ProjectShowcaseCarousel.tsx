@@ -48,7 +48,7 @@ export default function ProjectShowcaseCarousel({
                 <div className="relative">
                   <div className="aspect-3/2 relative overflow-hidden rounded-lg">
                     <Image
-                      src={urlFor(getFeaturedImage(project)).url() || ""}
+                      src={urlFor(getFeaturedImage(project)?.image).url() || ""}
                       alt={getFeaturedImage(project)?.caption || ""}
                       fill
                       className="object-cover"
