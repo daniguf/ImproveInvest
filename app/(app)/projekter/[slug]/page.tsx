@@ -1,19 +1,10 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+import Gallery from "@/components/features/gallery/Gallery";
 import { projectBySlugQuery } from "@/lib/queries";
 import { sanityClient } from "@/sanity/client";
-import { urlFor } from "@/sanity/image";
+import { Project } from "@/sanity/schema/project";
 import { PortableText } from "@portabletext/react";
-import Image from "next/image";
 import { notFound } from "next/navigation";
-
-type Project = {
-  _id: string;
-  name: string;
-  image?: { asset: { _id: string }; alt?: string };
-  videoUrl?: string;
-  url?: string;
-  content?: any;
-};
+import { TypedObject } from "sanity";
 
 export async function generateStaticParams() {
   const projects = await sanityClient.fetch(
@@ -32,50 +23,19 @@ export default async function ProjectPage({
   const project: Project = await sanityClient.fetch(projectBySlugQuery, {
     slug, // ✅ now pass the actual string value
   });
+  console.log("projectpage", project);
 
   if (!project) notFound();
 
   return (
-    <main className="max-w-5xl mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
-
-      {project.image?.asset && (
-        <div className="relative aspect-video rounded-xl overflow-hidden mb-6">
-          <Image
-            src={urlFor(project.image)
-              .width(1200)
-              .height(675)
-              .quality(90)
-              .url()}
-            alt={project.image.alt || project.name}
-            fill
-            className="object-cover"
-            priority
-          />
-        </div>
-      )}
-
-      {project.videoUrl && (
-        <video controls className="w-full rounded-xl mb-6">
-          <source src={project.videoUrl} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      )}
-
-      {project.url && (
-        <a
-          href={project.url}
-          target="_blank"
-          rel="noreferrer"
-          className="inline-block mb-6 text-blue-600 hover:underline"
-        >
-          Visit project →
-        </a>
-      )}
+    <main className="container max-w-5xl mx-auto px-6 py-12">
+      <h1 className="text-4xl font-bold mb-6">{project.title}</h1>
+      <Gallery items={project.gallery} />
 
       {project.content && (
-        <div className="prose prose-invert max-w-none">
-          <PortableText value={project.content} />
+        <div className="prose prose-invert max-w-none mt-6">
+          <p className="my-4">{project.address}</p>
+          <PortableText value={project.content as TypedObject[]} />
         </div>
       )}
     </main>

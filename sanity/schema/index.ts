@@ -1,6 +1,5 @@
-import newsFeed from "./newsFeed-schema";
-import project from "./project-schema";
+import { project } from "./project-schema";
 
-const schemas = [project, newsFeed];
+const schemas = [project];
 
 export default schemas;
