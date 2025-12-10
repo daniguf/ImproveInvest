@@ -21,7 +21,7 @@
     "@hookform/resolvers": "^3.3.2",
     "@portabletext/react": "^5.0.0",
     "@sanity/image-url": "^1.2.0",
-    "next": "16.0.1",
+    "next": "16.0.7",
     "next-intl": "^4.5.0",
     "next-sanity": "^11.6.5",
     "nodemailer": "^6.9.7",
