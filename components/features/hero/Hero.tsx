@@ -11,7 +11,8 @@ const Hero: React.FC = () => {
     <section className="relative h-[70dvh] flex items-center justify-center overflow-hidden mb-11">
       <div className="absolute inset-0 bg-linear-to-b from-gray-900/60 to-gray-950/90 z-1" />
       <Image
-        src="/other/Picture-2-scaled.webp"
+        // src="/other/Picture-2-scaled.webp"
+        src="https://static.wixstatic.com/media/d41eec_d79162328feb4212b6aac934b0e28683~mv2.jpg/v1/fit/w_1006,h_682,q_90,enc_avif,quality_auto/d41eec_d79162328feb4212b6aac934b0e28683~mv2.jpg"
         alt="Hero background"
         fill
         className="object-cover"

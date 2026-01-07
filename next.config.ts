@@ -3,7 +3,7 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ["cdn.sanity.io"],
+    domains: ["cdn.sanity.io","static.wixstatic.com"],
   },
 };
 
