@@ -1,12 +1,20 @@
 import { allProjectsQuery } from "@/lib/queries"; // create this file as shown earlier
-import { sanityClient } from "@/sanity/client";
+import { sanityFetch } from "@/lib/sanity-utils";
 import { urlFor } from "@/sanity/image";
 import { getFeaturedImage, Project } from "@/sanity/schema/project";
+import { cookies } from "next/headers";
 import Image from "next/image";
 import Link from "next/link";
 
 export default async function ProjectsPage() {
-  const projects: Project[] = await sanityClient.fetch(allProjectsQuery);
+  const store = await cookies();
+  const locale = store.get("locale")?.value || "da";
+  const projects: Project[] = await sanityFetch({
+    query: allProjectsQuery,
+    params: { locale },
+  });
+
+  // const projects: Project[] = await sanityClient.fetch(allProjectsQuery);
 
   return (
     <section className="px-6 py-12 min-w-[90dvw] xl:min-w-[1128px]">

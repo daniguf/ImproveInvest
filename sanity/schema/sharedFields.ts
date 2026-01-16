@@ -4,13 +4,12 @@ export const globalContentFields = [
   defineField({
     title: "Project Title",
     name: "title",
-    type: "string",
+    type: "localeString", // Use the custom type
     validation: (rule) => [
       rule.required(),
-      rule.required().min(3).error("A title of min. 3 characters is required"),
-      rule.max(50).warning("Shorter titles are usually better"),
     ],
   }),
+
   defineField({
     name: "address",
     title: "Address Of Property",
@@ -21,7 +20,15 @@ export const globalContentFields = [
     title: "Slug",
     name: "slug",
     type: "slug",
-    options: { source: "title" },
+    options: {
+      source: (document) => {
+        const doc = document as {
+          title?: { en?: string; de?: string; da?: string };
+        };
+        // Priority: English -> German -> Danish -> Fallback
+        return doc?.title?.en || doc?.title?.de || doc?.title?.da || "untitled";
+      },
+    },
     validation: (rule) => rule.required(),
   }),
   defineField({
@@ -69,7 +76,6 @@ export const globalContentFields = [
   defineField({
     name: "content",
     title: "Content",
-    type: "array",
-    of: [defineArrayMember({ type: "block" })],
+    type: "internationalizedArrayProjectContent", // Use the new custom type
   }),
 ];
