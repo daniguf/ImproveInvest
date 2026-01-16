@@ -3,6 +3,7 @@ import { projectBySlugQuery } from "@/lib/queries";
 import { sanityClient } from "@/sanity/client";
 import { Project } from "@/sanity/schema/project";
 import { PortableText } from "@portabletext/react";
+import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import { TypedObject } from "sanity";
 
@@ -19,9 +20,11 @@ export default async function ProjectPage({
   params: Promise<{ slug: string }>; // ✅ params is a Promise
 }) {
   const { slug } = await params; // ✅ UNWRAP the Promise
-
+  const store = await cookies();
+  const locale = store.get("locale")?.value || "da";
   const project: Project = await sanityClient.fetch(projectBySlugQuery, {
     slug, // ✅ now pass the actual string value
+    locale,
   });
   console.log("projectpage", project);
 
@@ -33,7 +36,7 @@ export default async function ProjectPage({
       <Gallery items={project.gallery} />
 
       {project.content && (
-        <div className="prose prose-invert max-w-none mt-6">
+        <div className="prose prose-invert max-w-none mt-6 lg:min-w-[1128px]">
           <p className="my-4">{project.address}</p>
           <PortableText value={project.content as TypedObject[]} />
         </div>

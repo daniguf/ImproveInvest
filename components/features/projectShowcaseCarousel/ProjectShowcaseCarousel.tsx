@@ -26,7 +26,6 @@ export default function ProjectShowcaseCarousel({
       current === 0 ? projects.length - 1 : current - 1
     );
   }, [projects.length]);
-  console.log("feat", projects[0].gallery[0]);
 
   if (!projects || projects.length === 0) return null;
 
