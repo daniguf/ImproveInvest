@@ -36,7 +36,7 @@ export default async function ProjectPage({
       <Gallery items={project.gallery} />
 
       {project.content && (
-        <div className="prose prose-invert max-w-none mt-6">
+        <div className="prose prose-invert max-w-none mt-6 lg:min-w-[1128px]">
           <p className="my-4">{project.address}</p>
           <PortableText value={project.content as TypedObject[]} />
         </div>
