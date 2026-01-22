@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
           <div className="flex justify-start">
             <div className="px-2">
               <Image
-                src="/logo/brand/improve-invest-1.png"
+                src="/logo/brand/improve-invest-white.png"
                 height="140"
                 width="140"
                 alt="Logo"
