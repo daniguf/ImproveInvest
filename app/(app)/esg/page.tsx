@@ -23,7 +23,7 @@ const ESG = () => {
     [t("table.row_5.col_1"), t("table.row_5.col_2")],
   ];
   return (
-    <div className="w-full flex flex-col gap-y-14">
+    <div className="w-full flex flex-col gap-y-14 text-white">
       <section className="">
         <h1 className="mb-8 font-bold text-3xl">
           {t("esg_page_header_primary")}

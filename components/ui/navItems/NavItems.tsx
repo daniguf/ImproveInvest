@@ -1,7 +1,9 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { RefObject, useEffect, useRef, useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { Fragment, RefObject, useEffect, useRef, useState } from "react";
 import { useOnClickOutside } from "usehooks-ts";
 import NavItem from "../navItem/NavItem";
 
@@ -78,13 +80,29 @@ const NavItems: React.FC = () => {
         const isOpen = i === activeIndex;
 
         return (
-          <NavItem
-            key={category.id}
-            category={category}
-            handleOpen={handleOpen}
-            isAnyOpen={isAnyOpen}
-            isOpen={isOpen}
-          />
+          <Fragment key={category.id}>
+            {i == 2 ? (
+              <div className="flex justify-center items-center mx-40">
+                <Link href={"/"}>
+                  <Image
+                    src={"/logo/brand/improve-invest-white.png"}
+                    alt="logo"
+                    width={200}
+                    height={61}
+                    quality={100}
+                  />
+                </Link>
+              </div>
+            ) : (
+              <></>
+            )}
+            <NavItem
+              category={category}
+              handleOpen={handleOpen}
+              isAnyOpen={isAnyOpen}
+              isOpen={isOpen}
+            />
+          </Fragment>
         );
       })}
     </div>

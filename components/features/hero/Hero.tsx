@@ -1,5 +1,7 @@
+import PointedArrowSVG from "@/components/assets/pointedArrow/PointedArrowSVG";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import Link from "next/link";
 
 export interface IHero {
   sampleTextProp: string;
@@ -8,35 +10,39 @@ export interface IHero {
 const Hero: React.FC = () => {
   const t = useTranslations("home");
   return (
-    <section className="relative h-[70dvh] flex items-center justify-center overflow-hidden mb-11">
-      <div className="absolute inset-0 bg-linear-to-b from-gray-900/60 to-gray-950/90 z-1" />
-      <Image
-        // src="/other/Picture-2-scaled.webp"
-        src="https://static.wixstatic.com/media/d41eec_d79162328feb4212b6aac934b0e28683~mv2.jpg/v1/fit/w_1006,h_682,q_90,enc_avif,quality_auto/d41eec_d79162328feb4212b6aac934b0e28683~mv2.jpg"
-        alt="Hero background"
-        fill
-        className="object-cover"
-        priority
-      />
-      <div className="relative text-center px-6 z-2">
-        <h1 className="text-4xl sm:text-6xl font-extrabold mb-6 bg-linear-to-r text-white bg-clip-text">
-          {t("0513cdd")}
-        </h1>
-        <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          {t("64337c7")}
-        </p>
-        <a
-          href="projekter"
-          className="inline-block m-2 px-8 py-4 text-white bg-blue-600 hover:bg-blue-700 rounded-full font-semibold text-lg transition-colors"
-        >
-          {t("123sd14")}
-        </a>
-        <a
-          href="kontakt"
-          className="inline-block m-2 px-8 py-4 text-white bg-blue-600 hover:bg-blue-700 rounded-full font-semibold text-lg transition-colors"
-        >
-          {t("45628s12")}
-        </a>
+    <section className="h-[115dvh] relative">
+      <div className="absolute inset-0 top-0 z-0">
+        <Image
+          src="/hero_background.jpeg"
+          alt="Background"
+          fill
+          className="object-cover"
+          quality={100}
+          priority
+        />
+        <div className="relative h-[95dvh] w-full text-white">
+          <div className="relative h-full translate-y-30 sm:translate-none sm:grid grid-cols-2 grid-rows-3">
+            <div className="row-3 flex flex-col justify-center items-center fade-in">
+              <div className="flex flex-col justify-center items-center mb-2 gap-4">
+                {/* Header */}
+                <div className="font-extrabold text-2xl sm:text-4xl break-keep w-2/3">
+                  {t("0513bdd")}
+                </div>
+                {/* Sub header */}
+                <div className="font-extralight w-3/5 text-md">
+                  {t("0513cdd")}
+                </div>
+              </div>
+              {/* CTA */}
+              <Link href={"/hvem-er-improve-invest-a-s"}>
+                <div className="group cursor-pointer p-2 flex justify-center items-end gap-x-1 border-b">
+                  <p className="font-extrabold text-lg">{t("88a3559")}</p>
+                  <PointedArrowSVG />
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

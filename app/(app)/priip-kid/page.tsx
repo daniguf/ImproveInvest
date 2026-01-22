@@ -21,7 +21,7 @@ const Priip: FC = () => {
   const t = useTranslations("priip-kid");
 
   return (
-    <article className="flex flex-col gap-y-8 mb-5">
+    <article className="flex flex-col gap-y-8 mb-5 text-white">
       {/* Document Header */}
       <header className="flex flex-col gap-2">
         <h3 className="font-bold text-lg">{t("block_1")}</h3>

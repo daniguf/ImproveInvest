@@ -15,7 +15,7 @@ const Paragraph = ({ children }: { children: string }) => {
 const GDPR = () => {
   const t = useTranslations("gdpr");
   return (
-    <article className="flex flex-col gap-y-8 mb-5">
+    <article className="flex flex-col gap-y-8 mb-5 text-white">
       <h1 className="mb-8 font-bold text-3xl">GDPR</h1>
       <TextBlock>
         <Header>{t("a0ee3b9")}</Header>
