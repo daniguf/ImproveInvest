@@ -8,7 +8,7 @@ export interface IMarketingLayout {
 const MarketingLayout = ({ children }: IMarketingLayout) => {
   return (
     <>
-      <Header />
+      <Header /> 
       <main className="relative max-w-dvw flex flex-col mx-auto mb-9">
         {children}
       </main>

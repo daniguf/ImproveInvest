@@ -32,11 +32,11 @@ export default async function ProjectPage({
 
   return (
     <main className="container max-w-5xl mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold mb-6">{project.title}</h1>
+      <h1 className="text-4xl font-bold mb-6 text-white">{project.title}</h1>
       <Gallery items={project.gallery} />
 
       {project.content && (
-        <div className="prose prose-invert max-w-none mt-6 lg:min-w-[1128px]">
+        <div className="prose prose-invert max-w-none mt-6 lg:min-w-[1128px] text-white">
           <p className="my-4">{project.address}</p>
           <PortableText value={project.content as TypedObject[]} />
         </div>
