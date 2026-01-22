@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
   const t = useTranslations("footer");
 
   return (
-    <footer className="block w-full bg-secondary text-white">
+    <footer className="block w-full bg-primary text-white">
       <div className="max-w-[1128px] mx-auto gap-x-1.5">
         {/* Footer Top Kontakt */}
         <section className="flex p-4 justify-evenly">

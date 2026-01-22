@@ -31,7 +31,7 @@ const NavItem: React.FC<INavItem> = ({
     <div className="flex relative">
       <div className="relative flex items-center">
         <div
-          className={`flex items-center gap-1.5 cursor-pointer p-2 rounded-md hover:bg-gray-100 ${isOpen ? "bg-gray-100" : null}`}
+          className={`flex items-center gap-1.5 cursor-pointer p-2 rounded-md hover:underline underline-offset-8 ${isOpen ? "underline underline-offset-8" : null}`}
           onClick={handleOpen}
         >
           {category.href ? (

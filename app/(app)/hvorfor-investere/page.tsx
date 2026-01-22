@@ -5,7 +5,7 @@ const TextBlock = ({ children }: { children: React.ReactNode }) => {
 };
 
 const Header = ({ children }: { children: string }) => {
-  return <h3 className="text-lg font-bold text-primary">{children}</h3>;
+  return <h3 className="text-lg font-bold text-white">{children}</h3>;
 };
 
 const Paragraph = ({ children }: { children: string }) => {
@@ -16,7 +16,7 @@ const WhyInvest = () => {
   const t = useTranslations("hvorfor-investere");
   return (
     <article className="flex flex-col gap-y-8 mb-5">
-      <h3 className="font-bold text-4xl text-primary">{t("2b14617")}</h3>
+      <h3 className="font-bold text-4xl text-white">{t("2b14617")}</h3>
       <TextBlock>
         <Paragraph>{t("block_1")}</Paragraph>
         <Paragraph>{t("block_2")}</Paragraph>

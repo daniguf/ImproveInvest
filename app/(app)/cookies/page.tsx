@@ -16,7 +16,7 @@ const Cookies = () => {
   const t = useTranslations("cookies");
 
   return (
-    <article className="flex flex-col gap-y-8 mb-5">
+    <article className="flex flex-col gap-y-8 mb-5 text-white">
       <h1 className="mb-8 font-bold text-3xl">{t("c6b9b1e")}</h1>
       <TextBlock>
         <Header>{t("2dd59b5")}</Header>
