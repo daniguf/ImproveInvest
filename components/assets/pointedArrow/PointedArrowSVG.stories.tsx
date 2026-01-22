@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import PointedArrowSVG from "./PointedArrowSVG";
-import { mockPointedArrowSVGProps } from "./pointedArrowSVG.mocks";
+import { mockPointedArrowSVGProps } from "./PointedArrowSVG.mocks";
 
 const meta = {
   component: PointedArrowSVG,
