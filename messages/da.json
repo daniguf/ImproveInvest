@@ -29,15 +29,15 @@
         "Mere end 20 års erfaring med ejendomme og investering",
         "Registreret hos Finanstilsynet som forvalter af alternative investeringsfonde (AIF)"
       ],
-      "disclaimer": "*Historisk afkast er ikke en garanti for fremtidigt afkast.",
-      "market_strategy": {
-        "heading": "Ét marked. Én strategi. Klar disciplin.",
-        "paragraphs": {
-          "p1": "Improve Invest fokuserer på Storkøbenhavn som investeringsområde.",
-          "p2": "Storkøbenhavn er kendetegnet ved høj og vedvarende efterspørgsel på boliger, høj likviditet og klare exit-muligheder. Ændrede arbejdsmønstre, færre kontorlokaler og mindre fysisk detailhandel har skabt et betydeligt potentiale for konvertering af eksisterende erhvervsejendomme til boliger.",
-          "p3": "Ved at fokusere på ét marked opnår Improve Invest dyb lokal indsigt, et stærkt netværk og mulighed for præcis risikovurdering. Det reducerer kompleksitet og øger forudsigeligheden i både gennemførelse og realisering.",
-          "p4": "Boliger i attraktive byområder har historisk haft stabil efterspørgsel. Det gør Storkøbenhavn til et naturligt omdrejningspunkt for en disciplineret og risikobevidst ejendomsstrategi"
-        }
+      "disclaimer": "*Historisk afkast er ikke en garanti for fremtidigt afkast."
+    },
+    "market_strategy": {
+      "heading": "Ét marked. Én strategi. Klar disciplin.",
+      "paragraphs": {
+        "p1": "Improve Invest fokuserer på Storkøbenhavn som investeringsområde.",
+        "p2": "Storkøbenhavn er kendetegnet ved høj og vedvarende efterspørgsel på boliger, høj likviditet og klare exit-muligheder. Ændrede arbejdsmønstre, færre kontorlokaler og mindre fysisk detailhandel har skabt et betydeligt potentiale for konvertering af eksisterende erhvervsejendomme til boliger.",
+        "p3": "Ved at fokusere på ét marked opnår Improve Invest dyb lokal indsigt, et stærkt netværk og mulighed for præcis risikovurdering. Det reducerer kompleksitet og øger forudsigeligheden i både gennemførelse og realisering.",
+        "p4": "Boliger i attraktive byområder har historisk haft stabil efterspørgsel. Det gør Storkøbenhavn til et naturligt omdrejningspunkt for en disciplineret og risikobevidst ejendomsstrategi"
       }
     },
     "investment_model": {
