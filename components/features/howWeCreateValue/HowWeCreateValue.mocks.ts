@@ -1,6 +1,4 @@
-import { IHowWeCreateValue } from "./HowWeCreateValue";
-
-const base: IHowWeCreateValue = {
+const base = {
   sampleTextProp: "Hello world!",
 };
 
