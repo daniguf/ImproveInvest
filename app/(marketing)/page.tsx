@@ -1,4 +1,6 @@
 import Hero from "@/components/features/hero/Hero";
+import HowWeCreateValue from "@/components/features/howWeCreateValue/HowWeCreateValue";
+import InvestmentModel from "@/components/features/investmentModel/InvestmentModel";
 import MarketStrategy from "@/components/features/marketStrategy/MarketStrategy";
 import WhyInvest from "@/components/features/whyInvest/WhyInvest";
 
@@ -8,6 +10,8 @@ export default function HomePage() {
       <Hero />
       <WhyInvest sampleTextProp="" />
       <MarketStrategy />
+      <InvestmentModel />
+      <HowWeCreateValue />
     </>
   );
 }

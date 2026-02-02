@@ -27,7 +27,7 @@
 }
 
 .fade-in {
-  animation: fadeIn .75s ease-out forwards;
+  animation: fadeIn 0.75s ease-out forwards;
 }
 @keyframes fadeIn {
   from {
@@ -48,7 +48,7 @@ body {
 .form-container {
   max-width: 600px;
   margin: 0 auto;
-  background: var(--brand-primary-deep-blue);;
+  background: var(--brand-primary-deep-blue);
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
