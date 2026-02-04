@@ -15,31 +15,29 @@ const languageOptions = [
 ];
 
 const MobileNav: React.FC = () => {
-  const t = useTranslations("header");
+  const t = useTranslations("navigation");
 
   const NAVIGABLE_ITEMS = [
     {
       id: 1,
-      label: t("home"),
+      label: t("mira"),
       href: "/",
     },
     {
-      id: 3,
+      id: 2,
       label: t("projects"),
       href: "/projekter",
     },
     {
-      id: 4,
-      label: t("whyInvest"),
-      href: "/hvorfor-investere",
+      id: 3,
+      label: t("investors"),
+      href: "/investore",
     },
     {
-      id: 5,
-      label: t("whoIsImproveInvest"),
-      href: "/hvem-er-improve-invest-a-s",
+      id: 3,
+      label: t("about"),
+      href: "/om-os",
     },
-
-    { id: 6, label: t("contact"), href: "/kontakt" },
   ];
 
   const [isPending, startTransition] = useTransition();

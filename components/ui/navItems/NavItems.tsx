@@ -12,12 +12,12 @@ export interface INavItems {
 }
 
 const NavItems: React.FC = () => {
-  const t = useTranslations("header");
+  const t = useTranslations("navigation");
 
   const NAVIGABLE_ITEMS = [
     {
       id: 1,
-      label: t("home"),
+      label: t("mira"),
       href: "/",
     },
     {
@@ -27,19 +27,15 @@ const NavItems: React.FC = () => {
     },
     {
       id: 3,
-      label: t("aboutUs"),
-      featured: [
-        {
-          name: t("whyInvest"),
-          href: "/hvorfor-investere",
-        },
-        {
-          name: t("whoIsImproveInvest"),
-          href: "/hvem-er-improve-invest-a-s",
-        },
-      ],
+      label: t("investors"),
+      href: "/investore",
     },
-    { id: 4, label: t("contact"), href: "/kontakt" },
+    {
+      id: 3,
+      label: t("about"),
+      href: "/om-os",
+    },
+    // { id: 4, label: t("contact"), href: "/kontakt" },
   ];
 
   const [activeIndex, setActiveIndex] = useState<null | number>();
