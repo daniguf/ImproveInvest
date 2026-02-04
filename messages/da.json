@@ -58,15 +58,15 @@
       "heading": "Sådan skaber vi værdi",
       "points": [
         {
-          "heading": "Selektiv udvælgelse",
+          "heading": "1. Selektiv udvælgelse",
           "description": "Ejendomme udvælges på baggrund af beliggenhed, anvendelsesmuligheder og efterspørgsel i Storkøbenhavn – og findes ofte via eget netværk."
         },
         {
-          "heading": "Renovering og konvertering",
+          "heading": "2. Renovering og konvertering",
           "description": "Projekterne gennemføres med faste rammer, egne samarbejdspartnere og løbende kvalitets- og budgetkontrol."
         },
         {
-          "heading": "Realisering og geninvestering",
+          "heading": "3. Realisering og geninvestering",
           "description": "Ejendommene sælges, og kapital samt afkast geninvesteres i nye projekter."
         }
       ]
@@ -75,12 +75,12 @@
       "heading": "Bygninger med identitet og potentiale",
       "sub_heading": "Historie som en del af selektionen",
       "paragraph": "Improve Invest investerer ofte i ejendomme med karakter og en tydelig historisk identitet. Det er bygninger, der er solidt opført, attraktivt beliggende og velegnede til ny anvendelse.",
-      "projects_carousel_cta": "Se Projektet"
+      "cta": "Se udvalgte cases og projekter"
     },
     "governance": {
       "heading": "Governance",
       "sub_heading": "Professionelt setup med klare rammer",
-      "paragraph": {
+      "paragraphs": {
         "p1": "Improve Invest A/S er registreret hos Finanstilsynet som forvalter af alternative investeringsfonde (AIF).",
         "p2": "Det understøtter et reguleret setup med klare krav til governance, rapportering og investorbeskyttelse.",
         "p3": "Improve Invest har en professionel bestyrelse, der varetager selskabets overordnede governance, strategiske tilsyn og risikokontrol.",
@@ -88,7 +88,10 @@
         "p5": "Der samarbejdes med eksterne rådgivere inden for revision, skat og jura for at sikre korrekt struktur og løbende kontrol.",
         "p6": "Partnerne har selv kapital investeret i fonden."
       },
-      "cta": { "text": "Mød vores partnere her", "href": "" },
+      "ctas": {
+        "meet_out_partners": "Mød vores partnere her",
+        "contact": "Kontakt os for en uforpligtende dialog"
+      },
       "contact_form": {}
     }
   },

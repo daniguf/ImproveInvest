@@ -7,7 +7,7 @@ interface IMaxWidthWrapper {
 
 const MaxWidthWrapper: React.FC<IMaxWidthWrapper> = ({ styles, children }) => {
   return (
-    <div className={`max-w-[1128px] h-full w-full mx-auto p-8 ${styles}`}>
+    <div className={`max-w-[1128px] h-full w-full mx-auto py-32 px-8 ${styles}`}>
       {children}
     </div>
   );
