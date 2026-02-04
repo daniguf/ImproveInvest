@@ -1,3 +1,5 @@
+import BuildingsWithIdententyAndPotential from "@/components/features/buildingsWithIdententyAndPotential/BuildingsWithIdententyAndPotential";
+import Governance from "@/components/features/governance/Governance";
 import Hero from "@/components/features/hero/Hero";
 import HowWeCreateValue from "@/components/features/howWeCreateValue/HowWeCreateValue";
 import InvestmentModel from "@/components/features/investmentModel/InvestmentModel";
@@ -12,6 +14,8 @@ export default function HomePage() {
       <MarketStrategy />
       <InvestmentModel />
       <HowWeCreateValue />
+      <BuildingsWithIdententyAndPotential />
+      <Governance />
     </>
   );
 }
