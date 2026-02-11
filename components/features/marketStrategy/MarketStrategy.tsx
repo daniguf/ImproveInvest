@@ -21,7 +21,7 @@ const MarketStrategy = () => {
       <MaxWidthWrapper>
         <div className="flex w-full h-full gap-x-16">
           <div className="flex flex-col text-white text-sm w-1/2 gap-8">
-            <p>{bodyContentParagraphs.p1}</p>
+            <p className="text-lg font-bold">{bodyContentParagraphs.p1}</p>
             <p>{bodyContentParagraphs.p2}</p>
             <p>{bodyContentParagraphs.p3}</p>
             <p>{bodyContentParagraphs.p4}</p>
