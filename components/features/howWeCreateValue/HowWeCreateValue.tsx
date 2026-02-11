@@ -5,6 +5,7 @@ import Heading from "@/components/ui/heading/Heading";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useMessages } from "next-intl";
+import Image from "next/image";
 import { useLayoutEffect, useRef } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -38,12 +39,14 @@ export default function HowWeCreateValue() {
   return (
     <>
       <section ref={containerRef} className="relative w-full">
-        <div className="value-panel h-screen flex items-center justify-center">
+        <div className="relative value-panel h-screen flex items-center justify-center  bg-variant">
           <MaxWidthWrapper>
-            <div className="h-5/6 text-white flex flex-col">
+            <div className="relative h-5/6 text-white flex flex-col">
+              <span className="absolute -left-10 h-full bg-blue-600 w-1"></span>
+              <span className="absolute -bottom-10 w-1/3 bg-blue-800 h-1"></span>
               <div className="h-1/4 flex flex-col justify-center gap-y-8">
                 <Heading>{bodyContentHeading}</Heading>
-                <h2 className="text-3xl">{bodyContentPoints[0].heading}</h2>
+                <h2 className="text-3xl underline-anim">{bodyContentPoints[0].heading}</h2>
               </div>
               <div className="flex h-full">
                 <div className="flex-1 grid grid-cols-4 grid-rows-3 p-4">
@@ -51,8 +54,14 @@ export default function HowWeCreateValue() {
                     {bodyContentPoints[0].description}
                   </p>
                 </div>
-                <div className="flex flex-1 justify-center items-center bg-amber-300">
-                  IMAGE
+                <div className="flex flex-1 justify-center items-center">
+                  <Image
+                    src={"/selektiv_udvælgelse.png"}
+                    alt="Partner Jacques Skovgaard tegner"
+                    height="100"
+                    width={570}
+                    quality={100}
+                  />
                 </div>
               </div>
             </div>
@@ -61,16 +70,24 @@ export default function HowWeCreateValue() {
 
         <div className="value-panel h-screen flex items-center justify-center">
           <MaxWidthWrapper>
-            <div className="h-5/6 text-white flex flex-col">
+            <div className="relative h-5/6 text-white flex flex-col">
+              <span className="absolute -left-10 h-full bg-blue-700 w-1"></span>
+              <span className="absolute -bottom-10 w-2/3 bg-blue-800 h-1"></span>
               <div className="h-1/4 flex flex-col justify-center text-end">
-                <h2 className="text-3xl">{bodyContentPoints[1].heading}</h2>
+                <h2 className="text-3xl underline-anim">{bodyContentPoints[1].heading}</h2>
               </div>
               <div className="flex h-full">
-                <div className="flex flex-1 justify-center items-center bg-amber-300">
-                  IMAGE
+                <div className="flex flex-1 justify-center items-center">
+                  <Image
+                    src={"/renovering_og_konvertering.jpg"}
+                    alt="Partnere ved renovering"
+                    height="100"
+                    width={570}
+                    quality={100}
+                  />
                 </div>
                 <div className="flex-1 grid grid-cols-4 grid-rows-3 p-4">
-                  <p className="col-span-3 col-start-2 row-start-1">
+                  <p className="col-span-3 col-start-2 row-start-3">
                     {bodyContentPoints[1].description}
                   </p>
                 </div>
@@ -79,11 +96,13 @@ export default function HowWeCreateValue() {
           </MaxWidthWrapper>
         </div>
 
-        <div className="value-panel h-screen flex items-center justify-center">
+        <div className="value-panel h-screen flex items-center justify-center bg-variant">
           <MaxWidthWrapper>
-            <div className="h-5/6 text-white flex flex-col">
+            <div className="relative h-5/6 text-white flex flex-col">
+              <span className="absolute -left-10 h-full bg-blue-800 w-1"></span>
+              <span className="absolute -bottom-10 w-full bg-blue-800 h-1 animate-pulse"></span>
               <div className="h-1/4 flex flex-col justify-center">
-                <h2 className="text-3xl">{bodyContentPoints[2].heading}</h2>
+                <h2 className="text-3xl underline-anim">{bodyContentPoints[2].heading}</h2>
               </div>
               <div className="flex h-full">
                 <div className="flex-1 grid grid-cols-4 grid-rows-3 p-4">
@@ -91,8 +110,14 @@ export default function HowWeCreateValue() {
                     {bodyContentPoints[2].description}
                   </p>
                 </div>
-                <div className="flex flex-1 justify-center items-center bg-amber-300">
-                  IMAGE
+                <div className="flex flex-1 justify-center items-center">
+                  <Image
+                    src={"/realisering_og_genivestering.jpg"}
+                    alt="Trapper"
+                    height="100"
+                    width={570}
+                    quality={100}
+                  />
                 </div>
               </div>
             </div>

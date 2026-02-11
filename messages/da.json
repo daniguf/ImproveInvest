@@ -2,8 +2,291 @@
   "navigation": {
     "mira": "MIRA",
     "projects": "Projekter",
-    "investors": "Investore",
+    "investors": "Investorer",
     "about": "Om os"
+  },
+  "footer": {
+    "footer_top": {
+      "company_desc_paragraph": "Improve Invest A/S er en renoveringsfond, som udøver bæredygtig køb, renovering og salg af ejendomme.",
+      "contact_info": {
+        "header": "Kontakt",
+        "company_name": "Improve Invest A/S",
+        "cvr": "CVR: 44720795",
+        "adress": "Strandvejen 125 2900 Hellerup",
+        "phone": "+45 20 80 39 39"
+      }
+    },
+    "footer_bottom_legal": {
+      "hyperlinks": {
+        "gdpr": "GDPR",
+        "cookies": "Cookies",
+        "esg": "ESG"
+      },
+      "copy_right": "Copyright © Improve Invest"
+    }
+  },
+  "esg": {
+    "esg_page_header_primary": "Politik for integration af bæredygtighedsrisici (ESG)",
+    "table": {
+      "row_1": {
+        "col_1": "Gældende for:",
+        "col_2": "Aktieselskabet ImproveInvest A/S"
+      },
+      "row_2": {
+        "col_1": "Godkendt af:",
+        "col_2": "Bestyrelsen for ImproveInvest A/S"
+      },
+      "row_3": {
+        "col_1": "Godkendt pr.: ",
+        "col_2": ""
+      },
+      "row_4": {
+        "col_1": "Retsligt grundlag:",
+        "col_2": "EU-forordning 2019/2088/EU af 27. november 2019 om bæredygtighedsrelaterede oplysninger i sektoren for finansielle tjenesteydelser (”Disclosure forordningen”), BEK nr. 1254 af 11/06/2021 (Bekendtgørelse om ledelse og styring af pengeinstitutter m.fl.) §4."
+      },
+      "row_5": {
+        "col_1": "Versions nr.",
+        "col_2": "1.0"
+      }
+    },
+    "block_1": {
+      "header": "1. Indledning",
+      "paragraph": "Vi har alle et ansvar for at hjælpe med at sikre, at samfundet løbende forbedrer sig på miljømæssige, sociale og governance (ESG) området. Det er centralt for os alle. Aktieselskabet ImproveInvest A/S er der et ønske om at foretage investeringer i renoveringsprojekter, der bidrager med forbedringer indenfor ESG-området under hensyntagen til interne retningslinjer og investeringspolitik og overordnede risiko- og afkastmålsætning."
+    },
+    "block_2": {
+      "header": "2. Integration af bæredygtighedsrisici (ESG) i investeringsstrategi",
+      "paragraph_1": "2.1. ImproveInvest A/S er aktive indenfor investeringer i renovering af ejendomme.",
+      "paragraph_2": "2.2. ImproveInvest A/S ønsker at øge fokus på anvendelsen af ESG venlige produkter, og selskabet har derfor opstillet en række interne krav til anvendelse"
+    },
+    "block_3": {
+      "header": "3. Integration af bæredygtighedsrisici (ESG) i renoveringsprocessen",
+      "paragraph_1": "3.1. Renoveringprincipper:",
+      "paragraph_2": "3.1.1. Vi tilstræber altid at følge Dansk Standards principper for ansvarlig renovering.",
+      "paragraph_3": "3.1.2. Vi har en præference for renovering ansvarligt og vælge ESG optimerende materialer.",
+      "paragraph_4": "3.2. Overskudslikviditet",
+      "paragraph_5": "3.2.1. Selskabet overskudslikviditet bliver primært placeret i likvide indlåns konti hos danske banker, som ikke er kendetegnet ved ESG problematisk adfærd.",
+      "paragraph_6": "3.2.2. Såfremt selskabets overskudslikviditet bliver placeret i korte obligationer vil dette ske i danske obligationer udstedt af staten, realkreditselskaber eller virksomhedsobligationer.",
+      "paragraph_7": "3.2.3. Der vil ikke blive købt obligationer udstedt afi selskaber, der er involveret i udvikling, produktion, distribution eller opbevaring af konventionelle våben, såsom anti-personelminer, klyngebomber, biologiske våben, eller kemiske våben.",
+      "paragraph_8": "3.2.4. Der vil ikke blive købt obligationer udstedt af selskaber, der har en stor del af deres indtjening gennem særligt klimabelastende aktiviteter."
+    },
+    "block_4": {
+      "header": "4. Integration af bæredygtighedsrisici (ESG) i aflønningspolitik",
+      "paragraph": "4.1. ImproveInvest har en ambition om at være konkurrencedygtigt lønmæssigt for at kunne tiltrække de rette kompetencer - det gælder både for direktionen og for ansatte på kontrakt. Det betyder, at aflønningen fastsættes på et niveau, der dels afspejler kravene og er konkurrencedygtig i forhold til gældende markedsvilkår, uanset køn. Aflønningen består udelukkende af en fast løn inklusiv eventuel pension."
+    },
+    "block_5": {
+      "header": "5. Opdatering og opfølgning",
+      "paragraph": "5.1. ImproveInvest offentliggør politikken på hjemmesiden, ligesom selskabet løbende følge udviklingen på markedet indenfor ESG-renovering, og som minimum genbesøge denne politik årligt."
+    },
+    "block_6": {
+      "header": "6. Historik",
+      "paragraph": "28.04.2024 Oprindelig version"
+    }
+  },
+  "priip-kid": {
+    "block_0": "24.10.2024",
+    "block_1": "PRIIP KID (Central investor information)",
+    "block_2": "24.oktober.2024",
+    "block_3": "&nbsp;",
+    "block_4": "Formål",
+    "block_5": "Dette dokument indeholder centrale informationer om dette investeringsprodukt. Dokumentet er ikke markedsføringsmateriale. Informationen kræves i henhold til lovgivning for at hjælpe dig med at forstå risiko, omkostninger, potentielle gevinster og tab ved dette produkt og hjælpe dig med at sammenligne det med andre produkter.",
+    "block_6": "Produkt",
+    "block_7": "Aktieselskabet ImproveInvest A/S (”fonden”). CVR: 44720795. Er en alternativ investeringsfond, hjemhørende i Danmark. Fonden har fokus på skabelse af værdi gennem køb, renovering og videresalg af ejendomme i Danmark. Fonden er opbygget som et investorejet aktieselskab, der gennem datterselskaber ejer ejendommene. Du investerer i fonden og bliver medejer af alle underliggende aktiver. ImproveInvest A/S rådgives af ImproveInvest Administration ApS (”Rådgiveren”).",
+    "block_8": "Yderligere information findes på hjemmesiden www.improveinvest.dk",
+    "block_9": "Dato for sidste opdatering 13/05/2024",
+    "block_10": "Advarsel: Du er ved at købe et produkt, der ikke er enkelt og kan være vanskeligt at forstå.",
+    "block_11": "Hvad dette produkt drejer sig om?",
+    "block_12": "Mål: Rådgiveren af fonden fokuserer på at skabe afkast gennem opkøb af ejendomme på centrale attraktive lokationer, som er kendetegnet ved større byer, hvor likviditeten i ejendomshandler er størst. Rådgiveren går efter ejendomme, hvor der kan skabes en indtjening ved at foretage en nøje planlagt, omhyggelig og grundig renovering. Renoveringen foretages med henblik på maksimal værdiskabelse ved videresalg. Værdiskabelsen ligger derfor i renoveringen, ikke i en spekulation i prisændringer i det generelle boligmarked. Ejendommene forventes solgt efter færdig renovering eller efter en kortere udlejningsperiode. De detaljerede krav til investeringer kan findes i investeringspolitikken www.improveinvest.dk. Selskabet værdi bygger på et forsigtighedsprincip, hvor værdien er fastlagt som summen af aktiver. Dvs. likvide midler og anskaffelser opgjort til kostpris. Der bliver ikke optaget en værdiforøgelse løbende, men alene ved realiseret salg. Dermed kan der let og overskuelig altid opgøres en sum af aktiverne.",
+    "block_13": "Type: Dette er selvstændigt aktieselskab, med 2 aktieklasser, som er registreret udbyder af alternative investeringer hos Finanstilsynet.",
+    "block_14": "Løbetid: Der er ikke nogen fastlagt løbetid på fonden. Aktieselskabets aktier er unoterede, men kan handles mellem investorer og mellem selskabet og investorer. Det er muligt for aktieinvestorerne at sælge deres aktier tilbage til selskabet til selskabets værdi uden gebyr efter 5 år, og med 12 måneders varsel. Ønskes tilbagesalg indenfor de første 5 år, tillægges et gebyr på 15% som tilskrives aktieselskabet. Begge tilbagekøbes horisonter kan dog forlænges af selskabets bestyrelse i 12 måneder, og/eller et proportionelt frasalg vil blive foretaget.",
+    "block_15": "Beslutning om afvikling af aktieselskabet kan træffes iflg. selskabets vedtægter.",
+    "block_16": "Påtænkt investorer: Investeringen henvender sig til semi-professionelle investorer, som indskyder over 750.000 DKK. Investeringen kan foretages gennem frie midler, pensionsmidler eller gennem CVR-numre.",
+    "block_17": "Hvilke risici er der?",
+    "block_18": "Nedenstående summariske risikoindikator angiver dette produkts risikoniveau i forhold til andre produkter. Den viser sandsynligheden for, at produktet vil tabe penge på grund af bevægelser i markedet.",
+    "block_19": "I forbindelse med risikoindikatoren antages det, at du beholder investeringen i 5 år.",
+    "block_20": "Vi har klassificeret investeringen som 3 ud af 7, som er en middel-lav risiko. Hvilket betyder at der er en middel-lav risiko for fremtidige tab. Men produktet indeholder ikke en beskyttelse, så du kan tabe noget eller hele din investering.",
+    "block_21": "Afkastet påvirkes af:",
+    "block_22": "Renoveringseffekt risiko: Udtrykker risiko for at renoveringsomkostninger overstiger ejendomsværdi forøgelsen.",
+    "block_23": "Frasalgs risiko: Udtrykker risiko for at ejendommen ikke kan frasælges eller udlejes pga. effekter i lokaleområdet, skattemæssige ændringer eller lign.",
+    "block_24": "Boligmarkeds risiko: Udtrykker risiko pludselige og større fald i boligmarkedet i den periode hvor renoveringen foretages.",
+    "block_25": "Hvilket afkast kan jeg få?",
+    "block_26": "Nedenstående tabel viser indtjeningen ved forskellige scenarier, hvis du investerer 1m DKK. Indtjeningstallene indeholder alle omkostninger i aktieselskabet, men ikke de omkostninger som du eventuelt betaler til din eksterne rådgiver. Der tages ikke højde for dine personlige skatteforhold, som også kan have betydning for dit netto afkast. Det fremtidig afkast kan ikke forudsiges præcist.",
+    "block_27": "De forskellige scenarier er vurderinger af afkastet under forskellige markedsforhold og er ikke en præcise indikator.",
+    "block_28": "Scenarier ved investering på 1m DKK",
+    "block_29": "1 år",
+    "block_30": "5 år",
+    "block_31": "Stress",
+    "block_32": "Evt. værdi efter omk.",
+    "block_33": " 960.000",
+    "block_34": " 850.000",
+    "block_35": "Afkast",
+    "block_36": "-4%",
+    "block_37": "-15%",
+    "block_38": "Ufordelagtigt",
+    "block_39": " 1.000.000",
+    "block_40": "0%",
+    "block_41": "Moderat",
+    "block_42": " 1.100.000",
+    "block_43": " 1.690.000",
+    "block_44": "+11%",
+    "block_45": "+69%",
+    "block_46": "Fordelagtigt",
+    "block_47": " 1.300.000",
+    "block_48": " 3.780.000",
+    "block_49": "+30%",
+    "block_50": "+278%",
+    "block_52": "Hvilke omkostninger er der?",
+    "block_53": "Hvis personen der rådgiver dig eller sælger dig produktet, opkræver yderligere omkostninger, er personen forpligtet til at oplyse dig om disse omkostninger og om hvordan din investering påvirkes.",
+    "block_54": "Administrationsselskabet modtager et honorar på 1,00% (afregnet som 0,25% hvert kvartal) for forvaltning, revision og reguleringsomkostninger. Derudover modtager forvaltningsselskabet et performancefee på 15% af det årlige afkast efter omkostninger. Performance fee’et beregnes og afregnes årligt på baggrund af forskellen mellem selskabets værdi ved årets starte ifht. selskabets værdi ved årets afslutning. Selskabets værdi bliver altid opgjort som summen af aktiver, dvs. summen af likvide midler og kostprisen på eksisterende projekter. Værdiforøgelse fra renoveringen bliver alene optaget ved realiseret salg af projektet. Performance fee’et er desuden underlagt et princip om watermark. Dvs. at der ikke bliver afregnet performance fee før det samlede afkast efter omkostninger er positivt. Er der derfor et år med negativt afkast, skal dette medregnes i det efterfølgende års afkast, før der afregnes performance fee.",
+    "block_55": "Der pålægges aldrig ekstra tillæg eller omkostninger for køb af materialer eller håndværksomkostninger. Alle disse omkostninger bliver direkte og uden tillæg bogført fra 3. part. Men for hvert ejendomsprojekt afregnes 40.000 per påbegyndt måned for kontrol og overvågning af projektet.",
+    "block_56": "Hvis der investeres 1m DKK og det antages at investeringen udvikler som antaget i det moderate scenarie vil der det første år være flg. omkostninger:",
+    "block_57": "Omkostninger efter første år",
+    "block_58": "Engangsomkostninger ved oprettelse eller udtrædelse",
+    "block_59": "Oprettelsesomkostninger",
+    "block_60": "Oprettelsesomkostninger omfatter udgifter til oprettelse af selskabet. Beløbet er anslået til 0,5%, men i praksis vil det afhænge af de faktiske udgifter.",
+    "block_61": "DKK 6.000",
+    "block_62": "Udtrædelsesomkostninger",
+    "block_63": "Der er ikke gebyr for udtrædelse.",
+    "block_64": "DKK 0",
+    "block_65": "Løbende omkostninger",
+    "block_66": "Management fee",
+    "block_67": "Denne omkostning omfatter management fee og udgør 0,25% pr. kvartal.",
+    "block_68": "DKK 10.000",
+    "block_69": "Administrations fee",
+    "block_70": "Denne omkostning er en betaling for planlægning, overvågning og kontrol af renoveringsprojekter og vil afhænge af antallet af projekter.",
+    "block_71": "DKK 6.400",
+    "block_72": "Yderligere omkostninger på særlige betingelser",
+    "block_73": "Resultatgebyr",
+    "block_74": "Det er intet resultatgebyr",
+    "block_75": "Performance fee",
+    "block_76": "Der bliver betalt 15% af det realiseret afkast ultimo hver år. Har der været år med underskud skal dette først dækkes.",
+    "block_77": "DKK 19.500",
+    "block_78": "Ved udtrædelse efter 5 år, med en investering på 1m DKK og investeringen udvikler sig som beskrevet i det moderate scenarie vil der samlet have været flg. omkostninger samlet:",
+    "block_79": "Vi antager at der er investeret 1m DKK og at investeringen følger det moderate scenarie.",
+    "block_80": "Samlede omkostninger efter 5 år",
+    "block_81": "Omkostninger i alt:",
+    "block_82": "DKK 222.000",
+    "block_83": "Årlige omkostningsmæssige konsekvenser:",
+    "block_84": "2,56%",
+    "block_85": "Dette viser hvordan omkostninger har betydning for dit afkast hvert år i investeringsperioden. Det viser at dit gennemsnitlige årlige afkast forventes at være 15,97% før omkostninger og 13,40% efter omkostninger.",
+    "block_86": "Hvor længe bør du beholde det og muligheder for at tage penge ud undervejs.",
+    "block_87": "Pga. tidshorisonten i renoveringsprojekterne og de tilsynsmæssige krav forventes en investeringshorisont på 5 år. Efter 5 år vil det være muligt at trække pengene ud af projektet uden gebyr. Ønskes et tilbagesalg indenfor de første 5 år tillægges et gebyr på 15%, som tilfalder aktieselskabet. Et ønske om tilbagesalg skal skriftligt varsles til selskabet med 12 måneders varsel og udbetaling vil ske ved tilbagesalg af aktiverne til selskabet. Salget foretages en værdi baseret på selskabets værdi, altså summen af likvide midler og kostprisen på eksisterende projekter. Hvis indløsning repræsenterer mere end 20% af selskabets indre værdi, kan selskabet forlange indløsningen udsat op til maksimalt 12 måneder eller delvist proportionalt i en periode, som bestyrelsen anser som værende i selskabets bedste interesse.",
+    "block_88": "HVORDAN KAN JEG KLAGE?",
+    "block_89": "Klager over investeringen kan rettes til investeringsforvalteren, ImproveInvest Administration Aps, Strandvejen 125, 2900 Hellerup.",
+    "block_90": "ANDEN RELEVANT INFORMATION",
+    "block_91": "Yderligere information om investeringens struktur, omkostninger og funktion findes i selskabsvedtægterne og forvaltningsaftalen, der danner grundlag for investeringen og som vil blive gjort tilgængelig ved henvendelse til selskabet til gennemsyn for potentielle investorer forud for en endelig investeringsbeslutning."
+  },
+  "gdpr": {
+    "a0ee3b9": "Dataansvarlig",
+    "78bf675": "Vi er dataansvarlig for behandlingen af de personoplysninger, som vi behandler om vores kunder og samarbejdspartnere. Du finder vores kontaktoplysninger nedenfor:Improve Invest A/SStrandvejen1252900HellerupCVR: 44720795Hvis du har spørgsmål til behandlingen af dine personoplysninger, så kan du kontakte os via info@improveinvest.com",
+    "be8c4f9": "Behandlingsaktiviteter",
+    "7aa5c13": "Som dataansvarlig jf.GDPR, så har vi følgende behandlingsaktiviteter.",
+    "a6f8c51": "Besøg på hjemmeside",
+    "eac0431": "Når du besøger vores hjemmeside, så anvender vi cookies for at hjemmesiden kan fungere, hvilket du kan læse mere om i vores cookiepolitik.",
+    "200e20d": "Kommunikation med potentielle kunder",
+    "bf27475": "Når du har spørgsmål til vores side, eller ønsker at høre mere om vores services, så kan du kontakte os via:KontaktformularEmailTelefon",
+    "05fc9b9": "Herigennem vil vi behandle dine personoplysninger, så vi kan indgå i en dialog med dig fx. svare på spørgsmål om vores ydelser. Vi behandler kun den information, som du giver os i forbindelse med vores kommunikation.",
+    "74d8ee3": "Vi vil typisk behandle følgende almindelige oplysninger: navn, email og telefonnummer.",
+    "a6108e3": "Vores hjemmel til at behandle disse personoplysninger er databeskyttelsesforordningens artikel 6, stk. 1 litra f.",
+    "50f22b4": "Vi sletter vores kommunikation med dig når det står klart om du ønsker vores ydelser eller ej.",
+    "d124e0b": "Skulle der i et særligt tilfælde opstå et behov for at opbevare dine personoplysninger i længere tid, så vil dette kunne være tilfældet.",
+    "6a1f3bd": "Kunder",
+    "11d03d5": "Vi har behov for at kommunikere med vores kunder, så vi sikrer os, at ydelsen leveres korrekt. Herigennem kan vi behandle oplysninger om navn, adresse, ydelser, særlige aftaler, betalingsinformationer og lignende.",
+    "653049f": "Hjemlen til at behandle disse personoplysninger er er databeskyttelsesforordningens artikel 6, stk. 1 litra b.",
+    "def2ea9": "Når ydelsen er leveret og eventuelle udestående er afsluttede, så vil vi umiddelbart herefter slette personoplysningerne.",
+    "7520642": "Nyhedsbrev",
+    "ab2a6f5": "Vi har et nyhedsbrev, som det er frivilligt at tilmelde sig - og du kan altid framelde dig dette igen.",
+    "2cd23d0": "Formålet med nyhedsbrevet er at sende de tilmeldte mails med ny information fra selskabet, som kan omhandle nyt indhold på hjemmesiden og annoncering af vores ydelser.",
+    "a6b0130": "Vi vil kun sende dig mails, hvis du har givet dit aktive samtykke til dette. Det kræver i første omgang, at du angiver din mailadresse, som vi efterfølgende sender en mail til, således at du kan bekræfte tilmeldingen. På denne måde, så sikrer vi, at du rent faktisk selv har tilmeldt dig nyhedsbrevet dvs. afgivet aktivt samtykke.",
+    "695fc56": "Vores hjemmel til at behandle dine personoplysninger (dvs. mailadressen) i forbindelse med nyhedsbrevet vil være databeskyttelsesforordningens artikel 6, stk. 1 litra a.",
+    "79d0da2": "Vi vil behandle dine personoplysninger, så længe at du stadig er tilmeldt nyhedsbrevet. Ved afmeldelse af nyhedsbrevet, så stopper vi også med at sende dette til dig. Har vi ikke sendt dig et nyhedsbrev i 1 år, så bortfalder dit samtykke som følge af vores passivitet.",
+    "09b91d5": "Ved framelding af nyhedsbrevet, så gemmer vi dit nu tidligere samtykke i 2 år efter, at det senest er anvendt pga. forældelseskrav jf. Forbrugerombudsmandens spamvejledning afsnit 11.3.",
+    "9d0b2f9": "Bogføring",
+    "6daefbf": "Vi skal gemme alle regnskabsbilag jf. bogføringsloven. Det betyder, at vi gemmer fakturaer",
+    "91de827": "og lignende bilag til brug for regnskabsføring. Heraf kan der fremgå almindelige personoplysninger som navn, adresse, ydelsesbeskrivelse.",
+    "389e0e8": "Vores hjemmel til at behandle personoplysninger til bogføringen er databeskyttelsesforordningens artikel 6, stk.1 litra.",
+    "c25ed32": "Vi opbevarer disse oplysninger i minimum 5 år efter at indeværende regnskabsår er afsluttet.",
+    "3929dbf": "Jobansøgninger",
+    "625da4b": "Vi tager glædeligt imod jobansøgninger med henblik på at vurdere om de matcher et ansættelsesbehov i vores virksomhed.",
+    "067f801": "Hvis du sender din jobansøgning til os, så er vores hjemmel til at behandle dine personoplysninger databeskyttelsesforordningens artikel 6, stk. 1 litra f.",
+    "77e577b": "Hvis du har sendt en uopfordret ansøgning, så vil vi med det samme vurdere om din ansøgning er relevant, og herefter slette dine oplysninger igen, hvis der ikke er et match.",
+    "07b6781": "Hvis du har sendt en ansøgning til et opslået job, så vil vi bortskaffe din ansøgning i det tilfælde, at du ikke ansættes, og umiddelbart efter at den rette kandidat er fundet til jobbet.",
+    "3297a3e": "Hvis du indgår i et rekrutteringsforløb og/eller ansættes til jobbet, så vil vi give dig særskilt information om hvordan, at vi behandler dine personoplysninger i denne forbindelse.",
+    "739e478": "Databehandlere",
+    "c747495": "Få kan klare alt selv, og det samme gælder os. Vi har derfor samarbejdspartnere, samt benytter os af leverandører, hvoraf nogle kan være databehandlere.",
+    "d17c441": "Eksterne leverandører kan eksempelvis levere systemer til at organisere vores arbejde, services, rådgivning, IT-hosting eller markedsføring.",
+    "255cec1": "Det er vores ansvar at sikre, at dine personoplysninger behandles ordentligt. Derfor stiller vi høje krav til vores samarbejdspartnere, og vores partnere skal garantere, at dine personoplysninger er beskyttet.",
+    "949396e": "Vi indgår derfor aftaler herom med virksomheder (databehandlere), der håndterer personoplysninger på vores vegne for at højne sikkerheden af dine personoplysninger.",
+    "50d2206": "Videregivelse af personoplysninger",
+    "eb65bc4": "Vi videregiver ikke dine personoplysninger til tredjemand.",
+    "2c113cf": "Profilering og automatiserede afgørelser",
+    "2a38db9": "Vi foretager ikke profilering eller automatiserede afgørelser.",
+    "7f71bab": "Tredjelandeoverførsler",
+    "fc4b04d": "Vi benytter som udgangspunkt databehandlere i EU/EØS, eller som opbevarer data i EU/EØS.",
+    "2c74112": "I nogle tilfælde er dette ikke muligt, og her kan der benyttes databehandlere udenfor EU/EØS, hvis disse kan give dine personoplysninger en passende beskyttelse.",
+    "dbb1d0d": "Behandlingssikkerhed",
+    "f1f56d7": "Vi holder behandlingen af personoplysninger sikker ved at have indført passende tekniske og organisatoriske foranstaltninger.",
+    "faf40ab": "Vi har lavet risikovurderinger af vores behandling af personoplysninger, og har herefter indført passende tekniske og organisatoriske foranstaltninger for at øge behandlingssikkerheden.",
+    "0b433b8": "En af vores vigtigste foranstaltninger er at holde vores medarbejdere opdaterede om GDPR via løbende awareness træning,GDPR-kursus, samt ved at gennemgå vores GDPR-procedurer med medarbejderne.",
+    "ec88e08": "De registreredes rettigheder",
+    "9c7e51f": "Du har efter databeskyttelsesforordningen en række rettigheder i forhold til vores behandling af oplysninger om dig.",
+    "4f8a6b8": "Hvis du vil gøre brug af dine rettigheder, skal du kontakte os, så vi kan hjælpe dig med dette.",
+    "18fdd5e": "Ret til at se oplysninger (indsigtsret)",
+    "dd726ae": "Du har ret til at få indsigt i de oplysninger, som vi behandler om dig, samt en række yderligere oplysninger.",
+    "9b825ec": "Ret til berigtigelse (rettelse)",
+    "357ab3b": "Du har ret til at få urigtige oplysninger om dig selv rettet.",
+    "05f8c38": "Ret til sletning",
+    "bf64837": "I særlige tilfælde har du ret til at få slettet oplysninger om dig, inden tidspunktet for vores almindelige generelle sletning indtræffer.",
+    "93ebe09": "Ret til begrænsning af behandling",
+    "7b0de15": "Du har i visse tilfælde ret til at få behandlingen af dine personoplysninger begrænset. Hvis du har ret til at få begrænset behandlingen, må vi fremover kun behandle oplysningerne - bortset fra opbevaring - med dit samtykke, eller med henblik på at retskrav kan fastlægges, gøres gældende eller forsvares, eller for at beskytte en person eller vigtige samfundsinteresser.",
+    "c7fd320": "Ret til indsigelse",
+    "6063c18": "Du har i visse tilfælde ret til at gøre indsigelse mod vores ellers lovlige behandling af dine personoplysninger. Du kan også gøre indsigelse mod behandling af dine oplysninger til direkte markedsføring.",
+    "122a76f": "Ret til at transmittere oplysninger (dataportabilitet)",
+    "1ee6f31": "Du har i visse tilfælde ret til at modtage dine personoplysninger i et struktureret, almindeligt anvendt og maskinlæsbart format samt at få overført disse personoplysninger fra én dataansvarlig til en anden uden hindring.",
+    "444c414": "Du kan læse mere om dine rettigheder i Datatilsynets vejledning om de registreredes rettigheder, som du finder påwww.datatilsynet.dk.",
+    "0fcd963": "Tilbagetrækning af samtykke",
+    "8971576": "Når vores behandling af dine personoplysninger er baseret på dit samtykke, så har du ret til at trække dit samtykke tilbage.",
+    "194f2e8": "Klage til Datatilsynet",
+    "7842087": "Du har ret til at indgive en klage til Datatilsynet, hvis du er utilfreds med den måde, vi behandler dine personoplysninger på. Du finder Datatilsynets kontaktoplysninger påwww.datatilsynet.dk.",
+    "3903302": "Vi vil generelt opfordre dig til at læse mere om GDPR, så du er opdateret på reglerne."
+  },
+  "cookies": {
+    "c6b9b1e": "Cookies",
+    "2dd59b5": "1. Formål",
+    "db9219a": "Denne politik er udarbejdet i henhold til: Bekendtgørelse om krav til information og samtykke ved lagring af eller adgang til oplysninger i slutbrugeres terminaludstyrog har til formål at sikre, at slutbrugere af Selskabets hjemmeside (improveinvest.com & improveinvest.dk) er beskyttet mod uretmæssig lagring og videregivelse af disses oplysninger. Selskabets hjemmesider anvender cookies til at kunne give slutbrugere den bedste onlineoplevelse. Når slutbrugeren anvender vores stationære og mobile hjemmeside og acceptere denne politik, giver de samtykke til brugen af cookies i overensstemmelse med disse vilkår.",
+    "2d4b431": "2. Cookies",
+    "d29e018": "En cookie er en tekstfil der indeholder en datasekvens, som sendes fra en webserver til en webbrowser og lagres af browseren. Når en hjemmeside besøges, gemmes siden på brugerens computer, mobil eller tilsvarende med det formål at genkende brugeren, næste gang denne besøger hjemmesiden. Cookies kan ikke bruges til at køre programmer eller sende virus til brugerens computer. Nogle cookies bliver liggende på brugerens computer, efter at denne har lukket browseren, mens andre slettes efter 30 minutter eller når browseren lukkes.",
+    "30b150d": "3. Selskabets anvendelse af cookies",
+    "block_3": {
+      "cookie_policy_intro": "Selskabet kan bruge de oplysninger der modtages via besøgendes cookies til følgende formål:",
+      "cookie_policy_a": "At genkende brugerens computer, når disse besøger Selskabets hjemmesider",
+      "cookie_policy_b": "At forbedre hjemmesidens brugervenlighed",
+      "cookie_policy_c": "At analysere brugen af hjemmesiden",
+      "cookie_policy_d": "At tilpasse hjemmesiden til brugeren",
+      "cookie_policy_e": "At spore brugeren mens disse navigerer på hjemmesiden",
+      "cookie_policy_outro": "Selskabet bruger ikke cookies til markedsføring på tredjepartssider."
+    },
+    "4aae4b6": "4. Tredjepartscookie",
+    "f320935": "Selskabets hjemmeside gør brug af sporingsprogrammet Google Analytics, med til formål at forbedre brugervenligheden på hjemmesiden. Oplysningerne benytter Selskabet blandt andet til at få viden om, hvor mange besøgende der er, og om brugeradfærden. Selskabet kan blandt andet se hvor de besøgende kommer fra, hvilke sider på www.advicecapital.eu og www.advicecapital.dk de besøger, og hvor længe de opholder sig på siderne. Det giver Selskabet en viden om, hvilke sider der fungerer og hvilke sider der skal forbedres. Google Analytics bruger en række cookies til at indsamle oplysninger og rapportere brugsstatistik, uden personligt at identificere individuelle besøgende over for Google.",
+    "aeaca04": "5. Google Analytics",
+    "7527009": "Det er muligt at fravælge cookies fra Google Analytics på https://tools.google.com/dlpage/gaoptout",
+    "513d953": "6. Håndtering af cookies",
+    "54924cf": "Uanset hvilken browser der bruges, kan disse indstilles sådan, at den ikke gemmer cookies, nogle browsere kan indstilles til ikke at gemme cookies fra bestemte hjemmesider. I browserens indstillinger kan der slettes cookies. For at læse mere om cookies og få yderligere vejledning om, hvordan du sletter cookies på forskellige browsere, henvises der til http://minecookies.org/cookiehandtering.",
+    "e0fe9a5": "7. Klager",
+    "cb602d8": "Klager over Selskabets brug af cookies kan rettes på info@improveinvest.com",
+
+    "bb67bdd": "8. Ikrafttræden",
+    "effective_date": {
+      "heading": "Ikrafttræden",
+      "description": "Denne version af cookiepolitik er gældende fra 15. august 2019.",
+      "guide_to_contact": "Hvis du har et spørgsmål over cookiepolitikken, kan du kontakte Improve Invest A/S:",
+      "contact": {
+        "company": "Improve Invest A/S",
+        "address": "Strandvejen 125, 2900 Hellerup",
+        "cvr": "44720795",
+        "email": "info@improveinvest.com",
+        "phone": "4092 8900"
+      }
+    }
   },
   "landing_page": {
     "hero": {
@@ -114,14 +397,13 @@
         "section_2": {
           "subheading": "Aktiv værdiskabelse – ikke spekulation",
           "paragraphs": {
-            "p1": "Strategien er at skabe attraktivt afkast gennem renovering og konvertering af ejendomme – primært tidligere erhvervsbygninger – til private boliger i områder med dokumenteret høj efterspørgsel.",
-            "p2": "Improve Invests forretningsmodel er aktiv værdiskabelse. Afkastet skabes gennem konkrete forbedringer og konverteringer af ejendommene – ikke ved at afvente generelle prisstigninger i markedet.",
-            "p3": {
+            "p1": "Improve Invests forretningsmodel er aktiv værdiskabelse. Afkastet skabes gennem konkrete forbedringer og konverteringer af ejendommene – ikke ved at afvente generelle prisstigninger i markedet.",
+            "p2": {
               "subheading": "Det sker ved:",
               "points": [
-                "selektiv udvælgelse af ejendomme med konverterings- eller forbedringspotentiale",
-                "gennemførelse af renoveringer inden for faste rammer for kvalitet, tid og økonomi",
-                "realisering gennem salg"
+                "Selektiv udvælgelse af ejendomme med konverterings- eller forbedringspotentiale",
+                "Gennemførelse af renoveringer inden for faste rammer for kvalitet, tid og økonomi",
+                "Realisering gennem salg"
               ]
             }
           }
@@ -254,7 +536,7 @@
       }
     }
   },
-  "Investorer": {
+  "investors": {
     "articles": {
       "heading": "Investorer",
       "article_1": {
@@ -298,11 +580,9 @@
           }
         },
         "section_2": {
-          "section_1": {
-            "subheading": "Risiko",
-            "paragraphs": {
-              "p1": "Alle investeringer indebærer risiko. Hos Improve Invest håndteres risiko systematisk gennem faste principper, der anvendes på tværs af alle investeringer."
-            }
+          "subheading": "Risiko",
+          "paragraphs": {
+            "p1": "Alle investeringer indebærer risiko. Hos Improve Invest håndteres risiko systematisk gennem faste principper, der anvendes på tværs af alle investeringer."
           }
         },
         "section_3": {
@@ -341,16 +621,17 @@
           "paragraphs": {
             "p1": "Improve Invest A/S er registreret hos Finanstilsynet som forvalter af alternative investeringsfonde (AIF). Det indebærer faste krav til governance, compliance, dokumentation og løbende rapportering.",
             "href": "https://www.finanstilsynet.dk/finansielle-temaer/investeringsomraadet/spoergsmaal-og-svar",
-            "p2": "Det regulerede setup er en integreret del af selskabets måde at arbejde på og bidrager til transparens og investorbeskyttelse."
+            "p2": "Finanstilsynets side om AIF",
+            "p3": "Det regulerede setup er en integreret del af selskabets måde at arbejde på og bidrager til transparens og investorbeskyttelse."
           }
         }
       }
     }
   },
-  "Projekter": {
+  "projects": {
     "title": "Projekter"
   },
-  "Om os": {
+  "about": {
     "title": "Om os",
     "articles": {
       "article_1": {
@@ -369,7 +650,7 @@
           "paragraphs": {
             "p1": "Improve Invest er stiftet og drives af partnere med mange års erfaring inden for investering, ejendomme og gennemførelse af komplekse projekter. Fælles for partnerne er en disciplineret tilgang til beslutningstagning og et tydeligt fokus på ansvarlig forvaltning af investorers kapital.",
             "partners": {
-              "Jacques Skovgaard": {
+              "jacques_skovgaard": {
                 "subheading": {
                   "name": "Jacques Skovgaard,",
                   "role": "Partner"
@@ -377,13 +658,11 @@
                 "description": {
                   "paragraphs": {
                     "p1": "Jacques har mere end 25 års erfaring fra den finansielle sektor med ledende stillinger inden for investering, formueforvaltning og rådgivning. Han har tidligere haft ansvar for investerings- og wealth management-områder i blandt andet Danske Bank, Nordea, FIH, Alm. Brand og senest Sydbank.",
-                    "p2": "Jacques har desuden haft en aktiv rolle i brancheorganisationer og bestyrelsesarbejde, herunder som formand for Børsmæglerforeningen.",
-                    "img": "/",
-                    "href_LinkedIn": ""
+                    "p2": "Jacques har desuden haft en aktiv rolle i brancheorganisationer og bestyrelsesarbejde, herunder som formand for Børsmæglerforeningen."
                   }
                 }
               },
-              "Christian Storinggaard": {
+              "christian_storinggaard": {
                 "subheading": {
                   "name": "Christian Storinggaard,",
                   "role": "Partner"
@@ -391,9 +670,7 @@
                 "description": {
                   "paragraphs": {
                     "p1": "Christian har mere end 18 års erfaring fra ejendoms- og byggebranchen og har medvirket i renoverings- og nybygprojekter på mere end 17.000 m². Han har været medejer af udviklings- og udlejningsselskaber og har omfattende praktisk erfaring med gennemførelse af ejendomsprojekter.",
-                    "p2": "Derudover har Christian haft ledende stillinger i internationale virksomheder som Ecolab, Nilfisk, Dyson og Hempel, hvor han har arbejdet med struktur, processer og eksekvering.",
-                    "img": "/",
-                    "href_LinkedIn": ""
+                    "p2": "Derudover har Christian haft ledende stillinger i internationale virksomheder som Ecolab, Nilfisk, Dyson og Hempel, hvor han har arbejdet med struktur, processer og eksekvering."
                   }
                 }
               }
@@ -418,11 +695,34 @@
           "paragraphs": {
             "p1": "Improve Invest understøttes af en fagligt kompetent bestyrelse med erfaring inden for investering, strategi og governance. Bestyrelsen tæller blandt andet Christian Klarskov, investor med mange års erfaring fra de finansielle markeder, samt Karsten Holst Bork Kristoffersen, bestyrelsesformand og advokat med speciale i selskabs- og kapitalmarkedsforhold.",
             "p2": "Bestyrelsen bidrager med sparring, strategisk overblik og et professionelt beslutningsgrundlag.",
-            "contact_form": "",
+            "contact_form_heading": "Kontakt os",
             "p3": "Investering i Improve Invest kan ske med privat kapital, via virksomhedsordning eller pensionsmidler. De konkrete rammer gennemgås altid individuelt."
           }
         }
       }
+    }
+  },
+  "ContactForm": {
+    "title": "Kontakt os",
+    "firstName": "Fornavn",
+    "lastName": "Efternavn",
+    "email": "E-mail",
+    "phone": "Telefonnummer",
+    "subject": "Emne",
+    "message": "Besked",
+    "submit": "Send besked",
+    "submitting": "Sender...",
+    "success": "Besked sendt succesfuldt!",
+    "error": "Kunne ikke sende beskeden. Prøv venligst igen.",
+    "validation": {
+      "firstNameRequired": "Fornavn er påkrævet",
+      "lastNameRequired": "Efternavn er påkrævet",
+      "emailRequired": "E-mail er påkrævet",
+      "emailInvalid": "Indtast venligst en gyldig e-mailadresse",
+      "phoneRequired": "Telefonnummer er påkrævet",
+      "subjectRequired": "Emne er påkrævet",
+      "messageRequired": "Besked er påkrævet",
+      "messageMin": "Beskeden skal være mindst 10 tegn lang"
     }
   }
 }

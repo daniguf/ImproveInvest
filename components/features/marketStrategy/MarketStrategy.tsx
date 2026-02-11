@@ -1,6 +1,7 @@
 import MaxWidthWrapper from "@/components/layouts/maxWidthWrapper/MaxWidthWrapper";
 import Heading from "@/components/ui/heading/Heading";
 import { useMessages } from "next-intl";
+import Image from "next/image";
 
 export interface IMarketStrategy {
   sampleTextProp: string;
@@ -25,7 +26,15 @@ const MarketStrategy = () => {
             <p>{bodyContentParagraphs.p3}</p>
             <p>{bodyContentParagraphs.p4}</p>
           </div>
-          <div className="flex w-1/2 bg-amber-300">IMAGE</div>
+          <div className="flex w-1/2 bg-amber-300">
+            <Image
+              alt="Greater Copenhagen"
+              src="/et_marked.png"
+              quality={100}
+              height={336}
+              width={500}
+            />
+          </div>
         </div>
       </MaxWidthWrapper>
     </section>

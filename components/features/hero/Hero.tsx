@@ -36,14 +36,14 @@ const Hero: React.FC = () => {
                 </div>
               </div>
               {/* CTA */}
-              <div className="flex gap-x-8">
-                <Link href={"/"}>
-                  <div className="border border-white p-2 px-4 text-xs font-black">
+              <div className="flex gap-x-8 py-4">
+                <Link href={"/om-os#contact-form"}>
+                  <div className="border border-white p-2 px-4 text-xs font-black hover:bg-white hover:text-black transition-colors">
                     {t("ctas.contact.text")}
                   </div>
                 </Link>
-                <Link href={"/"}>
-                  <div className="border border-white p-2 px-4 text-xs font-black">
+                <Link href={"/mira"}>
+                  <div className="border border-white p-2 px-4 text-xs font-black hover:bg-white hover:text-black transition-colors">
                     {t("ctas.read_more.text")}
                   </div>
                 </Link>

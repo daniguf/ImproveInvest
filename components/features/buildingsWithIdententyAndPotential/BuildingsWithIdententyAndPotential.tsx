@@ -3,6 +3,7 @@ import Heading from "@/components/ui/heading/Heading";
 import { MoveUpRight } from "lucide-react";
 import { useMessages } from "next-intl";
 import Image from "next/image";
+import Link from "next/link";
 
 export interface IBuildingsWithIdententyAndPotential {
   sampleTextProp: string;
@@ -42,10 +43,12 @@ const BuildingsWithIdententyAndPotential = () => {
               />
               <div className="absolute w-full bottom-0 right-0">
                 <div className="relative flex justify-end p-12">
-                  <div className="flex gap-4 py-4 px-6 border-2 backdrop-blur-2xl">
-                    {bodyContentCta}
-                    <MoveUpRight />
-                  </div>
+                  <Link href={"/projekter"}>
+                    <div className="flex gap-4 py-4 px-6 border-2 backdrop-blur-2xl">
+                      {bodyContentCta}
+                      <MoveUpRight />
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>

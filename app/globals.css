@@ -3,6 +3,7 @@
 :root {
   --brand-primary-deep-blue: #1b2f48;
   --brand-secondary-deeper-blue: #131c2e;
+  --brand-tertiary-deeper-blue: #172238;
 
   --background: #ffffff;
   --background-secondary: #f6f7f8;
@@ -24,6 +25,7 @@
   --color-secondary: var(--brand-secondary-deeper-blue);
   --color-tertiary: var(--p-color-text);
   --color-container: var(--container-background);
+  --color-variant: var(--brand-tertiary-deeper-blue);
 }
 
 .fade-in {
@@ -47,7 +49,7 @@ body {
 
 .form-container {
   max-width: 600px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background: var(--brand-primary-deep-blue);
   padding: 2rem;
   border-radius: 8px;
@@ -124,4 +126,37 @@ body {
 .submit-button:disabled {
   background-color: #9ca3af;
   cursor: not-allowed;
+}
+
+.underline-anim {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.underline-anim::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background: whitesmoke;
+
+  transform-origin: left;
+  transform: scaleX(0);
+
+  animation: underlineGrowShrink 8s ease-in-out infinite;
+}
+
+@keyframes underlineGrowShrink {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0);
+  }
 }

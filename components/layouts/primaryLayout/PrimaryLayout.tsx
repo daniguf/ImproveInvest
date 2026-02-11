@@ -9,7 +9,7 @@ const PrimaryLayout = ({ children }: IPrimaryLayout) => {
   return (
     <>
       <HeaderSecondary />
-      <main className="relative max-w-[1128px] mx-auto my-9 px-4 sm:px-8">
+      <main className="relative max-w-dvw flex flex-col mx-auto">
         {children}
       </main>
       <Footer />

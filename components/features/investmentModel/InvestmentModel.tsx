@@ -6,6 +6,7 @@ import { gsap } from "gsap";
 import MotionPathPlugin from "gsap/MotionPathPlugin";
 import { MoveUpRight } from "lucide-react";
 import { useMessages } from "next-intl";
+import Link from "next/link";
 import { useLayoutEffect, useRef } from "react";
 
 export interface IInvestmentModel {
@@ -225,9 +226,11 @@ const InvestmentModel = () => {
           </div>
         </div>
         <div className="flex justify-end items-center w-full text-white text-sm">
-          <div className="flex border border-white p-4 gap-4">
-            {bodyContentCtaReadMoreText} <MoveUpRight />
-          </div>
+          <Link href={"/mira"}>
+            <div className="flex border border-white p-4 gap-4 hover:bg-white hover:text-black transition-colors">
+              {bodyContentCtaReadMoreText} <MoveUpRight />
+            </div>
+          </Link>
         </div>
       </MaxWidthWrapper>
     </section>

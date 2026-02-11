@@ -1,3 +1,4 @@
+import MaxWidthWrapper from "@/components/layouts/maxWidthWrapper/MaxWidthWrapper";
 import { useTranslations } from "next-intl";
 
 const TextBlock = ({ children }: { children: React.ReactNode }) => {
@@ -23,61 +24,63 @@ const ESG = () => {
     [t("table.row_5.col_1"), t("table.row_5.col_2")],
   ];
   return (
-    <div className="w-full flex flex-col gap-y-14 text-white">
-      <section className="">
-        <h1 className="mb-8 font-bold text-3xl">
-          {t("esg_page_header_primary")}
-        </h1>
-        <table className="table-auto">
-          <tbody className="">
-            {tableRows.map((item) => (
-              <tr key={item[0]} className="text-sm border-b border-gray-400">
-                <td className="align-text-top text-nowrap p-4 border-r-2 border-gray-500">
-                  {item[0]}
-                </td>
-                <td className="p-4">{item[1]}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </section>
-      <section>
-        <article className="flex flex-col gap-y-8">
-          <TextBlock>
-            <Header headerValue={t("block_1.header")} />
-            <Paragraph paragraphValue={t("block_1.paragraph")} />
-          </TextBlock>
-          <TextBlock>
-            <Header headerValue={t("block_2.header")} />
-            <Paragraph paragraphValue={t("block_2.paragraph_1")} />
-            <Paragraph paragraphValue={t("block_2.paragraph_2")} />
-          </TextBlock>
-          <TextBlock>
-            <Header headerValue={t("block_3.header")} />
-            <Paragraph paragraphValue={t("block_3.paragraph_1")} />
-            <Paragraph paragraphValue={t("block_3.paragraph_2")} />
-            <Paragraph paragraphValue={t("block_3.paragraph_3")} />
-            <Paragraph paragraphValue={t("block_3.paragraph_4")} />
-            <Paragraph paragraphValue={t("block_3.paragraph_5")} />
-            <Paragraph paragraphValue={t("block_3.paragraph_6")} />
-            <Paragraph paragraphValue={t("block_3.paragraph_7")} />
-            <Paragraph paragraphValue={t("block_3.paragraph_8")} />
-          </TextBlock>
-          <TextBlock>
-            <Header headerValue={t("block_4.header")} />
-            <Paragraph paragraphValue={t("block_4.paragraph")} />
-          </TextBlock>
-          <TextBlock>
-            <Header headerValue={t("block_5.header")} />
-            <Paragraph paragraphValue={t("block_5.paragraph")} />
-          </TextBlock>
-          <TextBlock>
-            <Header headerValue={t("block_6.header")} />
-            <Paragraph paragraphValue={t("block_6.paragraph")} />
-          </TextBlock>
-        </article>
-      </section>
-    </div>
+    <MaxWidthWrapper>
+      <div className="w-full flex flex-col gap-y-14 text-white">
+        <section className="">
+          <h1 className="mb-8 font-bold text-3xl">
+            {t("esg_page_header_primary")}
+          </h1>
+          <table className="table-auto">
+            <tbody className="">
+              {tableRows.map((item) => (
+                <tr key={item[0]} className="text-sm border-b border-gray-400">
+                  <td className="align-text-top text-nowrap p-4 border-r-2 border-gray-500">
+                    {item[0]}
+                  </td>
+                  <td className="p-4">{item[1]}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <article className="flex flex-col gap-y-8">
+            <TextBlock>
+              <Header headerValue={t("block_1.header")} />
+              <Paragraph paragraphValue={t("block_1.paragraph")} />
+            </TextBlock>
+            <TextBlock>
+              <Header headerValue={t("block_2.header")} />
+              <Paragraph paragraphValue={t("block_2.paragraph_1")} />
+              <Paragraph paragraphValue={t("block_2.paragraph_2")} />
+            </TextBlock>
+            <TextBlock>
+              <Header headerValue={t("block_3.header")} />
+              <Paragraph paragraphValue={t("block_3.paragraph_1")} />
+              <Paragraph paragraphValue={t("block_3.paragraph_2")} />
+              <Paragraph paragraphValue={t("block_3.paragraph_3")} />
+              <Paragraph paragraphValue={t("block_3.paragraph_4")} />
+              <Paragraph paragraphValue={t("block_3.paragraph_5")} />
+              <Paragraph paragraphValue={t("block_3.paragraph_6")} />
+              <Paragraph paragraphValue={t("block_3.paragraph_7")} />
+              <Paragraph paragraphValue={t("block_3.paragraph_8")} />
+            </TextBlock>
+            <TextBlock>
+              <Header headerValue={t("block_4.header")} />
+              <Paragraph paragraphValue={t("block_4.paragraph")} />
+            </TextBlock>
+            <TextBlock>
+              <Header headerValue={t("block_5.header")} />
+              <Paragraph paragraphValue={t("block_5.paragraph")} />
+            </TextBlock>
+            <TextBlock>
+              <Header headerValue={t("block_6.header")} />
+              <Paragraph paragraphValue={t("block_6.paragraph")} />
+            </TextBlock>
+          </article>
+        </section>
+      </div>
+    </MaxWidthWrapper>
   );
 };
 

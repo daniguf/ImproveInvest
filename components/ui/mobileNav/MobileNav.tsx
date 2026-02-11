@@ -21,7 +21,7 @@ const MobileNav: React.FC = () => {
     {
       id: 1,
       label: t("mira"),
-      href: "/",
+      href: "/mira",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const MobileNav: React.FC = () => {
     {
       id: 3,
       label: t("investors"),
-      href: "/investore",
+      href: "/investorer",
     },
     {
       id: 3,
