@@ -22,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={merriweather.className}>
-      <body className="grid grid-rows-[auto_1fr_auto]">
+      <body>
         <NextIntlClientProvider>
           <PrimaryLayout>{children}</PrimaryLayout>
         </NextIntlClientProvider>

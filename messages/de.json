@@ -1,11 +1,9 @@
 {
-  "header": {
-    "home": "Startseite",
+  "navigation": {
+    "mira": "MIRA",
     "projects": "Projekte",
-    "aboutUs": "Über Uns",
-    "contact": "Kontakt",
-    "whyInvest": "Warum Investieren?",
-    "whoIsImproveInvest": "Wer ist Improve Invest A/S"
+    "investors": "Investoren",
+    "about": "Über uns"
   },
   "footer": {
     "footer_top": {
@@ -482,6 +480,419 @@
       "subjectRequired": "Betreff ist erforderlich",
       "messageRequired": "Nachricht ist erforderlich",
       "messageMin": "Nachricht muss mindestens 10 Zeichen lang sein"
+    }
+  },
+  "landing_page": {
+    "hero": {
+      "headline": "Wertschöpfung durch disziplinierte Immobilieninvestitionen",
+      "paragraphs": {
+        "p1": "Improve Invest A/S investiert in Immobilien im Großraum Kopenhagen. Der Wert wird durch disziplinierte Analyse, Renovierung und die Umwandlung von Gewerbeimmobilien in Wohnraum geschaffen.",
+        "p2": "Als Investor erhalten Sie Zugang zu einer fokussierten Immobilienstrategie, die auf lokalen Markteinblicken, strukturierter Entscheidungsfindung und klaren Exit-Rahmenbedingungen basiert."
+      },
+      "ctas": {
+        "contact": {
+          "text": "Lassen Sie sich bezüglich einer Investition kontaktieren",
+          "href": "kontakt"
+        },
+        "read_more": {
+          "text": "Lesen Sie über unser Entscheidungsmodell – MIRA",
+          "href": ""
+        }
+      }
+    },
+    "why_invest": {
+      "heading": "Warum mit Improve Invest investieren?",
+      "points": [
+        "Systematische Wertschöpfung durch Renovierung und Umwandlung",
+        "Fokussierte Immobilieninvestition in einen der gefragtesten Wohnmärkte Europas",
+        "Die Mindesteinlage beträgt 750.000 DKK.",
+        "Investieren Sie mit Pensionsgeldern, freien Mitteln oder über die Unternehmenssteuerregelung (VSO)",
+        "Risikostreuung durch Investition in ein Gebäudeportfolio",
+        "Mehr als 20 Jahre Erfahrung mit Immobilien und Investitionen",
+        "Bei der dänischen Finanzaufsichtsbehörde als Verwalter alternativer Investmentfonds (AIF) registriert"
+      ],
+      "disclaimer": "*Historische Renditen sind keine Garantie für zukünftige Renditen."
+    },
+    "market_strategy": {
+      "heading": "Ein Markt. Eine Strategie. Klare Disziplin.",
+      "paragraphs": {
+        "p1": "Improve Invest konzentriert sich auf den Großraum Kopenhagen als Investitionsgebiet.",
+        "p2": "Der Großraum Kopenhagen zeichnet sich durch eine hohe und anhaltende Nachfrage nach Wohnraum, hohe Liquidität und klare Exit-Möglichkeiten aus. Veränderte Arbeitsmuster, weniger Büroflächen und reduzierter physischer Einzelhandel haben ein erhebliches Potenzial für die Umwandlung bestehender Gewerbeimmobilien in Wohnraum geschaffen.",
+        "p3": "Durch die Konzentration auf einen Markt erzielt Improve Invest tiefe lokale Einblicke, ein starkes Netzwerk und die Möglichkeit einer präzisen Risikobewertung. Dies reduziert die Komplexität und erhöht die Vorhersehbarkeit sowohl bei der Durchführung als auch bei der Realisierung.",
+        "p4": "Wohnungen in attraktiven Stadtgebieten verzeichneten historisch gesehen eine stabile Nachfrage. Dies macht den Großraum Kopenhagen zu einem natürlichen Mittelpunkt für eine disziplinierte und risikobewusste Immobilienstrategie."
+      }
+    },
+    "investment_model": {
+      "heading": "Das Modell hinter den Investitionen",
+      "sub_heading": "Ein festes Entscheidungsmodell hinter allen Projekten",
+      "paragraphs": {
+        "p1": "Alle Investitionen werden nach einem festen Entscheidungsmodell bewertet und gesteuert, das eine einheitliche Analyse, disziplinierte Risikobewertung und deutliche Exit-Szenarien sicherstellt – bevor Kapital gebunden wird.",
+        "p2": "Das Modell ist der Kern von Improve Invest. Unsere Arbeitsweise. Unsere Erfahrung zeigt, dass nur etwa einer von 80 bewerteten Fällen unseren Anforderungen entspricht."
+      },
+      "cta": {
+        "read_more": {
+          "text": "Lesen Sie mehr über MIRA – unser Entscheidungsmodell",
+          "href": ""
+        }
+      }
+    },
+    "how_we_create_value": {
+      "heading": "So schaffen wir Wert",
+      "points": [
+        {
+          "heading": "1. Selektive Auswahl",
+          "description": "Immobilien werden auf Basis von Lage, Nutzungsmöglichkeiten und Nachfrage im Großraum Kopenhagen ausgewählt – und oft über das eigene Netzwerk gefunden."
+        },
+        {
+          "heading": "2. Renovierung und Umwandlung",
+          "description": "Die Projekte werden mit festen Rahmenbedingungen, eigenen Partnern und laufender Qualitäts- und Budgetkontrolle durchgeführt."
+        },
+        {
+          "heading": "3. Realisierung und Reinvestition",
+          "description": "Die Immobilien werden verkauft, und Kapital sowie Rendite werden in neue Projekte reinvestiert."
+        }
+      ]
+    },
+    "buildings_with_identity_and_potential": {
+      "heading": "Gebäude mit Identität und Potenzial",
+      "sub_heading": "Geschichte als Teil der Auswahl",
+      "paragraph": "Improve Invest investiert oft in Immobilien mit Charakter und einer deutlichen historischen Identität. Es handelt sich um Gebäude, die solide gebaut, attraktiv gelegen und für eine neue Nutzung geeignet sind.",
+      "cta": "Ausgewählte Fälle und Projekte ansehen"
+    },
+    "governance": {
+      "heading": "Governance",
+      "sub_heading": "Professionelles Setup mit klaren Rahmenbedingungen",
+      "paragraphs": {
+        "p1": "Improve Invest A/S ist bei der dänischen Finanzaufsichtsbehörde als Verwalter alternativer Investmentfonds (AIF) registriert.",
+        "p2": "Dies unterstützt ein reguliertes Setup mit klaren Anforderungen an Governance, Berichterstattung und Anlegerschutz.",
+        "p3": "Improve Invest verfügt über einen professionellen Verwaltungsrat, der die übergeordnete Governance, strategische Aufsicht und Risikokontrolle des Unternehmens wahrnimmt.",
+        "p4": "Dem Verwaltungsrat gehören Christian Klarskov und der Verwaltungsratsvorsitzende Karsten Holst Bork Kristoffersen an, ein auf Gesellschafts- und Kapitalmarktrecht spezialisierter Rechtsanwalt.",
+        "p5": "Es wird mit externen Beratern in den Bereichen Revision, Steuern und Recht zusammengearbeitet, um eine korrekte Struktur und laufende Kontrolle zu gewährleisten.",
+        "p6": "Die Partner haben selbst Kapital in den Fonds investiert."
+      },
+      "ctas": {
+        "meet_out_partners": "Treffen Sie hier unsere Partner",
+        "contact": "Kontaktieren Sie uns für einen unverbindlichen Dialog"
+      },
+      "contact_form": {}
+    }
+  },
+  "mira": {
+    "title": "Investitionsmodell",
+    "articles": {
+      "article_1": {
+        "section_1": {
+          "subheading": "Improve Invest A/S ist ein dänischer Vermögensverwalter mit einer klaren Methode zur Wertschöpfung durch Immobilienumwandlungen und -renovierungen.",
+          "paragraphs": {
+            "p1": "Die Strategie besteht darin, attraktive Renditen durch Renovierung und Umwandlung von Immobilien – primär ehemaligen Gewerbegebäuden – in private Wohnungen in Gebieten mit nachweislich hoher Nachfrage zu erzielen.",
+            "p2": "Das Unternehmen investiert gezielt in einen Markt und nach einer durchgängigen Strategie. Dies ermöglicht tiefe lokale Einblicke, strukturierte Entscheidungsfindung und ein hohes Maß an Kontrolle während des gesamten Investitionsverlaufs."
+          }
+        },
+        "section_2": {
+          "subheading": "Aktive Wertschöpfung – keine Spekulation",
+          "paragraphs": {
+            "p1": "Das Geschäftsmodell von Improve Invest ist aktive Wertschöpfung. Die Rendite wird durch konkrete Verbesserungen und Umwandlungen der Immobilien erzielt – nicht durch das Abwarten allgemeiner Preissteigerungen am Markt.",
+            "p2": {
+              "subheading": "Dies geschieht durch:",
+              "points": [
+                "selektive Auswahl von Immobilien mit Umwandlungs- oder Verbesserungspotenzial",
+                "Durchführung von Renovierungen innerhalb fester Rahmenbedingungen für Qualität, Zeit und Finanzen",
+                "Realisierung durch Verkauf"
+              ]
+            }
+          }
+        },
+        "section_3": {
+          "subheading": "Ein Markt – eine bewusste Wahl",
+          "paragraphs": {
+            "p1": "Improve Invest hat den Großraum Kopenhagen als einziges Investitionsgebiet gewählt. Die Wahl basiert auf einer strukturellen Nachfrage nach Wohnraum, hoher Liquidität und klaren Exit-Möglichkeiten.",
+            "p2": "Der Fokus auf einen Markt ist eine strategische Wahl und ein zentraler Teil des Risikomanagements des Unternehmens."
+          }
+        },
+        "section_4": {
+          "subheading": "Ein gut definiertes Investitionssegment",
+          "paragraphs": {
+            "p1": "Improve Invest investiert typischerweise in Immobilien, die sich zwischen kleineren privaten Investoren und großen institutionellen Akteuren befinden. Diese Projekte sind oft zu komplex für kleinere Investoren und zu spezialisiert für institutionelle Fonds – was Zugang zu einem Markt mit begrenztem Wettbewerb und der Möglichkeit zur aktiven Wertschöpfung bietet.",
+            "p2": "Improve Invest investiert in Immobilien in der Preisklasse 15-200 Mio. DKK. Dies bietet eine große Streuung in der Anzahl der Immobilien und eine gute Risikostreuung."
+          }
+        },
+        "section_5": {
+          "subheading": "Disziplinierte Selektion und Prozess",
+          "paragraphs": {
+            "p1": "Alle Projekte werden nach festen Prinzipien für Lage, Umwandlungspotenzial, Risikoprofil und Exit bewertet. Nur ein kleiner Anteil der bewerteten Möglichkeiten wird als Investition durchgeführt – Selektivität ist ein entscheidender Teil des Ansatzes."
+          }
+        },
+        "section_6": {
+          "subheading": "Gebäude mit Identität",
+          "paragraphs": {
+            "p1": "Improve Invest investiert oft in Immobilien mit Charakter und historischer Identität. Die Geschichte ist nicht die Investitionsgrundlage an sich, fließt aber in die Bewertung ein, da Gebäude mit Identität oft eine hohe Nachfrage und gute Liquidität bei der Realisierung aufweisen."
+          }
+        },
+        "section_7": {
+          "subheading": "Improve Invest in Kürze",
+          "paragraphs": {
+            "p1": {
+              "points": [
+                "Fokussierte Immobilieninvestition im Großraum Kopenhagen",
+                "Aktive Wertschöpfung durch Renovierung und Umwandlung",
+                "Klare Methode und disziplinierte Selektion",
+                "Investition in mehrere Projekte mit Risikostreuung",
+                "Professionelles Setup mit klaren Rahmenbedingungen"
+              ]
+            }
+          }
+        }
+      },
+      "article_2": {
+        "heading": "MIRA – unser Entscheidungsmodell",
+        "section_1": {
+          "subheading": "Ein fester Rahmen für alle Investitionen",
+          "paragraphs": {
+            "p1": "MIRA ist das feste Entscheidungsmodell von Improve Invest für Investitionen in Immobilien. Das Modell wird konsequent über alle Projekte hinweg angewendet und stellt sicher, dass Investitionen nach derselben Disziplin und denselben Prinzipien bewertet, durchgeführt und realisiert werden.",
+            "p2": "MIRA steht für Modell für Investitions-, Renovierungs- und Renditeanalysen (Afkastsanalyser) und wurde auf Basis langjähriger praktischer Erfahrung mit Immobilieninvestitionen entwickelt.",
+            "img": "/",
+            "p3": "Wenn Improve Invest ein Projekt durchführt, dann deshalb, weil es MIRA bestanden hat."
+          }
+        },
+        "section_2": {
+          "subheading": "Warum ein Entscheidungsmodell?",
+          "paragraphs": {
+            "p1": "Immobilieninvestitionen beinhalten viele Variablen – einschließlich Lage, Preis, behördliche Verhältnisse, Renovierungsumfang und Exit-Möglichkeiten. MIRA wurde entwickelt, um Struktur in diese Entscheidungen zu bringen und sicherzustellen, dass alle Projekte gleich bewertet werden, unabhängig von Größe und Komplexität.",
+            "p2": {
+              "subheading": "Das Modell trägt bei zu:",
+              "points": [
+                "einheitlicher Analyse und Entscheidungsgrundlage",
+                "disziplinierter Ablehnung von Projekten",
+                "Dokumentation zentraler Annahmen und Risiken"
+              ]
+            }
+          }
+        },
+        "section_3": {
+          "subheading": "MIRA in drei Phasen",
+          "paragraphs": {
+            "p1": "MIRA begleitet die Investition durch den gesamten Verlauf – von der ersten Bewertung bis zur Realisierung."
+          }
+        },
+        "section_4": {
+          "subheading": "Schritt 1: Vor der Investition",
+          "paragraphs": {
+            "p1": "Bevor eine Immobilie erworben wird, wird MIRA verwendet, um die grundlegenden Voraussetzungen des Projekts zu bewerten.",
+            "p2": {
+              "subheading": "Hier wird unter anderem analysiert:",
+              "points": [
+                "Lage und lokale Nachfrage",
+                "Eingangspreis im Verhältnis zu Nutzungsmöglichkeiten",
+                "Potenzial für Renovierung oder Umwandlung",
+                "zentrale Risiken und alternative Szenarien"
+              ]
+            },
+            "p3": "Ziel ist es sicherzustellen, dass die Investition eine klare und realistische Grundlage hat, bevor Kapital gebunden wird."
+          }
+        },
+        "section_5": {
+          "subheading": "Schritt 2: Während der Renovierung",
+          "paragraphs": {
+            "p1": "Sobald die Investition getätigt ist, wird MIRA als Steuerungsinstrument während der Renovierungs- und Entwicklungsphase eingesetzt.",
+            "p2": {
+              "subheading": "Der Fokus liegt auf:",
+              "points": [
+                "Einhaltung von Budget und Zeitplan",
+                "festgelegten Rahmenbedingungen für Qualität und Ausführung",
+                "laufender Nachverfolgung identifizierter Risiken"
+              ]
+            },
+            "p3": "Dies stellt sicher, dass die Wertschöpfung kontrolliert und in Übereinstimmung mit den ursprünglichen Voraussetzungen erfolgt."
+          }
+        },
+        "section_6": {
+          "subheading": "Schritt 3: Vor der Realisierung",
+          "paragraphs": {
+            "p1": "Vor der Realisierung wird das Projekt erneut in MIRA mit Fokus auf den Exit bewertet.",
+            "p2": {
+              "subheading": "Hier fließt ein:",
+              "points": [
+                "Bewertung von Markt und Nachfrage",
+                "konkrete Exit-Szenarien",
+                "Möglichkeit der vorübergehenden Vermietung als Alternative"
+              ]
+            },
+            "p3": "Dies stellt sicher, dass die Wertschöpfung kontrolliert und in Übereinstimmung mit den ursprünglichen Voraussetzungen erfolgt."
+          }
+        },
+        "section_7": {
+          "subheading": "Eine Methode, kein Produkt",
+          "paragraphs": {
+            "p1": "MIRA ist ein internes Entscheidungsmodell und kein eigenständiges Produkt. Es wurde entwickelt, um Disziplin, Konsistenz und Transparenz bei der Arbeit mit Immobilieninvestitionen im Zeitverlauf sicherzustellen.",
+            "p2": "Mit anderen Worten ist es ein zentraler Teil der Arbeitsweise des Unternehmens – gebaut, um die Investitionsstrategie, das Risikomanagement und die Fälle von Improve Invest in einem gemeinsamen Rahmen zu verbinden."
+          }
+        }
+      }
+    }
+  },
+  "investors": {
+    "articles": {
+      "heading": "Investoren",
+      "article_1": {
+        "section_1": {
+          "subheading": "So läuft eine Investition bei Improve Invest ab",
+          "paragraphs": {
+            "p1": "Eine Investition bei Improve Invest ist strukturiert, überschaubar und basiert auf einem klaren Prozess.",
+            "p2": {
+              "points": [
+                {
+                  "heading": "Wir identifizieren und analysieren ein Projekt",
+                  "description": "Ein Immobilienprojekt wird gründlich nach unserem Entscheidungsmodell, MIRA, bewertet. Nur Projekte, die den Anforderungen an Lage, Risiko und Rendite entsprechen, werden durchgeführt."
+                },
+                {
+                  "heading": "Kapitalerweiterung wird geöffnet",
+                  "description": "Wenn Improve Invest A/S das Kapital erweitert, erhalten interessierte Investoren die Möglichkeit, Miteigentümer des Unternehmens und damit aller laufenden Projekte zu werden."
+                },
+                { "heading": "Die Mindestinvestition beträgt 750.000 DKK" },
+                {
+                  "heading": "Freie Mittel, Pension oder VSO",
+                  "description": "Die Investition kann mit privatem Kapital, über die Unternehmenssteuerregelung (VSO) oder mit Pensionsgeldern erfolgen. Die konkreten Rahmenbedingungen werden immer individuell durchgegangen."
+                },
+                {
+                  "heading": "Sie kontaktieren uns und investieren",
+                  "description": "Die Investition erfolgt über einen direkten Dialog, in dem wir sicherstellen, dass Improve Invest für Sie relevant ist und die Rahmenbedingungen klar sind. Es kann mit freien Mitteln, Pensionsgeldern oder über die Unternehmenssteuerregelung investiert werden."
+                },
+                {
+                  "heading": "Projekte werden laufend durchgeführt",
+                  "description": "Immobilien im Portfolio werden innerhalb fester Rahmenbedingungen für Zeit, Qualität und Finanzen mit laufender Steuerung und Kontrolle renoviert oder umgewandelt."
+                },
+                {
+                  "heading": "Realisierung",
+                  "description": "Wenn ein Projekt abgeschlossen ist, wird der Wert durch Verkauf realisiert."
+                },
+                {
+                  "heading": "Kapital und Rendite",
+                  "description": "Die Rendite wird in neue Projekte reinvestiert."
+                }
+              ]
+            }
+          }
+        },
+        "section_2": {
+          "subheading": "Risiko",
+          "paragraphs": {
+            "p1": "Alle Investitionen beinhalten Risiken. Bei Improve Invest wird Risiko systematisch durch feste Prinzipien gehandhabt, die über alle Investitionen hinweg angewendet werden."
+          }
+        },
+        "section_3": {
+          "subheading": "Die fünf Risikoprinzipien von Improve Invest",
+          "points": [
+            {
+              "subheading": "Lage und Liquidität",
+              "description": "Es wird ausschließlich in dicht besiedelten Gebieten mit nachgewiesener Nachfrage und klaren Realisierungsmöglichkeiten investiert."
+            },
+            {
+              "subheading": "Selektive Projektauswahl",
+              "description": "Nur Projekte, die festen Anforderungen an Lage, Nutzung und Risikoprofil entsprechen, werden durchgeführt."
+            },
+            {
+              "subheading": "Kontrollierbare Renovierung",
+              "description": "Renovierungen werden innerhalb fester Rahmenbedingungen für Zeit, Qualität und Finanzen durchgeführt."
+            },
+            {
+              "subheading": "Alternative Szenarien",
+              "description": "Alle Investitionen werden mit mehreren möglichen Szenarien bewertet, einschließlich vorübergehender Vermietung."
+            },
+            {
+              "subheading": "Begrenzter Verschuldungsgrad",
+              "description": "Finanzierung wird mit Bedacht eingesetzt, um Robustheit in den Projekten zu gewährleisten."
+            }
+          ]
+        },
+        "section_4": {
+          "subheading": "Risikostreuung",
+          "paragraphs": {
+            "p1": "Investoren erhalten eine Exposition gegenüber einem Portfolio von Immobilienprojekten anstatt einem einzelnen Projekt. Risikostreuung auf Portfolioebene ist ein zentrales Element des Ansatzes des Unternehmens."
+          }
+        },
+        "section_5": {
+          "subheading": "Regulatorisches Setup und Governance",
+          "paragraphs": {
+            "p1": "Improve Invest A/S ist bei der dänischen Finanzaufsichtsbehörde als Verwalter alternativer Investmentfonds (AIF) registriert. Dies beinhaltet feste Anforderungen an Governance, Compliance, Dokumentation und laufende Berichterstattung.",
+            "href": "https://www.finanstilsynet.dk/finansielle-temaer/investeringsomraadet/spoergsmaal-og-svar",
+            "p2": "Das regulierte Setup ist ein integrierter Bestandteil der Arbeitsweise des Unternehmens und trägt zu Transparenz und Anlegerschutz bei."
+          }
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Projekte"
+  },
+  "about": {
+    "title": "Über uns",
+    "articles": {
+      "article_1": {
+        "section_1": {
+          "paragraphs": {
+            "p1": "Improve Invest wurde aus dem gemeinsamen Wunsch heraus gegründet, eine transparentere, anständigere und diszipliniertere Art der Immobilieninvestition zu schaffen. Wir teilen die grundlegende Überzeugung, dass solide Wertschöpfung nicht durch Spekulation entsteht, sondern durch gründliche Arbeit, klare Prozesse und Respekt sowohl vor dem Kapital als auch vor dem Handwerk.",
+            "p2": "Unsere Zusammenarbeit entspringt nicht nur einem fachlichen gemeinsamen Nenner, sondern auch einem langjährigen persönlichen Band. Improve Invest ist daher auf einem Fundament gebaut, auf dem Beziehungen und Anständigkeit genauso hoch gewichtet werden wie Rendite.",
+            "p3": "Die Motivation zur Gründung von Improve Invest entstand, als wir einen Markt erlebten, auf dem viele Immobilieninvestitionen von optimistischen Markterwartungen, Steuerspekulation oder mangelnder Transparenz geprägt waren. Unsere Ambition ist es, eine Investitionsstruktur zu schaffen, in der der Wert im Prozess selbst entsteht: durch den Kauf von Immobilien mit Potenzial, die Durchführung gut geplanter Renovierungen und die Realisierung des Wertes erst, wenn die Arbeit getan ist.",
+            "p4": "Was Improve Invest von vielen anderen Akteuren unterscheidet, ist die Arbeit im Spannungsfeld zwischen Investition und Praxis sowie unser konsequenter Fokus auf realisierte Wertschöpfung. Wir schreiben Werte nicht laufend hoch und stützen uns nicht auf Annahmen über allgemeine Preissteigerungen am Wohnungsmarkt. Der Wert wird erst dokumentiert, wenn ein Projekt abgeschlossen und verkauft ist. Dies bietet einen nüchternen und überprüfbaren Ansatz – sowohl für uns selbst als auch für unsere Investoren.",
+            "p5": "Langfristig möchten wir einen Vermögensverwalter aufbauen, der für Disziplin, Anständigkeit, Fokus und Transparenz bekannt ist. Improve Invest soll ein Ort sein, an dem Investoren Klarheit über Risiken, Kosten und Potenzial erfahren – und an dem Vertrauen im Laufe der Zeit durch konsistente Entscheidungen und verantwortungsvolle Verwaltung aufgebaut wird.",
+            "p6": "Improve Invest wurde nicht geschaffen, um der Größte zu sein – sondern um gründlich, anständig und wertschöpfend zu sein."
+          }
+        },
+        "section_2": {
+          "subheading": "Die Partner hinter Improve Invest",
+          "paragraphs": {
+            "p1": "Improve Invest wurde von Partnern mit langjähriger Erfahrung in Investitionen, Immobilien und der Durchführung komplexer Projekte gegründet und wird von diesen betrieben. Gemeinsam ist den Partnern ein disziplinierter Ansatz zur Entscheidungsfindung und ein deutlicher Fokus auf die verantwortungsvolle Verwaltung des Kapitals der Investoren.",
+            "partners": {
+              "jacques_skovgaard": {
+                "subheading": {
+                  "name": "Jacques Skovgaard,",
+                  "role": "Partner"
+                },
+                "description": {
+                  "paragraphs": {
+                    "p1": "Jacques verfügt über mehr als 25 Jahre Erfahrung im Finanzsektor mit Führungspositionen in den Bereichen Investment, Vermögensverwaltung und Beratung. Er hatte zuvor die Verantwortung für Investment- und Wealth-Management-Bereiche unter anderem bei der Danske Bank, Nordea, FIH, Alm. Brand und zuletzt der Sydbank.",
+                    "p2": "Jacques hatte zudem eine aktive Rolle in Branchenorganisationen und der Vorstandsarbeit, unter anderem als Vorsitzender des Börsenmaklerverbands."
+                  }
+                }
+              },
+              "christian_storinggaard": {
+                "subheading": {
+                  "name": "Christian Storinggaard,",
+                  "role": "Partner"
+                },
+                "description": {
+                  "paragraphs": {
+                    "p1": "Christian verfügt über mehr als 18 Jahre Erfahrung in der Immobilien- und Baubranche und hat an Renovierungs- und Neubauprojekten von insgesamt mehr als 17.000 m² mitgewirkt. Er war Miteigentümer von Entwicklungs- und Vermietungsgesellschaften und verfügt über umfangreiche praktische Erfahrung bei der Durchführung von Immobilienprojekten.",
+                    "p2": "Darüber hinaus hatte Christian Führungspositionen in internationalen Unternehmen wie Ecolab, Nilfisk, Dyson und Hempel inne, wo er mit Struktur, Prozessen und Exekution gearbeitet hat."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "section_3": {
+          "subheading": "Alignment mit den Investoren",
+          "paragraphs": {
+            "p1": "Die Partner von Improve Invest haben selbst Kapital in den Fonds investiert. Dies stellt sicher, dass Entscheidungen mit demselben Interesse und Risikoverständnis wie bei den Investoren getroffen werden – und unterstützt einen langfristigen und verantwortungsvollen Ansatz bei den Investitionen."
+          }
+        },
+        "section_4": {
+          "subheading": "Ein professioneller Rahmen für Investitionen",
+          "paragraphs": {
+            "p1": "Improve Invest ist so organisiert, dass ein professionelles, strukturiertes und transparentes Investitionserlebnis geboten wird. Das bedeutet klare Rollen, feste Prozesse und ein konsequenter Ansatz sowohl in Bezug auf Risiko als auch auf Wertschöpfung.",
+            "p2": "Es wird mit externen Beratern in den Bereichen Revision, Steuern und Recht zusammengearbeitet, um eine korrekte Struktur und laufende Kontrolle zu gewährleisten."
+          }
+        },
+        "section_5": {
+          "subheading": "Fachlich starker Verwaltungsrat",
+          "paragraphs": {
+            "p1": "Improve Invest wird von einem fachlich kompetenten Verwaltungsrat mit Erfahrung in den Bereichen Investition, Strategie und Governance unterstützt. Dem Verwaltungsrat gehören unter anderem Christian Klarskov an, ein Investor mit langjähriger Erfahrung auf den Finanzmärkten, sowie Karsten Holst Bork Kristoffersen, Verwaltungsratsvorsitzender und Rechtsanwalt mit Spezialisierung auf Gesellschafts- und Kapitalmarktverhältnisse.",
+            "p2": "Der Verwaltungsrat trägt mit Sparring, strategischem Überblick und einer professionellen Entscheidungsgrundlage bei.",
+            "contact_form_heading": "Kontaktieren Sie uns",
+            "p3": "Investitionen in Improve Invest können mit privatem Kapital, über die Unternehmenssteuerregelung oder mit Pensionsgeldern erfolgen. Die konkreten Rahmenbedingungen werden immer individuell durchgegangen."
+          }
+        }
+      }
     }
   }
 }

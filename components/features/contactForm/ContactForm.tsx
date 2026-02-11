@@ -52,7 +52,7 @@ export default function ContactForm() {
       } else {
         setSubmitStatus("error");
       }
-      // eslint-disable-next-line no-unused-vars
+      // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
     } catch (error) {
       setSubmitStatus("error");
     } finally {
@@ -61,7 +61,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="form-container flex-1">
+    <div className="form-container">
       {submitStatus === "success" && (
         <div className="form-success">{t("success")}</div>
       )}

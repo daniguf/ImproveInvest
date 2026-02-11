@@ -1,0 +1,20 @@
+{
+  "partners": {
+    "jacques_skovgaard": {
+      "name": "Jacques Skovgaard,",
+      "role": "Partner",
+      "image_src": "/productOwners/jacques/JS-1.png",
+      "references": {
+        "linkedIn": "https://www.linkedin.com/in/jacquesskovgaard/"
+      }
+    },
+    "christian_storinggaard": {
+      "name": "Christian Storinggaard,",
+      "role": "Partner",
+      "image_src": "/productOwners/christian/CS-1.png",
+      "references": {
+        "linkedIn": "https://www.linkedin.com/in/cstoringgaard/"
+      }
+    }
+  }
+}

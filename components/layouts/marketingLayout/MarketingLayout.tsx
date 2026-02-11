@@ -9,7 +9,7 @@ const MarketingLayout = ({ children }: IMarketingLayout) => {
   return (
     <>
       <Header /> 
-      <main className="relative max-w-dvw flex flex-col mx-auto mb-9">
+      <main className="relative max-w-dvw flex flex-col mx-auto">
         {children}
       </main>
       <Footer />
