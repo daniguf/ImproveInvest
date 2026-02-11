@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "siteTitle": "Improve Invest",
+    "currency": "DKK"
+  },
+  "navigation": {
+    "investors": "Investorer",
+    "methodology": "Metode",
+    "about": "Om os",
+    "projects": "Projekter",
+    "contact": "Kontakt"
+  },
+  "landing": {
+    "hero": {
+      "headline": "Værdiskabelse ved disciplinerede ejendomsinvesteringer",
+      "paragraphs": [
+        "Improve Invest A/S investerer i ejendomme i Storkøbenhavn. Værdien skabes gennem disciplineret analyse, renovering og konvertering af erhvervsbygninger til boliger.",
+        "Som investor får du adgang til en fokuseret ejendomsstrategi baseret på lokal markedsindsigt, struktureret beslutningstagning og klare exit-rammer."
+      ],
+      "ctaPrimary": "Bliv kontaktet om investering",
+      "ctaSecondary": "Læs om vores beslutningsmodel – MIRA"
+    },
+    "whyInvest": {
+      "heading": "Hvorfor investere med Improve Invest?",
+      "disclaimer": "*Historisk afkast er ikke en garanti for fremtidigt afkast.",
+      "features": [
+        "Fokuseret ejendomsinvestering i ét af Europas mest efterspurgte boligmarkeder",
+        "Systematisk værdiskabelse gennem renovering og konvertering",
+        "Risikospredning via investering i en portefølje af bygninger",
+        "Mere end 20 års erfaring med ejendomme og investering",
+        "Registreret hos Finanstilsynet som forvalter af alternative investeringsfonde (AIF)",
+        "Minimumsindskud er 750.000 Dkk.",
+        "Invester med pensionsmidler, frie midler eller VSO"
+      ],
+      "marketStrategy": {
+        "heading": "Ét marked. Én strategi. Klar disciplin.",
+        "paragraphs": [
+          "Improve Invest fokuserer på Storkøbenhavn som investeringsområde.",
+          "Storkøbenhavn er kendetegnet ved høj og vedvarende efterspørgsel på boliger, høj likviditet og klare exit-muligheder. Ændrede arbejdsmønstre, færre kontorlokaler og mindre fysisk detailhandel har skabt et betydeligt potentiale for konvertering af eksisterende erhvervsejendomme til boliger.",
+          "Ved at fokusere på ét marked opnår Improve Invest dyb lokal indsigt, et stærkt netværk og mulighed for præcis risikovurdering. Det reducerer kompleksitet og øger forudsigeligheden i både gennemførelse og realisering.",
+          "Boliger i attraktive byområder har historisk haft stabil efterspørgsel. Det gør Storkøbenhavn til et naturligt omdrejningspunkt for en disciplineret og risikobevidst ejendomsstrategi."
+        ]
+      }
+    },
+    "investmentModel": {
+      "heading": "Modellen bag investeringerne",
+      "subheading": "En fast beslutningsmodel bag alle projekter",
+      "paragraphs": [
+        "Alle investeringer vurderes og styres efter en fast beslutningsmodel, der sikrer ensartet analyse, disciplineret risikovurdering og tydelige exit-scenarier – før kapital bindes.",
+        "Modellen er Improve Invests kerne. Vores måde at arbejde på. Vores erfaring viser, at kun cirka én ud af 80 vurderede cases lever op til vores krav."
+      ],
+      "cta": "Læs mere om MIRA – vores beslutningsmodel"
+    },
+    "valueCreation": {
+      "heading": "Sådan skaber vi værdi",
+      "steps": [
+        {
+          "heading": "Selektiv udvælgelse",
+          "description": "Ejendomme udvælges på baggrund af beliggenhed, anvendelsesmuligheder og efterspørgsel i Storkøbenhavn – og findes ofte via eget netværk."
+        },
+        {
+          "heading": "Renovering og konvertering",
+          "description": "Projekterne gennemføres med faste rammer, egne samarbejdspartnere og løbende kvalitets- og budgetkontrol."
+        },
+        {
+          "heading": "Realisering og geninvestering",
+          "description": "Ejendommene sælges, og kapital samt afkast geninvesteres i nye projekter."
+        }
+      ]
+    },
+    "governance": {
+      "heading": "Governance",
+      "subheading": "Professionelt setup med klare rammer",
+      "paragraphs": [
+        "Improve Invest A/S er registreret hos Finanstilsynet som forvalter af alternative investeringsfonde (AIF).",
+        "Det understøtter et reguleret setup med klare krav til governance, rapportering og investorbeskyttelse.",
+        "Improve Invest har en professionel bestyrelse, der varetager selskabets overordnede governance, strategiske tilsyn og risikokontrol.",
+        "Bestyrelsen omfatter Christian Klarskov og bestyrelsesformand Karsten Holst Bork Kristoffersen, advokat med speciale i selskabs- og kapitalmarkedsret.",
+        "Der samarbejdes med eksterne rådgivere inden for revision, skat og jura for at sikre korrekt struktur og løbende kontrol.",
+        "Partnerne har selv kapital investeret i fonden."
+      ],
+      "cta": "Mød vores partnere her"
+    }
+  },
+  "mira": {
+    "meta": {
+      "title": "Investeringsmodel"
+    },
+    "introduction": {
+      "lead": "Improve Invest A/S er en dansk kapitalforvalter med klar metode til værdiskabelse gennem ejendomskonverteringer og renoveringer.",
+      "paragraphs": [
+        "Strategien er at skabe attraktivt afkast gennem renovering og konvertering af ejendomme – primært tidligere erhvervsbygninger – til private boliger i områder med dokumenteret høj efterspørgsel.",
+        "Selskabet investerer målrettet i ét marked og efter én gennemgående strategi. Det giver mulighed for dyb lokal indsigt, struktureret beslutningstagning og høj grad af kontrol gennem hele investeringsforløbet."
+      ]
+    },
+    "activeValue": {
+      "heading": "Aktiv værdiskabelse – ikke spekulation",
+      "paragraphs": [
+        "Strategien er at skabe attraktivt afkast gennem renovering og konvertering af ejendomme – primært tidligere erhvervsbygninger – til private boliger i områder med dokumenteret høj efterspørgsel.",
+        "Improve Invests forretningsmodel er aktiv værdiskabelse. Afkastet skabes gennem konkrete forbedringer og konverteringer af ejendommene – ikke ved at afvente generelle prisstigninger i markedet."
+      ],
+      "approachListLabel": "Det sker ved:",
+      "approach": [
+        "selektiv udvælgelse af ejendomme med konverterings- eller forbedringspotentiale",
+        "gennemførelse af renoveringer inden for faste rammer for kvalitet, tid og økonomi",
+        "realisering gennem salg"
+      ]
+    },
+    "singleMarket": {
+      "heading": "Ét marked – et bevidst valg",
+      "paragraphs": [
+        "Improve Invest har valgt Storkøbenhavn som eneste investeringsområde. Valget er baseret på en strukturel efterspørgsel på boliger, høj likviditet og klare exit-muligheder.",
+        "Fokus på ét marked er et strategisk valg og en central del af selskabets risikostyring."
+      ]
+    },
+    "decisionModel": {
+      "heading": "MIRA – vores beslutningsmodel",
+      "lead": "En fast ramme for alle investeringer",
+      "description": [
+        "MIRA er Improve Invests faste beslutningsmodel for investering i ejendomme. Modellen anvendes konsekvent på tværs af alle projekter og sikrer, at investeringer vurderes, gennemføres og realiseres efter samme disciplin og principper.",
+        "MIRA står for Model for Investerings-, Renoverings- og Afkastsanalyser."
+      ],
+      "steps": [
+        {
+          "id": "pre-investment",
+          "title": "Step 1: Før investering",
+          "body": "Inden en ejendom erhverves, anvendes MIRA til at vurdere projektets grundlæggende forudsætninger.",
+          "checklist": [
+            "beliggenhed og lokal efterspørgsel",
+            "indgangspris i forhold til anvendelsesmuligheder",
+            "potentiale for renovering eller konvertering",
+            "centrale risici og alternative scenarier"
+          ]
+        },
+        {
+          "id": "renovation",
+          "title": "Step 2: Under renovering",
+          "body": "Når investeringen er gennemført, anvendes MIRA som styringsværktøj gennem renoverings- og udviklingsfasen.",
+          "checklist": [
+            "overholdelse af budget og tidsplan",
+            "fastlagte rammer for kvalitet og udførelse",
+            "løbende opfølgning på identificerede risici"
+          ]
+        },
+        {
+          "id": "realization",
+          "title": "Step 3: Før realisering",
+          "body": "Inden realisering vurderes projektet igen i MIRA med fokus på exit.",
+          "checklist": [
+            "vurdering af marked og efterspørgsel",
+            "konkrete exit-scenarier",
+            "mulighed for midlertidig udlejning som alternativ"
+          ]
+        }
+      ]
+    }
+  },
+  "investors": {
+    "meta": {
+      "title": "Investorer"
+    },
+    "process": {
+      "heading": "Sådan foregår en investering i Improve Invest",
+      "lead": "Investering i Improve Invest er struktureret, overskuelig og baseret på en klar proces.",
+      "steps": [
+        {
+          "heading": "Vi identificerer og analyserer et projekt",
+          "body": "Et ejendomsprojekt vurderes grundigt efter vores beslutningsmodel, MIRA. Kun projekter, der lever op til kravene om beliggenhed, risiko og afkast, gennemføres."
+        },
+        {
+          "heading": "Kapitaludvidelse åbnes",
+          "body": "Når Improve Invest A/S udvider kapitalen, får interesserede investorer mulighed for at blive medejere af selskabet og dermed alle igangværende projekter."
+        },
+        {
+          "heading": "Minimumsinvestering er 750.000 kr.",
+          "body": ""
+        },
+        {
+          "heading": "Frie midler, pension eller VSO",
+          "body": "Investering kan ske med privat kapital, via virksomhedsordning (VSO) eller pensionsmidler. De konkrete rammer gennemgås altid individuelt."
+        },
+        {
+          "heading": "Du kontakter os og investerer",
+          "body": "Investeringen sker via en direkte dialog, hvor vi sikrer, at Improve Invest er relevant for dig, og at rammerne er klare."
+        },
+        {
+          "heading": "Projekter gennemføres løbende",
+          "body": "Ejendomme i porteføljen renoveres eller konverteres inden for faste rammer for tid, kvalitet og økonomi med løbende styring og kontrol."
+        },
+        {
+          "heading": "Realisering",
+          "body": "Når et projekt er færdigt, realiseres værdien gennem salg."
+        },
+        {
+          "heading": "Kapital og afkast",
+          "body": "Afkastet geninvesteres i nye projekter."
+        }
+      ]
+    },
+    "risk": {
+      "heading": "Risiko",
+      "principles": {
+        "heading": "Improve Invests fem risikoprincipper",
+        "items": [
+          {
+            "heading": "Beliggenhed og likviditet",
+            "body": "Der investeres udelukkende i tætbefolkede områder med dokumenteret efterspørgsel og klare muligheder for realisering."
+          },
+          {
+            "heading": "Selektiv projektudvælgelse",
+            "body": "Kun projekter, der lever op til faste krav til beliggenhed, anvendelse og risikoprofil, gennemføres."
+          },
+          {
+            "heading": "Kontrollerbar renovering",
+            "body": "Renoveringer gennemføres inden for faste rammer for tid, kvalitet og økonomi."
+          },
+          {
+            "heading": "Alternative scenarier",
+            "body": "Alle investeringer vurderes med flere mulige scenarier, herunder midlertidig udlejning."
+          },
+          {
+            "heading": "Begrænset gearing",
+            "body": "Finansiering anvendes med omtanke for at sikre robusthed i projekterne."
+          }
+        ]
+      },
+      "diversification": {
+        "heading": "Risikospredning",
+        "body": "Investorer opnår eksponering mod en portefølje af ejendomsprojekter frem for et enkelt projekt. Risikospredning på porteføljeniveau er et centralt element i selskabets tilgang."
+      },
+      "governance": {
+        "heading": "Regulatorisk setup og governance",
+        "body": "Improve Invest A/S er registreret hos Finanstilsynet som forvalter af alternative investeringsfonde (AIF). Det indebærer faste krav til governance, compliance, dokumentation og løbende rapportering. Det regulerede setup er en integreret del af selskabets måde at arbejde på og bidrager til transparens og investorbeskyttelse.",
+        "link": "https://www.finanstilsynet.dk/finansielle-temaer/investeringsomraadet/spoergsmaal-og-svar"
+      }
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "Om os"
+    },
+    "story": {
+      "paragraphs": [
+        "Improve Invest blev stiftet ud fra et fælles ønske om at skabe en mere gennemsigtig, ordentlig og disciplineret måde at investere i ejendomme på...",
+        "Vores samarbejde udspringer ikke kun af en faglig fællesnævner, men også af et mangeårigt personligt bånd...",
+        "Det, der adskiller Improve Invest fra mange andre aktører, er arbejdet i spændingsfeltet mellem investering og praksis...",
+        "Improve Invest er ikke skabt for at være størst – men for at være grundig, ordentlig og værdiskabende."
+      ]
+    },
+    "partners": {
+      "heading": "Partnerne bag Improve Invest",
+      "lead": "Improve Invest er stiftet og drives af partnere med mange års erfaring inden for investering, ejendomme og gennemførelse af komplekse projekter.",
+      "items": [
+        {
+          "name": "Jacques Skovgaard",
+          "role": "Partner",
+          "bio": [
+            "Jacques har mere end 25 års erfaring fra den finansielle sektor med ledende stillinger inden for investering, formueforvaltning og rådgivning...",
+            "Jacques har desuden haft en aktiv rolle i brancheorganisationer og bestyrelsesarbejde..."
+          ],
+          "image": "/images/team/jacques.jpg",
+          "linkedin": null
+        },
+        {
+          "name": "Christian Storinggaard",
+          "role": "Partner",
+          "bio": [
+            "Christian har mere end 18 års erfaring fra ejendoms- og byggebranchen...",
+            "Derudover har Christian haft ledende stillinger i internationale virksomheder..."
+          ],
+          "image": "/images/team/christian.jpg",
+          "linkedin": null
+        }
+      ]
+    },
+    "alignment": {
+      "heading": "Alignment med investorerne",
+      "body": "Partnerne i Improve Invest har selv kapital investeret i fonden. Det sikrer, at beslutninger træffes med samme interesse og risikoforståelse som investorernes – og understøtter en langsigtet og ansvarlig tilgang til investeringerne."
+    },
+    "board": {
+      "heading": "Fagligt stærk bestyrelse",
+      "paragraphs": [
+        "Improve Invest understøttes af en fagligt kompetent bestyrelse med erfaring inden for investering, strategi og governance...",
+        "Bestyrelsen bidrager med sparring, strategisk overblik og et professionelt beslutningsgrundlag."
+      ]
+    }
+  },
+  "projects": {
+    "meta": {
+      "title": "Projekter"
+    },
+    "gallery": {
+      "heading": "Bygninger med identitet og potentiale",
+      "lead": "Improve Invest investerer ofte i ejendomme med karakter og en tydelig historisk identitet. Det er bygninger, der er solidt opført, attraktivt beliggende og velegnede til ny anvendelse.",
+      "cta": "Se Projektet"
+    }
+  }
+}
