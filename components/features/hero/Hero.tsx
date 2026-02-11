@@ -28,10 +28,10 @@ const Hero: React.FC = () => {
                   {t("headline")}
                 </div>
                 {/* Sub header */}
-                <div className="font-extralight w-3/5 text-xs text-center">
+                <div className="font-extralight w-3/5 text-sm text-center">
                   {t("paragraphs.p1")}
                 </div>
-                <div className="font-extralight w-3/5 text-xs text-center">
+                <div className="font-extralight w-3/5 text-sm text-center">
                   {t("paragraphs.p2")}
                 </div>
               </div>
