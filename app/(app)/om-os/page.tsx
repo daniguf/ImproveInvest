@@ -27,9 +27,9 @@ const About = () => {
           {/* Section 2 */}
           <div className="py-32">
             <SubHeading>{bodyContentArticle1.section_2.subheading}</SubHeading>
-            <p>{bodyContentArticle1.section_2.paragraphs.p1}</p>
+            <p className="">{bodyContentArticle1.section_2.paragraphs.p1}</p>
             {/* Partners Bios*/}
-            <div className="flex flex-col gap-32">
+            <div className="flex flex-col gap-32 border-b">
               {/* Jacques */}
               <PartnerBio name="jacques_skovgaard" />
               {/* Christian */}

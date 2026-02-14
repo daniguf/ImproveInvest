@@ -18,7 +18,7 @@ const Governance = () => {
     <section className="w-full h-full text-white bg-variant">
       <MaxWidthWrapper>
         <div className="flex flex-col h-full">
-          <div className="flex flex-col">
+          <div className="flex flex-col pb-16">
             <Heading>{bodyContentHeading}</Heading>
             <h3 className="font-semibold text-lg">{bodyContentSubHeading}</h3>
           </div>

@@ -222,12 +222,12 @@ const InvestmentModel = () => {
         <div className="flex justify-center items-center w-full text-white text-sm py-16">
           <div className="flex flex-col w-1/3 gap-4">
             <p>{bodyContentParagraphs.p1}</p>
-            <p>{bodyContentParagraphs.p2}</p>
+            <p className="bg-secondary p-2">{bodyContentParagraphs.p2}</p>
           </div>
         </div>
         <div className="flex justify-end items-center w-full text-white text-sm">
           <Link href={"/mira"}>
-            <div className="flex border border-white p-4 gap-4 hover:bg-white hover:text-black transition-colors">
+            <div className="flex border border-white p-4 gap-4 hover:bg-white hover:text-black transition-colors bg-secondary">
               {bodyContentCtaReadMoreText} <MoveUpRight />
             </div>
           </Link>
