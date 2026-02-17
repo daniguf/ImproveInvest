@@ -1,4 +1,3 @@
-import Image from "next/image";
 import LanguageSwitcher from "../languageSwitcher/LanguageSwitcher";
 import MobileNav from "../mobileNav/MobileNav";
 import NavItems from "../navItems/NavItems";
@@ -21,13 +20,6 @@ const Header: React.FC = () => {
       </div>
       <div className="top-0 right-0 absolute xl:hidden w-full h-25 p-[1em] bg-primary z-10 text-white/90">
         <div className="relative flex justify-between items-center h-full w-4/5 mx-auto">
-          <Image
-            src={"/logo/brand/improve-invest-white.png"}
-            alt="logo"
-            width={200}
-            height={61}
-            quality={100}
-          />
           <MobileNav />
         </div>
       </div>

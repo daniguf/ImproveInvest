@@ -2,7 +2,7 @@ import Gallery from "@/components/features/gallery/Gallery";
 import { projectBySlugQuery } from "@/lib/queries";
 import { sanityClient } from "@/sanity/client";
 import { Project } from "@/sanity/schema/project";
-import { PortableText } from "@portabletext/react";
+import { PortableText } from "next-sanity";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import { TypedObject } from "sanity";
@@ -26,7 +26,7 @@ export default async function ProjectPage({
     slug, // ✅ now pass the actual string value
     locale,
   });
-  console.log("projectpage", project);
+  console.log("projectpage", project.content[2]);
 
   if (!project) notFound();
 
@@ -36,7 +36,7 @@ export default async function ProjectPage({
       <Gallery items={project.gallery} />
 
       {project.content && (
-        <div className="prose prose-invert max-w-none mt-6 lg:min-w-[1128px] text-white">
+        <div className="mt-6 lg:min-w-[1128px] text-white">
           <p className="my-4">{project.address}</p>
           <PortableText value={project.content as TypedObject[]} />
         </div>

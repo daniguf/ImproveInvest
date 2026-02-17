@@ -3,7 +3,7 @@ interface IHeading {
 }
 
 const Heading = ({ children }: IHeading) => {
-  return <h1 className="text-4xl font-bold text-white">{children}</h1>;
+  return <h1 className="text-4xl font-bold text-white max-sm:wrap-break-word">{children}</h1>;
 };
 
 export default Heading;
