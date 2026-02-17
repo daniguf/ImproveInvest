@@ -15,18 +15,18 @@ const MarketStrategy = () => {
 
   return (
     <section className="w-full h-full">
-      <div className="h-56 w-full flex items-center justify-center text-center bg-primary">
+      <div className="h-56 w-full flex items-center justify-center text-center bg-primary max-sm:px-8">
         <Heading>{bodyContentHeading}</Heading>
       </div>
       <MaxWidthWrapper>
-        <div className="flex w-full h-full gap-x-16">
-          <div className="flex flex-col text-white text-sm w-1/2 gap-8">
+        <div className="sm:flex w-full h-full gap-x-16">
+          <div className="flex flex-col text-white text-sm sm:w-1/2 gap-8">
             <p className="text-lg font-bold">{bodyContentParagraphs.p1}</p>
             <p>{bodyContentParagraphs.p2}</p>
             <p>{bodyContentParagraphs.p3}</p>
             <p>{bodyContentParagraphs.p4}</p>
           </div>
-          <div className="flex w-1/2 bg-amber-300">
+          <div className="flex sm:w-1/2 max-sm:mt-8">
             <Image
               alt="Greater Copenhagen"
               src="/et_marked.png"

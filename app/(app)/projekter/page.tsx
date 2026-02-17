@@ -20,7 +20,7 @@ export default async function ProjectsPage() {
   // const projects: Project[] = await sanityClient.fetch(allProjectsQuery);
 
   return (
-    <section className="px-6 py-12 min-w-[90dvw] xl:min-w-[1128px] min-h-screen">
+    <section className="px-6 py-12 min-w-[90dvw] xl:min-w-[1128px] sm:min-h-screen">
       <h1 className="text-3xl font-bold mb-8 text-white">{t("projects")}</h1>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project) => (

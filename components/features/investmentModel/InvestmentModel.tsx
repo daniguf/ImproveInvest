@@ -58,7 +58,7 @@ const InvestmentModel = () => {
         height="65%"
         viewBox="-20 0 557 190"
         id="svg"
-        className="absolute -z-50 top-1/3 right-1/4"
+        className="absolute -z-50 top-1/3 right-1/4 sm:block hidden"
         fill="#131c2e"
       >
         <circle cx="100" cy="100" r="3" />
@@ -220,12 +220,12 @@ const InvestmentModel = () => {
           <p className="text-white text-lg">{bodyContentSubHeading}</p>
         </div>
         <div className="flex justify-center items-center w-full text-white text-sm py-16">
-          <div className="flex flex-col w-1/3 gap-4">
+          <div className="flex flex-col sm:w-1/3 gap-4">
             <p>{bodyContentParagraphs.p1}</p>
-            <p className="bg-secondary p-2">{bodyContentParagraphs.p2}</p>
+            <p className="bg-secondary sm:p-2">{bodyContentParagraphs.p2}</p>
           </div>
         </div>
-        <div className="flex justify-end items-center w-full text-white text-sm">
+        <div className="flex sm:justify-end items-center w-full text-white text-sm">
           <Link href={"/mira"}>
             <div className="flex border border-white p-4 gap-4 hover:bg-white hover:text-black transition-colors bg-secondary">
               {bodyContentCtaReadMoreText} <MoveUpRight />

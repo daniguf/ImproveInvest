@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
           src="/hero_background.jpeg"
           alt="Background"
           fill
-          className="object-cover"
+          className="object-cover max-sm:blur-xs"
           quality={100}
           priority
         />
@@ -28,22 +28,22 @@ const Hero: React.FC = () => {
                   {t("headline")}
                 </div>
                 {/* Sub header */}
-                <div className="font-extralight w-3/5 text-sm text-center">
+                <div className="font-bold sm:font-extralight w-3/5 sm:text-sm text-center">
                   {t("paragraphs.p1")}
                 </div>
-                <div className="font-extralight w-3/5 text-sm text-center">
+                <div className="font-bold sm:font-extralight w-3/5 sm:text-sm text-center">
                   {t("paragraphs.p2")}
                 </div>
               </div>
               {/* CTA */}
-              <div className="flex gap-x-8 py-4">
+              <div className="flex gap-x-8 py-4 max-sm:flex-col max-sm:gap-y-8 max-sm:px-4">
                 <Link href={"/om-os#contact-form"}>
-                  <div className="border border-white p-2 px-4 text-xs font-black hover:bg-white hover:text-black transition-colors">
+                  <div className="border border-white p-2 px-4 sm:text-xs sm:font-black hover:bg-white hover:text-black transition-colors max-sm:py-4">
                     {t("ctas.contact.text")}
                   </div>
                 </Link>
                 <Link href={"/mira"}>
-                  <div className="border border-white p-2 px-4 text-xs font-black hover:bg-white hover:text-black transition-colors">
+                  <div className="border border-white p-2 px-4 sm:text-xs sm:font-black hover:bg-white hover:text-black transition-colors max-sm:py-4">
                     {t("ctas.read_more.text")}
                   </div>
                 </Link>
