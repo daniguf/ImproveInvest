@@ -262,8 +262,8 @@ const Mira = ({ locale }: { locale: string }) => {
               <SubHeading>
                 {bodyContentArticle2.section_7.subheading}
               </SubHeading>
-              <p className="text-3xl font-bold mb-4">{bodyContentArticle2.section_7.paragraphs.p1}</p>
-              <p className="text-3xl font-bold">{bodyContentArticle2.section_7.paragraphs.p2}</p>
+              <p className="text-2xl font-bold mb-4">{bodyContentArticle2.section_7.paragraphs.p1}</p>
+              <p className="text-2xl font-bold">{bodyContentArticle2.section_7.paragraphs.p2}</p>
             </div>
           </div>
         </MaxWidthWrapper>

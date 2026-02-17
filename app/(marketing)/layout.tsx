@@ -1,10 +1,10 @@
 import MarketingLayout from "@/components/layouts/marketingLayout/MarketingLayout";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
-import { Merriweather } from "next/font/google";
+import { Merriweather_Sans } from "next/font/google";
 import "../globals.css";
 
-const merriweather = Merriweather({
+const merriweather = Merriweather_Sans({
   subsets: ["latin"],
   weight: ["400", "700", "800"],
   style: "normal",
