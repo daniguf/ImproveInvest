@@ -31,7 +31,7 @@ const NavItems: React.FC = () => {
       href: "/investorer",
     },
     {
-      id: 3,
+      id: 4,
       label: t("about"),
       href: "/om-os",
     },
@@ -76,7 +76,7 @@ const NavItems: React.FC = () => {
         const isOpen = i === activeIndex;
 
         return (
-          <Fragment key={category.id}>
+          <Fragment key={category.id + "1"}>
             {i == 2 ? (
               <div className="flex justify-center items-center mx-40">
                 <Link href={"/"}>

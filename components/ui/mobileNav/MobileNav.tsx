@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useState, useTransition } from "react";
@@ -57,13 +57,24 @@ const MobileNav: React.FC = () => {
   };
 
   return (
-    <div className="block relative xl:hidden">
+    <div className="relative xl:hidden flex justify-between w-full">
+      <div className="flex justify-start items-center mx-4">
+        <Link href={"/"}>
+          <Image
+            src={"/logo/brand/improve-invest-white.png"}
+            alt="logo"
+            width={100}
+            height={50}
+            quality={100}
+          />
+        </Link>
+      </div>
       {isMenuToggled ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          height="24px"
+          height="50px"
           viewBox="0 -960 960 960"
-          width="24px"
+          width="50px"
           fill="#fff"
           onClick={handleMenuToggle}
           className="cursor-pointer"
@@ -73,9 +84,9 @@ const MobileNav: React.FC = () => {
       ) : (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          height="24px"
+          height="50px"
           viewBox="0 -960 960 960"
-          width="24px"
+          width="50px"
           fill="#ffffff"
           onClick={handleMenuToggle}
           className="cursor-pointer"
@@ -84,7 +95,7 @@ const MobileNav: React.FC = () => {
         </svg>
       )}
       {isMenuToggled ? (
-        <div className="fixed top-21 right-0 h-dvh w-dvw bg-primary">
+        <div className="fixed top-21 right-0 h-dvh w-dvw bg-primary max-w-dvw">
           <ul className="relative w-full mx-auto">
             {NAVIGABLE_ITEMS.map((item) => (
               <li

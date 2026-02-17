@@ -11,7 +11,7 @@ const Investors = () => {
   return (
     <section className="h-full w-full text-white text-sm">
       <MaxWidthWrapper>
-        <div className="w-full h-full px-32">
+        <div className="w-full h-full sm:px-32">
           <div className="mb-16">
             <Heading>{bodyContentHeading}</Heading>
           </div>

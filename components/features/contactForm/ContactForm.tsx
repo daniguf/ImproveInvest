@@ -61,7 +61,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="form-container text-black">
+    <div className="form-container text-black max-sm:mx-auto">
       {submitStatus === "success" && (
         <div className="form-success">{t("success")}</div>
       )}

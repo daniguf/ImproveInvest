@@ -41,15 +41,15 @@ const WhyInvest: React.FC<IWhyInvest> = () => {
           <div className="w-full py-10">
             <Heading>{bodyContentHeading}</Heading>
           </div>
-          <div className="grid grid-cols-2 grid-rows-2 gap-36 py-10">
+          <div className="grid sm:grid-cols-2 grid-rows-2 gap-36 py-10">
             <WhyInvestFeaturesGridItem>
               {{
                 icon: <ChartCandlestick color="white" size={48} />,
                 paragraphs: [
-                  <>
+                  <React.Fragment key={bodyContentPoints[0]}>
                     <p>{bodyContentPoints[0]}</p>
                     <p>{bodyContentPoints[1]}</p>
-                  </>,
+                  </React.Fragment>,
                 ],
               }}
             </WhyInvestFeaturesGridItem>
@@ -57,10 +57,10 @@ const WhyInvest: React.FC<IWhyInvest> = () => {
               {{
                 icon: <BookKey color="white" size={48} />,
                 paragraphs: [
-                  <>
+                  <React.Fragment key={bodyContentPoints[2]}>
                     <p>{bodyContentPoints[2]}</p>
                     <p>{bodyContentPoints[3]}</p>
-                  </>,
+                  </React.Fragment>,
                 ],
               }}
             </WhyInvestFeaturesGridItem>
@@ -68,9 +68,9 @@ const WhyInvest: React.FC<IWhyInvest> = () => {
               {{
                 icon: <ShieldCheck color="white" size={48} />,
                 paragraphs: [
-                  <>
+                  <React.Fragment key={bodyContentPoints[4]}>
                     <p>{bodyContentPoints[4]}</p>
-                  </>,
+                  </React.Fragment>,
                 ],
               }}
             </WhyInvestFeaturesGridItem>
@@ -78,10 +78,10 @@ const WhyInvest: React.FC<IWhyInvest> = () => {
               {{
                 icon: <HardHat color="white" size={48} />,
                 paragraphs: [
-                  <>
+                   <React.Fragment key={bodyContentPoints[5]}>
                     <p>{bodyContentPoints[5]}</p>
                     <p>{bodyContentPoints[6]}</p>
-                  </>,
+                  </React.Fragment>,
                 ],
               }}
             </WhyInvestFeaturesGridItem>
