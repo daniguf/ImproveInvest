@@ -5,6 +5,8 @@ import { useMessages } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
+import lab from "@/public/laboratorium.jpg";
+
 export interface IBuildingsWithIdententyAndPotential {
   sampleTextProp: string;
 }
@@ -34,12 +36,13 @@ const BuildingsWithIdententyAndPotential = () => {
           <div className="relative h-full flex-9">
             <div className="relative h-full w-full">
               <Image
-                src={"/laboratorium.jpg"}
+                src={lab}
                 alt="Ellehammers Laboratorium"
                 height={700}
                 width={1128}
                 className="object-cover mx-auto"
-                quality={100}
+                placeholder="blur"
+                // quality={100}
               />
               <div className="absolute w-full bottom-0 right-0">
                 <div className="relative flex justify-end p-12">

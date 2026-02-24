@@ -10,10 +10,10 @@ const HeaderSecondary: React.FC = () => {
   return (
     <header className="top-0 sticky w-full h-25 p-[1em] bg-primary shadow-2xl z-10 text-white">
       <div className="flex relative justify-end items-center max-w-[1028px] mx-auto">
-        <nav className="hidden sm:flex justify-center">
+        <nav className="hidden xl:flex justify-center">
           <NavItems />
+          <LanguageSwitcher />
         </nav>
-        <LanguageSwitcher />
         <MobileNav />
       </div>
     </header>
