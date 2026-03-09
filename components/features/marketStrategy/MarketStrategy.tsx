@@ -3,7 +3,7 @@ import Heading from "@/components/ui/heading/Heading";
 import { useMessages } from "next-intl";
 import Image from "next/image";
 
-import map from "@/public/et_marked.png"
+import map from "@/public/et_marked_updated.png"
 
 export interface IMarketStrategy {
   sampleTextProp: string;

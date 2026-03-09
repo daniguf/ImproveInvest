@@ -188,7 +188,7 @@ const Mira = ({ locale }: { locale: string }) => {
                   <p>
                     {bodyContentArticle2.section_4.paragraphs.p2.subheading}
                   </p>
-                  <ul className="list-disc list-inside px-8 py-4">
+                  <ul className="list-disc px-8 py-4">
                     <li>
                       {bodyContentArticle2.section_4.paragraphs.p2.points[0]}
                     </li>
@@ -217,7 +217,7 @@ const Mira = ({ locale }: { locale: string }) => {
                   <p>
                     {bodyContentArticle2.section_5.paragraphs.p2.subheading}
                   </p>
-                  <ul className="list-disc list-inside px-8 py-4">
+                  <ul className="list-disc px-8 py-4">
                     <li>
                       {bodyContentArticle2.section_5.paragraphs.p2.points[0]}
                     </li>
@@ -243,7 +243,7 @@ const Mira = ({ locale }: { locale: string }) => {
                   <p>
                     {bodyContentArticle2.section_6.paragraphs.p2.subheading}
                   </p>
-                  <ul className="list-disc list-inside px-8 py-4">
+                  <ul className="list-disc px-8 py-4">
                     <li>
                       {bodyContentArticle2.section_6.paragraphs.p2.points[0]}
                     </li>
