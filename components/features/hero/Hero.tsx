@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
           src="/hero_background.jpeg"
           alt="Background"
           fill
-          className="object-cover max-xl:blur-xs"
+          className="object-cover"
           quality={100}
           priority
         />
