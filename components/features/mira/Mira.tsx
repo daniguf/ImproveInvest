@@ -136,7 +136,7 @@ const Mira = ({ locale }: { locale: string }) => {
               <p>{bodyContentArticle2.section_1.paragraphs.p2}</p>
               <div className="w-full flex justify-center items-center p-4 py-16">
                 <Image
-                  src={`/mira/MIRA_${locale}.png`}
+                  src={`/mira/MIRA_${locale}_UPDATED.jpeg`}
                   alt="mira"
                   quality={100}
                   width={700}
