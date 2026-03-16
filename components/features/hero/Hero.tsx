@@ -15,13 +15,13 @@ const Hero: React.FC = () => {
           src="/hero_section_bg.jpg"
           alt="Background"
           fill
-          className="object-cover"
+          className="object-cover mask-radial-from-fuchsia-50"
           quality={100}
           priority
         />
         <div className="relative h-[90dvh] w-full text-white">
           <div className="relative h-full translate-y-30 xl:translate-none xl:grid grid-cols-2 grid-rows-3">
-            <div className="row-3 flex flex-col justify-center items-center fade-in">
+            <div className="row-3 col-2 flex flex-col justify-center items-center fade-in">
               <div className="flex flex-col justify-center items-center mb-2 gap-4">
                 {/* Header */}
                 <div className="font-extrabold text-2xl xl:text-4xl break-keep w-2/3 text-center">
@@ -38,12 +38,12 @@ const Hero: React.FC = () => {
               {/* CTA */}
               <div className="flex gap-x-8 py-4 max-xl:flex-col max-xl:gap-y-8 max-xl:px-4">
                 <Link href={"/om-os#contact-form"}>
-                  <div className="border border-white p-2 px-4 xl:text-xs xl:font-black hover:bg-white hover:text-black transition-colors max-xl:py-4">
+                  <div className="border border-white p-2 px-4 xl:text-xs xl:font-black max-xl:bg-blue-50 max-xl:text-black max-xl:rounded hover:bg-white hover:text-black transition-colors max-xl:py-4">
                     {t("ctas.contact.text")}
                   </div>
                 </Link>
                 <Link href={"/mira"}>
-                  <div className="border border-white p-2 px-4 xl:text-xs xl:font-black hover:bg-white hover:text-black transition-colors max-xl:py-4">
+                  <div className="border border-white p-2 px-4 xl:text-xs xl:font-black max-xl:bg-blue-50 max-xl:text-black max-xl:rounded hover:bg-white hover:text-black transition-colors max-xl:py-4">
                     {t("ctas.read_more.text")}
                   </div>
                 </Link>
