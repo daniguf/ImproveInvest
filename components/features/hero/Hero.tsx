@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
     <section className="h-[105dvh] relative">
       <div className="absolute inset-0 top-0 z-0">
         <Image
-          src="/hero_background.jpeg"
+          src="/hero_section_bg.jpg"
           alt="Background"
           fill
           className="object-cover"
