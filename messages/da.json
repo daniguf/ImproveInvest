@@ -83,16 +83,16 @@
     }
   },
   "priip-kid": {
-    "block_0": "24.10.2024",
+    "block_0": "24.3.2026",
     "block_1": "PRIIP KID (Central investor information)",
-    "block_2": "24.oktober.2024",
+    "block_2": "24.marts.2026",
     "block_3": "&nbsp;",
     "block_4": "Formål",
     "block_5": "Dette dokument indeholder centrale informationer om dette investeringsprodukt. Dokumentet er ikke markedsføringsmateriale. Informationen kræves i henhold til lovgivning for at hjælpe dig med at forstå risiko, omkostninger, potentielle gevinster og tab ved dette produkt og hjælpe dig med at sammenligne det med andre produkter.",
     "block_6": "Produkt",
     "block_7": "Aktieselskabet ImproveInvest A/S (”fonden”). CVR: 44720795. Er en alternativ investeringsfond, hjemhørende i Danmark. Fonden har fokus på skabelse af værdi gennem køb, renovering og videresalg af ejendomme i Danmark. Fonden er opbygget som et investorejet aktieselskab, der gennem datterselskaber ejer ejendommene. Du investerer i fonden og bliver medejer af alle underliggende aktiver. ImproveInvest A/S rådgives af ImproveInvest Administration ApS (”Rådgiveren”).",
     "block_8": "Yderligere information findes på hjemmesiden www.improveinvest.dk",
-    "block_9": "Dato for sidste opdatering 13/05/2024",
+    "block_9": "Dato for sidste opdatering 24/03/2026",
     "block_10": "Advarsel: Du er ved at købe et produkt, der ikke er enkelt og kan være vanskeligt at forstå.",
     "block_11": "Hvad dette produkt drejer sig om?",
     "block_12": "Mål: Rådgiveren af fonden fokuserer på at skabe afkast gennem opkøb af ejendomme på centrale attraktive lokationer, som er kendetegnet ved større byer, hvor likviditeten i ejendomshandler er størst. Rådgiveren går efter ejendomme, hvor der kan skabes en indtjening ved at foretage en nøje planlagt, omhyggelig og grundig renovering. Renoveringen foretages med henblik på maksimal værdiskabelse ved videresalg. Værdiskabelsen ligger derfor i renoveringen, ikke i en spekulation i prisændringer i det generelle boligmarked. Ejendommene forventes solgt efter færdig renovering eller efter en kortere udlejningsperiode. De detaljerede krav til investeringer kan findes i investeringspolitikken www.improveinvest.dk. Selskabet værdi bygger på et forsigtighedsprincip, hvor værdien er fastlagt som summen af aktiver. Dvs. likvide midler og anskaffelser opgjort til kostpris. Der bliver ikke optaget en værdiforøgelse løbende, men alene ved realiseret salg. Dermed kan der let og overskuelig altid opgøres en sum af aktiverne.",
@@ -607,7 +607,8 @@
               "subheading": "Begrænset gearing",
               "description": "Finansiering anvendes med omtanke for at sikre robusthed i projekterne."
             }
-          ]
+          ],
+          "p1":"For mere information se vores Central investor information her:"
         },
         "section_4": {
           "subheading": "Risikospredning",

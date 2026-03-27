@@ -95,16 +95,16 @@
     "f04c315": "Anwälte:"
   },
   "priip-kid": {
-    "block_0": "24.10.2024",
+    "block_0": "24.3.2026",
     "block_1": "PRIIP KID (Wesentliche Anlegerinformationen)",
-    "block_2": "24. Oktober 2024",
+    "block_2": "24.Marsch.2026",
     "block_3": "&nbsp;",
     "block_4": "Zweck",
     "block_5": "Dieses Dokument enthält wesentliche Informationen über dieses Anlageprodukt. Es handelt sich nicht um Werbematerial. Diese Informationen sind gesetzlich vorgeschrieben, um Ihnen zu helfen, das Risiko, die Kosten, die potenziellen Gewinne und Verluste dieses Produkts zu verstehen und es mit anderen Produkten vergleichen zu können.",
     "block_6": "Produkt",
     "block_7": "Die Aktiengesellschaft ImproveInvest A/S (”der Fonds”). CVR: 44720795. Ist ein in Dänemark ansässiger Alternativer Investmentfonds. Der Fonds konzentriert sich auf die Wertschöpfung durch den Kauf, die Renovierung und den Wiederverkauf von Immobilien in Dänemark. Der Fonds ist als eine von Investoren gehaltene Aktiengesellschaft strukturiert, die über Tochtergesellschaften die Immobilien besitzt. Sie investieren in den Fonds und werden Miteigentümer aller zugrunde liegenden Vermögenswerte. ImproveInvest A/S wird von ImproveInvest Administration ApS (”dem Berater”) beraten.",
     "block_8": "Weitere Informationen finden Sie auf der Website www.improveinvest.dk",
-    "block_9": "Datum der letzten Aktualisierung 13.05.2024",
+    "block_9": "Datum der letzten Aktualisierung 24.03.2026",
     "block_10": "Warnung: Sie sind im Begriff, ein Produkt zu erwerben, das nicht einfach ist und schwer zu verstehen sein kann.",
     "block_11": "Worum es bei diesem Produkt geht?",
     "block_12": "Ziel: Der Berater des Fonds konzentriert sich darauf, Renditen durch den Kauf von Immobilien an zentralen attraktiven Standorten zu erzielen, die durch größere Städte gekennzeichnet sind, wo die Liquidität bei Immobilientransaktionen am größten ist. Der Berater sucht nach Immobilien, bei denen durch eine sorgfältig geplante, umsichtige und gründliche Renovierung Einnahmen erzielt werden können. Die Renovierung wird im Hinblick auf eine maximale Wertschöpfung beim Wiederverkauf durchgeführt. Die Wertschöpfung liegt daher in der Renovierung, nicht in einer Spekulation auf Preisänderungen im allgemeinen Immobilienmarkt. Die Immobilien werden voraussichtlich nach Abschluss der Renovierung oder nach einer kürzeren Vermietungsperiode verkauft. Die detaillierten Anforderungen für Investitionen finden Sie in der Anlagepolitik unter www.improveinvest.dk. Der Wert des Unternehmens basiert auf einem Vorsichtsprinzip, wobei der Wert als die Summe der Aktiva festgelegt ist. D.h. liquide Mittel und Anschaffungen, die zu Anschaffungskosten bilanziert werden. Eine Wertsteigerung wird nicht laufend erfasst, sondern nur beim realisierten Verkauf. Somit kann jederzeit einfach und überschaubar eine Summe der Aktiva berechnet werden.",
@@ -802,7 +802,8 @@
               "subheading": "Begrenzter Verschuldungsgrad",
               "description": "Finanzierung wird mit Bedacht eingesetzt, um Robustheit in den Projekten zu gewährleisten."
             }
-          ]
+          ],
+          "p1": "Weitere Informationen finden Sie in unseren Wesentlichen Anlegerinformationen hier:"
         },
         "section_4": {
           "subheading": "Risikostreuung",
