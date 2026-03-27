@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
-import { Fragment, type FC, type ReactNode } from "react";
+import Image from "next/image";
+import React, { Fragment, type FC, type ReactNode } from "react";
 
 // Reusable components for consistent styling and reduced duplication
 const Section: FC<{ title: string; children: ReactNode }> = ({
@@ -21,7 +22,7 @@ const Priip: FC = () => {
   const t = useTranslations("priip-kid");
 
   return (
-    <article className="flex flex-col gap-y-8 mb-5 text-white">
+    <article className="flex flex-col gap-y-8 mb-5 text-white max-w-[1128px] mx-auto mt-8 px-8">
       {/* Document Header */}
       <header className="flex flex-col gap-2">
         <h3 className="font-bold text-lg">{t("block_1")}</h3>
@@ -57,8 +58,21 @@ const Priip: FC = () => {
           "block_22",
           "block_23",
           "block_24",
-        ].map((id) => (
-          <Paragraph key={id} id={id} />
+        ].map((id: string) => (
+          <React.Fragment key={id}>
+            <Paragraph id={id} />
+
+            {id === "block_18" && (
+              <div className="relative h-24 w-4/5 mx-auto my-8">
+                <Image
+                  src="/other/risiko_indikator.png"
+                  alt="risiko indikator"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            )}
+          </React.Fragment>
         ))}
       </Section>
 
@@ -67,7 +81,7 @@ const Priip: FC = () => {
         <Paragraph id="block_26" />
         <Paragraph id="block_27" />
 
-        <table className="table-auto w-full text-xs my-2">
+        <table className=" table-auto overflow-x-scroll text-xs my-2">
           <thead>
             <tr className="border-b border-gray-400">
               <th colSpan={2} className="text-sm text-left font-semibold py-2">

@@ -97,16 +97,16 @@
     "f04c315": "Lawyers:"
   },
   "priip-kid": {
-    "block_0": "24.10.2024",
+    "block_0": "24.3.2026",
     "block_1": "PRIIP KID (Key Information Document)",
-    "block_2": "24 October 2024",
+    "block_2": "24.March.2026",
     "block_3": "&nbsp;",
     "block_4": "Purpose",
     "block_5": "This document contains key information about this investment product. This document is not marketing material. The information is required by law to help you understand the risk, costs, potential gains and losses of this product and to help you compare it with other products.",
     "block_6": "Product",
     "block_7": "The Limited Company ImproveInvest A/S (“the Fund”). CVR: 44720795. Is an Alternative Investment Fund (AIF), domiciled in Denmark. The Fund focuses on creating value through the purchase, renovation, and resale of properties in Denmark. The Fund is structured as an investor-owned limited company that owns the properties through subsidiaries. You invest in the Fund and become a co-owner of all underlying assets. ImproveInvest A/S is advised by ImproveInvest Administration ApS (“the Advisor”).",
     "block_8": "Further information is available on the website www.improveinvest.dk",
-    "block_9": "Date of last update 13/05/2024",
+    "block_9": "Date of last update 24/03/2026",
     "block_10": "Warning: You are about to buy a product that is not simple and may be difficult to understand.",
     "block_11": "What is this product about?",
     "block_12": "Goal: The Advisor of the Fund focuses on creating returns through the acquisition of properties in central attractive locations, characterised by major cities where the liquidity in property transactions is greatest. The Advisor seeks properties where earnings can be created by undertaking a carefully planned, meticulous, and thorough renovation. The renovation is carried out with the aim of maximum value creation upon resale. Value creation therefore lies in the renovation, not in speculation on price changes in the general housing market. The properties are expected to be sold after renovation is completed or after a shorter rental period. The detailed investment requirements can be found in the investment policy at www.improveinvest.dk. The company's value is based on a prudence principle, where the value is determined as the sum of assets. I.e., liquid funds and acquisitions valued at cost price. A value increase is not recorded on an ongoing basis, but only upon realised sale. Thus, a sum of the assets can always be easily and clearly calculated.",
@@ -810,7 +810,8 @@
               "subheading": "Limited leverage",
               "description": "Financing is used with care to ensure robustness in the projects."
             }
-          ]
+          ],
+          "p1": "For more information, see our Key Investor Information here:"
         },
         "section_4": {
           "subheading": "Risk diversification",

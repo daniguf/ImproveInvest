@@ -182,6 +182,12 @@ const Investors = () => {
                 </div>
               </li>
             </ol>
+            <div className="md:flex py-6 gap-1">
+              {bodyContentArticle1.section_3.p1}{" "}
+              <Link href={"priip-kid"}>
+                <p className="underline underline-offset-4">PRIIP-KID</p>
+              </Link>
+            </div>
           </div>
           {/* Section 4 */}
           <div className="py-4">
