@@ -1,7 +1,7 @@
 "use client";
-
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
@@ -13,6 +13,10 @@ const contactFormSchema = z.object({
   phone: z.string().min(1, "phoneRequired"),
   subject: z.string().min(1, "subjectRequired"),
   message: z.string().min(1, "messageRequired").min(10, "messageMin"),
+  // GDPR Consent Field
+  privacyConsent: z.boolean().refine((val) => val === true, {
+    message: "privacyConsentRequired",
+  }),
 });
 
 type ContactFormData = z.infer<typeof contactFormSchema>;
@@ -31,21 +35,20 @@ export default function ContactForm() {
     reset,
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),
+    defaultValues: {
+      privacyConsent: false,
+    },
   });
 
   const onSubmit = async (data: ContactFormData) => {
     setIsSubmitting(true);
     setSubmitStatus("idle");
-
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
-
       if (response.ok) {
         setSubmitStatus("success");
         reset();
@@ -65,13 +68,11 @@ export default function ContactForm() {
       {submitStatus === "success" && (
         <div className="form-success">{t("success")}</div>
       )}
-
       {submitStatus === "error" && (
         <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
           {t("error")}
         </div>
       )}
-
       <form onSubmit={handleSubmit(onSubmit)} noValidate>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
           <div className="form-group">
@@ -90,7 +91,6 @@ export default function ContactForm() {
               </p>
             )}
           </div>
-
           <div className="form-group">
             <label htmlFor="lastName" className="form-label">
               {t("lastName")}
@@ -108,7 +108,6 @@ export default function ContactForm() {
             )}
           </div>
         </div>
-
         <div className="form-group">
           <label htmlFor="email" className="form-label">
             {t("email")}
@@ -125,7 +124,6 @@ export default function ContactForm() {
             </p>
           )}
         </div>
-
         <div className="form-group">
           <label htmlFor="phone" className="form-label">
             {t("phone")}
@@ -142,7 +140,6 @@ export default function ContactForm() {
             </p>
           )}
         </div>
-
         <div className="form-group">
           <label htmlFor="subject" className="form-label">
             {t("subject")}
@@ -159,7 +156,6 @@ export default function ContactForm() {
             </p>
           )}
         </div>
-
         <div className="form-group">
           <label htmlFor="message" className="form-label">
             {t("message")}
@@ -172,6 +168,36 @@ export default function ContactForm() {
           {errors.message && (
             <p className="form-error">
               {t(`validation.${errors.message.message}`)}
+            </p>
+          )}
+        </div>
+
+        {/* ✅ GDPR Consent Checkbox */}
+        <div className="form-group flex items-start gap-3 mb-6">
+          <input
+            type="checkbox"
+            id="privacyConsent"
+            className="mt-1 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500 cursor-pointer"
+            {...register("privacyConsent")}
+          />
+          <label
+            htmlFor="privacyConsent"
+            className="text-sm text-gray-100 cursor-pointer select-none leading-relaxed"
+          >
+            {t.rich("privacyConsent", {
+              gdpr: (chunks) => (
+                <Link
+                  href="/gdpr"
+                  className="text-blue-400 hover:underline font-medium"
+                >
+                  {chunks}
+                </Link>
+              ),
+            })}
+          </label>
+          {errors.privacyConsent && (
+            <p className="form-error w-full ml-7">
+              {t(`validation.${errors.privacyConsent.message}`)}
             </p>
           )}
         </div>
