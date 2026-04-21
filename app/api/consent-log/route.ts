@@ -45,7 +45,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Get request metadata - ✅ FIX: Use headers only for IP
+    // Get request metadata
     const headersList = await headers();
 
     // Check multiple headers for IP (in order of preference)
@@ -55,7 +55,7 @@ export async function POST(request: NextRequest) {
 
     // x-forwarded-for can contain multiple IPs: "client, proxy1, proxy2"
     const ipAddress = forwardedFor
-      ? forwardedFor.split(",")[0].trim() // Take the first (client) IP
+      ? forwardedFor.split(",")[0].trim()
       : realIp || clientIp || "unknown";
 
     const userAgent = headersList.get("user-agent") || "unknown";
@@ -76,7 +76,6 @@ export async function POST(request: NextRequest) {
         success: true,
         logId: logEntry.id,
         timestamp: logEntry.timestamp,
-        // Note: Never return hashes or signatures to client
       },
       { status: 201 }
     );

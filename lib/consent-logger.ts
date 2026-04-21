@@ -1,7 +1,6 @@
 // lib/consent-logger.ts
+import { BlobNotFoundError, get, put } from "@vercel/blob";
 import { createHash } from "crypto";
-import { appendFile, readFile } from "fs/promises";
-import { join } from "path";
 
 export interface ConsentLogEntry {
   id: string;
@@ -30,7 +29,7 @@ export interface ConsentLogInput {
   sessionId: string;
 }
 
-const LOG_FILE = join(process.cwd(), "logs", "consent-audit.log");
+const BLOB_KEY = "consent-audit.log";
 const HMAC_SECRET = process.env.CONSENT_LOG_HMAC_SECRET || "";
 
 // Anonymize IP address for GDPR compliance
@@ -77,41 +76,34 @@ function generateSignature(content: string): string {
     .digest("hex");
 }
 
-// Get the last hash from the log file for chaining
-async function getLastHash(): Promise<string> {
+// Read the current log content from blob
+async function readLogContent(): Promise<string> {
   try {
-    const data = await readFile(LOG_FILE, "utf-8");
-    const lines = data
-      .trim()
-      .split("\n")
-      .filter((line) => line.trim());
-    if (lines.length === 0) return "genesis";
-
-    const lastLine = lines[lines.length - 1];
-    const lastEntry: ConsentLogEntry = JSON.parse(lastLine);
-    return lastEntry.currentHash;
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars, no-unused-vars
+    const result = await get(BLOB_KEY, { access: "private" });
+    return await new Response(result?.stream).text();
   } catch (error) {
-    // File doesn't exist or is empty - return genesis hash
-    return "genesis";
+    if (error instanceof BlobNotFoundError) {
+      return "";
+    }
+    throw error;
   }
 }
 
-// lib/consent-logger.ts (replace the existing verifyLogIntegrity function)
+// Verify log integrity
 export async function verifyLogIntegrity(): Promise<{
   valid: boolean;
   error?: string;
   message?: string;
 }> {
   try {
-    const data = await readFile(LOG_FILE, "utf-8");
+    const data = await readLogContent();
     const lines = data
       .trim()
       .split("\n")
       .filter((line) => line.trim());
 
     if (lines.length === 0) {
-      return { valid: true, message: "Log file exists but is empty." };
+      return { valid: true, message: "Log exists but is empty." };
     }
 
     let expectedPreviousHash = "genesis";
@@ -145,14 +137,12 @@ export async function verifyLogIntegrity(): Promise<{
     }
 
     return { valid: true };
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  } catch (error: any) {
-    // Gracefully handle missing log file (expected before first consent)
-    if (error?.code === "ENOENT") {
+  } catch (error) {
+    if (error instanceof BlobNotFoundError) {
       return {
         valid: true,
         message:
-          "No consent logs found yet. The log file will be created automatically when the first user gives consent.",
+          "No consent logs found yet. The log will be created automatically when the first user gives consent.",
       };
     }
     return { valid: false, error: `Failed to verify log: ${error}` };
@@ -163,11 +153,20 @@ export async function verifyLogIntegrity(): Promise<{
 export async function logConsent(
   input: ConsentLogInput
 ): Promise<ConsentLogEntry> {
-  // Ensure logs directory exists
-  const { mkdir } = await import("fs/promises");
-  await mkdir(join(process.cwd(), "logs"), { recursive: true });
+  // Read current log content
+  const currentContent = await readLogContent();
 
-  const previousHash = await getLastHash();
+  // Get previous hash from last entry (or "genesis" if empty)
+  let previousHash = "genesis";
+  if (currentContent.trim()) {
+    const lines = currentContent
+      .trim()
+      .split("\n")
+      .filter((l) => l.trim());
+    const lastEntry: ConsentLogEntry = JSON.parse(lines[lines.length - 1]);
+    previousHash = lastEntry.currentHash;
+  }
+
   const timestamp = new Date().toISOString();
   const id = `${Date.now()}-${Math.random().toString(36).substring(2, 15)}`;
 
@@ -192,8 +191,14 @@ export async function logConsent(
     signature,
   };
 
-  // Append to log file (atomic write)
-  await appendFile(LOG_FILE, JSON.stringify(fullEntry) + "\n");
+  // Append to log using read-modify-write pattern
+  // Note: This is not atomic - concurrent writes could cause issues.
+  // For high-volume production use, consider using a database instead.
+  const newContent = currentContent + JSON.stringify(fullEntry) + "\n";
+  await put(BLOB_KEY, newContent, {
+    access: "private",
+    addRandomSuffix: false,
+  });
 
   return fullEntry;
 }
@@ -202,5 +207,5 @@ export async function logConsent(
 export const _test = {
   generateEntryHash,
   generateSignature,
-  LOG_FILE,
+  BLOB_KEY,
 };

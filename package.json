@@ -23,6 +23,7 @@
     "@portabletext/react": "^5.0.0",
     "@sanity/image-url": "^1.2.0",
     "@sanity/language-filter": "^4.0.6",
+    "@vercel/blob": "^2.3.3",
     "gsap": "^3.14.2",
     "lucide-react": "^0.563.0",
     "next": "16.0.7",
