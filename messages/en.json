@@ -473,6 +473,8 @@
     "submitting": "Sending...",
     "success": "Message sent successfully!",
     "error": "Failed to send message. Please try again.",
+    "privacyConsent": "I have read and agree to the <gdpr>GDPR Policy</gdpr>. I consent to the processing of my data to handle this inquiry.",
+
     "validation": {
       "firstNameRequired": "First name is required",
       "lastNameRequired": "Last name is required",
@@ -481,7 +483,8 @@
       "phoneRequired": "Phone number is required",
       "subjectRequired": "Subject is required",
       "messageRequired": "Message is required",
-      "messageMin": "Message must be at least 10 characters"
+      "messageMin": "Message must be at least 10 characters",
+      "privacyConsentRequired": "You must accept the privacy policy to submit the form."
     }
   },
   "navigation": {
@@ -902,6 +905,32 @@
             "p3": "Investment in Improve Invest can be made with private capital, via the Business Tax Scheme (VSO), or pension funds. The specific frameworks are always reviewed individually."
           }
         }
+      }
+    }
+  },
+
+  "cookie_banner": {
+    "heading": "Cookie Preferences",
+    "description": "We use cookies to enhance your experience, analyze site traffic, and for marketing purposes. By clicking \"Accept All\", you consent to our use of cookies. Read our <cookiePolicy>Cookie Policy</cookiePolicy> and <gdprPolicy>GDPR Policy</gdprPolicy>.",
+    "actions": {
+      "hide": "Hide",
+      "customize": "Customize",
+      "decline": "Decline Non-Essential",
+      "accept_all": "Accept All",
+      "save": "Save Preferences"
+    },
+    "categories": {
+      "essential": {
+        "label": "Essential",
+        "description": "Required for the website to function (e.g., language preference)."
+      },
+      "analytics": {
+        "label": "Analytics",
+        "description": "Help us improve by tracking usage patterns."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "description": "Used to deliver relevant ads and content."
       }
     }
   }

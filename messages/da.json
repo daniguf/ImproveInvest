@@ -608,7 +608,7 @@
               "description": "Finansiering anvendes med omtanke for at sikre robusthed i projekterne."
             }
           ],
-          "p1":"For mere information se vores Central investor information her:"
+          "p1": "For mere information se vores Central investor information her:"
         },
         "section_4": {
           "subheading": "Risikospredning",
@@ -714,6 +714,7 @@
     "submitting": "Sender...",
     "success": "Besked sendt succesfuldt!",
     "error": "Kunne ikke sende beskeden. Prøv venligst igen.",
+    "privacyConsent": "Jeg har læst og accepterer <gdpr>GDPR-politikken</gdpr>. Jeg giver samtykke til behandling af mine oplysninger for at behandle denne henvendelse.",
     "validation": {
       "firstNameRequired": "Fornavn er påkrævet",
       "lastNameRequired": "Efternavn er påkrævet",
@@ -722,7 +723,33 @@
       "phoneRequired": "Telefonnummer er påkrævet",
       "subjectRequired": "Emne er påkrævet",
       "messageRequired": "Besked er påkrævet",
-      "messageMin": "Beskeden skal være mindst 10 tegn lang"
+      "messageMin": "Beskeden skal være mindst 10 tegn lang",
+      "privacyConsentRequired": "Du skal acceptere privatlivspolitikken for at sende formularen."
+    }
+  },
+  "cookie_banner": {
+    "heading": "Cookie-præferencer",
+    "description": "Vi bruger cookies til at forbedre din oplevelse, analysere trafik og til markedsføringsformål. Ved at klikke på \"Accepter alle\", giver du samtykke til vores brug af cookies. Læs vores <cookiePolicy>Cookie-politik</cookiePolicy> og <gdprPolicy>GDPR-politik</gdprPolicy>.",
+    "actions": {
+      "hide": "Skjul",
+      "customize": "Tilpas",
+      "decline": "Afvis ikke-essentielle",
+      "accept_all": "Accepter alle",
+      "save": "Gem præferencer"
+    },
+    "categories": {
+      "essential": {
+        "label": "Essentielle",
+        "description": "Påkrævet for at hjemmesiden fungerer (f.eks. sprogpræference)."
+      },
+      "analytics": {
+        "label": "Analyse",
+        "description": "Hjælp os med at forbedre os ved at spore brugsmønstre."
+      },
+      "marketing": {
+        "label": "Markedsføring",
+        "description": "Bruges til at levere relevante annoncer og indhold."
+      }
     }
   }
 }
