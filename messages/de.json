@@ -471,6 +471,8 @@
     "submitting": "Wird gesendet...",
     "success": "Nachricht erfolgreich gesendet!",
     "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+    "privacyConsent": "Ich habe die <gdpr>DSGVO-Richtlinie</gdpr> gelesen und stimme ihr zu. Ich willige in die Verarbeitung meiner Daten zur Bearbeitung dieser Anfrage ein.",
+
     "validation": {
       "firstNameRequired": "Vorname ist erforderlich",
       "lastNameRequired": "Nachname ist erforderlich",
@@ -479,7 +481,8 @@
       "phoneRequired": "Telefonnummer ist erforderlich",
       "subjectRequired": "Betreff ist erforderlich",
       "messageRequired": "Nachricht ist erforderlich",
-      "messageMin": "Nachricht muss mindestens 10 Zeichen lang sein"
+      "messageMin": "Nachricht muss mindestens 10 Zeichen lang sein",
+      "privacyConsentRequired": "Sie müssen die Datenschutzrichtlinie akzeptieren, um das Formular abzusenden."
     }
   },
   "landing_page": {
@@ -894,6 +897,31 @@
             "p3": "Investitionen in Improve Invest können mit privatem Kapital, über die Unternehmenssteuerregelung oder mit Pensionsgeldern erfolgen. Die konkreten Rahmenbedingungen werden immer individuell durchgegangen."
           }
         }
+      }
+    }
+  },
+  "cookie_banner": {
+    "heading": "Cookie-Einstellungen",
+    "description": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern, den Site-Traffic zu analysieren und für Marketingzwecke. Durch Klicken auf \"Alle akzeptieren\" stimmen Sie unserer Verwendung von Cookies zu. Lesen Sie unsere <cookiePolicy>Cookie-Richtlinie</cookiePolicy> und <gdprPolicy>DSGVO-Richtlinie</gdprPolicy>.",
+    "actions": {
+      "hide": "Ausblenden",
+      "customize": "Anpassen",
+      "decline": "Nicht-essentielle ablehnen",
+      "accept_all": "Alle akzeptieren",
+      "save": "Einstellungen speichern"
+    },
+    "categories": {
+      "essential": {
+        "label": "Essentiell",
+        "description": "Erforderlich, damit die Website funktioniert (z.B. Spracheinstellung)."
+      },
+      "analytics": {
+        "label": "Analyse",
+        "description": "Helfen Sie uns, uns zu verbessern, indem Sie Nutzungsmuster verfolgen."
+      },
+      "marketing": {
+        "label": "Marketing",
+        "description": "Wird verwendet, um relevante Anzeigen und Inhalte bereitzustellen."
       }
     }
   }
