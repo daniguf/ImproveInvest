@@ -192,12 +192,11 @@ export async function logConsent(
   };
 
   // Append to log using read-modify-write pattern
-  // Note: This is not atomic - concurrent writes could cause issues.
-  // For high-volume production use, consider using a database instead.
   const newContent = currentContent + JSON.stringify(fullEntry) + "\n";
   await put(BLOB_KEY, newContent, {
     access: "private",
     addRandomSuffix: false,
+    allowOverwrite: true,
   });
 
   return fullEntry;
