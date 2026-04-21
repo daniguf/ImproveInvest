@@ -15,7 +15,8 @@
     "prettier": "prettier --write .",
     "prepare": "husky",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "verify-consent-logs": "tsx scripts/verify-consent-logs.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
@@ -63,6 +64,7 @@
     "storybook": "^10.0.5",
     "storybook-next-intl": "^10.0.1",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5",
     "vitest": "^4.0.7"
   },

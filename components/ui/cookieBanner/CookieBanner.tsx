@@ -16,11 +16,12 @@ export default function CookieBanner() {
     declineNonEssential,
     updateConsent,
     consent,
+    forceShowBanner,
   } = useCookieConsent();
   const [showDetails, setShowDetails] = useState(false);
   const [localConsent, setLocalConsent] = useState<ConsentState>(consent);
 
-  if (hasConsented) return null;
+  if (hasConsented && !forceShowBanner) return null;
 
   const handleCustomSave = () => {
     updateConsent(localConsent);
