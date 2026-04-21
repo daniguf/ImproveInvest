@@ -26,12 +26,11 @@
     "@vercel/blob": "^2.3.3",
     "gsap": "^3.14.2",
     "lucide-react": "^0.563.0",
-    "next": "16.0.7",
+    "next": "^16.0.7",
     "next-intl": "^4.5.0",
     "next-sanity": "^11.6.5",
-    "nodemailer": "^6.9.7",
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-hook-form": "^7.47.0",
     "resend": "^6.5.2",
     "sanity": "^4.15.0",
@@ -54,6 +53,7 @@
     "@types/react-dom": "^19",
     "@vitest/browser-playwright": "^4.0.7",
     "@vitest/coverage-v8": "^4.0.7",
+    "baseline-browser-mapping": "^2.10.20",
     "cross-env": "^10.0.0",
     "dotenv-cli": "^11.0.0",
     "eslint": "^9",
@@ -71,5 +71,9 @@
   },
   "resolutions": {
     "webpack": "^5"
+  },
+  "overrides": {
+    "glob": "^11.0.0",
+    "undici": "^6.23.1"
   }
 }
