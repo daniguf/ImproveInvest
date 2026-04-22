@@ -3,7 +3,7 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ["cdn.sanity.io", "static.wixstatic.com"],
+    remotePatterns: [new URL("cdn.sanity.io"), new URL("static.wixstatic.com")],
     qualities: [100, 75],
   },
 };
