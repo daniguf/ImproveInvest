@@ -1,6 +1,7 @@
 import MarketingLayout from "@/components/layouts/marketingLayout/MarketingLayout";
 import { CookieConsentProvider } from "@/components/providers/CookieConsentProvider";
 import CookieBanner from "@/components/ui/cookieBanner/CookieBanner";
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { Merriweather_Sans } from "next/font/google";
@@ -31,6 +32,7 @@ export default function RootLayout({
             <MarketingLayout>{children}</MarketingLayout>
             {/* Banner rendered outside layout to ensure it's always visible */}
             <CookieBanner />
+            <Analytics />
           </CookieConsentProvider>
         </NextIntlClientProvider>
       </body>
