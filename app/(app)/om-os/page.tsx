@@ -5,6 +5,7 @@ import Heading from "@/components/ui/heading/Heading";
 import SubHeading from "@/components/ui/subHeading/SubHeading";
 import { useMessages } from "next-intl";
 
+import claus_portrait from "@/public/productOwners/claus/CHS-1.png";
 import christian_portrait from "@/public/productOwners/christian/CS-1.png";
 import jacques_portrait from "@/public/productOwners/jacques/JS-1.png";
 
@@ -40,6 +41,8 @@ const About = () => {
                 name="christian_storinggaard"
                 img_src={christian_portrait}
               />
+              {/* Claus */}
+              <PartnerBio name="claus_hammersholt" img_src={claus_portrait} />
             </div>
           </div>
           {/* Section 3 */}

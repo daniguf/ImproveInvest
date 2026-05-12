@@ -1,3 +1,4 @@
+import ConditionalAnalytics from "@/components/analytics/ConditionalAnalytics";
 import PrimaryLayout from "@/components/layouts/primaryLayout/PrimaryLayout";
 import { CookieConsentProvider } from "@/components/providers/CookieConsentProvider";
 import CookieBanner from "@/components/ui/cookieBanner/CookieBanner";
@@ -31,6 +32,8 @@ export default function RootLayout({
             <PrimaryLayout>{children}</PrimaryLayout>
             {/* Banner rendered outside layout to ensure it's always visible */}
             <CookieBanner />
+            {/* Analytics is now conditional based on user consent */}
+            <ConditionalAnalytics />
           </CookieConsentProvider>
         </NextIntlClientProvider>
       </body>

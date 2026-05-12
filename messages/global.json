@@ -2,7 +2,7 @@
   "partners": {
     "jacques_skovgaard": {
       "name": "Jacques Skovgaard,",
-      "role": "Partner",
+      "role": "Managing Partner",
       "image_src": "/productOwners/jacques/JS-1.png",
       "references": {
         "linkedIn": "https://www.linkedin.com/in/jacquesskovgaard/"
@@ -10,10 +10,18 @@
     },
     "christian_storinggaard": {
       "name": "Christian Storinggaard,",
-      "role": "Partner",
+      "role": "Managing Partner",
       "image_src": "/productOwners/christian/CS-1.png",
       "references": {
         "linkedIn": "https://www.linkedin.com/in/cstoringgaard/"
+      }
+    },
+    "claus_hammersholt": {
+      "name": "Claus Hammersholt Starbæk,",
+      "role": "Executive Advisor",
+      "image_src": "/productOwners/claus/CHS-1.png",
+      "references": {
+        "linkedIn": "https://www.linkedin.com/in/claus-hammersholt-starb%C3%A6k-79b57b4/"
       }
     }
   }
