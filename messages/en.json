@@ -272,8 +272,7 @@
     "123sd14": "Explore Projects",
     "45628s12": "Contact",
     "cd55c26": "+45 20 80 39 39",
-    "projects_carousel_headline": "From commercial to residential - current projects in the capital",
-    "projects_carousel_item_navigation": "View Project",
+
     "29c1007": "ATTRACTIVE INVESTMENT IN PROPERTY RENOVATION",
     "section_1": {
       "paragraph_1": "STABLE RETURN - LOW RISK - INVESTMENT INDEPENDENT OF MARKET DEVELOPMENT",
@@ -512,6 +511,8 @@
         }
       }
     },
+    "projects_carousel_headline": "Active affairs at Improve Invest",
+    "projects_carousel_item_navigation": "See More",
     "why_invest": {
       "heading": "Why invest with Improve Invest?",
       "points": [

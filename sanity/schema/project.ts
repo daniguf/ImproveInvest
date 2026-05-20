@@ -26,15 +26,15 @@ export interface GalleryItem {
 
 export interface Project {
   _id: string;
-  _type: "project";
+  _type: "project" | "newsfeed";
   title: string;
-  address: string;
+  address?: string;
   slug: {
     _type: "slug";
     current: string;
   };
-  gallery: GalleryItem[];
-  content: unknown[];
+  gallery?: GalleryItem[];
+  content?: unknown[];
 }
 
 // Helper function to get featured image from gallery
