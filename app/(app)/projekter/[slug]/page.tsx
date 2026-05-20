@@ -26,14 +26,14 @@ export default async function ProjectPage({
     slug, // ✅ now pass the actual string value
     locale,
   });
-  console.log("projectpage", project.content[2]);
+  console.log("projectpage", project.content?.[2]);
 
   if (!project) notFound();
 
   return (
     <main className="container max-w-5xl mx-auto px-6 py-12">
       <h1 className="text-4xl font-bold mb-6 text-white">{project.title}</h1>
-      <Gallery items={project.gallery} />
+      {project.gallery && <Gallery items={project.gallery} />}
 
       {project.content && (
         <div className="mt-6 lg:min-w-[1128px] text-white">

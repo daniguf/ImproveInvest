@@ -32,7 +32,7 @@ export default async function NewsPage({
   return (
     <main className="container max-w-5xl mx-auto px-6 py-12 min-h-screen">
       <h1 className="text-4xl font-bold mb-6 text-white">{project.title}</h1>
-      <Gallery items={project.gallery} />
+      {project.gallery && <Gallery items={project.gallery} />}
 
       {project.content && (
         <div className="mt-6 lg:min-w-[1128px] text-white">
