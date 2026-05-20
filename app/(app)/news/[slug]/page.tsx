@@ -1,5 +1,5 @@
 import Gallery from "@/components/features/gallery/Gallery";
-import { projectBySlugQuery } from "@/lib/queries";
+import { newsfeedItemBySlugQuery } from "@/lib/queries";
 import { sanityClient } from "@/sanity/client";
 import { Project } from "@/sanity/schema/project";
 import { PortableText } from "next-sanity";
@@ -9,12 +9,12 @@ import { TypedObject } from "sanity";
 
 export async function generateStaticParams() {
   const projects = await sanityClient.fetch(
-    `*[_type == "project"]{ "slug": slug.current }`
+    `*[_type == "newsfeed"]{ "slug": slug.current }`
   );
   return projects.map((p: { slug: string }) => ({ slug: p.slug }));
 }
 
-export default async function ProjectPage({
+export default async function NewsPage({
   params,
 }: {
   params: Promise<{ slug: string }>; // ✅ params is a Promise
@@ -22,16 +22,15 @@ export default async function ProjectPage({
   const { slug } = await params; // ✅ UNWRAP the Promise
   const store = await cookies();
   const locale = store.get("locale")?.value || "da";
-  const project: Project = await sanityClient.fetch(projectBySlugQuery, {
+  const project: Project = await sanityClient.fetch(newsfeedItemBySlugQuery, {
     slug, // ✅ now pass the actual string value
     locale,
   });
-  console.log("projectpage", project.content?.[2]);
 
   if (!project) notFound();
 
   return (
-    <main className="container max-w-5xl mx-auto px-6 py-12">
+    <main className="container max-w-5xl mx-auto px-6 py-12 min-h-screen">
       <h1 className="text-4xl font-bold mb-6 text-white">{project.title}</h1>
       {project.gallery && <Gallery items={project.gallery} />}
 
