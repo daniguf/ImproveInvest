@@ -266,26 +266,20 @@
       "cookie_policy_e": "At spore brugeren mens disse navigerer på hjemmesiden",
       "cookie_policy_outro": "Selskabet bruger ikke cookies til markedsføring på tredjepartssider."
     },
-    "4aae4b6": "4. Tredjepartscookie",
-    "f320935": "Selskabets hjemmeside gør brug af sporingsprogrammet Google Analytics, med til formål at forbedre brugervenligheden på hjemmesiden. Oplysningerne benytter Selskabet blandt andet til at få viden om, hvor mange besøgende der er, og om brugeradfærden. Selskabet kan blandt andet se hvor de besøgende kommer fra, hvilke sider på www.advicecapital.eu og www.advicecapital.dk de besøger, og hvor længe de opholder sig på siderne. Det giver Selskabet en viden om, hvilke sider der fungerer og hvilke sider der skal forbedres. Google Analytics bruger en række cookies til at indsamle oplysninger og rapportere brugsstatistik, uden personligt at identificere individuelle besøgende over for Google.",
-    "aeaca04": "5. Google Analytics",
-    "7527009": "Det er muligt at fravælge cookies fra Google Analytics på https://tools.google.com/dlpage/gaoptout",
-    "513d953": "6. Håndtering af cookies",
-    "54924cf": "Uanset hvilken browser der bruges, kan disse indstilles sådan, at den ikke gemmer cookies, nogle browsere kan indstilles til ikke at gemme cookies fra bestemte hjemmesider. I browserens indstillinger kan der slettes cookies. For at læse mere om cookies og få yderligere vejledning om, hvordan du sletter cookies på forskellige browsere, henvises der til http://minecookies.org/cookiehandtering.",
-    "e0fe9a5": "7. Klager",
+     "e0fe9a5": "4. Klager",
     "cb602d8": "Klager over Selskabets brug af cookies kan rettes på info@improveinvest.com",
 
-    "bb67bdd": "8. Ikrafttræden",
+    "bb67bdd": "5. Ikrafttræden",
     "effective_date": {
       "heading": "Ikrafttræden",
-      "description": "Denne version af cookiepolitik er gældende fra 15. august 2019.",
+      "description": "Denne version af cookiepolitik er gældende fra 21/8/2026.",
       "guide_to_contact": "Hvis du har et spørgsmål over cookiepolitikken, kan du kontakte Improve Invest A/S:",
       "contact": {
         "company": "Improve Invest A/S",
         "address": "Strandvejen 125, 2900 Hellerup",
-        "cvr": "44720795",
+        "cvr": "CVR: 44720795",
         "email": "info@improveinvest.com",
-        "phone": "4092 8900"
+        "phone": "+45 20803939"
       }
     }
   },
