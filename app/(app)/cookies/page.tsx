@@ -30,7 +30,6 @@ const Cookies = () => {
         </TextBlock>
         <TextBlock>
           <Header>{t("30b150d")}</Header>
-          {/* <Paragraph>{t("0b09044")}</Paragraph> */}
           <ol className="list-disc list-inside text-sm">
             <li className="list-none">{t("block_3.cookie_policy_intro")}</li>
             <li>{t("block_3.cookie_policy_a")}</li>
