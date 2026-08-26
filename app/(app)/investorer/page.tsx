@@ -118,13 +118,13 @@ const Investors = () => {
                 <li>
                   <div className="font-bold">
                     {
-                      bodyContentArticle1.section_1.paragraphs.p2.points[6]
+                      bodyContentArticle1.section_1.paragraphs.p2.points[7]
                         .heading
                     }
                   </div>
                   <p>
                     {
-                      bodyContentArticle1.section_1.paragraphs.p2.points[6]
+                      bodyContentArticle1.section_1.paragraphs.p2.points[7]
                         .description
                     }
                   </p>
