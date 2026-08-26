@@ -191,7 +191,7 @@
     "50f22b4": "Vi sletter vores kommunikation med dig når det står klart om du ønsker vores ydelser eller ej.",
     "d124e0b": "Skulle der i et særligt tilfælde opstå et behov for at opbevare dine personoplysninger i længere tid, så vil dette kunne være tilfældet.",
     "6a1f3bd": "Kunder",
-    "11d03d5": "Vi har behov for at kommunikere med vores kunder, så vi sikrer os, at ydelsen leveres korrekt. Herigennem kan vi behandle oplysninger om navn, adresse, ydelser, særlige aftaler, betalingsinformationer og lignende.",
+    "11d03d5": "Når du bliver investor i Improve Invest A/S eller på anden måde indgår i et kundeforhold med os, behandler vi de personoplysninger, der er nødvendige for at etablere, administrere og dokumentere kundeforholdet. Det kan blandt andet omfatte navn, adresse, kontaktoplysninger, CPR-nummer, bank- og depotoplysninger, oplysninger om investeringer og betalinger samt øvrige oplysninger, som er nødvendige for at administrere dit ejerskab og kommunikere med dig. Vi behandler oplysningerne med henblik på blandt andet investoradministration, kommunikation, kapitalforhøjelser, udlodninger, generalforsamlinger, rapportering samt opfyldelse af vores juridiske og regulatoriske forpligtelser. Investoroprettelse og kundekendskab. I forbindelse med etablering og løbende administration af et investorforhold kan vi behandle yderligere oplysninger for at opfylde krav om kundekendskab, identifikation og dokumentation. Det kan blandt andet omfatte: legitimation og identitetsoplysninger, oplysninger om reelle ejere og ejerstruktur, oplysninger om investeringsbeløb og betalingsforhold, oplysninger, der er nødvendige for at vurdere, om investor opfylder betingelserne for at investere i fonden, dokumentation for investorens risikobekræftelse, hvor dette er relevant, samt i relevante tilfælde oplysninger om midlernes oprindelse. Behandlingen sker, når den er nødvendig for at opfylde retlige forpligtelser, som Improve Invest A/S er underlagt, eller når behandlingen er nødvendig for at indgå eller administrere aftalen med investor. Opbevaring. Vi opbevarer personoplysninger, så længe det er nødvendigt for de formål, hvortil oplysningerne er indsamlet, og herefter så længe vi er forpligtet hertil efter gældende lovgivning. Oplysninger vedrørende investor- og kundeforhold slettes derfor ikke nødvendigvis umiddelbart efter, at kundeforholdet ophører. Oplysninger kan blandt andet opbevares i den periode, der følger af bogførings-, selskabs-, skatte- og hvidvasklovgivningen samt andre relevante regulatoriske krav.",
     "653049f": "Hjemlen til at behandle disse personoplysninger er er databeskyttelsesforordningens artikel 6, stk. 1 litra b.",
     "def2ea9": "Når ydelsen er leveret og eventuelle udestående er afsluttede, så vil vi umiddelbart herefter slette personoplysningerne.",
     "7520642": "Nyhedsbrev",
@@ -238,7 +238,7 @@
     "05f8c38": "Ret til sletning",
     "bf64837": "I særlige tilfælde har du ret til at få slettet oplysninger om dig, inden tidspunktet for vores almindelige generelle sletning indtræffer.",
     "93ebe09": "Ret til begrænsning af behandling",
-    "7b0de15": "Du har i visse tilfælde ret til at få behandlingen af dine personoplysninger begrænset. Hvis du har ret til at få begrænset behandlingen, må vi fremover kun behandle oplysningerne - bortset fra opbevaring - med dit samtykke, eller med henblik på at retskrav kan fastlægges, gøres gældende eller forsvares, eller for at beskytte en person eller vigtige samfundsinteresser.",
+    "7b0de15": "Du har i visse tilfælde ret til at modtage personoplysninger om dig, som du selv har givet os, i et struktureret, almindeligt anvendt og maskinlæsbart format, og til at anmode om, at oplysningerne overføres til en anden dataansvarlig, når betingelserne herfor er opfyldt.",
     "c7fd320": "Ret til indsigelse",
     "6063c18": "Du har i visse tilfælde ret til at gøre indsigelse mod vores ellers lovlige behandling af dine personoplysninger. Du kan også gøre indsigelse mod behandling af dine oplysninger til direkte markedsføring.",
     "122a76f": "Ret til at transmittere oplysninger (dataportabilitet)",
@@ -266,26 +266,20 @@
       "cookie_policy_e": "At spore brugeren mens disse navigerer på hjemmesiden",
       "cookie_policy_outro": "Selskabet bruger ikke cookies til markedsføring på tredjepartssider."
     },
-    "4aae4b6": "4. Tredjepartscookie",
-    "f320935": "Selskabets hjemmeside gør brug af sporingsprogrammet Google Analytics, med til formål at forbedre brugervenligheden på hjemmesiden. Oplysningerne benytter Selskabet blandt andet til at få viden om, hvor mange besøgende der er, og om brugeradfærden. Selskabet kan blandt andet se hvor de besøgende kommer fra, hvilke sider på www.advicecapital.eu og www.advicecapital.dk de besøger, og hvor længe de opholder sig på siderne. Det giver Selskabet en viden om, hvilke sider der fungerer og hvilke sider der skal forbedres. Google Analytics bruger en række cookies til at indsamle oplysninger og rapportere brugsstatistik, uden personligt at identificere individuelle besøgende over for Google.",
-    "aeaca04": "5. Google Analytics",
-    "7527009": "Det er muligt at fravælge cookies fra Google Analytics på https://tools.google.com/dlpage/gaoptout",
-    "513d953": "6. Håndtering af cookies",
-    "54924cf": "Uanset hvilken browser der bruges, kan disse indstilles sådan, at den ikke gemmer cookies, nogle browsere kan indstilles til ikke at gemme cookies fra bestemte hjemmesider. I browserens indstillinger kan der slettes cookies. For at læse mere om cookies og få yderligere vejledning om, hvordan du sletter cookies på forskellige browsere, henvises der til http://minecookies.org/cookiehandtering.",
-    "e0fe9a5": "7. Klager",
+     "e0fe9a5": "4. Klager",
     "cb602d8": "Klager over Selskabets brug af cookies kan rettes på info@improveinvest.com",
 
-    "bb67bdd": "8. Ikrafttræden",
+    "bb67bdd": "5. Ikrafttræden",
     "effective_date": {
       "heading": "Ikrafttræden",
-      "description": "Denne version af cookiepolitik er gældende fra 15. august 2019.",
+      "description": "Denne version af cookiepolitik er gældende fra 21/8/2026.",
       "guide_to_contact": "Hvis du har et spørgsmål over cookiepolitikken, kan du kontakte Improve Invest A/S:",
       "contact": {
         "company": "Improve Invest A/S",
         "address": "Strandvejen 125, 2900 Hellerup",
-        "cvr": "44720795",
+        "cvr": "CVR: 44720795",
         "email": "info@improveinvest.com",
-        "phone": "4092 8900"
+        "phone": "+45 20803939"
       }
     }
   },
@@ -315,7 +309,7 @@
         "Systematisk værdiskabelse gennem renovering og konvertering",
         "Fokuseret ejendomsinvestering i ét af Europas mest efterspurgte boligmarkeder",
         "Minimumsindskud er 750.000 Dkk.",
-        "Invester med pensionsmidler, frie midler eller VSO",
+        "Invester med selskabsmidler, pensionsmidler, frie midler eller VSO. Det optimale bør afklares med egen rådgiver",
         "Risikospredning via investering i en portefølje af bygninger",
         "Mere end 20 års erfaring med ejendomme og investering",
         "Registreret hos Finanstilsynet som forvalter af alternative investeringsfonde (AIF)"
@@ -326,7 +320,7 @@
       "heading": "Ét marked. Én strategi. Klar disciplin.",
       "paragraphs": {
         "p1": "Improve Invest fokuserer på hovedstaden som investeringsområde.",
-        "p2": "Hovedstaden er kendetegnet ved høj og vedvarende efterspørgsel på boliger, høj likviditet og klare exit-muligheder. Ændrede arbejdsmønstre, færre kontorlokaler og mindre fysisk detailhandel har skabt et betydeligt potentiale for konvertering af eksisterende erhvervsejendomme til boliger.",
+        "p2": "Hovedstaden er kendetegnet ved høj og vedvarende efterspørgsel på boliger, høj likviditet og klare projekt exit-muligheder. Ændrede arbejdsmønstre, færre kontorlokaler og mindre fysisk detailhandel har skabt et betydeligt potentiale for konvertering af eksisterende erhvervsejendomme til boliger.",
         "p3": "Ved at fokusere på ét marked opnår Improve Invest dyb lokal indsigt, et stærkt netværk og mulighed for præcis risikovurdering. Det reducerer kompleksitet og øger forudsigeligheden i både gennemførelse og realisering.",
         "p4": "Boliger i attraktive byområder har historisk haft stabil efterspørgsel. Det gør hovedstaden til et naturligt omdrejningspunkt for en disciplineret og risikobevidst ejendomsstrategi"
       }
@@ -373,7 +367,7 @@
       "sub_heading": "Professionelt setup med klare rammer",
       "paragraphs": {
         "p1": "Improve Invest A/S er registreret hos Finanstilsynet som forvalter af alternative investeringsfonde (AIF).",
-        "p2": "Det understøtter et reguleret setup med klare krav til governance, rapportering og investorbeskyttelse.",
+        "p2": "Det understøtter et reguleret setup",
         "p3": "Improve Invest har en professionel bestyrelse, der varetager selskabets overordnede governance, strategiske tilsyn og risikokontrol.",
         "p4": "Bestyrelsen omfatter Christian Klarskov og bestyrelsesformand Karsten Holst Bork Kristoffersen, advokat med speciale i selskabs- og kapitalmarkedsret.",
         "p5": "Der samarbejdes med eksterne rådgivere inden for revision, skat og jura for at sikre korrekt struktur og løbende kontrol.",
@@ -422,7 +416,7 @@
           "subheading": "Et veldefineret investeringssegment",
           "paragraphs": {
             "p1": "Improve Invest investerer typisk i ejendomme, der befinder sig mellem mindre private investorer og store institutionelle aktører. Disse projekter er ofte for komplekse til mindre investorer og for specialiserede til institutionelle fonde – hvilket giver adgang til et marked med begrænset konkurrence og mulighed for aktiv værdiskabelse.",
-            "p2": "Improve Invest investerer i ejendomme i prisklassen 15-200 mio. kr. Det giver stor spredning i antallet af ejendomme og god spredning af risiko."
+            "p2": "Improve Invest investerer i ejendomme i prisklassen 15-200 mio. kr. Det giver spredning i antallet af ejendomme og spredning af risiko."
           }
         },
         "section_5": {
@@ -584,7 +578,8 @@
         "section_2": {
           "subheading": "Risiko",
           "paragraphs": {
-            "p1": "Alle investeringer indebærer risiko. Hos Improve Invest håndteres risiko systematisk gennem faste principper, der anvendes på tværs af alle investeringer."
+            "p1": "Alle investeringer indebærer risiko. Hos Improve Invest håndteres risiko systematisk gennem faste principper, der anvendes på tværs af alle investeringer.",
+            "p2": "Improve Invest A/S’ aktier er unoterede. Investeringen har ingen kapitalbeskyttelse, og investor kan miste hele eller dele af investeringen. Den summariske risikoindikator er 4 ud af 7. Den anbefalede investeringsperiode er 5 år. Tilbagekøb er ikke garanteret og afhænger bl.a. af selskabets likviditet og bestyrelsens vurdering. Der gælder 12 måneders varsel, og ved tilbagekøb før 5 år kan der ske et fradrag på 15 %."
           }
         },
         "section_3": {
@@ -622,10 +617,8 @@
         "section_5": {
           "subheading": "Regulatorisk setup og governance",
           "paragraphs": {
-            "p1": "Improve Invest A/S er registreret hos Finanstilsynet som forvalter af alternative investeringsfonde (AIF). Det indebærer faste krav til governance, compliance, dokumentation og løbende rapportering.",
-            "href": "https://www.finanstilsynet.dk/finansielle-temaer/investeringsomraadet/spoergsmaal-og-svar",
-            "p2": "Finanstilsynets side om AIF",
-            "p3": "Det regulerede setup er en integreret del af selskabets måde at arbejde på og bidrager til transparens og investorbeskyttelse."
+            "p1": "Improve Invest A/S er registreret hos Finanstilsynet som forvalter af alternative investeringsfonde (AIF). Det understøtter et reguleret setup",
+            "p2": "Det regulerede setup er en integreret del af selskabets måde at arbejde på og bidrager til transparens og investorbeskyttelse."
           }
         }
       }

@@ -30,7 +30,6 @@ const Cookies = () => {
         </TextBlock>
         <TextBlock>
           <Header>{t("30b150d")}</Header>
-          {/* <Paragraph>{t("0b09044")}</Paragraph> */}
           <ol className="list-disc list-inside text-sm">
             <li className="list-none">{t("block_3.cookie_policy_intro")}</li>
             <li>{t("block_3.cookie_policy_a")}</li>
@@ -40,18 +39,6 @@ const Cookies = () => {
             <li>{t("block_3.cookie_policy_e")}</li>
             <li className="list-none">{t("block_3.cookie_policy_outro")}</li>
           </ol>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("4aae4b6")}</Header>
-          <Paragraph>{t("f320935")}</Paragraph>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("aeaca04")}</Header>
-          <Paragraph>{t("7527009")}</Paragraph>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("513d953")}</Header>
-          <Paragraph>{t("54924cf")}</Paragraph>
         </TextBlock>
         <TextBlock>
           <Header>{t("e0fe9a5")}</Header>
