@@ -136,6 +136,7 @@ const Investors = () => {
           <div className="py-4">
             <SubHeading>{bodyContentArticle1.section_2.subheading}</SubHeading>
             <p>{bodyContentArticle1.section_2.paragraphs.p1}</p>
+            <p>{bodyContentArticle1.section_2.paragraphs.p2}</p>
           </div>
           {/* Section 3 */}
           <div className="py-4">
