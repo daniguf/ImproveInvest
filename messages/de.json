@@ -203,7 +203,7 @@
     "50f22b4": "Wir löschen unsere Kommunikation mit Ihnen, wenn klar ist, ob Sie unsere Dienstleistungen wünschen oder nicht.",
     "d124e0b": "Sollte in einem besonderen Fall die Notwendigkeit entstehen, Ihre personenbezogenen Daten länger aufzubewahren, wäre dies möglich.",
     "6a1f3bd": "Kunden",
-    "11d03d5": "Wir müssen mit unseren Kunden kommunizieren, um sicherzustellen, dass die Dienstleistung korrekt erbracht wird. Hierbei können wir Informationen über Name, Adresse, Dienstleistungen, Sondervereinbarungen, Zahlungsinformationen und Ähnliches verarbeiten.",
+    "11d03d5": "Wenn Sie Investor der Improve Invest A/S werden oder anderweitig eine Kundenbeziehung mit uns eingehen, verarbeiten wir die personenbezogenen Daten, die erforderlich sind, um die Kundenbeziehung zu begründen, zu verwalten und zu dokumentieren. Dazu können unter anderem Name, Adresse, Kontaktdaten, CPR-Nummer (dänische Personenkennziffer), Bank- und Depotdaten, Informationen über Investitionen und Zahlungen sowie weitere Informationen gehören, die erforderlich sind, um Ihr Eigentum zu verwalten und mit Ihnen zu kommunizieren. Wir verarbeiten die Daten unter anderem zum Zweck der Investorenverwaltung, Kommunikation, Kapitalerhöhungen, Ausschüttungen, Hauptversammlungen, Berichterstattung sowie zur Erfüllung unserer gesetzlichen und regulatorischen Verpflichtungen. Investorenregistrierung und Kundenkenntnis. Im Zusammenhang mit der Begründung und laufenden Verwaltung einer Investorenbeziehung können wir weitere Daten verarbeiten, um Anforderungen an die Kundenkenntnis, Identifizierung und Dokumentation zu erfüllen. Dazu können unter anderem gehören: Legitimations- und Identitätsdaten, Angaben zu wirtschaftlich Berechtigten und Eigentümerstruktur, Angaben zu Anlagebeträgen und Zahlungsverhältnissen, Informationen, die erforderlich sind, um zu beurteilen, ob der Investor die Bedingungen für eine Investition in den Fonds erfüllt, gegebenenfalls eine Dokumentation der Risikobestätigung des Investors sowie in relevanten Fällen Angaben zur Herkunft der Mittel. Die Verarbeitung erfolgt, wenn sie zur Erfüllung rechtlicher Verpflichtungen, denen Improve Invest A/S unterliegt, erforderlich ist oder wenn die Verarbeitung für den Abschluss oder die Verwaltung der Vereinbarung mit dem Investor erforderlich ist. Speicherung. Wir speichern personenbezogene Daten so lange, wie es für die Zwecke, für die sie erhoben wurden, erforderlich ist, und danach so lange, wie wir gesetzlich dazu verpflichtet sind. Daten zu Investor- und Kundenbeziehungen werden daher nicht unbedingt unmittelbar nach Beendigung der Kundenbeziehung gelöscht. Daten können unter anderem für den Zeitraum aufbewahrt werden, der sich aus Buchführungs-, Gesellschafts-, Steuer- und Geldwäschegesetzen sowie anderen relevanten regulatorischen Anforderungen ergibt.",
     "653049f": "Die Rechtsgrundlage für die Verarbeitung dieser personenbezogenen Daten ist Artikel 6 Absatz 1 Buchstabe b der Datenschutz-Grundverordnung.",
     "def2ea9": "Sobald die Dienstleistung erbracht und etwaige offene Punkte abgeschlossen sind, werden wir die personenbezogenen Daten unverzüglich löschen.",
     "7520642": "Newsletter",
@@ -250,7 +250,7 @@
     "05f8c38": "Recht auf Löschung",
     "bf64837": "In besonderen Fällen haben Sie das Recht, die Löschung von Daten über sich zu verlangen, bevor der Zeitpunkt unserer allgemeinen Löschung eintritt.",
     "93ebe09": "Recht auf Einschränkung der Verarbeitung",
-    "7b0de15": "Sie haben in bestimmten Fällen das Recht, die Verarbeitung Ihrer personenbezogenen Daten einschränken zu lassen. Wenn Sie das Recht auf Einschränkung der Verarbeitung haben, dürfen wir die Daten – abgesehen von der Speicherung – zukünftig nur mit Ihrer Zustimmung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz einer Person oder wichtiger öffentlicher Interessen verarbeiten.",
+    "7b0de15": "In bestimmten Fällen haben Sie das Recht, personenbezogene Daten, die Sie uns bereitgestellt haben, in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten und zu verlangen, dass diese Daten an einen anderen Verantwortlichen übermittelt werden, sofern die Voraussetzungen hierfür erfüllt sind.",
     "c7fd320": "Widerspruchsrecht",
     "6063c18": "Sie haben in bestimmten Fällen das Recht, Widerspruch gegen unsere ansonsten rechtmäßige Verarbeitung Ihrer personenbezogenen Daten einzulegen. Sie können auch Widerspruch gegen die Verarbeitung Ihrer Daten für Direktmarketing einlegen.",
     "122a76f": "Recht auf Datenübertragbarkeit",
@@ -386,25 +386,19 @@
       "cookie_policy_e": "Um den Benutzer zu verfolgen, während dieser auf der Website navigiert",
       "cookie_policy_outro": "Das Unternehmen verwendet keine Cookies für Marketing auf Drittanbieterseiten."
     },
-    "4aae4b6": "4. Drittanbieter-Cookie",
-    "f320935": "Die Website des Unternehmens verwendet das Tracking-Programm Google Analytics, um die Benutzerfreundlichkeit der Website zu verbessern. Das Unternehmen nutzt die Informationen unter anderem, um Kenntnis darüber zu erlangen, wie viele Besucher es gibt und wie das Nutzerverhalten ist. Das Unternehmen kann unter anderem sehen, woher die Besucher kommen, welche Seiten auf www.advicecapital.eu und www.advicecapital.dk sie besuchen und wie lange sie sich auf den Seiten aufhalten. Dies gibt dem Unternehmen Aufschluss darüber, welche Seiten funktionieren und welche Seiten verbessert werden müssen. Google Analytics verwendet eine Reihe von Cookies, um Informationen zu sammeln und Nutzungsstatistiken zu melden, ohne einzelne Besucher persönlich gegenüber Google zu identifizieren.",
-    "aeaca04": "5. Google Analytics",
-    "7527009": "Es ist möglich, Cookies von Google Analytics unter https://tools.google.com/dlpage/gaoptout abzulehnen.",
-    "513d953": "6. Verwaltung von Cookies",
-    "54924cf": "Unabhängig davon, welcher Browser verwendet wird, kann dieser so eingestellt werden, dass er keine Cookies speichert, einige Browser können so eingestellt werden, dass sie keine Cookies von bestimmten Websites speichern. In den Browsereinstellungen können Cookies gelöscht werden. Um mehr über Cookies zu erfahren und weitere Anleitungen zum Löschen von Cookies in verschiedenen Browsern zu erhalten, wird auf http://minecookies.org/cookiehandtering verwiesen.",
-    "e0fe9a5": "7. Beschwerden",
+    "e0fe9a5": "4. Beschwerden",
     "cb602d8": "Beschwerden über die Verwendung von Cookies durch das Unternehmen können an info@improveinvest.com gerichtet werden.",
-    "bb67bdd": "8. Inkrafttreten",
+    "bb67bdd": "5. Inkrafttreten",
     "effective_date": {
       "heading": "Inkrafttreten",
-      "description": "Diese Version der Cookie-Richtlinie ist gültig ab dem 15. August 2019.",
+      "description": "Diese Version der Cookie-Richtlinie ist gültig ab dem 21/8/2026.",
       "guide_to_contact": "Wenn Sie eine Frage zur Cookie-Richtlinie haben, können Sie Improve Invest A/S kontaktieren:",
       "contact": {
         "company": "Improve Invest A/S",
         "address": "Strandvejen 125, 2900 Hellerup",
-        "cvr": "44720795",
+        "cvr": "CVR: 44720795",
         "email": "info@improveinvest.com",
-        "phone": "4092 8900"
+        "phone": "+45 20803939"
       }
     }
   },
@@ -512,7 +506,7 @@
         "Systematische Wertschöpfung durch Renovierung und Umwandlung",
         "Fokussierte Immobilieninvestition in einen der gefragtesten Wohnmärkte Europas",
         "Die Mindesteinlage beträgt 750.000 DKK.",
-        "Investieren Sie mit Pensionsgeldern, freien Mitteln oder über die Unternehmenssteuerregelung (VSO)",
+        "Investieren Sie mit Gesellschaftsmitteln, Pensionsmitteln, freien Mitteln oder VSO (dänische Unternehmenssteuerregelung). Das Optimale sollte mit dem eigenen Berater geklärt werden.",
         "Risikostreuung durch Investition in ein Gebäudeportfolio",
         "Mehr als 20 Jahre Erfahrung mit Immobilien und Investitionen",
         "Bei der dänischen Finanzaufsichtsbehörde als Verwalter alternativer Investmentfonds (AIF) registriert"
@@ -523,7 +517,7 @@
       "heading": "Ein Markt. Eine Strategie. Klare Disziplin.",
       "paragraphs": {
         "p1": "Improve Invest konzentriert sich auf die Hauptstadt als Investitionsgebiet.",
-        "p2": "Die Hauptstadt zeichnet sich durch eine hohe und anhaltende Nachfrage nach Wohnraum, hohe Liquidität und klare Exit-Möglichkeiten aus. Veränderte Arbeitsmuster, weniger Büroflächen und reduzierter physischer Einzelhandel haben ein erhebliches Potenzial für die Umwandlung bestehender Gewerbeimmobilien in Wohnraum geschaffen.",
+        "p2": "Die Hauptstadt zeichnet sich durch eine hohe und anhaltende Nachfrage nach Wohnraum, hohe Liquidität und klare Projekt-Exit-Möglichkeiten aus. Veränderte Arbeitsmuster, weniger Büroflächen und reduzierter physischer Einzelhandel haben ein erhebliches Potenzial für die Umwandlung bestehender Gewerbeimmobilien in Wohnraum geschaffen.",
         "p3": "Durch die Konzentration auf einen Markt erzielt Improve Invest tiefe lokale Einblicke, ein starkes Netzwerk und die Möglichkeit einer präzisen Risikobewertung. Dies reduziert die Komplexität und erhöht die Vorhersehbarkeit sowohl bei der Durchführung als auch bei der Realisierung.",
         "p4": "Wohnungen in attraktiven Stadtgebieten verzeichneten historisch gesehen eine stabile Nachfrage. Dies macht die Hauptstadt zu einem natürlichen Mittelpunkt für eine disziplinierte und risikobewusste Immobilienstrategie."
       }
@@ -570,7 +564,7 @@
       "sub_heading": "Professionelles Setup mit klaren Rahmenbedingungen",
       "paragraphs": {
         "p1": "Improve Invest A/S ist bei der dänischen Finanzaufsichtsbehörde als Verwalter alternativer Investmentfonds (AIF) registriert.",
-        "p2": "Dies unterstützt ein reguliertes Setup mit klaren Anforderungen an Governance, Berichterstattung und Anlegerschutz.",
+        "p2": "Es unterstützt ein reguliertes Setup.",
         "p3": "Improve Invest verfügt über einen professionellen Verwaltungsrat, der die übergeordnete Governance, strategische Aufsicht und Risikokontrolle des Unternehmens wahrnimmt.",
         "p4": "Dem Verwaltungsrat gehören Christian Klarskov und der Verwaltungsratsvorsitzende Karsten Holst Bork Kristoffersen an, ein auf Gesellschafts- und Kapitalmarktrecht spezialisierter Rechtsanwalt.",
         "p5": "Es wird mit externen Beratern in den Bereichen Revision, Steuern und Recht zusammengearbeitet, um eine korrekte Struktur und laufende Kontrolle zu gewährleisten.",
@@ -619,7 +613,7 @@
           "subheading": "Ein gut definiertes Investitionssegment",
           "paragraphs": {
             "p1": "Improve Invest investiert typischerweise in Immobilien, die sich zwischen kleineren privaten Investoren und großen institutionellen Akteuren befinden. Diese Projekte sind oft zu komplex für kleinere Investoren und zu spezialisiert für institutionelle Fonds – was Zugang zu einem Markt mit begrenztem Wettbewerb und der Möglichkeit zur aktiven Wertschöpfung bietet.",
-            "p2": "Improve Invest investiert in Immobilien in der Preisklasse 15-200 Mio. DKK. Dies bietet eine große Streuung in der Anzahl der Immobilien und eine gute Risikostreuung."
+            "p2": "Improve Invest investiert in Immobilien in der Preisklasse 15-200 Mio. DKK. Das sorgt für eine Streuung über die Anzahl der Immobilien und eine Risikostreuung."
           }
         },
         "section_5": {
@@ -782,7 +776,8 @@
         "section_2": {
           "subheading": "Risiko",
           "paragraphs": {
-            "p1": "Alle Investitionen beinhalten Risiken. Bei Improve Invest wird Risiko systematisch durch feste Prinzipien gehandhabt, die über alle Investitionen hinweg angewendet werden."
+            "p1": "Alle Investitionen beinhalten Risiken. Bei Improve Invest wird Risiko systematisch durch feste Prinzipien gehandhabt, die über alle Investitionen hinweg angewendet werden.",
+            "p2": "Die Aktien der Improve Invest A/S sind nicht börsennotiert. Die Anlage bietet keinen Kapitalschutz, und der Anleger kann die gesamte oder einen Teil der Anlage verlieren. Der summarische Risikoindikator beträgt 4 von 7. Die empfohlene Anlagedauer beträgt 5 Jahre. Ein Rückkauf ist nicht garantiert und hängt unter anderem von der Liquidität der Gesellschaft und der Einschätzung des Vorstands ab. Es gilt eine Kündigungsfrist von 12 Monaten, und bei einem Rückkauf vor Ablauf von 5 Jahren kann ein Abschlag von 15 % erfolgen."
           }
         },
         "section_3": {
@@ -820,10 +815,8 @@
         "section_5": {
           "subheading": "Regulatorisches Setup und Governance",
           "paragraphs": {
-            "p1": "Improve Invest A/S ist bei der dänischen Finanzaufsichtsbehörde als Verwalter alternativer Investmentfonds (AIF) registriert. Dies beinhaltet feste Anforderungen an Governance, Compliance, Dokumentation und laufende Berichterstattung.",
-            "href": "https://www.finanstilsynet.dk/finansielle-temaer/investeringsomraadet/spoergsmaal-og-svar",
-            "p2": "Die Website der dänischen Finanzaufsichtsbehörde über AIF",
-            "p3": "Das regulierte Setup ist ein integrierter Bestandteil der Arbeitsweise des Unternehmens und trägt zu Transparenz und Anlegerschutz bei."
+            "p1": "Improve Invest A/S ist bei der dänischen Finanzaufsichtsbehörde als Verwalter alternativer Investmentfonds (AIF) registriert. Es unterstützt ein reguliertes Setup.",
+            "p2": "Das regulierte Setup ist ein integrierter Bestandteil der Arbeitsweise des Unternehmens und trägt zu Transparenz und Anlegerschutz bei."
           }
         }
       }

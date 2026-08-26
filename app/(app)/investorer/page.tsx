@@ -118,13 +118,13 @@ const Investors = () => {
                 <li>
                   <div className="font-bold">
                     {
-                      bodyContentArticle1.section_1.paragraphs.p2.points[6]
+                      bodyContentArticle1.section_1.paragraphs.p2.points[7]
                         .heading
                     }
                   </div>
                   <p>
                     {
-                      bodyContentArticle1.section_1.paragraphs.p2.points[6]
+                      bodyContentArticle1.section_1.paragraphs.p2.points[7]
                         .description
                     }
                   </p>
@@ -136,6 +136,7 @@ const Investors = () => {
           <div className="py-4">
             <SubHeading>{bodyContentArticle1.section_2.subheading}</SubHeading>
             <p>{bodyContentArticle1.section_2.paragraphs.p1}</p>
+            <p>{bodyContentArticle1.section_2.paragraphs.p2}</p>
           </div>
           {/* Section 3 */}
           <div className="py-4">
@@ -184,7 +185,7 @@ const Investors = () => {
             </ol>
             <div className="md:flex py-6 gap-1">
               {bodyContentArticle1.section_3.p1}{" "}
-              <Link href={"priip-kid"}>
+              <Link href={"files/legal/PRIIP_KID_ImproveInvest_21-08-2026.pdf"}>
                 <p className="underline underline-offset-4">PRIIP-KID</p>
               </Link>
             </div>
@@ -198,12 +199,7 @@ const Investors = () => {
           <div className="py-4">
             <SubHeading>{bodyContentArticle1.section_5.subheading}</SubHeading>
             <p>{bodyContentArticle1.section_5.paragraphs.p1}</p>
-            <Link href={bodyContentArticle1.section_5.paragraphs.href}>
-              <p className="py-4 underline underline-offset-8">
-                {bodyContentArticle1.section_5.paragraphs.p2}
-              </p>
-            </Link>
-            <p>{bodyContentArticle1.section_5.paragraphs.p3}</p>
+            <p>{bodyContentArticle1.section_5.paragraphs.p2}</p>
           </div>
         </div>
       </MaxWidthWrapper>

@@ -205,7 +205,7 @@
     "50f22b4": "We delete our communication with you when it becomes clear whether you want our services or not.",
     "d124e0b": "Should the need arise in a specific case to store your personal data for a longer period, this may be the case.",
     "6a1f3bd": "Customers",
-    "11d03d5": "We need to communicate with our customers to ensure that the service is delivered correctly. Through this, we may process information about name, address, services, special agreements, payment information, and similar.",
+    "11d03d5": "When you become an investor in Improve Invest A/S or otherwise enter into a customer relationship with us, we process the personal data necessary to establish, administer and document the customer relationship. This may include, among other things, name, address, contact details, CPR number (Danish civil registration number), bank and custody account details, information about investments and payments, and other information necessary to administer your ownership and communicate with you. We process the information for purposes including investor administration, communication, capital increases, distributions, general meetings, reporting and compliance with our legal and regulatory obligations. Investor onboarding and customer due diligence. In connection with the establishment and ongoing administration of an investor relationship, we may process further information to meet requirements regarding customer due diligence, identification and documentation. This may include, among other things: identification documents and identity information, information about beneficial owners and ownership structure, information about investment amounts and payment circumstances, information necessary to assess whether the investor meets the conditions for investing in the fund, documentation of the investor’s risk acknowledgement where relevant, and, where applicable, information about the origin of funds. Processing takes place when necessary to comply with legal obligations to which Improve Invest A/S is subject, or when processing is necessary to enter into or administer the agreement with the investor. Storage. We store personal data for as long as necessary for the purposes for which the data was collected, and thereafter for as long as we are required to do so under applicable law. Information relating to investor and customer relationships is therefore not necessarily deleted immediately after the customer relationship ends. Information may be stored for the period required by accounting, company, tax and anti-money laundering legislation and other relevant regulatory requirements.",
     "653049f": "The legal basis for processing this personal data is Article 6(1)(b) of the General Data Protection Regulation.",
     "def2ea9": "Once the service has been delivered and any outstanding matters are concluded, we will delete the personal data immediately thereafter.",
     "7520642": "Newsletter",
@@ -252,7 +252,7 @@
     "05f8c38": "Right to Erasure (Right to be forgotten)",
     "bf64837": "In special cases, you have the right to have information about you erased before the time of our general deletion occurs.",
     "93ebe09": "Right to Restriction of Processing",
-    "7b0de15": "In certain cases, you have the right to have the processing of your personal data restricted. If you have the right to have processing restricted, we may only process the information in the future – apart from storage – with your consent, or for the purpose of establishing, asserting, or defending legal claims, or for the protection of a person or important public interests.",
+    "7b0de15": "In certain cases, you have the right to receive personal data about you that you have provided to us in a structured, commonly used and machine-readable format, and to request that the data be transferred to another data controller where the conditions for this are met.",
     "c7fd320": "Right to Object",
     "6063c18": "In certain cases, you have the right to object to our otherwise lawful processing of your personal data. You can also object to the processing of your information for direct marketing.",
     "122a76f": "Right to Data Portability",
@@ -387,25 +387,19 @@
       "cookie_policy_e": "To track the user while they navigate the website",
       "cookie_policy_outro": "The Company does not use cookies for marketing on third-party sites."
     },
-    "4aae4b6": "4. Third-Party Cookie",
-    "f320935": "The Company's website uses the Google Analytics tracking program with the aim of improving website usability. The Company uses the information to gain knowledge about, among other things, the number of visitors and user behaviour. The Company can see where visitors come from, which pages on www.advicecapital.eu and www.advicecapital.dk they visit, and how long they stay on the pages. This gives the Company knowledge about which pages are working and which pages need to be improved. Google Analytics uses a number of cookies to collect information and report usage statistics, without personally identifying individual visitors to Google.",
-    "aeaca04": "5. Google Analytics",
-    "7527009": "It is possible to opt out of Google Analytics cookies at https://tools.google.com/dlpage/gaoptout",
-    "513d953": "6. Management of Cookies",
-    "54924cf": "Regardless of the browser used, it can be set not to save cookies; some browsers can be set not to save cookies from specific websites. Cookies can be deleted in the browser's settings. To read more about cookies and get further guidance on how to delete cookies on different browsers, please refer to http://minecookies.org/cookiehandtering.",
-    "e0fe9a5": "7. Complaints",
+    "e0fe9a5": "4. Complaints",
     "cb602d8": "Complaints about the Company's use of cookies can be addressed to info@improveinvest.com",
-    "bb67bdd": "8. Entry into Force",
+    "bb67bdd": "5. Entry into Force",
     "effective_date": {
       "heading": "Entry into Force",
-      "description": "This version of the cookie policy is effective from 15 August 2019.",
+      "description": "This version of the cookie policy is effective from 21/8/2026.",
       "guide_to_contact": "If you have a question about the cookie policy, you can contact Improve Invest A/S:",
       "contact": {
         "company": "Improve Invest A/S",
         "address": "Strandvejen 125, 2900 Hellerup",
-        "cvr": "44720795",
+        "cvr": "CVR: 44720795",
         "email": "info@improveinvest.com",
-        "phone": "4092 8900"
+        "phone": "+45 20803939"
       }
     }
   },
@@ -519,7 +513,7 @@
         "Systematic value creation through renovation and conversion",
         "Focused real estate investment in one of Europe's most in-demand housing markets",
         "Minimum investment is DKK 750,000",
-        "Invest with pension funds, free funds, or via the Business Tax Scheme (VSO)",
+        "Invest with company funds, pension funds, free funds or VSO (Danish business tax scheme). The optimal choice should be clarified with your own adviser.",
         "Risk diversification via investment in a portfolio of buildings",
         "More than 20 years of experience with real estate and investment",
         "Registered with the Danish Financial Supervisory Authority as a manager of alternative investment funds (AIF)"
@@ -530,7 +524,7 @@
       "heading": "One market. One strategy. Clear discipline.",
       "paragraphs": {
         "p1": "Improve Invest focuses on the capital as its investment area.",
-        "p2": "The capital is characterized by high and sustained demand for housing, high liquidity, and clear exit options. Changing work patterns, fewer office spaces, and reduced physical retail have created significant potential for converting existing commercial properties into housing.",
+        "p2": "The capital is characterised by high and sustained demand for housing, high liquidity and clear project exit opportunities. Changing work patterns, fewer office spaces, and reduced physical retail have created significant potential for converting existing commercial properties into housing.",
         "p3": "By focusing on a single market, Improve Invest achieves deep local insight, a strong network, and the ability to precisely assess risk. This reduces complexity and increases predictability in both execution and realization.",
         "p4": "Housing in attractive urban areas has historically seen stable demand. This makes the capital a natural focal point for a disciplined and risk-aware real estate strategy."
       }
@@ -577,7 +571,7 @@
       "sub_heading": "Professional setup with clear frameworks",
       "paragraphs": {
         "p1": "Improve Invest A/S is registered with the Danish Financial Supervisory Authority as a manager of alternative investment funds (AIF).",
-        "p2": "This supports a regulated setup with clear requirements for governance, reporting, and investor protection.",
+        "p2": "It supports a regulated setup.",
         "p3": "Improve Invest has a professional board of directors that handles the company's overall governance, strategic supervision, and risk control.",
         "p4": "The board includes Christian Klarskov and Chairman of the Board Karsten Holst Bork Kristoffersen, an attorney specializing in corporate and capital market law.",
         "p5": "We cooperate with external advisors within auditing, tax, and law to ensure correct structure and ongoing control.",
@@ -626,7 +620,7 @@
           "subheading": "A well-defined investment segment",
           "paragraphs": {
             "p1": "Improve Invest typically invests in properties that sit between smaller private investors and large institutional players. These projects are often too complex for smaller investors and too specialized for institutional funds – providing access to a market with limited competition and the opportunity for active value creation.",
-            "p2": "Improve Invest invests in properties in the price range of DKK 15-200 million. This provides a wide spread in the number of properties and good risk diversification."
+            "p2": "Improve Invest invests in properties in the price range of DKK 15-200 million. This provides diversification in the number of properties and risk diversification."
           }
         },
         "section_5": {
@@ -789,7 +783,8 @@
         "section_2": {
           "subheading": "Risk",
           "paragraphs": {
-            "p1": "All investments involve risk. At Improve Invest, risk is handled systematically through fixed principles applied across all investments."
+            "p1": "All investments involve risk. At Improve Invest, risk is handled systematically through fixed principles applied across all investments.",
+            "p2": "Improve Invest A/S’ shares are unlisted. The investment has no capital protection, and the investor may lose all or part of the investment. The summary risk indicator is 4 out of 7. The recommended investment period is 5 years. Buyback is not guaranteed and depends, among other things, on the company's liquidity and the board of directors' assessment. A 12-month notice period applies, and for buybacks before 5 years a deduction of 15% may apply."
           }
         },
         "section_3": {
@@ -827,10 +822,8 @@
         "section_5": {
           "subheading": "Regulatory setup and governance",
           "paragraphs": {
-            "p1": "Improve Invest A/S is registered with the Danish Financial Supervisory Authority as a manager of alternative investment funds (AIF). This entails fixed requirements for governance, compliance, documentation, and ongoing reporting.",
-            "href": "https://www.finanstilsynet.dk/finansielle-temaer/investeringsomraadet/spoergsmaal-og-svar",
-            "p2": "The Danish FSA's page on AIFs",
-            "p3": "The regulated setup is an integrated part of the company's way of working and contributes to transparency and investor protection."
+            "p1": "Improve Invest A/S is registered with the Danish Financial Supervisory Authority as a manager of alternative investment funds (AIF). It supports a regulated setup.",
+            "p2": "The regulated setup is an integrated part of the company's way of working and contributes to transparency and investor protection."
           }
         }
       }
