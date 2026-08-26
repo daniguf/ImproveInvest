@@ -198,12 +198,7 @@ const Investors = () => {
           <div className="py-4">
             <SubHeading>{bodyContentArticle1.section_5.subheading}</SubHeading>
             <p>{bodyContentArticle1.section_5.paragraphs.p1}</p>
-            <Link href={bodyContentArticle1.section_5.paragraphs.href}>
-              <p className="py-4 underline underline-offset-8">
-                {bodyContentArticle1.section_5.paragraphs.p2}
-              </p>
-            </Link>
-            <p>{bodyContentArticle1.section_5.paragraphs.p3}</p>
+            <p>{bodyContentArticle1.section_5.paragraphs.p2}</p>
           </div>
         </div>
       </MaxWidthWrapper>
