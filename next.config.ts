@@ -29,14 +29,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/esg",
-        destination:
-          "/files/legal/politik for integration af bæredygtighed.pdf",
+        destination: "/files/legal/ESG_ImproveInvest.pdf",
         permanent: true,
       },
       {
         source: "/:locale/esg",
-        destination:
-          "/files/legal/politik for integration af bæredygtighed.pdf",
+        destination: "/files/legal/ESG_ImproveInvest.pdf",
         permanent: true,
       },
     ];
