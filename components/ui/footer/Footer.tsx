@@ -52,7 +52,10 @@ const Footer: React.FC = () => {
             <Link href={"/gdpr"} className="px-1.5 border-r">
               {t("footer_bottom_legal.hyperlinks.gdpr")}
             </Link>
-            <Link href={"files/legal/politik for integration af bæredygtighed.pdf"} className="px-1.5 border-r">
+            <Link
+              href={"files/legal/ESG_ImproveInvest.pdf"}
+              className="px-1.5 border-r"
+            >
               {t("footer_bottom_legal.hyperlinks.esg")}
             </Link>
             <Link href={"/cookies"} className="px-1.5 border-r">
