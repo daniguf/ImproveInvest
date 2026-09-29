@@ -15,6 +15,11 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Generated output. Flat config does not read .gitignore, so every build
+    // artefact has to be listed here or `npm run lint` lints it.
+    "storybook-static/**",
+    "coverage/**",
+    "logs/**",
   ]),
   {
     languageOptions: {
