@@ -11,10 +11,7 @@ import { readLogContent, writeLogContent } from "@/lib/consent-logger";
 // reported as "no records", so a DSAR request never silently returns empty.
 async function readLogs(): Promise<string[]> {
   const data = await readLogContent();
-  return data
-    .trim()
-    .split("\n")
-    .filter(Boolean);
+  return data.trim().split("\n").filter(Boolean);
 }
 
 export async function GET(request: NextRequest) {

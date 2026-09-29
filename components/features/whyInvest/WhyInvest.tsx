@@ -74,7 +74,7 @@ const WhyInvest: React.FC = () => {
               {{
                 icon: <HardHat color="white" size={48} />,
                 paragraphs: [
-                   <React.Fragment key={bodyContentPoints[5]}>
+                  <React.Fragment key={bodyContentPoints[5]}>
                     <p>{bodyContentPoints[5]}</p>
                     <p>{bodyContentPoints[6]}</p>
                   </React.Fragment>,

@@ -8,10 +8,9 @@ import { useMessages } from "next-intl";
 import Image from "next/image";
 import { useLayoutEffect, useRef } from "react";
 
-import selektiv_udv from "@/public/selektiv_udvælgelse.png"
-import reno from "@/public/renovering_og_konvertering.jpg"
-import realisering from "@/public/realisering_og_genivestering.jpg"
-
+import selektiv_udv from "@/public/selektiv_udvælgelse.png";
+import reno from "@/public/renovering_og_konvertering.jpg";
+import realisering from "@/public/realisering_og_genivestering.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 

@@ -49,9 +49,7 @@ export const globalContentFields = [
     title: "Project Title",
     name: "title",
     type: "localeString", // Use the custom type
-    validation: (rule) => [
-      rule.required(),
-    ],
+    validation: (rule) => [rule.required()],
   }),
 
   defineField({
