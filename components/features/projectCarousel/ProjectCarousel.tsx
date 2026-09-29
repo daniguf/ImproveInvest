@@ -1,6 +1,6 @@
 import { allNewsfeedItemsQuery, allProjectsQuery } from "@/lib/queries";
 import { sanityFetch } from "@/lib/sanity-utils";
-import { Project } from "@/sanity/schema/project";
+import { Project } from "@/types/project";
 import { cookies } from "next/headers";
 import ProjectCarouselClient from "./ProjectCarouselClient";
 

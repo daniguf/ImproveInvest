@@ -1,7 +1,7 @@
 import { allProjectsQuery } from "@/lib/queries"; // create this file as shown earlier
 import { sanityFetch } from "@/lib/sanity-utils";
 import { urlFor } from "@/sanity/image";
-import { getFeaturedImage, Project } from "@/sanity/schema/project";
+import { getFeaturedImage, Project } from "@/types/project";
 import { getTranslations } from "next-intl/server";
 import { cookies } from "next/headers";
 import Image from "next/image";

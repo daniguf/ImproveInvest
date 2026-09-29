@@ -2,7 +2,7 @@
 
 import MaxWidthWrapper from "@/components/layouts/maxWidthWrapper/MaxWidthWrapper";
 import { urlFor } from "@/sanity/image";
-import { getFeaturedImage, Project } from "@/sanity/schema/project";
+import { getFeaturedImage, Project } from "@/types/project";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";

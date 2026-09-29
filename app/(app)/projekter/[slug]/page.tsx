@@ -1,7 +1,7 @@
 import Gallery from "@/components/features/gallery/Gallery";
 import { projectBySlugQuery } from "@/lib/queries";
 import { sanityClient } from "@/sanity/client";
-import { Project } from "@/sanity/schema/project";
+import { Project } from "@/types/project";
 import { PortableText } from "next-sanity";
 import { cookies } from "next/headers";
 import { notFound } from "next/navigation";

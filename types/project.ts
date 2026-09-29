@@ -1,4 +1,4 @@
-// types/project.ts
+// Shared document types for the `project` and `newsfeed` Sanity schemas.
 export interface SanityImage {
   asset: {
     url: string;
@@ -13,12 +13,14 @@ export interface SanityVideo {
 
 export interface GalleryItem {
   _key: string;
+  // NOTE: "Image" is PascalCase on purpose — it is the literal `name` of the
+  // Sanity array member declared in `sanity/schema/sharedFields.ts`, and that is
+  // what existing documents store as `_type`. Renaming it is a data migration.
   _type: "Image" | "videoFile";
   // Image-specific fields
   image?: SanityImage;
   asset?: SanityVideo;
   isFeatured?: boolean;
-  // Video-specific fields
   // Common fields
   caption?: string;
   alt?: string;

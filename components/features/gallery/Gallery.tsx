@@ -1,6 +1,6 @@
 "use client";
 
-import { GalleryItem } from "@/sanity/schema/project";
+import { GalleryItem } from "@/types/project";
 import Image from "next/image";
 import { useState } from "react";
 
