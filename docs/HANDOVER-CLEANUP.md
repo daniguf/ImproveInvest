@@ -79,10 +79,12 @@ The internationalisation outcome in numbers, checked against the tree:
 
 Every `t()` call in the repository (153 of them) resolves in all three catalogues, and
 the English, Danish and German text rendered by the GDPR and cookie-policy pages in
-document order is byte-identical to what those pages rendered before the key rename. The
-43 keys whose English and Danish values matched are down to 29 after the dead namespaces
-went, and all 29 are legitimately language-neutral (brand names, CVR, addresses,
-`GDPR`/`Cookies`/`ESG`/`PRIIP`, `Partner`, `E-mail`).
+document order is byte-identical to what those pages rendered before the key rename.
+
+Keys whose English and Danish values are identical: **51 before** (48 once the three empty
+values are excluded — the audit said 43), **27 now**. All 27 that remain are legitimately
+language-neutral: partner names, `Partner`, `E-mail`, addresses, `CVR`, `MIRA`,
+`Governance`, `GDPR`/`Cookies`/`ESG`/`PRIIP` and a `/mira/…` image path.
 
 ### Deliberately not done
 
@@ -692,7 +694,7 @@ Run on the `chore/handover-cleanup` branch, Node 24.17.0 / npm 11.19.1:
   and a dummy `RESEND_API_KEY`; without them the build stops at "Collecting page data" for
   `/projekter/[slug]` and `/api/contact` respectively. Both are documented in
   `.env.example` and the README.
-- `npm test` — Vitest discovers the 18 story files, but this machine's Playwright is a
+- `npm test` — Vitest discovers the 17 story files, but this machine's Playwright is a
   revision behind the installed Chromium (`chromium_headless_shell-1217`), so the browser
   never launched. Needs `npx playwright install chromium` once. Not a repository problem.
 - `npm run build-storybook` + a headless-Chromium smoke test of every story instead:

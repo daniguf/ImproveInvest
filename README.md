@@ -9,10 +9,10 @@ available in Danish, English and German.
 
 ## Prerequisites
 
-| Tool    | Version  | Notes                                                                       |
-| ------- | -------- | --------------------------------------------------------------------------- |
-| Node.js | ≥ 20.9.0 | `next@16` requires it. `.nvmrc` pins Node 22, which CI reads directly.      |
-| npm     | ≥ 11.2.0 | `engines` and `engine-strict=true` make `npm install` fail on an older npm. |
+| Tool    | Version  | Notes                                                                                                                                                   |
+| ------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Node.js | ≥ 20.9.0 | `next@16` requires it. `.nvmrc` pins Node 24, which CI reads directly — that is the version this document assumes, and it is the one that ships npm 11. |
+| npm     | ≥ 11.2.0 | `.npmrc` sets `engine-strict=true`, so `npm ci` **aborts** on an older npm rather than warning. Node 22 ships npm 10, so run `nvm use` first.           |
 
 ```bash
 nvm use                 # reads .nvmrc
@@ -149,10 +149,12 @@ Schemas live in `sanity/schema/` and are registered by hand in
   addresses are truncated before they are stored. `npm run verify-consent-logs`
   walks the chain.
 - `GET /api/consent-log` and `GET`/`DELETE /api/gdpr/manage` implement the
-  Article 15 (access) and Article 17 (erasure) requests. Erasure anonymises the
-  entry in place so the chain stays verifiable rather than deleting rows. All
-  three are guarded by `verifyAdmin()` (`ADMIN_API_KEY`); see
-  [`.env.example`](.env.example) for the accepted header forms.
+  Article 15 (access) and Article 17 (erasure) requests. Erasure redacts the
+  entry in place rather than deleting the row, and `redactEntry()` recomputes the
+  entry's `currentHash` and `signature` afterwards — the redacted fields are part
+  of the hash, so without that the chain would report tampering from the erasure
+  onwards. All three endpoints are guarded by `verifyAdmin()` (`ADMIN_API_KEY`);
+  see [`.env.example`](.env.example) for the accepted header forms.
 - The audit log is **never** written to the local filesystem: Vercel's
   filesystem is ephemeral and read-only outside `/tmp`.
 - Contact-form submissions are _not_ part of the audit log — they are emailed

@@ -17,6 +17,9 @@ interface ConsentLogEntry {
   previousHash: string;
   currentHash: string;
   signature: string; // HMAC signature for integrity
+  /** Set when the entry was redacted in answer to an Article 17 request. */
+  anonymizedAt?: string;
+  reason?: string;
 }
 
 export interface ConsentLogInput {
@@ -64,6 +67,20 @@ function generateEntryHash(
   return createHash("sha256").update(content).digest("hex");
 }
 
+/**
+ * The bytes that are signed: the entry without its own chain fields. Writing and
+ * verifying both go through here, so the two can never drift — which is what made
+ * signature verification fail for every entry before.
+ */
+function signaturePayload(
+  entry: ConsentLogEntry | Omit<ConsentLogEntry, "currentHash" | "signature">
+): string {
+  const rest: Record<string, unknown> = { ...entry };
+  delete rest.currentHash;
+  delete rest.signature;
+  return JSON.stringify(rest);
+}
+
 // Generate HMAC signature for tamper detection
 function generateSignature(content: string): string {
   if (!HMAC_SECRET) {
@@ -73,6 +90,30 @@ function generateSignature(content: string): string {
   return createHash("sha256")
     .update(content + HMAC_SECRET)
     .digest("hex");
+}
+
+/**
+ * Redact an entry in place of a hard delete (GDPR Article 17) and re-seal it.
+ *
+ * The redacted fields are part of `currentHash`, so the chain fields have to be
+ * recomputed; otherwise `verifyLogIntegrity()` reports the log as tampered with
+ * from the erasure onwards.
+ */
+export function redactEntry(entry: ConsentLogEntry): ConsentLogEntry {
+  const redacted = {
+    ...entry,
+    ipAddress: "0.0.0.0",
+    userAgent: "REDACTED",
+    sessionId: "REDACTED",
+    anonymizedAt: new Date().toISOString(),
+    reason: "DSAR_ERASURE_REQUEST",
+  };
+
+  return {
+    ...redacted,
+    currentHash: generateEntryHash(redacted),
+    signature: generateSignature(signaturePayload(redacted)),
+  };
 }
 
 // Read the current log content from blob. Returns "" when the log does not
@@ -134,7 +175,7 @@ export async function verifyLogIntegrity(): Promise<{
       }
 
       if (HMAC_SECRET && entry.signature) {
-        const expectedSignature = generateSignature(JSON.stringify(entry));
+        const expectedSignature = generateSignature(signaturePayload(entry));
         if (entry.signature !== expectedSignature) {
           return {
             valid: false,
@@ -193,7 +234,7 @@ export async function logConsent(
   };
 
   const currentHash = generateEntryHash(entryContent);
-  const signature = generateSignature(JSON.stringify(entryContent));
+  const signature = generateSignature(signaturePayload(entryContent));
 
   const fullEntry: ConsentLogEntry = {
     ...entryContent,

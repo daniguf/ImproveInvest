@@ -131,6 +131,10 @@ const NO_CONSENT: ConsentState = {
 // it runs once per client mount and never on the server. Consumers that render
 // from the result are gated on `isClient`, so this cannot cause a hydration
 // mismatch, and nothing has to be set from an effect.
+//
+// Deliberately read-only: a stale entry is simply ignored (it is overwritten the
+// next time the visitor chooses), so this never writes to the browser during a
+// render.
 function readInitialConsentState(): InitialConsentState {
   if (typeof window === "undefined") {
     return { consent: NO_CONSENT, hasConsented: false, forceShowBanner: true };
@@ -141,17 +145,13 @@ function readInitialConsentState(): InitialConsentState {
     try {
       const parsed = JSON.parse(stored);
       if (parsed && parsed.consent) {
-        // Check if consent has expired or policy changed
+        // Valid consent that has not expired and matches the current policy
         if (
-          isConsentExpired({
+          !isConsentExpired({
             timestamp: parsed.timestamp,
             policyVersion: parsed.policyVersion,
           })
         ) {
-          // Expired: clear old consent and force banner re-display
-          localStorage.removeItem(CONSENT_KEY);
-        } else {
-          // Valid consent: restore state
           return {
             consent: parsed.consent,
             hasConsented: true,
@@ -161,7 +161,6 @@ function readInitialConsentState(): InitialConsentState {
       }
     } catch (e) {
       console.error("Failed to parse consent settings", e);
-      localStorage.removeItem(CONSENT_KEY);
     }
   }
 

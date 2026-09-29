@@ -2,11 +2,12 @@
 
 import MaxWidthWrapper from "@/components/layouts/maxWidthWrapper/MaxWidthWrapper";
 import Heading from "@/components/ui/heading/Heading";
+import useIsomorphicLayoutEffect from "@/lib/useIsomorphicLayoutEffect";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useMessages } from "next-intl";
 import Image from "next/image";
-import { useLayoutEffect, useRef } from "react";
+import { useRef } from "react";
 
 import selektiv_udv from "@/public/selektiv_udvælgelse.png";
 import reno from "@/public/renovering_og_konvertering.jpg";
@@ -21,7 +22,7 @@ export default function HowWeCreateValue() {
 
   const containerRef = useRef(null);
 
-  useLayoutEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     const ctx = gsap.context(() => {
       const panels = gsap.utils.toArray<HTMLElement>(".value-panel");
       // const lastIndex = panels.length - 1;

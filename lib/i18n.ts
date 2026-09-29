@@ -1,9 +1,13 @@
 // Single source of truth for the locales the app supports.
 //
 // The same list used to be duplicated in `sanity/sanity.config.ts`,
-// `sanity/schema/localeStringType.ts` and `.storybook/preview.ts` (all da/en/de)
-// while `project.inlang/settings.json` claimed `en` only. Everything that needs
-// the list should import from here.
+// `sanity/schema/localeStringType.ts`, `.storybook/preview.ts` and
+// `components/ui/mobileNav/MobileNav.tsx` (all da/en/de) while
+// `project.inlang/settings.json` claimed `en` only. Those all import from here now.
+//
+// `project.inlang/settings.json` is the one exception: it is JSON, read by the
+// inlang VS Code extension, so it cannot import this file and has to be updated
+// by hand when the list changes.
 
 export const LOCALES = ["da", "en", "de"] as const;
 

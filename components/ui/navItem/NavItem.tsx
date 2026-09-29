@@ -42,9 +42,9 @@ const NavItem: React.FC<INavItem> = ({
           )}
           {haveDropDown ? (
             isOpen ? (
-              <ChevronUp size={16} color="#1f1f1f" />
-            ) : (
               <ChevronDown size={16} color="#1f1f1f" />
+            ) : (
+              <ChevronUp size={16} color="#1f1f1f" />
             )
           ) : null}
         </div>

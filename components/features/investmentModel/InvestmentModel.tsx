@@ -2,12 +2,13 @@
 
 import MaxWidthWrapper from "@/components/layouts/maxWidthWrapper/MaxWidthWrapper";
 import Heading from "@/components/ui/heading/Heading";
+import useIsomorphicLayoutEffect from "@/lib/useIsomorphicLayoutEffect";
 import { gsap } from "gsap";
 import MotionPathPlugin from "gsap/MotionPathPlugin";
 import { MoveUpRight } from "lucide-react";
 import { useMessages } from "next-intl";
 import Link from "next/link";
-import { useLayoutEffect, useRef } from "react";
+import { useRef } from "react";
 
 gsap.registerPlugin(MotionPathPlugin);
 
@@ -24,7 +25,7 @@ const InvestmentModel = () => {
   const containerRef = useRef<HTMLElement>(null);
   const animationRef = useRef<gsap.core.Tween | null>(null);
 
-  useLayoutEffect(() => {
+  useIsomorphicLayoutEffect(() => {
     const ctx = gsap.context(() => {
       // Create animation and store reference
       animationRef.current = gsap.to("#rect", {
