@@ -31,9 +31,27 @@ Open <http://localhost:3000>. The Sanity Studio is embedded at
 
 ## Environment variables
 
-All six are documented with placeholder values in [`.env.example`](.env.example);
-copy it to `.env.local`. `.gitignore` ignores `.env*` but keeps `.env.example`
-tracked.
+All six are documented in [`.env.example`](.env.example); copy it to
+`.env.local`. `.gitignore` ignores `.env*` but keeps `.env.example` tracked.
+
+They come from two different places, which is worth knowing before you go looking
+for one:
+
+| Variable                        | Where the value comes from                                   |
+| ------------------------------- | ------------------------------------------------------------ |
+| `NEXT_PUBLIC_SANITY_PROJECT_ID` | Sanity dashboard -> your project -> API                      |
+| `NEXT_PUBLIC_SANITY_DATASET`    | Sanity dashboard -> your project -> Datasets                 |
+| `RESEND_API_KEY`                | Resend dashboard -> API Keys                                 |
+| `BLOB_READ_WRITE_TOKEN`         | Vercel -> Storage -> your Blob store                         |
+| `ADMIN_API_KEY`                 | **You make it up.** Nothing issues it, there is no dashboard |
+| `CONSENT_LOG_HMAC_SECRET`       | **You make it up.** Nothing issues it, there is no dashboard |
+
+For the last two, run `openssl rand -hex 32` and keep the result in a password
+manager. Vercel never shows a saved Secret value again — only its name — and
+`vercel env pull` does not return it either. If you lose one you cannot recover
+it, only replace it.
+
+| Variable | Required | Used by |
 
 | Variable                        | Required        | Used by                                                |
 | ------------------------------- | --------------- | ------------------------------------------------------ |
