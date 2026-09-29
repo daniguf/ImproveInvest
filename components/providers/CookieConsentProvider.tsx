@@ -23,6 +23,8 @@ interface CookieConsentContextType {
   updateConsent: (state: ConsentState) => void;
   isLogging: boolean;
   forceShowBanner: boolean;
+  /** False on the server and during the hydration render. */
+  isClient: boolean;
 }
 
 const CookieConsentContext = createContext<
@@ -225,9 +227,6 @@ export const CookieConsentProvider: React.FC<{ children: ReactNode }> = ({
     [saveConsent]
   );
 
-  // Only render children on client to avoid hydration mismatch
-  if (!isClient) return null;
-
   return (
     <CookieConsentContext.Provider
       value={{
@@ -238,6 +237,11 @@ export const CookieConsentProvider: React.FC<{ children: ReactNode }> = ({
         updateConsent,
         isLogging,
         forceShowBanner,
+        // Consumers that render from `consent` must wait for this to flip, or
+        // they will disagree with the server-rendered markup. The page content
+        // itself is deliberately *not* gated: the provider always renders its
+        // children, so the site is server-rendered rather than a client-only shell.
+        isClient,
       }}
     >
       {children}

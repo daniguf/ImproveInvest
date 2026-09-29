@@ -17,10 +17,14 @@ export default function CookieBanner() {
     updateConsent,
     consent,
     forceShowBanner,
+    isClient,
   } = useCookieConsent();
   const [showDetails, setShowDetails] = useState(false);
   const [localConsent, setLocalConsent] = useState<ConsentState>(consent);
 
+  // Whether the visitor has already decided can only be known in the browser, so
+  // the banner is not rendered until hydration has finished.
+  if (!isClient) return null;
   if (hasConsented && !forceShowBanner) return null;
 
   const handleCustomSave = () => {
