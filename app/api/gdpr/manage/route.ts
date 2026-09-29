@@ -1,9 +1,12 @@
-import { readFile, writeFile } from "fs/promises";
 import { NextRequest, NextResponse } from "next/server";
-import { join } from "path";
 
-const LOG_FILE = join(process.cwd(), "logs", "consent-audit.log");
+import { readLogContent, writeLogContent } from "@/lib/consent-logger";
+
 const ADMIN_KEY = process.env.ADMIN_API_KEY || "";
+
+// The consent audit chain lives in Vercel Blob (see lib/consent-logger.ts).
+// The deployed filesystem is ephemeral and read-only outside /tmp, so this
+// route must never read or write the log from local disk.
 
 // Verify admin authorization
 function verifyAdmin(request: NextRequest) {
@@ -16,14 +19,14 @@ function verifyAdmin(request: NextRequest) {
   return null;
 }
 
-// Read and parse consent logs
+// Read and parse consent logs. A read failure propagates rather than being
+// reported as "no records", so a DSAR request never silently returns empty.
 async function readLogs(): Promise<string[]> {
-  try {
-    const data = await readFile(LOG_FILE, "utf-8");
-    return data.trim().split("\n").filter(Boolean);
-  } catch {
-    return [];
-  }
+  const data = await readLogContent();
+  return data
+    .trim()
+    .split("\n")
+    .filter(Boolean);
 }
 
 export async function GET(request: NextRequest) {
@@ -81,7 +84,7 @@ export async function DELETE(request: NextRequest) {
         return line;
       }
     });
-    await writeFile(LOG_FILE, anonymized.join("\n") + "\n");
+    await writeLogContent(anonymized.join("\n") + "\n");
     return NextResponse.json(
       { success: true, action: "bulk_anonymized" },
       { status: 200 }
@@ -104,7 +107,7 @@ export async function DELETE(request: NextRequest) {
         return line;
       }
     });
-    await writeFile(LOG_FILE, updated.join("\n") + "\n");
+    await writeLogContent(updated.join("\n") + "\n");
     return NextResponse.json(
       { success: true, action: "record_anonymized" },
       { status: 200 }

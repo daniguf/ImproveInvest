@@ -76,8 +76,9 @@ function generateSignature(content: string): string {
     .digest("hex");
 }
 
-// Read the current log content from blob
-async function readLogContent(): Promise<string> {
+// Read the current log content from blob. Returns "" when the log does not
+// exist yet - the first consent entry creates it.
+export async function readLogContent(): Promise<string> {
   try {
     const result = await get(BLOB_KEY, { access: "private" });
     return await new Response(result?.stream).text();
@@ -87,6 +88,16 @@ async function readLogContent(): Promise<string> {
     }
     throw error;
   }
+}
+
+// Overwrite the log in blob storage. Used both when appending a new consent
+// entry and when the GDPR admin route redacts entries for a DSAR request.
+export async function writeLogContent(content: string): Promise<void> {
+  await put(BLOB_KEY, content, {
+    access: "private",
+    addRandomSuffix: false,
+    allowOverwrite: true,
+  });
 }
 
 // Verify log integrity
@@ -193,11 +204,7 @@ export async function logConsent(
 
   // Append to log using read-modify-write pattern
   const newContent = currentContent + JSON.stringify(fullEntry) + "\n";
-  await put(BLOB_KEY, newContent, {
-    access: "private",
-    addRandomSuffix: false,
-    allowOverwrite: true,
-  });
+  await writeLogContent(newContent);
 
   return fullEntry;
 }
