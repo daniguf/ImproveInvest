@@ -52,10 +52,10 @@ state of `dev`.
 
 Three places where carrying the fix out contradicted the audit, worth knowing about:
 
-- **§4.2 — seven dead namespaces, not four.** Besides `header`, `om-os`,
+- **§4.2 — eight dead namespaces, not four.** Besides `header`, `om-os`,
   `hvorfor-investere` and `hvem-er-improve-invest-a-s`, `home`, `esg`, `priip-kid`
   and `projects` are referenced by nothing either (the pages for the last two are
-  now redirects). Removing all eight takes the English catalogue from 552 to 278
+  now redirects). Removing all eight takes the English catalogue from 552 to 275
   keys and, because 149 of the 150 missing Danish keys lived in them, leaves the
   three locales at exact parity instead of needing 150 new translations.
 - **§4.1 — the hash keys are referenced.** They are not unreferenced at all:
