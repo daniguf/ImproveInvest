@@ -118,7 +118,8 @@ language switcher in the header.
   `useTranslations("<namespace>")` / `getTranslations("<namespace>")` or read a
   subtree with `useMessages()`.
 - Namespaces are `snake_case`: `footer`, `gdpr`, `cookies`, `contact_form`,
-  `navigation`, `landing_page`, `mira`, `investors`, `about`, `cookie_banner`.
+  `navigation`, `landing_page`, `mira`, `investors`, `about`, `cookie_banner`,
+  `errors` (the shared error/404 copy).
 - The three catalogues hold the **same 280 keys**. When you add a string, add it
   to all three — Danish is the default locale, so a missing Danish key is a
   visible bug, not a cosmetic one. `messages/global.json` holds shared content
