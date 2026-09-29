@@ -9,8 +9,6 @@ const supportedLanguages = [
   { id: "de", title: "German" },
 ];
 
-export const baseLanguage = supportedLanguages.find((l) => l.isDefault);
-
 export const localeString = defineType({
   title: "Localized string",
   name: "localeString",

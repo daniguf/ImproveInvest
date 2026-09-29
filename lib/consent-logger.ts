@@ -2,7 +2,7 @@
 import { BlobNotFoundError, get, put } from "@vercel/blob";
 import { createHash } from "crypto";
 
-export interface ConsentLogEntry {
+interface ConsentLogEntry {
   id: string;
   timestamp: string;
   consentState: {
@@ -33,7 +33,7 @@ const BLOB_KEY = "consent-audit.log";
 const HMAC_SECRET = process.env.CONSENT_LOG_HMAC_SECRET || "";
 
 // Anonymize IP address for GDPR compliance
-export function anonymizeIp(ip: string): string {
+function anonymizeIp(ip: string): string {
   if (!ip) return "0.0.0.0";
 
   // IPv4: remove last octet
@@ -208,10 +208,3 @@ export async function logConsent(
 
   return fullEntry;
 }
-
-// Export for testing
-export const _test = {
-  generateEntryHash,
-  generateSignature,
-  BLOB_KEY,
-};
