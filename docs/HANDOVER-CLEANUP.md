@@ -25,30 +25,30 @@ This report has been actioned on branch `chore/handover-cleanup`, cut from `dev`
 the sections further down are left as the audit wrote them, so they still describe the
 state of `dev`.
 
-| #   | Finding                                             | Outcome                                                                  |
-| --- | --------------------------------------------------- | ------------------------------------------------------------------------ |
-| 1   | `logs/consent-audit.log` committed                  | Fixed — untracked, `logs/` ignored. Still in history, see §7.            |
-| 2   | Two storage backends for the audit chain            | Fixed — both halves use Vercel Blob.                                     |
-| 3   | 267 KB `ImproveInvestLogo` component                | Deleted.                                                                 |
-| 4   | Unreferenced component/config directories           | Deleted.                                                                 |
-| 5   | Byte-identical `BaseTemplate` triplicates           | Deleted (nothing consumed them).                                         |
-| 6   | Machine-generated `i18n` keys and 4 dead namespaces | Fixed — see the note below, the audit undercounted the dead namespaces.  |
-| 7   | 0-byte `curl` at the repository root                | Deleted.                                                                 |
-| 8   | `app/manifest.json` placeholder                     | Renamed; the two icons are generated from the existing brand mark.       |
-| 9   | `.nvmrc` pins Node 18                               | Node 22; `engines.node` `>=20.9.0`.                                      |
-| 10  | README is framework boilerplate                     | Rewritten.                                                               |
-| 11  | No `.env.example`                                   | Added — six variables, not five (see below).                             |
-| 12  | `messages/versions/`                                | Deleted.                                                                 |
-| 13  | `sampleTextProp` scaffolding                        | Removed.                                                                 |
-| 14  | `lib/sanity.ts` duplicate client                    | Deleted.                                                                 |
-| 15  | Locale list hard-coded in five places               | Fixed — `lib/i18n.ts` is the single source.                              |
-| 16  | Four `eslint-disable` comments                      | Fixed — see the note below, three of them were _not_ unnecessary.        |
-| 17  | `console.log` on render paths                       | Removed.                                                                 |
-| 18  | ~27 MB of legacy Wix assets                         | **Deferred** — see "Deliberately not done".                              |
-| 19  | Unused dependencies, inert `resolutions`            | Removed; `packageManager` added.                                         |
-| 20  | Test harness unreachable                            | `test`, `test:watch`, `test:coverage` scripts added; CI runs them.       |
-| 21  | Slug page logs before its null check                | Fixed (the log is gone).                                                 |
-| 22  | No CI workflow                                      | `.github/workflows/ci.yml` runs lint, typecheck, format check and tests. |
+| #   | Finding                                             | Outcome                                                                                       |
+| --- | --------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 1   | `logs/consent-audit.log` committed                  | Fixed — untracked, `logs/` ignored. Still in history, see §7.                                 |
+| 2   | Two storage backends for the audit chain            | Fixed — both halves use Vercel Blob.                                                          |
+| 3   | 267 KB `ImproveInvestLogo` component                | Deleted.                                                                                      |
+| 4   | Unreferenced component/config directories           | Deleted.                                                                                      |
+| 5   | Byte-identical `BaseTemplate` triplicates           | Deleted (nothing consumed them).                                                              |
+| 6   | Machine-generated `i18n` keys and 4 dead namespaces | Fixed — see the note below, the audit undercounted the dead namespaces.                       |
+| 7   | 0-byte `curl` at the repository root                | Deleted.                                                                                      |
+| 8   | `app/manifest.json` placeholder                     | Renamed; the two icons are generated from the existing brand mark.                            |
+| 9   | `.nvmrc` pins Node 18                               | Node 24 (the version that ships npm 11, which `engines` requires); `engines.node` `>=20.9.0`. |
+| 10  | README is framework boilerplate                     | Rewritten.                                                                                    |
+| 11  | No `.env.example`                                   | Added — six variables, not five (see below).                                                  |
+| 12  | `messages/versions/`                                | Deleted.                                                                                      |
+| 13  | `sampleTextProp` scaffolding                        | Removed.                                                                                      |
+| 14  | `lib/sanity.ts` duplicate client                    | Deleted.                                                                                      |
+| 15  | Locale list hard-coded in five places               | Fixed — `lib/i18n.ts` is the single source.                                                   |
+| 16  | Four `eslint-disable` comments                      | Fixed — see the note below, three of them were _not_ unnecessary.                             |
+| 17  | `console.log` on render paths                       | Removed.                                                                                      |
+| 18  | ~27 MB of legacy Wix assets                         | **Deferred** — see "Deliberately not done".                                                   |
+| 19  | Unused dependencies, inert `resolutions`            | Removed; `packageManager` added.                                                              |
+| 20  | Test harness unreachable                            | `test`, `test:watch`, `test:coverage` scripts added; CI runs them.                            |
+| 21  | Slug page logs before its null check                | Fixed (the log is gone).                                                                      |
+| 22  | No CI workflow                                      | `.github/workflows/ci.yml` runs lint, typecheck, format check and tests.                      |
 
 Three places where carrying the fix out contradicted the audit, worth knowing about:
 
