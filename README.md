@@ -44,6 +44,13 @@ tracked.
 | `CONSENT_LOG_HMAC_SECRET`       | **production**  | [`lib/consent-logger.ts`](lib/consent-logger.ts)       |
 | `BLOB_READ_WRITE_TOKEN`         | consent logging | `@vercel/blob`                                         |
 
+Two of them you generate yourself — nothing issues them, and once saved in Vercel
+they cannot be read back, so put them in a password manager as you create them:
+
+```bash
+openssl rand -hex 32    # ADMIN_API_KEY and CONSENT_LOG_HMAC_SECRET
+```
+
 Two of these fail quietly, so they are worth reading twice:
 
 - **`CONSENT_LOG_HMAC_SECRET`** — if unset, the logger only emits a
