@@ -106,6 +106,37 @@ language-neutral: partner names, `Partner`, `E-mail`, addresses, `CVR`, `MIRA`,
   one of those paths into a document body. Confirm against the production dataset
   first.
 
+### Rotating `CONSENT_LOG_HMAC_SECRET`
+
+An entry's `signature` is computed with the key that was configured when it was
+written, so changing the key invalidates the signature check for everything written
+before the change. Entries written _before any key existed_ have an empty `signature`
+and are skipped, so setting a key for the first time invalidates nothing.
+
+`npm run verify-consent-logs` prints a `stats` block that separates the two failure
+modes. `chainBreaks` and `hashMismatches` at 0 means nothing was rewritten and the only
+failure is the key; anything else is a genuine integrity failure and should be treated
+as one.
+
+Three ways to handle a rotation, best first:
+
+1. **Put the old key back.** The only way to keep the earlier entries verifiable. This
+   is why the key belongs in a password manager — Vercel never shows a saved Secret
+   again.
+2. **Accept the boundary.** Leave the log alone and read signatures as meaningful only
+   from the rotation onwards; the earlier period is covered by the hash chain alone.
+   Honest, and keeps the check useful for new entries.
+3. **Re-seal the whole log with the new key.** Turns the check green, but the new
+   signatures attest nothing about the period before the re-seal — they are computed
+   over whatever content is present at that moment. Only defensible if the hash chain is
+   verified intact immediately beforehand and the trade-off is recorded. Not
+   implemented; it would need a mandatory backup of the previous log first.
+
+A signature mismatch can also simply mean the environment you run the check from holds a
+different value than the entries were signed with — `.env.local` and Vercel disagreeing,
+say. Confirm the two match (the next entry logged in production should verify against
+the local value) before concluding that the log was tampered with.
+
 ---
 
 ## 1. Executive summary

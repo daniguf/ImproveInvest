@@ -140,12 +140,41 @@ export async function writeLogContent(content: string): Promise<void> {
   });
 }
 
-// Verify log integrity
-export async function verifyLogIntegrity(): Promise<{
+/** Details behind an integrity result, to tell a rotation from an alteration. */
+export interface LogIntegrityStats {
+  entries: number;
+  /** Entries written before a signing key existed. They are never signed. */
+  unsigned: number;
+  /** Entries whose signature does not match the key configured here. */
+  signatureMismatches: number;
+  /** Entries whose `previousHash` does not match their predecessor. */
+  chainBreaks: number;
+  /** Entries whose contents do not match their own `currentHash`. */
+  hashMismatches: number;
+}
+
+export interface LogIntegrityReport {
   valid: boolean;
+  /** The first problem found, for callers that only want a headline. */
   error?: string;
   message?: string;
-}> {
+  /** Every problem found, capped - a long log should not produce a huge body. */
+  problems?: string[];
+  stats?: LogIntegrityStats;
+}
+
+const MAX_REPORTED_PROBLEMS = 20;
+
+/**
+ * Verify log integrity.
+ *
+ * The whole log is walked rather than stopping at the first problem: one bad
+ * entry (a rotated signing key, say) would otherwise hide everything after it.
+ * `chainBreaks` and `hashMismatches` mean entries were altered; a
+ * `signatureMismatches` count on its own is what a changed
+ * `CONSENT_LOG_HMAC_SECRET` looks like.
+ */
+export async function verifyLogIntegrity(): Promise<LogIntegrityReport> {
   try {
     const data = await readLogContent();
     const lines = data
@@ -157,37 +186,53 @@ export async function verifyLogIntegrity(): Promise<{
       return { valid: true, message: "Log exists but is empty." };
     }
 
+    const problems: string[] = [];
+    const stats: LogIntegrityStats = {
+      entries: lines.length,
+      unsigned: 0,
+      signatureMismatches: 0,
+      chainBreaks: 0,
+      hashMismatches: 0,
+    };
+    const note = (problem: string) => {
+      if (problems.length < MAX_REPORTED_PROBLEMS) problems.push(problem);
+    };
+
     let expectedPreviousHash = "genesis";
 
     for (const [index, line] of lines.entries()) {
       const entry: ConsentLogEntry = JSON.parse(line);
+      const position = index + 1;
 
       if (entry.previousHash !== expectedPreviousHash) {
-        return {
-          valid: false,
-          error: `Chain broken at entry ${index + 1}: expected previousHash ${expectedPreviousHash}, got ${entry.previousHash}`,
-        };
+        stats.chainBreaks += 1;
+        note(
+          `Chain broken at entry ${position}: expected previousHash ${expectedPreviousHash}, got ${entry.previousHash}`
+        );
       }
 
-      const calculatedHash = generateEntryHash(entry);
-      if (calculatedHash !== entry.currentHash) {
-        return { valid: false, error: `Hash mismatch at entry ${index + 1}` };
+      if (generateEntryHash(entry) !== entry.currentHash) {
+        stats.hashMismatches += 1;
+        note(`Hash mismatch at entry ${position}`);
       }
 
-      if (HMAC_SECRET && entry.signature) {
-        const expectedSignature = generateSignature(signaturePayload(entry));
-        if (entry.signature !== expectedSignature) {
-          return {
-            valid: false,
-            error: `Signature mismatch at entry ${index + 1}`,
-          };
+      if (!entry.signature) {
+        stats.unsigned += 1;
+      } else if (HMAC_SECRET) {
+        if (entry.signature !== generateSignature(signaturePayload(entry))) {
+          stats.signatureMismatches += 1;
+          note(`Signature mismatch at entry ${position}`);
         }
       }
 
       expectedPreviousHash = entry.currentHash;
     }
 
-    return { valid: true };
+    if (problems.length === 0) {
+      return { valid: true, stats };
+    }
+
+    return { valid: false, error: problems[0], problems, stats };
   } catch (error) {
     if (error instanceof BlobNotFoundError) {
       return {
