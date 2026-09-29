@@ -108,34 +108,49 @@ language-neutral: partner names, `Partner`, `E-mail`, addresses, `CVR`, `MIRA`,
 
 ### Rotating `CONSENT_LOG_HMAC_SECRET`
 
-An entry's `signature` is computed with the key that was configured when it was
-written, so changing the key invalidates the signature check for everything written
-before the change. Entries written _before any key existed_ have an empty `signature`
-and are skipped, so setting a key for the first time invalidates nothing.
+An entry's `signature` is computed with the key that was configured when it was written,
+so changing the key invalidates the signature check for everything written before the
+change. Entries written _before any key existed_ have an empty `signature` and are
+skipped, so setting a key for the first time invalidates nothing.
 
-`npm run verify-consent-logs` prints a `stats` block that separates the two failure
-modes. `chainBreaks` and `hashMismatches` at 0 means nothing was rewritten and the only
-failure is the key; anything else is a genuine integrity failure and should be treated
-as one.
+**This has already happened once, on 2026-09-29**, and the previous key was not retained
+by anyone, so the 361 entries written before then can never be verified against a key.
+`SIGNATURES_VALID_FROM` in `lib/consent-logger.ts` records the cutover
+(`2026-09-29T18:00:00Z`). Entries before it are checked against the hash chain only and
+counted as `preRotation` instead of being reported as failures, which is why
+`npm run verify-consent-logs` passes. Setting that constant to `null` restores the strict
+behaviour and reports them as mismatches again.
 
-Three ways to handle a rotation, best first:
+What that costs, measured rather than assumed:
 
-1. **Put the old key back.** The only way to keep the earlier entries verifiable. This
-   is why the key belongs in a password manager — Vercel never shows a saved Secret
-   again.
-2. **Accept the boundary.** Leave the log alone and read signatures as meaningful only
-   from the rotation onwards; the earlier period is covered by the hash chain alone.
-   Honest, and keeps the check useful for new entries.
+| Case                                                                           | Result                                       |
+| ------------------------------------------------------------------------------ | -------------------------------------------- |
+| An old entry's content altered without re-hashing                              | **Caught** - `Hash mismatch at entry N`      |
+| An old entry re-hashed but the next link left alone                            | **Caught** - `Chain broken at entry N+1`     |
+| A new entry signed with a different key                                        | **Caught** - `Signature mismatch at entry N` |
+| An old entry rewritten _consistently_: content, all following links, re-signed | **Not detectable**                           |
+
+The last row is the honest price of the lost key, and it was already true the moment the
+key was lost - the cutover only stops it from being reported as a failure forever. The
+hash chain still proves the log has not been edited _relative to itself_; what is gone is
+the ability to prove that nobody rewrote the pre-rotation period with a key they did not
+have.
+
+For future rotations, best first:
+
+1. **Put the old key back.** The only way to keep the earlier entries verifiable. This is
+   why the key belongs in a password manager - Vercel never shows a saved Secret again.
+2. **Record a new cutover.** Move `SIGNATURES_VALID_FROM` forward and note the rotation in
+   this document. Honest, keeps the check useful, touches no data.
 3. **Re-seal the whole log with the new key.** Turns the check green, but the new
-   signatures attest nothing about the period before the re-seal — they are computed
-   over whatever content is present at that moment. Only defensible if the hash chain is
-   verified intact immediately beforehand and the trade-off is recorded. Not
-   implemented; it would need a mandatory backup of the previous log first.
+   signatures are computed over whatever content is present at that moment and attest
+   nothing about the period before. Not implemented, and not recommended: it converts
+   "we cannot verify this period" into "we appear to have verified it".
 
-A signature mismatch can also simply mean the environment you run the check from holds a
-different value than the entries were signed with — `.env.local` and Vercel disagreeing,
-say. Confirm the two match (the next entry logged in production should verify against
-the local value) before concluding that the log was tampered with.
+A signature mismatch on a _new_ entry means something different: the environment you are
+checking from holds a different value than the one production signs with. That is how a
+`.env.local` / Vercel disagreement shows up, and it is worth checking before concluding
+that anything was tampered with.
 
 ---
 

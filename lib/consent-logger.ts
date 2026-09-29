@@ -34,6 +34,25 @@ export interface ConsentLogInput {
 const BLOB_KEY = "consent-audit.log";
 const HMAC_SECRET = process.env.CONSENT_LOG_HMAC_SECRET || "";
 
+/**
+ * The instant from which audit entries carry a verifiable signature.
+ *
+ * The signing key was rotated on 2026-09-29 and the previous value was not
+ * retained by anyone, so the 361 entries written before this instant can never be
+ * verified against a key. They are checked against the hash chain only, which
+ * still detects an entry whose content or links were rewritten after the fact -
+ * what it cannot do is prove that nobody rewrote them *before* this instant with
+ * a key they did not have. That protection resumes for entries written after the
+ * cutover.
+ *
+ * This is a fact about the log's history, not configuration, which is why it
+ * lives here rather than in the environment. Set it to `null` to verify
+ * signatures from the first entry, which reports the pre-rotation entries as
+ * mismatches again. See docs/HANDOVER-CLEANUP.md, "Rotating
+ * CONSENT_LOG_HMAC_SECRET".
+ */
+export const SIGNATURES_VALID_FROM: string | null = "2026-09-29T18:00:00.000Z";
+
 // Anonymize IP address for GDPR compliance
 function anonymizeIp(ip: string): string {
   if (!ip) return "0.0.0.0";
@@ -145,6 +164,11 @@ export interface LogIntegrityStats {
   entries: number;
   /** Entries written before a signing key existed. They are never signed. */
   unsigned: number;
+  /**
+   * Entries written before `SIGNATURES_VALID_FROM`: signed with a key that was
+   * rotated and not retained, so they can only be checked against the hash chain.
+   */
+  preRotation: number;
   /** Entries whose signature does not match the key configured here. */
   signatureMismatches: number;
   /** Entries whose `previousHash` does not match their predecessor. */
@@ -190,6 +214,7 @@ export async function verifyLogIntegrity(): Promise<LogIntegrityReport> {
     const stats: LogIntegrityStats = {
       entries: lines.length,
       unsigned: 0,
+      preRotation: 0,
       signatureMismatches: 0,
       chainBreaks: 0,
       hashMismatches: 0,
@@ -216,8 +241,15 @@ export async function verifyLogIntegrity(): Promise<LogIntegrityReport> {
         note(`Hash mismatch at entry ${position}`);
       }
 
+      // Entries from before the key rotation cannot be checked against any key.
+      const predatesSigningKey =
+        SIGNATURES_VALID_FROM !== null &&
+        entry.timestamp < SIGNATURES_VALID_FROM;
+
       if (!entry.signature) {
         stats.unsigned += 1;
+      } else if (predatesSigningKey) {
+        stats.preRotation += 1;
       } else if (HMAC_SECRET) {
         if (entry.signature !== generateSignature(signaturePayload(entry))) {
           stats.signatureMismatches += 1;

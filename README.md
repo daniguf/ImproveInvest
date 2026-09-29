@@ -183,7 +183,11 @@ Schemas live in `sanity/schema/` and are registered by hand in
   private Vercel Blob `consent-audit.log`. Entries form a SHA-256 hash chain
   (`previousHash` → `currentHash`) signed with `CONSENT_LOG_HMAC_SECRET`, and IP
   addresses are truncated before they are stored. `npm run verify-consent-logs`
-  walks the chain.
+  walks the chain. The signing key was rotated on 2026-09-29 without keeping the
+  previous value, so `SIGNATURES_VALID_FROM` in
+  [`lib/consent-logger.ts`](lib/consent-logger.ts) marks the entries that can only
+  be checked against the chain; move that constant forward if you ever rotate
+  again.
 - `GET /api/consent-log` and `GET`/`DELETE /api/gdpr/manage` implement the
   Article 15 (access) and Article 17 (erasure) requests. Erasure redacts the
   entry in place rather than deleting the row, and `redactEntry()` recomputes the

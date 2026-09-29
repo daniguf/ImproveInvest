@@ -20,7 +20,8 @@ async function main() {
     process.exit(1);
   }
 
-  const { verifyLogIntegrity } = await import("@/lib/consent-logger");
+  const { SIGNATURES_VALID_FROM, verifyLogIntegrity } =
+    await import("@/lib/consent-logger");
 
   console.log("Verifying consent log integrity...");
 
@@ -34,13 +35,27 @@ async function main() {
   }
 
   const result = await verifyLogIntegrity();
+  const stats = result.stats;
+  const preRotation = stats?.preRotation ?? 0;
 
   if (result.valid) {
-    console.log(
-      signed
-        ? "Log chain is valid and every signature matches."
-        : "Log chain is valid (hash chain only)."
-    );
+    if (preRotation > 0) {
+      console.log(
+        [
+          "Log chain is valid.",
+          `  ${preRotation} of ${stats?.entries} entries predate the signing key`,
+          `  (rotated; signatures are checked from ${SIGNATURES_VALID_FROM}) and were`,
+          "  checked against the hash chain only. Nothing in the log was rewritten;",
+          '  see docs/HANDOVER-CLEANUP.md, "Rotating CONSENT_LOG_HMAC_SECRET".',
+        ].join("\n")
+      );
+    } else {
+      console.log(
+        signed
+          ? "Log chain is valid and every signature matches."
+          : "Log chain is valid (hash chain only)."
+      );
+    }
     if (result.message) {
       console.log(result.message);
     }
@@ -49,13 +64,13 @@ async function main() {
 
   console.error("Log integrity check failed:", result.error);
 
-  const stats = result.stats;
   if (stats) {
     console.error(
       [
         "",
         `  entries in the log        : ${stats.entries}`,
         `  written before any key    : ${stats.unsigned} (never signed, cannot be checked)`,
+        `  predate the key rotation  : ${stats.preRotation} (chain-only by design)`,
         `  chain breaks              : ${stats.chainBreaks}`,
         `  content hash mismatches   : ${stats.hashMismatches}`,
         `  signature mismatches      : ${stats.signatureMismatches}`,
