@@ -679,7 +679,16 @@ Run on the `chore/handover-cleanup` branch, Node 24.17.0 / npm 11.19.1:
 - `npm test` — Vitest discovers the 18 story files, but this machine's Playwright is a
   revision behind the installed Chromium (`chromium_headless_shell-1217`), so the browser
   never launched. Needs `npx playwright install chromium` once. Not a repository problem.
-- `npm run storybook` — not run.
+- `npm run build-storybook` + a headless-Chromium smoke test of every story instead:
+  **17/17 stories render, 0 error displays.** `staticDirs: ["../public"]` resolves — the
+  built Storybook serves `et_marked_updated.png`, `hero_section_bg.jpg` and the rest.
+  Two layout stories failed before this pass (`Configuration must contain \`projectId\``)
+  because their mocks rendered the real home page; see the commit.
+- Server-rendered output checked against the built app: `/`, `/cookies`, `/om-os` and `/gdpr`
+  each return the full page in the HTML (previously an empty shell), in the right language
+  for `locale=da|en|de`, and a hostile `locale` cookie falls back to Danish. The consent
+  banner and the analytics script are absent from the server markup and appear after
+  hydration, as they must.
 
 The remaining two open items are the ones that need a human: the git-history rewrite
 (§7) and the legacy assets (§9). Sanity document contents and the Vercel deployment
