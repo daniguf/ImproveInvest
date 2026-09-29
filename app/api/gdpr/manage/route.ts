@@ -1,23 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 
+import { verifyAdmin } from "@/lib/adminAuth";
 import { readLogContent, writeLogContent } from "@/lib/consent-logger";
-
-const ADMIN_KEY = process.env.ADMIN_API_KEY || "";
 
 // The consent audit chain lives in Vercel Blob (see lib/consent-logger.ts).
 // The deployed filesystem is ephemeral and read-only outside /tmp, so this
 // route must never read or write the log from local disk.
-
-// Verify admin authorization
-function verifyAdmin(request: NextRequest) {
-  const auth =
-    request.headers.get("x-admin-key") ||
-    request.nextUrl.searchParams.get("key");
-  if (!auth || auth !== ADMIN_KEY) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-  return null;
-}
 
 // Read and parse consent logs. A read failure propagates rather than being
 // reported as "no records", so a DSAR request never silently returns empty.

@@ -1,20 +1,12 @@
-import Footer from "@/components/ui/footer/Footer";
 import HeaderSecondary from "@/components/ui/headerSecondary/HeaderSecondary";
+import LayoutBody from "@/components/layouts/layoutBody/LayoutBody";
 
 export interface IPrimaryLayout {
   children: React.ReactNode;
 }
 
-const PrimaryLayout = ({ children }: IPrimaryLayout) => {
-  return (
-    <>
-      <HeaderSecondary />
-      <main className="relative max-w-dvw flex flex-col mx-auto">
-        {children}
-      </main>
-      <Footer />
-    </>
-  );
-};
+const PrimaryLayout = ({ children }: IPrimaryLayout) => (
+  <LayoutBody Header={HeaderSecondary}>{children}</LayoutBody>
+);
 
 export default PrimaryLayout;

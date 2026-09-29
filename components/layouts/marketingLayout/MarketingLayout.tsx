@@ -1,20 +1,12 @@
-import Footer from "@/components/ui/footer/Footer";
 import Header from "@/components/ui/header/Header";
+import LayoutBody from "@/components/layouts/layoutBody/LayoutBody";
 
 export interface IMarketingLayout {
   children: React.ReactNode;
 }
 
-const MarketingLayout = ({ children }: IMarketingLayout) => {
-  return (
-    <>
-      <Header /> 
-      <main className="relative max-w-dvw flex flex-col mx-auto">
-        {children}
-      </main>
-      <Footer />
-    </>
-  );
-};
+const MarketingLayout = ({ children }: IMarketingLayout) => (
+  <LayoutBody Header={Header}>{children}</LayoutBody>
+);
 
 export default MarketingLayout;

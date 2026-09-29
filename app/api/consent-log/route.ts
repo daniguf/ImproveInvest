@@ -1,4 +1,5 @@
 // app/api/consent-log/route.ts
+import { verifyAdmin } from "@/lib/adminAuth";
 import { ConsentLogInput, logConsent } from "@/lib/consent-logger";
 import { headers } from "next/headers";
 import { NextRequest, NextResponse } from "next/server";
@@ -90,11 +91,8 @@ export async function POST(request: NextRequest) {
 
 // Optional: Endpoint to verify log integrity (admin only)
 export async function GET(request: NextRequest) {
-  // Add authentication check here in production
-  const authHeader = request.headers.get("authorization");
-  if (authHeader !== `Bearer ${process.env.ADMIN_API_KEY}`) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
+  const authError = verifyAdmin(request);
+  if (authError) return authError;
 
   const { verifyLogIntegrity } = await import("@/lib/consent-logger");
   const result = await verifyLogIntegrity();
