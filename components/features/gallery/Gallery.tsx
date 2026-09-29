@@ -1,4 +1,3 @@
-// components/features/gallery/Gallery.tsx
 "use client";
 
 import { GalleryItem } from "@/sanity/schema/project";
@@ -34,9 +33,6 @@ export default function Gallery({ items, className = "" }: GalleryProps) {
 
     // Handle Image items
     if (item._type === "Image") {
-      console.log("item", item);
-      console.log(item._type);
-
       const imageUrl = item.image?.asset?.url;
       if (!imageUrl) return null;
 
@@ -56,7 +52,6 @@ export default function Gallery({ items, className = "" }: GalleryProps) {
     }
 
     // Handle video items
-    console.log(item);
     if (item._type === "videoFile" && item.asset?.url) {
       if (isModal) {
         return (

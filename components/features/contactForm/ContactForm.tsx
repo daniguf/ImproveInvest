@@ -55,8 +55,7 @@ export default function ContactForm() {
       } else {
         setSubmitStatus("error");
       }
-      // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
-    } catch (error) {
+    } catch {
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
@@ -172,7 +171,7 @@ export default function ContactForm() {
           )}
         </div>
 
-        {/* ✅ GDPR Consent Checkbox */}
+        {/* GDPR Consent Checkbox */}
         <div className="form-group flex items-start gap-3 mb-6">
           <input
             type="checkbox"

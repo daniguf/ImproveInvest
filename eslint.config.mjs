@@ -36,6 +36,25 @@ const eslintConfig = defineConfig([
       ],
     },
   },
+  {
+    // The core `no-unused-vars` rule cannot see TypeScript syntax: it flags the
+    // parameter names inside type annotations (e.g. `onChange: (checked: boolean) => void`)
+    // and misreads TS-only constructs. For TS files the typescript-eslint rule is the
+    // authoritative one, configured with the same options so behaviour does not drift.
+    files: ["**/*.ts", "**/*.tsx"],
+    rules: {
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          vars: "all",
+          args: "after-used",
+          caughtErrors: "all",
+          argsIgnorePattern: "^_",
+        },
+      ],
+    },
+  },
   ...storybook.configs["flat/recommended"],
   {
     // 👇 This should match the `stories` property in .storybook/main.js|ts

@@ -1,4 +1,3 @@
-// lib/consent-logger.ts
 import { BlobNotFoundError, get, put } from "@vercel/blob";
 import { createHash } from "crypto";
 

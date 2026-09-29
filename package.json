@@ -2,16 +2,20 @@
   "name": "improve-invest-web-app",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "npm@11.2.0",
   "engines": {
-    "node": ">=18.18.0",
-    "npm": ">=11.2.0",
-    "yarn": "please use npm"
+    "node": ">=20.9.0",
+    "npm": ">=11.2.0"
   },
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "prettier": "prettier --write .",
     "prepare": "husky",
     "storybook": "storybook dev -p 6006",
@@ -20,9 +24,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
-    "@portabletext/react": "^5.0.0",
     "@sanity/image-url": "^1.2.0",
-    "@sanity/language-filter": "^4.1.0",
     "@vercel/analytics": "^2.0.1",
     "@vercel/blob": "^2.3.3",
     "gsap": "^3.15.0",
@@ -53,9 +55,7 @@
     "@types/react-dom": "^19.2.3",
     "@vitest/browser-playwright": "^4.0.7",
     "@vitest/coverage-v8": "^4.0.7",
-    "baseline-browser-mapping": "^2.10.20",
     "cross-env": "^10.1.0",
-    "dotenv-cli": "^11.0.0",
     "eslint": "^9.39.4",
     "eslint-config-next": "16.0.1",
     "eslint-plugin-storybook": "^10.3.5",
@@ -68,8 +68,5 @@
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vitest": "^4.0.7"
-  },
-  "resolutions": {
-    "webpack": "^5"
   }
 }

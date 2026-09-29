@@ -1,4 +1,3 @@
-// app/api/consent-log/route.ts
 import { verifyAdmin } from "@/lib/adminAuth";
 import { ConsentLogInput, logConsent } from "@/lib/consent-logger";
 import { headers } from "next/headers";

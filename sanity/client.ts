@@ -5,5 +5,5 @@ export const sanityClient = createClient({
   projectId,
   dataset,
   apiVersion,
-  useCdn: true, // ✅ safe for production, set `false` if you need instant drafts
+  useCdn: true, // set `false` if you need instant drafts
 });

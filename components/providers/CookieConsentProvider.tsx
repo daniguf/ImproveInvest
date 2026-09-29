@@ -1,12 +1,11 @@
-// components/providers/CookieConsentProvider.tsx
 "use client";
 import React, {
   createContext,
   ReactNode,
   useCallback,
   useContext,
-  useEffect,
   useState,
+  useSyncExternalStore,
 } from "react";
 
 export interface ConsentState {
@@ -20,7 +19,6 @@ interface CookieConsentContextType {
   hasConsented: boolean;
   acceptAll: () => void;
   declineNonEssential: () => void;
-  // eslint-disable-next-line no-unused-vars
   updateConsent: (state: ConsentState) => void;
   isLogging: boolean;
   forceShowBanner: boolean;
@@ -94,65 +92,98 @@ async function logConsentToServer(
   }, 1000); // 1 second debounce
 }
 
+// The consent UI depends on browser-only state (localStorage, document.cookie),
+// so it must not render on the server or during hydration. `useSyncExternalStore`
+// gives us a hydration-safe "are we on the client yet?" flag: React renders the
+// server snapshot (`false`) for the hydration pass and re-renders with the client
+// snapshot (`true`) immediately afterwards.
+const subscribeToNothing = () => () => {};
+const getClientSnapshot = () => true;
+const getServerSnapshot = () => false;
+
+// The locale is only used to tag consent records, so it is read once from the
+// cookie the middleware sets. Only ever reached on the client.
+function readLocaleFromCookie(): string {
+  if (typeof document === "undefined") return "da";
+  return (
+    document.cookie
+      .split("; ")
+      .find((row) => row.startsWith("locale="))
+      ?.split("=")[1] || "da"
+  );
+}
+
+interface InitialConsentState {
+  consent: ConsentState;
+  hasConsented: boolean;
+  forceShowBanner: boolean;
+}
+
+const NO_CONSENT: ConsentState = {
+  essential: true,
+  analytics: false,
+  marketing: false,
+};
+
+// Restore any previously stored consent. Runs once per client mount, never on
+// the server: the provider renders `null` until hydrated, so restoring state
+// here cannot cause a hydration mismatch, and nothing has to be set in an effect.
+function readInitialConsentState(): InitialConsentState {
+  if (typeof window === "undefined") {
+    return { consent: NO_CONSENT, hasConsented: false, forceShowBanner: true };
+  }
+
+  const stored = localStorage.getItem(CONSENT_KEY);
+  if (stored) {
+    try {
+      const parsed = JSON.parse(stored);
+      if (parsed && parsed.consent) {
+        // Check if consent has expired or policy changed
+        if (
+          isConsentExpired({
+            timestamp: parsed.timestamp,
+            policyVersion: parsed.policyVersion,
+          })
+        ) {
+          // Expired: clear old consent and force banner re-display
+          localStorage.removeItem(CONSENT_KEY);
+        } else {
+          // Valid consent: restore state
+          return {
+            consent: parsed.consent,
+            hasConsented: true,
+            forceShowBanner: false,
+          };
+        }
+      }
+    } catch (e) {
+      console.error("Failed to parse consent settings", e);
+      localStorage.removeItem(CONSENT_KEY);
+    }
+  }
+
+  // No stored consent, or it was invalid/expired: show the banner
+  return { consent: NO_CONSENT, hasConsented: false, forceShowBanner: true };
+}
+
 export const CookieConsentProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  const [consent, setConsent] = useState<ConsentState>({
-    essential: true,
-    analytics: false,
-    marketing: false,
-  });
-  const [hasConsented, setHasConsented] = useState(false);
-  const [isClient, setIsClient] = useState(false);
+  const [initial] = useState(readInitialConsentState);
+  const [consent, setConsent] = useState<ConsentState>(initial.consent);
+  const [hasConsented, setHasConsented] = useState(initial.hasConsented);
+  const isClient = useSyncExternalStore(
+    subscribeToNothing,
+    getClientSnapshot,
+    getServerSnapshot
+  );
   const [isLogging, setIsLogging] = useState(false);
-  const [forceShowBanner, setForceShowBanner] = useState(false);
-  const [locale, setLocale] = useState("da");
-
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setIsClient(true);
-
-    // Get locale from cookie or default
-    const storedLocale =
-      document.cookie
-        .split("; ")
-        .find((row) => row.startsWith("locale="))
-        ?.split("=")[1] || "da";
-    setLocale(storedLocale);
-
-    const stored = localStorage.getItem(CONSENT_KEY);
-    if (stored) {
-      try {
-        const parsed = JSON.parse(stored);
-        if (parsed && parsed.consent) {
-          // Check if consent has expired or policy changed
-          if (
-            isConsentExpired({
-              timestamp: parsed.timestamp,
-              policyVersion: parsed.policyVersion,
-            })
-          ) {
-            // Expired: clear old consent and force banner re-display
-            localStorage.removeItem(CONSENT_KEY);
-            setForceShowBanner(true);
-          } else {
-            // Valid consent: restore state
-            setConsent(parsed.consent);
-            setHasConsented(true);
-          }
-        } else {
-          setForceShowBanner(true);
-        }
-      } catch (e) {
-        console.error("Failed to parse consent settings", e);
-        localStorage.removeItem(CONSENT_KEY);
-        setForceShowBanner(true);
-      }
-    } else {
-      // No stored consent: show banner
-      setForceShowBanner(true);
-    }
-  }, []);
+  const [forceShowBanner, setForceShowBanner] = useState(
+    initial.forceShowBanner
+  );
+  // Lazy initialiser: the provider renders `null` until hydrated, so the value
+  // read here can never differ from what the server rendered.
+  const [locale] = useState(readLocaleFromCookie);
 
   const saveConsent = useCallback(
     (state: ConsentState) => {

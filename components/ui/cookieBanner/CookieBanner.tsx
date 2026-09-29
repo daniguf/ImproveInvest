@@ -123,7 +123,6 @@ interface ConsentToggleProps {
   description: string;
   icon: React.ReactNode;
   checked: boolean;
-  // eslint-disable-next-line no-unused-vars
   onChange: (checked: boolean) => void;
   disabled?: boolean;
 }
