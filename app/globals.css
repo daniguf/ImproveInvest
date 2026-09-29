@@ -47,6 +47,19 @@ body {
   min-height: 100dvh;
 }
 
+/*
+ * Hide a scrollable element's scrollbar while keeping it scrollable. Used by the
+ * project carousel, which scroll-snaps horizontally.
+ */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* legacy Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
 .form-container {
   max-width: 600px;
   /* margin: 0 auto; */

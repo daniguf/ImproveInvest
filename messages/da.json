@@ -655,5 +655,12 @@
         "description": "Bruges til at levere relevante annoncer og indhold."
       }
     }
+  },
+  "errors": {
+    "title": "Noget gik galt",
+    "description": "Siden kunne ikke indlæses. Prøv igen.",
+    "retry": "Prøv igen",
+    "not_found_title": "Siden blev ikke fundet",
+    "not_found_description": "Siden, du leder efter, findes ikke."
   }
 }

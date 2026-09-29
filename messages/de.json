@@ -655,5 +655,12 @@
         "description": "Wird verwendet, um relevante Anzeigen und Inhalte bereitzustellen."
       }
     }
+  },
+  "errors": {
+    "title": "Etwas ist schiefgelaufen",
+    "description": "Die Seite konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "retry": "Erneut versuchen",
+    "not_found_title": "Seite nicht gefunden",
+    "not_found_description": "Die gesuchte Seite existiert nicht."
   }
 }
