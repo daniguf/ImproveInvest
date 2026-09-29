@@ -9,10 +9,6 @@ import { useMessages } from "next-intl";
 import Link from "next/link";
 import { useLayoutEffect, useRef } from "react";
 
-export interface IInvestmentModel {
-  sampleTextProp: string;
-}
-
 gsap.registerPlugin(MotionPathPlugin);
 
 const InvestmentModel = () => {

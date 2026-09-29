@@ -4,10 +4,6 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { useState, useTransition } from "react";
 
-export interface IMobileNav {
-  sampleTextProp: string;
-}
-
 const languageOptions = [
   { label: "DA", locale: "da" },
   { label: "EN", locale: "en" },

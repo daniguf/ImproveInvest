@@ -4,10 +4,6 @@ import GlobeSVG from "@/components/assets/globe/GlobeSVG";
 import { RefObject, useRef, useState, useTransition } from "react";
 import { useOnClickOutside } from "usehooks-ts";
 
-export interface ILanguageSwitcher {
-  sampleTextProp: string;
-}
-
 const languageOptions = [
   { label: "DA", locale: "da" },
   { label: "EN", locale: "en" },

@@ -2,10 +2,6 @@ import LanguageSwitcher from "../languageSwitcher/LanguageSwitcher";
 import MobileNav from "../mobileNav/MobileNav";
 import NavItems from "../navItems/NavItems";
 
-export interface IHeader {
-  sampleTextProp: string;
-}
-
 const Header: React.FC = () => {
   return (
     <header className="top-0 absolute w-full h-25 p-[1em] bg-transparent z-10">

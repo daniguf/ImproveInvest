@@ -4,10 +4,6 @@ import { BookKey, ChartCandlestick, HardHat, ShieldCheck } from "lucide-react";
 import { useMessages } from "next-intl";
 import React from "react";
 
-export interface IWhyInvest {
-  sampleTextProp: string;
-}
-
 type Props = {
   icon: React.ReactNode; // exactly one
   paragraphs: React.ReactNode[]; // one or many
@@ -29,7 +25,7 @@ const WhyInvestFeaturesGridItem = ({
   );
 };
 
-const WhyInvest: React.FC<IWhyInvest> = () => {
+const WhyInvest: React.FC = () => {
   const messages = useMessages();
   const bodyContentHeading = messages.landing_page.why_invest.heading;
   const bodyContentPoints = messages.landing_page.why_invest.points;

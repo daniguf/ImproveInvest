@@ -7,10 +7,6 @@ import { Fragment, RefObject, useEffect, useRef, useState } from "react";
 import { useOnClickOutside } from "usehooks-ts";
 import NavItem from "../navItem/NavItem";
 
-export interface INavItems {
-  sampleTextProp: string;
-}
-
 const NavItems: React.FC = () => {
   const t = useTranslations("navigation");
 

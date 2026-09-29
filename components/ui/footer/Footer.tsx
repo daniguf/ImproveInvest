@@ -2,10 +2,6 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 
-export interface IFooter {
-  sampleTextProp: string;
-}
-
 const Footer: React.FC = () => {
   const t = useTranslations("footer");
 

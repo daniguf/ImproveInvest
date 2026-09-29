@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import MarketStrategy from "./MarketStrategy";
-import { mockMarketStrategyProps } from "./MarketStrategy.mocks";
 
 const meta = {
   component: MarketStrategy,
@@ -9,6 +8,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {
-  args: mockMarketStrategyProps,
-};
+export const Primary: Story = {};
