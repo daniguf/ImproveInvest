@@ -15,11 +15,16 @@ available in Danish, English and German.
 | npm     | ≥ 11.2.0 | `.npmrc` sets `engine-strict=true`, so `npm ci` **aborts** on an older npm rather than warning. Node 22 ships npm 10, so run `nvm use` first.           |
 
 ```bash
-nvm use                 # reads .nvmrc
+nvm use                      # reads .nvmrc
 npm ci
-cp .env.example .env.local   # then fill in the values, see below
+cp .env.example .env.local   # then FILL IN the values, see below
 npm run dev
 ```
+
+The two `NEXT_PUBLIC_SANITY_*` values are not optional: `sanity/env.ts` throws on
+startup until both are set, and `.env.local` is only read when the dev server
+starts, so restart after editing it. If you copied the file but left the values
+empty, you will see `Missing Sanity environment variable(s): …` — that is this.
 
 Open <http://localhost:3000>. The Sanity Studio is embedded at
 <http://localhost:3000/sanity-studio>.
@@ -48,9 +53,15 @@ Two of these fail quietly, so they are worth reading twice:
   at module scope, so `next build` and `next start` fail without it
   (`Missing API key`). Set it before building locally.
 
+Pages that do not touch Sanity (`/gdpr`, `/cookies`, …) render without any
+environment variables at all. The landing page, `/projekter`, `/news/*` and
+`/om-os` need the two Sanity values; with a wrong project id they fail with
+`Dataset not found`, which is the credential being wrong rather than the code.
+
 `npm run build` also needs a reachable Sanity project, because
 `generateStaticParams` queries the dataset at build time. `npm run lint`,
-`npm run typecheck` and `npm test` need no environment variables.
+`npm run typecheck`, `npm run format:check` and `npm test` need no environment
+variables.
 
 ## Scripts
 
