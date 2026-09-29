@@ -606,7 +606,7 @@
       }
     }
   },
-  "ContactForm": {
+  "contact_form": {
     "title": "Kontakt os",
     "firstName": "Fornavn",
     "lastName": "Efternavn",

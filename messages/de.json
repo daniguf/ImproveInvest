@@ -181,7 +181,7 @@
       }
     }
   },
-  "ContactForm": {
+  "contact_form": {
     "title": "Kontaktieren Sie uns",
     "firstName": "Vorname",
     "lastName": "Nachname",

@@ -175,7 +175,7 @@
       }
     }
   },
-  "ContactForm": {
+  "contact_form": {
     "title": "Contact Us",
     "firstName": "First Name",
     "lastName": "Last Name",
