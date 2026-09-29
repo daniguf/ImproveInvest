@@ -68,6 +68,22 @@ Three places where carrying the fix out contradicted the audit, worth knowing ab
   The fourth suppressed a genuine `set-state-in-effect`; the consent state is now
   restored in a lazy client-only initialiser instead.
 
+The internationalisation outcome in numbers, checked against the tree:
+
+|                                   | `en` | `da` | `de` |
+| --------------------------------- | ---- | ---- | ---- |
+| Keys before                       | 552  | 402  | 548  |
+| Keys after                        | 280  | 280  | 280  |
+| Machine-generated hash keys after | 0    | 0    | 0    |
+| Empty-string values after         | 0    | 0    | 0    |
+
+Every `t()` call in the repository (153 of them) resolves in all three catalogues, and
+the English, Danish and German text rendered by the GDPR and cookie-policy pages in
+document order is byte-identical to what those pages rendered before the key rename. The
+43 keys whose English and Danish values matched are down to 29 after the dead namespaces
+went, and all 29 are legitimately language-neutral (brand names, CVR, addresses,
+`GDPR`/`Cookies`/`ESG`/`PRIIP`, `Partner`, `E-mail`).
+
 ### Deliberately not done
 
 - **§5.5 — asset handling and filenames.** Moving the images that are only reached
