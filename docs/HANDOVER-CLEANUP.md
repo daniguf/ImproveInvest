@@ -685,6 +685,30 @@ The remaining two open items are the ones that need a human: the git-history rew
 (§7) and the legacy assets (§9). Sanity document contents and the Vercel deployment
 configuration were still not inspected.
 
+### 8.2 One thing the audit missed
+
+The audit noted that the `react-hooks/set-state-in-effect` suppression in §5.3 "masks a real
+issue". It does, and the issue is larger than the lint rule:
+`components/providers/CookieConsentProvider.tsx` returned `null` until a client-only flag
+flipped, and it wraps the whole document, so **every route was client-rendered**. The served
+HTML was an empty shell:
+
+```html
+<body>
+  <div hidden><!--$--><!--/$--></div>
+  <script>
+    self.__next_f.push(…)
+  </script>
+  …
+</body>
+```
+
+No-JS clients, and crawlers that do not execute JavaScript, saw a blank page. The provider now
+always renders its children, and only `CookieBanner` and `ConditionalAnalytics` — the two
+components that genuinely depend on `localStorage` — wait for the client. Checked against the
+built app: the Danish, English and German GDPR pages each carry ~10 KB of server-rendered
+text (nav, footer and body), while the banner and analytics stay out of the server markup.
+
 ---
 
 ## 9. Do not delete blindly
