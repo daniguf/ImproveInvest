@@ -20,123 +20,145 @@ const GDPR = () => {
       <article className="flex flex-col gap-y-8 mb-5 text-white">
         <h1 className="mb-8 font-bold text-3xl">GDPR</h1>
         <TextBlock>
-          <Header>{t("a0ee3b9")}</Header>
-          <Paragraph>{t("78bf675")}</Paragraph>
+          <Header>{t("data_controller.heading")}</Header>
+          <Paragraph>{t("data_controller.paragraph_1")}</Paragraph>
         </TextBlock>
         <TextBlock>
-          <Header>{t("be8c4f9")}</Header>
-          <Paragraph>{t("7aa5c13")}</Paragraph>
+          <Header>{t("processing_activities.heading")}</Header>
+          <Paragraph>{t("processing_activities.paragraph_1")}</Paragraph>
         </TextBlock>
         <TextBlock>
-          <Header>{t("a6f8c51")}</Header>
-          <Paragraph>{t("eac0431")}</Paragraph>
+          <Header>{t("website_visit.heading")}</Header>
+          <Paragraph>{t("website_visit.paragraph_1")}</Paragraph>
         </TextBlock>
         <TextBlock>
-          <Header>{t("200e20d")}</Header>
-          <Paragraph>{t("bf27475")}</Paragraph>
-          <Paragraph>{t("05fc9b9")}</Paragraph>
-          <Paragraph>{t("74d8ee3")}</Paragraph>
-          <Paragraph>{t("a6108e3")}</Paragraph>
-          <Paragraph>{t("50f22b4")}</Paragraph>
-          <Paragraph>{t("d124e0b")}</Paragraph>
+          <Header>{t("communication_with_potential_customers.heading")}</Header>
+          <Paragraph>
+            {t("communication_with_potential_customers.paragraph_1")}
+          </Paragraph>
+          <Paragraph>
+            {t("communication_with_potential_customers.paragraph_2")}
+          </Paragraph>
+          <Paragraph>
+            {t("communication_with_potential_customers.paragraph_3")}
+          </Paragraph>
+          <Paragraph>
+            {t("communication_with_potential_customers.paragraph_4")}
+          </Paragraph>
+          <Paragraph>
+            {t("communication_with_potential_customers.paragraph_5")}
+          </Paragraph>
+          <Paragraph>
+            {t("communication_with_potential_customers.paragraph_6")}
+          </Paragraph>
         </TextBlock>
         <TextBlock>
-          <Header>{t("6a1f3bd")}</Header>
-          <Paragraph>{t("11d03d5")}</Paragraph>
-          <Paragraph>{t("653049f")}</Paragraph>
-          <Paragraph>{t("def2ea9")}</Paragraph>
-        </TextBlock>
-
-        <TextBlock>
-          <Header>{t("7520642")}</Header>
-          <Paragraph>{t("ab2a6f5")}</Paragraph>
-          <Paragraph>{t("2cd23d0")}</Paragraph>
-          <Paragraph>{t("a6b0130")}</Paragraph>
-          <Paragraph>{t("695fc56")}</Paragraph>
-          <Paragraph>{t("79d0da2")}</Paragraph>
-          <Paragraph>{t("09b91d5")}</Paragraph>
-        </TextBlock>
-
-        <TextBlock>
-          <Header>{t("9d0b2f9")}</Header>
-          <Paragraph>{t("6daefbf")}</Paragraph>
-          <Paragraph>{t("91de827")}</Paragraph>
-          <Paragraph>{t("389e0e8")}</Paragraph>
-          <Paragraph>{t("c25ed32")}</Paragraph>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("3929dbf")}</Header>
-          <Paragraph>{t("625da4b")}</Paragraph>
-          <Paragraph>{t("067f801")}</Paragraph>
-          <Paragraph>{t("77e577b")}</Paragraph>
-          <Paragraph>{t("07b6781")}</Paragraph>
-          <Paragraph>{t("3297a3e")}</Paragraph>
+          <Header>{t("customers.heading")}</Header>
+          <Paragraph>{t("customers.paragraph_1")}</Paragraph>
+          <Paragraph>{t("customers.paragraph_2")}</Paragraph>
+          <Paragraph>{t("customers.paragraph_3")}</Paragraph>
         </TextBlock>
 
         <TextBlock>
-          <Header>{t("739e478")}</Header>
-          <Paragraph>{t("c747495")}</Paragraph>
-          <Paragraph>{t("d17c441")}</Paragraph>
-          <Paragraph>{t("255cec1")}</Paragraph>
-          <Paragraph>{t("949396e")}</Paragraph>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("50d2206")}</Header>
-          <Paragraph>{t("eb65bc4")}</Paragraph>
-          <Paragraph>{t("2c113cf")}</Paragraph>
-          <Paragraph>{t("2a38db9")}</Paragraph>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("7f71bab")}</Header>
-          <Paragraph>{t("fc4b04d")}</Paragraph>
-          <Paragraph>{t("2c74112")}</Paragraph>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("dbb1d0d")}</Header>
-          <Paragraph>{t("f1f56d7")}</Paragraph>
-          <Paragraph>{t("faf40ab")}</Paragraph>
-          <Paragraph>{t("0b433b8")}</Paragraph>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("ec88e08")}</Header>
-          <Paragraph>{t("9c7e51f")}</Paragraph>
-          <Paragraph>{t("4f8a6b8")}</Paragraph>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("18fdd5e")}</Header>
-          <Paragraph>{t("dd726ae")}</Paragraph>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("9b825ec")}</Header>
-          <Paragraph>{t("357ab3b")}</Paragraph>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("05f8c38")}</Header>
-          <Paragraph>{t("bf64837")}</Paragraph>
-        </TextBlock>
-        <TextBlock>
-          <Header>{t("93ebe09")}</Header>
-          <Paragraph>{t("7b0de15")}</Paragraph>
+          <Header>{t("newsletter.heading")}</Header>
+          <Paragraph>{t("newsletter.paragraph_1")}</Paragraph>
+          <Paragraph>{t("newsletter.paragraph_2")}</Paragraph>
+          <Paragraph>{t("newsletter.paragraph_3")}</Paragraph>
+          <Paragraph>{t("newsletter.paragraph_4")}</Paragraph>
+          <Paragraph>{t("newsletter.paragraph_5")}</Paragraph>
+          <Paragraph>{t("newsletter.paragraph_6")}</Paragraph>
         </TextBlock>
 
         <TextBlock>
-          <Header>{t("c7fd320")}</Header>
-          <Paragraph>{t("6063c18")}</Paragraph>
+          <Header>{t("accounting.heading")}</Header>
+          <Paragraph>{t("accounting.paragraph_1")}</Paragraph>
+          <Paragraph>{t("accounting.paragraph_2")}</Paragraph>
+          <Paragraph>{t("accounting.paragraph_3")}</Paragraph>
+          <Paragraph>{t("accounting.paragraph_4")}</Paragraph>
+        </TextBlock>
+        <TextBlock>
+          <Header>{t("job_applications.heading")}</Header>
+          <Paragraph>{t("job_applications.paragraph_1")}</Paragraph>
+          <Paragraph>{t("job_applications.paragraph_2")}</Paragraph>
+          <Paragraph>{t("job_applications.paragraph_3")}</Paragraph>
+          <Paragraph>{t("job_applications.paragraph_4")}</Paragraph>
+          <Paragraph>{t("job_applications.paragraph_5")}</Paragraph>
         </TextBlock>
 
         <TextBlock>
-          <Header>{t("122a76f")}</Header>
-          <Paragraph>{t("7b0de15")}</Paragraph>
+          <Header>{t("data_processors.heading")}</Header>
+          <Paragraph>{t("data_processors.paragraph_1")}</Paragraph>
+          <Paragraph>{t("data_processors.paragraph_2")}</Paragraph>
+          <Paragraph>{t("data_processors.paragraph_3")}</Paragraph>
+          <Paragraph>{t("data_processors.paragraph_4")}</Paragraph>
+        </TextBlock>
+        <TextBlock>
+          <Header>{t("disclosure_of_personal_data.heading")}</Header>
+          <Paragraph>{t("disclosure_of_personal_data.paragraph_1")}</Paragraph>
+          <Paragraph>
+            {t("profiling_and_automated_decisions.heading")}
+          </Paragraph>
+          <Paragraph>
+            {t("profiling_and_automated_decisions.paragraph_1")}
+          </Paragraph>
+        </TextBlock>
+        <TextBlock>
+          <Header>{t("third_country_transfers.heading")}</Header>
+          <Paragraph>{t("third_country_transfers.paragraph_1")}</Paragraph>
+          <Paragraph>{t("third_country_transfers.paragraph_2")}</Paragraph>
+        </TextBlock>
+        <TextBlock>
+          <Header>{t("processing_security.heading")}</Header>
+          <Paragraph>{t("processing_security.paragraph_1")}</Paragraph>
+          <Paragraph>{t("processing_security.paragraph_2")}</Paragraph>
+          <Paragraph>{t("processing_security.paragraph_3")}</Paragraph>
+        </TextBlock>
+        <TextBlock>
+          <Header>{t("rights_of_the_data_subjects.heading")}</Header>
+          <Paragraph>{t("rights_of_the_data_subjects.paragraph_1")}</Paragraph>
+          <Paragraph>{t("rights_of_the_data_subjects.paragraph_2")}</Paragraph>
+        </TextBlock>
+        <TextBlock>
+          <Header>{t("right_of_access.heading")}</Header>
+          <Paragraph>{t("right_of_access.paragraph_1")}</Paragraph>
+        </TextBlock>
+        <TextBlock>
+          <Header>{t("right_to_rectification.heading")}</Header>
+          <Paragraph>{t("right_to_rectification.paragraph_1")}</Paragraph>
+        </TextBlock>
+        <TextBlock>
+          <Header>{t("right_to_erasure.heading")}</Header>
+          <Paragraph>{t("right_to_erasure.paragraph_1")}</Paragraph>
+        </TextBlock>
+        <TextBlock>
+          <Header>{t("right_to_restriction_of_processing.heading")}</Header>
+          <Paragraph>{t("right_to_data_portability.paragraph_1")}</Paragraph>
         </TextBlock>
 
         <TextBlock>
-          <Header>{t("0fcd963")}</Header>
-          <Paragraph>{t("8971576")}</Paragraph>
+          <Header>{t("right_to_object.heading")}</Header>
+          <Paragraph>{t("right_to_object.paragraph_1")}</Paragraph>
+        </TextBlock>
+
+        <TextBlock>
+          <Header>{t("right_to_data_portability.heading")}</Header>
+          <Paragraph>{t("right_to_data_portability.paragraph_1")}</Paragraph>
+        </TextBlock>
+
+        <TextBlock>
+          <Header>{t("withdrawal_of_consent.heading")}</Header>
+          <Paragraph>{t("withdrawal_of_consent.paragraph_1")}</Paragraph>
         </TextBlock>
         <TextBlock>
-          <Header>{t("194f2e8")}</Header>
-          <Paragraph>{t("7842087")}</Paragraph>
-          <Paragraph>{t("3903302")}</Paragraph>
+          <Header>
+            {t("complaint_to_the_danish_data_protection_agency.heading")}
+          </Header>
+          <Paragraph>
+            {t("complaint_to_the_danish_data_protection_agency.paragraph_1")}
+          </Paragraph>
+          <Paragraph>
+            {t("complaint_to_the_danish_data_protection_agency.paragraph_2")}
+          </Paragraph>
         </TextBlock>
       </article>
     </MaxWidthWrapper>

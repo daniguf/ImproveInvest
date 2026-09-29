@@ -21,86 +21,134 @@
     }
   },
   "gdpr": {
-    "a0ee3b9": "Data Controller",
-    "78bf675": "We are the data controller for the processing of personal data concerning our customers and business partners. You can find our contact information below:\nImprove Invest A/S\nStrandvejen 125\n2900 Hellerup\nCVR: 44720795\nIf you have questions about the processing of your personal data, you can contact us via info@improveinvest.com",
-    "be8c4f9": "Processing Activities",
-    "7aa5c13": "As a data controller according to the GDPR, we have the following processing activities.",
-    "a6f8c51": "Website Visit",
-    "eac0431": "When you visit our website, we use cookies to enable the website to function, which you can read more about in our cookie policy.",
-    "200e20d": "Communication with potential customers",
-    "bf27475": "If you have questions about our site, or wish to hear more about our services, you can contact us via:\nContact Form\nEmail\nPhone",
-    "05fc9b9": "Through this, we will process your personal data so that we can engage in a dialogue with you, e.g., answering questions about our services. We only process the information you provide us in connection with our communication.",
-    "74d8ee3": "We will typically process the following common information: name, email, and phone number.",
-    "a6108e3": "Our legal basis for processing this personal data is Article 6(1)(f) of the General Data Protection Regulation.",
-    "50f22b4": "We delete our communication with you when it becomes clear whether you want our services or not.",
-    "d124e0b": "Should the need arise in a specific case to store your personal data for a longer period, this may be the case.",
-    "6a1f3bd": "Customers",
-    "11d03d5": "When you become an investor in Improve Invest A/S or otherwise enter into a customer relationship with us, we process the personal data necessary to establish, administer and document the customer relationship. This may include, among other things, name, address, contact details, CPR number (Danish civil registration number), bank and custody account details, information about investments and payments, and other information necessary to administer your ownership and communicate with you. We process the information for purposes including investor administration, communication, capital increases, distributions, general meetings, reporting and compliance with our legal and regulatory obligations. Investor onboarding and customer due diligence. In connection with the establishment and ongoing administration of an investor relationship, we may process further information to meet requirements regarding customer due diligence, identification and documentation. This may include, among other things: identification documents and identity information, information about beneficial owners and ownership structure, information about investment amounts and payment circumstances, information necessary to assess whether the investor meets the conditions for investing in the fund, documentation of the investor’s risk acknowledgement where relevant, and, where applicable, information about the origin of funds. Processing takes place when necessary to comply with legal obligations to which Improve Invest A/S is subject, or when processing is necessary to enter into or administer the agreement with the investor. Storage. We store personal data for as long as necessary for the purposes for which the data was collected, and thereafter for as long as we are required to do so under applicable law. Information relating to investor and customer relationships is therefore not necessarily deleted immediately after the customer relationship ends. Information may be stored for the period required by accounting, company, tax and anti-money laundering legislation and other relevant regulatory requirements.",
-    "653049f": "The legal basis for processing this personal data is Article 6(1)(b) of the General Data Protection Regulation.",
-    "def2ea9": "Once the service has been delivered and any outstanding matters are concluded, we will delete the personal data immediately thereafter.",
-    "7520642": "Newsletter",
-    "ab2a6f5": "We have a newsletter which is voluntary to subscribe to – and you can always unsubscribe from it again.",
-    "2cd23d0": "The purpose of the newsletter is to send subscribers emails with new information from the company, which may concern new content on the website and the announcement of our services.",
-    "a6b0130": "We will only send you emails if you have given your active consent for this. This primarily requires you to state your email address, to which we then send an email so that you can confirm the subscription. In this way, we ensure that you have actually signed up for the newsletter yourself, i.e., provided active consent.",
-    "695fc56": "Our legal basis for processing your personal data (i.e., the email address) in connection with the newsletter will be Article 6(1)(a) of the General Data Protection Regulation.",
-    "79d0da2": "We will process your personal data as long as you are still subscribed to the newsletter. Upon unsubscribing from the newsletter, we will also stop sending it to you. If we have not sent you a newsletter for 1 year, your consent will lapse as a result of our inactivity.",
-    "09b91d5": "Upon unsubscribing from the newsletter, we store your now former consent for 2 years after it was last used due to statute of limitations requirements according to section 11.3 of the Consumer Ombudsman's spam guide.",
-    "9d0b2f9": "Accounting",
-    "6daefbf": "We must store all accounting documents according to the Danish Bookkeeping Act (bogføringsloven). This means we store invoices",
-    "91de827": "and similar documents for accounting purposes. These may contain common personal data such as name, address, service description.",
-    "389e0e8": "Our legal basis for processing personal data for accounting is Article 6(1)(c) of the General Data Protection Regulation.",
-    "c25ed32": "We store this information for a minimum of 5 years after the current financial year has ended.",
-    "3929dbf": "Job Applications",
-    "625da4b": "We gladly accept job applications with the aim of assessing whether they match a recruitment need in our company.",
-    "067f801": "If you send your job application to us, our legal basis for processing your personal data is Article 6(1)(f) of the General Data Protection Regulation.",
-    "77e577b": "If you have sent an unsolicited application, we will immediately assess whether your application is relevant and then delete your information again if there is no match.",
-    "07b6781": "If you have sent an application for an advertised job, we will dispose of your application if you are not hired, and immediately after the right candidate has been found for the job.",
-    "3297a3e": "If you are part of a recruitment process and/or are hired for the job, we will provide you with separate information on how we process your personal data in this context.",
-    "739e478": "Data Processors",
-    "c747495": "Few can handle everything themselves, and the same applies to us. We therefore have partners and use suppliers, some of whom may be data processors.",
-    "d17c441": "External suppliers may, for example, provide systems to organise our work, services, consulting, IT hosting, or marketing.",
-    "255cec1": "It is our responsibility to ensure that your personal data is processed properly. We therefore place high demands on our partners, and our partners must guarantee that your personal data is protected.",
-    "949396e": "We therefore enter into agreements for this with companies (data processors) that handle personal data on our behalf to enhance the security of your personal data.",
-    "50d2206": "Disclosure of Personal Data",
-    "eb65bc4": "We do not disclose your personal data to third parties.",
-    "2c113cf": "Profiling and Automated Decisions",
-    "2a38db9": "We do not perform profiling or automated decisions.",
-    "7f71bab": "Third-Country Transfers",
-    "fc4b04d": "As a starting point, we use data processors in the EU/EEA, or who store data in the EU/EEA.",
-    "2c74112": "In some cases, this is not possible, and here data processors outside the EU/EEA may be used if they can provide adequate protection for your personal data.",
-    "dbb1d0d": "Processing Security",
-    "f1f56d7": "We keep the processing of personal data secure by having implemented appropriate technical and organisational measures.",
-    "faf40ab": "We have conducted risk assessments of our processing of personal data and have subsequently implemented appropriate technical and organisational measures to increase processing security.",
-    "0b433b8": "One of our most important measures is to keep our employees updated on GDPR through ongoing awareness training, a GDPR course, and by reviewing our GDPR procedures with the employees.",
-    "ec88e08": "The Rights of the Data Subjects",
-    "9c7e51f": "Under the General Data Protection Regulation, you have a number of rights in relation to our processing of information about you.",
-    "4f8a6b8": "If you wish to exercise your rights, you must contact us so that we can help you with this.",
-    "18fdd5e": "Right to Access Information (Right of Access)",
-    "dd726ae": "You have the right to access the information we process about you, as well as a number of additional details.",
-    "9b825ec": "Right to Rectification (Correction)",
-    "357ab3b": "You have the right to have inaccurate information about yourself corrected.",
-    "05f8c38": "Right to Erasure (Right to be forgotten)",
-    "bf64837": "In special cases, you have the right to have information about you erased before the time of our general deletion occurs.",
-    "93ebe09": "Right to Restriction of Processing",
-    "7b0de15": "In certain cases, you have the right to receive personal data about you that you have provided to us in a structured, commonly used and machine-readable format, and to request that the data be transferred to another data controller where the conditions for this are met.",
-    "c7fd320": "Right to Object",
-    "6063c18": "In certain cases, you have the right to object to our otherwise lawful processing of your personal data. You can also object to the processing of your information for direct marketing.",
-    "122a76f": "Right to Data Portability",
-    "1ee6f31": "In certain cases, you have the right to receive your personal data in a structured, commonly used, and machine-readable format, and to have this personal data transferred from one data controller to another without hindrance.",
-    "444c414": "You can read more about your rights in the Danish Data Protection Agency's (Datatilsynet) guide on the rights of data subjects, which you can find at www.datatilsynet.dk.",
-    "0fcd963": "Withdrawal of Consent",
-    "8971576": "When our processing of your personal data is based on your consent, you have the right to withdraw your consent.",
-    "194f2e8": "Complaint to the Danish Data Protection Agency (Datatilsynet)",
-    "7842087": "You have the right to file a complaint with the Danish Data Protection Agency if you are dissatisfied with the way we process your personal data. You can find the contact information for the Danish Data Protection Agency at www.datatilsynet.dk.",
-    "3903302": "We generally encourage you to read more about the GDPR so that you are updated on the rules."
+    "data_controller": {
+      "heading": "Data Controller",
+      "paragraph_1": "We are the data controller for the processing of personal data concerning our customers and business partners. You can find our contact information below:\nImprove Invest A/S\nStrandvejen 125\n2900 Hellerup\nCVR: 44720795\nIf you have questions about the processing of your personal data, you can contact us via info@improveinvest.com"
+    },
+    "processing_activities": {
+      "heading": "Processing Activities",
+      "paragraph_1": "As a data controller according to the GDPR, we have the following processing activities."
+    },
+    "website_visit": {
+      "heading": "Website Visit",
+      "paragraph_1": "When you visit our website, we use cookies to enable the website to function, which you can read more about in our cookie policy."
+    },
+    "communication_with_potential_customers": {
+      "heading": "Communication with potential customers",
+      "paragraph_1": "If you have questions about our site, or wish to hear more about our services, you can contact us via:\nContact Form\nEmail\nPhone",
+      "paragraph_2": "Through this, we will process your personal data so that we can engage in a dialogue with you, e.g., answering questions about our services. We only process the information you provide us in connection with our communication.",
+      "paragraph_3": "We will typically process the following common information: name, email, and phone number.",
+      "paragraph_4": "Our legal basis for processing this personal data is Article 6(1)(f) of the General Data Protection Regulation.",
+      "paragraph_5": "We delete our communication with you when it becomes clear whether you want our services or not.",
+      "paragraph_6": "Should the need arise in a specific case to store your personal data for a longer period, this may be the case."
+    },
+    "customers": {
+      "heading": "Customers",
+      "paragraph_1": "When you become an investor in Improve Invest A/S or otherwise enter into a customer relationship with us, we process the personal data necessary to establish, administer and document the customer relationship. This may include, among other things, name, address, contact details, CPR number (Danish civil registration number), bank and custody account details, information about investments and payments, and other information necessary to administer your ownership and communicate with you. We process the information for purposes including investor administration, communication, capital increases, distributions, general meetings, reporting and compliance with our legal and regulatory obligations. Investor onboarding and customer due diligence. In connection with the establishment and ongoing administration of an investor relationship, we may process further information to meet requirements regarding customer due diligence, identification and documentation. This may include, among other things: identification documents and identity information, information about beneficial owners and ownership structure, information about investment amounts and payment circumstances, information necessary to assess whether the investor meets the conditions for investing in the fund, documentation of the investor’s risk acknowledgement where relevant, and, where applicable, information about the origin of funds. Processing takes place when necessary to comply with legal obligations to which Improve Invest A/S is subject, or when processing is necessary to enter into or administer the agreement with the investor. Storage. We store personal data for as long as necessary for the purposes for which the data was collected, and thereafter for as long as we are required to do so under applicable law. Information relating to investor and customer relationships is therefore not necessarily deleted immediately after the customer relationship ends. Information may be stored for the period required by accounting, company, tax and anti-money laundering legislation and other relevant regulatory requirements.",
+      "paragraph_2": "The legal basis for processing this personal data is Article 6(1)(b) of the General Data Protection Regulation.",
+      "paragraph_3": "Once the service has been delivered and any outstanding matters are concluded, we will delete the personal data immediately thereafter."
+    },
+    "newsletter": {
+      "heading": "Newsletter",
+      "paragraph_1": "We have a newsletter which is voluntary to subscribe to – and you can always unsubscribe from it again.",
+      "paragraph_2": "The purpose of the newsletter is to send subscribers emails with new information from the company, which may concern new content on the website and the announcement of our services.",
+      "paragraph_3": "We will only send you emails if you have given your active consent for this. This primarily requires you to state your email address, to which we then send an email so that you can confirm the subscription. In this way, we ensure that you have actually signed up for the newsletter yourself, i.e., provided active consent.",
+      "paragraph_4": "Our legal basis for processing your personal data (i.e., the email address) in connection with the newsletter will be Article 6(1)(a) of the General Data Protection Regulation.",
+      "paragraph_5": "We will process your personal data as long as you are still subscribed to the newsletter. Upon unsubscribing from the newsletter, we will also stop sending it to you. If we have not sent you a newsletter for 1 year, your consent will lapse as a result of our inactivity.",
+      "paragraph_6": "Upon unsubscribing from the newsletter, we store your now former consent for 2 years after it was last used due to statute of limitations requirements according to section 11.3 of the Consumer Ombudsman's spam guide."
+    },
+    "accounting": {
+      "heading": "Accounting",
+      "paragraph_1": "We must store all accounting documents according to the Danish Bookkeeping Act (bogføringsloven). This means we store invoices",
+      "paragraph_2": "and similar documents for accounting purposes. These may contain common personal data such as name, address, service description.",
+      "paragraph_3": "Our legal basis for processing personal data for accounting is Article 6(1)(c) of the General Data Protection Regulation.",
+      "paragraph_4": "We store this information for a minimum of 5 years after the current financial year has ended."
+    },
+    "job_applications": {
+      "heading": "Job Applications",
+      "paragraph_1": "We gladly accept job applications with the aim of assessing whether they match a recruitment need in our company.",
+      "paragraph_2": "If you send your job application to us, our legal basis for processing your personal data is Article 6(1)(f) of the General Data Protection Regulation.",
+      "paragraph_3": "If you have sent an unsolicited application, we will immediately assess whether your application is relevant and then delete your information again if there is no match.",
+      "paragraph_4": "If you have sent an application for an advertised job, we will dispose of your application if you are not hired, and immediately after the right candidate has been found for the job.",
+      "paragraph_5": "If you are part of a recruitment process and/or are hired for the job, we will provide you with separate information on how we process your personal data in this context."
+    },
+    "data_processors": {
+      "heading": "Data Processors",
+      "paragraph_1": "Few can handle everything themselves, and the same applies to us. We therefore have partners and use suppliers, some of whom may be data processors.",
+      "paragraph_2": "External suppliers may, for example, provide systems to organise our work, services, consulting, IT hosting, or marketing.",
+      "paragraph_3": "It is our responsibility to ensure that your personal data is processed properly. We therefore place high demands on our partners, and our partners must guarantee that your personal data is protected.",
+      "paragraph_4": "We therefore enter into agreements for this with companies (data processors) that handle personal data on our behalf to enhance the security of your personal data."
+    },
+    "disclosure_of_personal_data": {
+      "heading": "Disclosure of Personal Data",
+      "paragraph_1": "We do not disclose your personal data to third parties."
+    },
+    "profiling_and_automated_decisions": {
+      "heading": "Profiling and Automated Decisions",
+      "paragraph_1": "We do not perform profiling or automated decisions."
+    },
+    "third_country_transfers": {
+      "heading": "Third-Country Transfers",
+      "paragraph_1": "As a starting point, we use data processors in the EU/EEA, or who store data in the EU/EEA.",
+      "paragraph_2": "In some cases, this is not possible, and here data processors outside the EU/EEA may be used if they can provide adequate protection for your personal data."
+    },
+    "processing_security": {
+      "heading": "Processing Security",
+      "paragraph_1": "We keep the processing of personal data secure by having implemented appropriate technical and organisational measures.",
+      "paragraph_2": "We have conducted risk assessments of our processing of personal data and have subsequently implemented appropriate technical and organisational measures to increase processing security.",
+      "paragraph_3": "One of our most important measures is to keep our employees updated on GDPR through ongoing awareness training, a GDPR course, and by reviewing our GDPR procedures with the employees."
+    },
+    "rights_of_the_data_subjects": {
+      "heading": "The Rights of the Data Subjects",
+      "paragraph_1": "Under the General Data Protection Regulation, you have a number of rights in relation to our processing of information about you.",
+      "paragraph_2": "If you wish to exercise your rights, you must contact us so that we can help you with this."
+    },
+    "right_of_access": {
+      "heading": "Right to Access Information (Right of Access)",
+      "paragraph_1": "You have the right to access the information we process about you, as well as a number of additional details."
+    },
+    "right_to_rectification": {
+      "heading": "Right to Rectification (Correction)",
+      "paragraph_1": "You have the right to have inaccurate information about yourself corrected."
+    },
+    "right_to_erasure": {
+      "heading": "Right to Erasure (Right to be forgotten)",
+      "paragraph_1": "In special cases, you have the right to have information about you erased before the time of our general deletion occurs."
+    },
+    "right_to_restriction_of_processing": {
+      "heading": "Right to Restriction of Processing"
+    },
+    "right_to_object": {
+      "heading": "Right to Object",
+      "paragraph_1": "In certain cases, you have the right to object to our otherwise lawful processing of your personal data. You can also object to the processing of your information for direct marketing."
+    },
+    "right_to_data_portability": {
+      "heading": "Right to Data Portability",
+      "paragraph_1": "In certain cases, you have the right to receive personal data about you that you have provided to us in a structured, commonly used and machine-readable format, and to request that the data be transferred to another data controller where the conditions for this are met."
+    },
+    "withdrawal_of_consent": {
+      "heading": "Withdrawal of Consent",
+      "paragraph_1": "When our processing of your personal data is based on your consent, you have the right to withdraw your consent."
+    },
+    "complaint_to_the_danish_data_protection_agency": {
+      "heading": "Complaint to the Danish Data Protection Agency (Datatilsynet)",
+      "paragraph_1": "You have the right to file a complaint with the Danish Data Protection Agency if you are dissatisfied with the way we process your personal data. You can find the contact information for the Danish Data Protection Agency at www.datatilsynet.dk.",
+      "paragraph_2": "We generally encourage you to read more about the GDPR so that you are updated on the rules."
+    }
   },
   "cookies": {
-    "c6b9b1e": "Cookies",
-    "2dd59b5": "1. Purpose",
-    "db9219a": "This policy has been prepared in accordance with: Executive Order on requirements for information and consent for the storage of or access to information in end-users' terminal equipment and aims to ensure that end-users of the Company's website (improveinvest.com & improveinvest.dk) are protected against unlawful storage and disclosure of their information. The Company's websites use cookies to provide end-users with the best online experience. When the end-user uses our desktop and mobile website and accepts this policy, they consent to the use of cookies in accordance with these terms.",
-    "2d4b431": "2. Cookies",
-    "d29e018": "A cookie is a text file containing a data sequence that is sent from a web server to a web browser and stored by the browser. When a website is visited, the site is saved on the user's computer, mobile, or similar with the purpose of recognising the user the next time they visit the website. Cookies cannot be used to run programs or send viruses to the user's computer. Some cookies remain on the user's computer after they have closed the browser, while others are deleted after 30 minutes or when the browser is closed.",
-    "30b150d": "3. The Company's Use of Cookies",
+    "title": "Cookies",
+    "purpose": {
+      "heading": "1. Purpose",
+      "paragraph_1": "This policy has been prepared in accordance with: Executive Order on requirements for information and consent for the storage of or access to information in end-users' terminal equipment and aims to ensure that end-users of the Company's website (improveinvest.com & improveinvest.dk) are protected against unlawful storage and disclosure of their information. The Company's websites use cookies to provide end-users with the best online experience. When the end-user uses our desktop and mobile website and accepts this policy, they consent to the use of cookies in accordance with these terms."
+    },
+    "cookie_definition": {
+      "heading": "2. Cookies",
+      "paragraph_1": "A cookie is a text file containing a data sequence that is sent from a web server to a web browser and stored by the browser. When a website is visited, the site is saved on the user's computer, mobile, or similar with the purpose of recognising the user the next time they visit the website. Cookies cannot be used to run programs or send viruses to the user's computer. Some cookies remain on the user's computer after they have closed the browser, while others are deleted after 30 minutes or when the browser is closed."
+    },
+    "company_use_of_cookies": {
+      "heading": "3. The Company's Use of Cookies"
+    },
     "block_3": {
       "cookie_policy_intro": "The Company may use the information received via visitors' cookies for the following purposes:",
       "cookie_policy_a": "To recognise the user's computer when they visit the Company's websites",
@@ -110,11 +158,12 @@
       "cookie_policy_e": "To track the user while they navigate the website",
       "cookie_policy_outro": "The Company does not use cookies for marketing on third-party sites."
     },
-    "e0fe9a5": "4. Complaints",
-    "cb602d8": "Complaints about the Company's use of cookies can be addressed to info@improveinvest.com",
-    "bb67bdd": "5. Entry into Force",
-    "effective_date": {
-      "heading": "Entry into Force",
+    "complaints": {
+      "heading": "4. Complaints",
+      "paragraph_1": "Complaints about the Company's use of cookies can be addressed to info@improveinvest.com"
+    },
+    "entry_into_force": {
+      "heading": "5. Entry into Force",
       "description": "This version of the cookie policy is effective from 21/8/2026.",
       "guide_to_contact": "If you have a question about the cookie policy, you can contact Improve Invest A/S:",
       "contact": {

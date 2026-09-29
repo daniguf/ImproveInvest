@@ -27,86 +27,134 @@
     }
   },
   "gdpr": {
-    "a0ee3b9": "Dataansvarlig",
-    "78bf675": "Vi er dataansvarlig for behandlingen af de personoplysninger, som vi behandler om vores kunder og samarbejdspartnere. Du finder vores kontaktoplysninger nedenfor: Improve Invest A/S Strandvejen 125 2900 Hellerup CVR: 44720795 Hvis du har spørgsmål til behandlingen af dine personoplysninger, så kan du kontakte os via info@improveinvest.com",
-    "be8c4f9": "Behandlingsaktiviteter",
-    "7aa5c13": "Som dataansvarlig jf.GDPR, så har vi følgende behandlingsaktiviteter.",
-    "a6f8c51": "Besøg på hjemmeside",
-    "eac0431": "Når du besøger vores hjemmeside, så anvender vi cookies for at hjemmesiden kan fungere, hvilket du kan læse mere om i vores cookiepolitik.",
-    "200e20d": "Kommunikation med potentielle kunder",
-    "bf27475": "Når du har spørgsmål til vores side, eller ønsker at høre mere om vores services, så kan du kontakte os via:KontaktformularEmailTelefon",
-    "05fc9b9": "Herigennem vil vi behandle dine personoplysninger, så vi kan indgå i en dialog med dig fx. svare på spørgsmål om vores ydelser. Vi behandler kun den information, som du giver os i forbindelse med vores kommunikation.",
-    "74d8ee3": "Vi vil typisk behandle følgende almindelige oplysninger: navn, email og telefonnummer.",
-    "a6108e3": "Vores hjemmel til at behandle disse personoplysninger er databeskyttelsesforordningens artikel 6, stk. 1 litra f.",
-    "50f22b4": "Vi sletter vores kommunikation med dig når det står klart om du ønsker vores ydelser eller ej.",
-    "d124e0b": "Skulle der i et særligt tilfælde opstå et behov for at opbevare dine personoplysninger i længere tid, så vil dette kunne være tilfældet.",
-    "6a1f3bd": "Kunder",
-    "11d03d5": "Når du bliver investor i Improve Invest A/S eller på anden måde indgår i et kundeforhold med os, behandler vi de personoplysninger, der er nødvendige for at etablere, administrere og dokumentere kundeforholdet. Det kan blandt andet omfatte navn, adresse, kontaktoplysninger, CPR-nummer, bank- og depotoplysninger, oplysninger om investeringer og betalinger samt øvrige oplysninger, som er nødvendige for at administrere dit ejerskab og kommunikere med dig. Vi behandler oplysningerne med henblik på blandt andet investoradministration, kommunikation, kapitalforhøjelser, udlodninger, generalforsamlinger, rapportering samt opfyldelse af vores juridiske og regulatoriske forpligtelser. Investoroprettelse og kundekendskab. I forbindelse med etablering og løbende administration af et investorforhold kan vi behandle yderligere oplysninger for at opfylde krav om kundekendskab, identifikation og dokumentation. Det kan blandt andet omfatte: legitimation og identitetsoplysninger, oplysninger om reelle ejere og ejerstruktur, oplysninger om investeringsbeløb og betalingsforhold, oplysninger, der er nødvendige for at vurdere, om investor opfylder betingelserne for at investere i fonden, dokumentation for investorens risikobekræftelse, hvor dette er relevant, samt i relevante tilfælde oplysninger om midlernes oprindelse. Behandlingen sker, når den er nødvendig for at opfylde retlige forpligtelser, som Improve Invest A/S er underlagt, eller når behandlingen er nødvendig for at indgå eller administrere aftalen med investor. Opbevaring. Vi opbevarer personoplysninger, så længe det er nødvendigt for de formål, hvortil oplysningerne er indsamlet, og herefter så længe vi er forpligtet hertil efter gældende lovgivning. Oplysninger vedrørende investor- og kundeforhold slettes derfor ikke nødvendigvis umiddelbart efter, at kundeforholdet ophører. Oplysninger kan blandt andet opbevares i den periode, der følger af bogførings-, selskabs-, skatte- og hvidvasklovgivningen samt andre relevante regulatoriske krav.",
-    "653049f": "Hjemlen til at behandle disse personoplysninger er er databeskyttelsesforordningens artikel 6, stk. 1 litra b.",
-    "def2ea9": "Når ydelsen er leveret og eventuelle udestående er afsluttede, så vil vi umiddelbart herefter slette personoplysningerne.",
-    "7520642": "Nyhedsbrev",
-    "ab2a6f5": "Vi har et nyhedsbrev, som det er frivilligt at tilmelde sig - og du kan altid framelde dig dette igen.",
-    "2cd23d0": "Formålet med nyhedsbrevet er at sende de tilmeldte mails med ny information fra selskabet, som kan omhandle nyt indhold på hjemmesiden og annoncering af vores ydelser.",
-    "a6b0130": "Vi vil kun sende dig mails, hvis du har givet dit aktive samtykke til dette. Det kræver i første omgang, at du angiver din mailadresse, som vi efterfølgende sender en mail til, således at du kan bekræfte tilmeldingen. På denne måde, så sikrer vi, at du rent faktisk selv har tilmeldt dig nyhedsbrevet dvs. afgivet aktivt samtykke.",
-    "695fc56": "Vores hjemmel til at behandle dine personoplysninger (dvs. mailadressen) i forbindelse med nyhedsbrevet vil være databeskyttelsesforordningens artikel 6, stk. 1 litra a.",
-    "79d0da2": "Vi vil behandle dine personoplysninger, så længe at du stadig er tilmeldt nyhedsbrevet. Ved afmeldelse af nyhedsbrevet, så stopper vi også med at sende dette til dig. Har vi ikke sendt dig et nyhedsbrev i 1 år, så bortfalder dit samtykke som følge af vores passivitet.",
-    "09b91d5": "Ved framelding af nyhedsbrevet, så gemmer vi dit nu tidligere samtykke i 2 år efter, at det senest er anvendt pga. forældelseskrav jf. Forbrugerombudsmandens spamvejledning afsnit 11.3.",
-    "9d0b2f9": "Bogføring",
-    "6daefbf": "Vi skal gemme alle regnskabsbilag jf. bogføringsloven. Det betyder, at vi gemmer fakturaer",
-    "91de827": "og lignende bilag til brug for regnskabsføring. Heraf kan der fremgå almindelige personoplysninger som navn, adresse, ydelsesbeskrivelse.",
-    "389e0e8": "Vores hjemmel til at behandle personoplysninger til bogføringen er databeskyttelsesforordningens artikel 6, stk.1 litra.",
-    "c25ed32": "Vi opbevarer disse oplysninger i minimum 5 år efter at indeværende regnskabsår er afsluttet.",
-    "3929dbf": "Jobansøgninger",
-    "625da4b": "Vi tager glædeligt imod jobansøgninger med henblik på at vurdere om de matcher et ansættelsesbehov i vores virksomhed.",
-    "067f801": "Hvis du sender din jobansøgning til os, så er vores hjemmel til at behandle dine personoplysninger databeskyttelsesforordningens artikel 6, stk. 1 litra f.",
-    "77e577b": "Hvis du har sendt en uopfordret ansøgning, så vil vi med det samme vurdere om din ansøgning er relevant, og herefter slette dine oplysninger igen, hvis der ikke er et match.",
-    "07b6781": "Hvis du har sendt en ansøgning til et opslået job, så vil vi bortskaffe din ansøgning i det tilfælde, at du ikke ansættes, og umiddelbart efter at den rette kandidat er fundet til jobbet.",
-    "3297a3e": "Hvis du indgår i et rekrutteringsforløb og/eller ansættes til jobbet, så vil vi give dig særskilt information om hvordan, at vi behandler dine personoplysninger i denne forbindelse.",
-    "739e478": "Databehandlere",
-    "c747495": "Få kan klare alt selv, og det samme gælder os. Vi har derfor samarbejdspartnere, samt benytter os af leverandører, hvoraf nogle kan være databehandlere.",
-    "d17c441": "Eksterne leverandører kan eksempelvis levere systemer til at organisere vores arbejde, services, rådgivning, IT-hosting eller markedsføring.",
-    "255cec1": "Det er vores ansvar at sikre, at dine personoplysninger behandles ordentligt. Derfor stiller vi høje krav til vores samarbejdspartnere, og vores partnere skal garantere, at dine personoplysninger er beskyttet.",
-    "949396e": "Vi indgår derfor aftaler herom med virksomheder (databehandlere), der håndterer personoplysninger på vores vegne for at højne sikkerheden af dine personoplysninger.",
-    "50d2206": "Videregivelse af personoplysninger",
-    "eb65bc4": "Vi videregiver ikke dine personoplysninger til tredjemand.",
-    "2c113cf": "Profilering og automatiserede afgørelser",
-    "2a38db9": "Vi foretager ikke profilering eller automatiserede afgørelser.",
-    "7f71bab": "Tredjelandeoverførsler",
-    "fc4b04d": "Vi benytter som udgangspunkt databehandlere i EU/EØS, eller som opbevarer data i EU/EØS.",
-    "2c74112": "I nogle tilfælde er dette ikke muligt, og her kan der benyttes databehandlere udenfor EU/EØS, hvis disse kan give dine personoplysninger en passende beskyttelse.",
-    "dbb1d0d": "Behandlingssikkerhed",
-    "f1f56d7": "Vi holder behandlingen af personoplysninger sikker ved at have indført passende tekniske og organisatoriske foranstaltninger.",
-    "faf40ab": "Vi har lavet risikovurderinger af vores behandling af personoplysninger, og har herefter indført passende tekniske og organisatoriske foranstaltninger for at øge behandlingssikkerheden.",
-    "0b433b8": "En af vores vigtigste foranstaltninger er at holde vores medarbejdere opdaterede om GDPR via løbende awareness træning,GDPR-kursus, samt ved at gennemgå vores GDPR-procedurer med medarbejderne.",
-    "ec88e08": "De registreredes rettigheder",
-    "9c7e51f": "Du har efter databeskyttelsesforordningen en række rettigheder i forhold til vores behandling af oplysninger om dig.",
-    "4f8a6b8": "Hvis du vil gøre brug af dine rettigheder, skal du kontakte os, så vi kan hjælpe dig med dette.",
-    "18fdd5e": "Ret til at se oplysninger (indsigtsret)",
-    "dd726ae": "Du har ret til at få indsigt i de oplysninger, som vi behandler om dig, samt en række yderligere oplysninger.",
-    "9b825ec": "Ret til berigtigelse (rettelse)",
-    "357ab3b": "Du har ret til at få urigtige oplysninger om dig selv rettet.",
-    "05f8c38": "Ret til sletning",
-    "bf64837": "I særlige tilfælde har du ret til at få slettet oplysninger om dig, inden tidspunktet for vores almindelige generelle sletning indtræffer.",
-    "93ebe09": "Ret til begrænsning af behandling",
-    "7b0de15": "Du har i visse tilfælde ret til at modtage personoplysninger om dig, som du selv har givet os, i et struktureret, almindeligt anvendt og maskinlæsbart format, og til at anmode om, at oplysningerne overføres til en anden dataansvarlig, når betingelserne herfor er opfyldt.",
-    "c7fd320": "Ret til indsigelse",
-    "6063c18": "Du har i visse tilfælde ret til at gøre indsigelse mod vores ellers lovlige behandling af dine personoplysninger. Du kan også gøre indsigelse mod behandling af dine oplysninger til direkte markedsføring.",
-    "122a76f": "Ret til at transmittere oplysninger (dataportabilitet)",
-    "1ee6f31": "Du har i visse tilfælde ret til at modtage dine personoplysninger i et struktureret, almindeligt anvendt og maskinlæsbart format samt at få overført disse personoplysninger fra én dataansvarlig til en anden uden hindring.",
-    "444c414": "Du kan læse mere om dine rettigheder i Datatilsynets vejledning om de registreredes rettigheder, som du finder påwww.datatilsynet.dk.",
-    "0fcd963": "Tilbagetrækning af samtykke",
-    "8971576": "Når vores behandling af dine personoplysninger er baseret på dit samtykke, så har du ret til at trække dit samtykke tilbage.",
-    "194f2e8": "Klage til Datatilsynet",
-    "7842087": "Du har ret til at indgive en klage til Datatilsynet, hvis du er utilfreds med den måde, vi behandler dine personoplysninger på. Du finder Datatilsynets kontaktoplysninger påwww.datatilsynet.dk.",
-    "3903302": "Vi vil generelt opfordre dig til at læse mere om GDPR, så du er opdateret på reglerne."
+    "data_controller": {
+      "heading": "Dataansvarlig",
+      "paragraph_1": "Vi er dataansvarlig for behandlingen af de personoplysninger, som vi behandler om vores kunder og samarbejdspartnere. Du finder vores kontaktoplysninger nedenfor: Improve Invest A/S Strandvejen 125 2900 Hellerup CVR: 44720795 Hvis du har spørgsmål til behandlingen af dine personoplysninger, så kan du kontakte os via info@improveinvest.com"
+    },
+    "processing_activities": {
+      "heading": "Behandlingsaktiviteter",
+      "paragraph_1": "Som dataansvarlig jf.GDPR, så har vi følgende behandlingsaktiviteter."
+    },
+    "website_visit": {
+      "heading": "Besøg på hjemmeside",
+      "paragraph_1": "Når du besøger vores hjemmeside, så anvender vi cookies for at hjemmesiden kan fungere, hvilket du kan læse mere om i vores cookiepolitik."
+    },
+    "communication_with_potential_customers": {
+      "heading": "Kommunikation med potentielle kunder",
+      "paragraph_1": "Når du har spørgsmål til vores side, eller ønsker at høre mere om vores services, så kan du kontakte os via:KontaktformularEmailTelefon",
+      "paragraph_2": "Herigennem vil vi behandle dine personoplysninger, så vi kan indgå i en dialog med dig fx. svare på spørgsmål om vores ydelser. Vi behandler kun den information, som du giver os i forbindelse med vores kommunikation.",
+      "paragraph_3": "Vi vil typisk behandle følgende almindelige oplysninger: navn, email og telefonnummer.",
+      "paragraph_4": "Vores hjemmel til at behandle disse personoplysninger er databeskyttelsesforordningens artikel 6, stk. 1 litra f.",
+      "paragraph_5": "Vi sletter vores kommunikation med dig når det står klart om du ønsker vores ydelser eller ej.",
+      "paragraph_6": "Skulle der i et særligt tilfælde opstå et behov for at opbevare dine personoplysninger i længere tid, så vil dette kunne være tilfældet."
+    },
+    "customers": {
+      "heading": "Kunder",
+      "paragraph_1": "Når du bliver investor i Improve Invest A/S eller på anden måde indgår i et kundeforhold med os, behandler vi de personoplysninger, der er nødvendige for at etablere, administrere og dokumentere kundeforholdet. Det kan blandt andet omfatte navn, adresse, kontaktoplysninger, CPR-nummer, bank- og depotoplysninger, oplysninger om investeringer og betalinger samt øvrige oplysninger, som er nødvendige for at administrere dit ejerskab og kommunikere med dig. Vi behandler oplysningerne med henblik på blandt andet investoradministration, kommunikation, kapitalforhøjelser, udlodninger, generalforsamlinger, rapportering samt opfyldelse af vores juridiske og regulatoriske forpligtelser. Investoroprettelse og kundekendskab. I forbindelse med etablering og løbende administration af et investorforhold kan vi behandle yderligere oplysninger for at opfylde krav om kundekendskab, identifikation og dokumentation. Det kan blandt andet omfatte: legitimation og identitetsoplysninger, oplysninger om reelle ejere og ejerstruktur, oplysninger om investeringsbeløb og betalingsforhold, oplysninger, der er nødvendige for at vurdere, om investor opfylder betingelserne for at investere i fonden, dokumentation for investorens risikobekræftelse, hvor dette er relevant, samt i relevante tilfælde oplysninger om midlernes oprindelse. Behandlingen sker, når den er nødvendig for at opfylde retlige forpligtelser, som Improve Invest A/S er underlagt, eller når behandlingen er nødvendig for at indgå eller administrere aftalen med investor. Opbevaring. Vi opbevarer personoplysninger, så længe det er nødvendigt for de formål, hvortil oplysningerne er indsamlet, og herefter så længe vi er forpligtet hertil efter gældende lovgivning. Oplysninger vedrørende investor- og kundeforhold slettes derfor ikke nødvendigvis umiddelbart efter, at kundeforholdet ophører. Oplysninger kan blandt andet opbevares i den periode, der følger af bogførings-, selskabs-, skatte- og hvidvasklovgivningen samt andre relevante regulatoriske krav.",
+      "paragraph_2": "Hjemlen til at behandle disse personoplysninger er er databeskyttelsesforordningens artikel 6, stk. 1 litra b.",
+      "paragraph_3": "Når ydelsen er leveret og eventuelle udestående er afsluttede, så vil vi umiddelbart herefter slette personoplysningerne."
+    },
+    "newsletter": {
+      "heading": "Nyhedsbrev",
+      "paragraph_1": "Vi har et nyhedsbrev, som det er frivilligt at tilmelde sig - og du kan altid framelde dig dette igen.",
+      "paragraph_2": "Formålet med nyhedsbrevet er at sende de tilmeldte mails med ny information fra selskabet, som kan omhandle nyt indhold på hjemmesiden og annoncering af vores ydelser.",
+      "paragraph_3": "Vi vil kun sende dig mails, hvis du har givet dit aktive samtykke til dette. Det kræver i første omgang, at du angiver din mailadresse, som vi efterfølgende sender en mail til, således at du kan bekræfte tilmeldingen. På denne måde, så sikrer vi, at du rent faktisk selv har tilmeldt dig nyhedsbrevet dvs. afgivet aktivt samtykke.",
+      "paragraph_4": "Vores hjemmel til at behandle dine personoplysninger (dvs. mailadressen) i forbindelse med nyhedsbrevet vil være databeskyttelsesforordningens artikel 6, stk. 1 litra a.",
+      "paragraph_5": "Vi vil behandle dine personoplysninger, så længe at du stadig er tilmeldt nyhedsbrevet. Ved afmeldelse af nyhedsbrevet, så stopper vi også med at sende dette til dig. Har vi ikke sendt dig et nyhedsbrev i 1 år, så bortfalder dit samtykke som følge af vores passivitet.",
+      "paragraph_6": "Ved framelding af nyhedsbrevet, så gemmer vi dit nu tidligere samtykke i 2 år efter, at det senest er anvendt pga. forældelseskrav jf. Forbrugerombudsmandens spamvejledning afsnit 11.3."
+    },
+    "accounting": {
+      "heading": "Bogføring",
+      "paragraph_1": "Vi skal gemme alle regnskabsbilag jf. bogføringsloven. Det betyder, at vi gemmer fakturaer",
+      "paragraph_2": "og lignende bilag til brug for regnskabsføring. Heraf kan der fremgå almindelige personoplysninger som navn, adresse, ydelsesbeskrivelse.",
+      "paragraph_3": "Vores hjemmel til at behandle personoplysninger til bogføringen er databeskyttelsesforordningens artikel 6, stk.1 litra.",
+      "paragraph_4": "Vi opbevarer disse oplysninger i minimum 5 år efter at indeværende regnskabsår er afsluttet."
+    },
+    "job_applications": {
+      "heading": "Jobansøgninger",
+      "paragraph_1": "Vi tager glædeligt imod jobansøgninger med henblik på at vurdere om de matcher et ansættelsesbehov i vores virksomhed.",
+      "paragraph_2": "Hvis du sender din jobansøgning til os, så er vores hjemmel til at behandle dine personoplysninger databeskyttelsesforordningens artikel 6, stk. 1 litra f.",
+      "paragraph_3": "Hvis du har sendt en uopfordret ansøgning, så vil vi med det samme vurdere om din ansøgning er relevant, og herefter slette dine oplysninger igen, hvis der ikke er et match.",
+      "paragraph_4": "Hvis du har sendt en ansøgning til et opslået job, så vil vi bortskaffe din ansøgning i det tilfælde, at du ikke ansættes, og umiddelbart efter at den rette kandidat er fundet til jobbet.",
+      "paragraph_5": "Hvis du indgår i et rekrutteringsforløb og/eller ansættes til jobbet, så vil vi give dig særskilt information om hvordan, at vi behandler dine personoplysninger i denne forbindelse."
+    },
+    "data_processors": {
+      "heading": "Databehandlere",
+      "paragraph_1": "Få kan klare alt selv, og det samme gælder os. Vi har derfor samarbejdspartnere, samt benytter os af leverandører, hvoraf nogle kan være databehandlere.",
+      "paragraph_2": "Eksterne leverandører kan eksempelvis levere systemer til at organisere vores arbejde, services, rådgivning, IT-hosting eller markedsføring.",
+      "paragraph_3": "Det er vores ansvar at sikre, at dine personoplysninger behandles ordentligt. Derfor stiller vi høje krav til vores samarbejdspartnere, og vores partnere skal garantere, at dine personoplysninger er beskyttet.",
+      "paragraph_4": "Vi indgår derfor aftaler herom med virksomheder (databehandlere), der håndterer personoplysninger på vores vegne for at højne sikkerheden af dine personoplysninger."
+    },
+    "disclosure_of_personal_data": {
+      "heading": "Videregivelse af personoplysninger",
+      "paragraph_1": "Vi videregiver ikke dine personoplysninger til tredjemand."
+    },
+    "profiling_and_automated_decisions": {
+      "heading": "Profilering og automatiserede afgørelser",
+      "paragraph_1": "Vi foretager ikke profilering eller automatiserede afgørelser."
+    },
+    "third_country_transfers": {
+      "heading": "Tredjelandeoverførsler",
+      "paragraph_1": "Vi benytter som udgangspunkt databehandlere i EU/EØS, eller som opbevarer data i EU/EØS.",
+      "paragraph_2": "I nogle tilfælde er dette ikke muligt, og her kan der benyttes databehandlere udenfor EU/EØS, hvis disse kan give dine personoplysninger en passende beskyttelse."
+    },
+    "processing_security": {
+      "heading": "Behandlingssikkerhed",
+      "paragraph_1": "Vi holder behandlingen af personoplysninger sikker ved at have indført passende tekniske og organisatoriske foranstaltninger.",
+      "paragraph_2": "Vi har lavet risikovurderinger af vores behandling af personoplysninger, og har herefter indført passende tekniske og organisatoriske foranstaltninger for at øge behandlingssikkerheden.",
+      "paragraph_3": "En af vores vigtigste foranstaltninger er at holde vores medarbejdere opdaterede om GDPR via løbende awareness træning,GDPR-kursus, samt ved at gennemgå vores GDPR-procedurer med medarbejderne."
+    },
+    "rights_of_the_data_subjects": {
+      "heading": "De registreredes rettigheder",
+      "paragraph_1": "Du har efter databeskyttelsesforordningen en række rettigheder i forhold til vores behandling af oplysninger om dig.",
+      "paragraph_2": "Hvis du vil gøre brug af dine rettigheder, skal du kontakte os, så vi kan hjælpe dig med dette."
+    },
+    "right_of_access": {
+      "heading": "Ret til at se oplysninger (indsigtsret)",
+      "paragraph_1": "Du har ret til at få indsigt i de oplysninger, som vi behandler om dig, samt en række yderligere oplysninger."
+    },
+    "right_to_rectification": {
+      "heading": "Ret til berigtigelse (rettelse)",
+      "paragraph_1": "Du har ret til at få urigtige oplysninger om dig selv rettet."
+    },
+    "right_to_erasure": {
+      "heading": "Ret til sletning",
+      "paragraph_1": "I særlige tilfælde har du ret til at få slettet oplysninger om dig, inden tidspunktet for vores almindelige generelle sletning indtræffer."
+    },
+    "right_to_restriction_of_processing": {
+      "heading": "Ret til begrænsning af behandling"
+    },
+    "right_to_object": {
+      "heading": "Ret til indsigelse",
+      "paragraph_1": "Du har i visse tilfælde ret til at gøre indsigelse mod vores ellers lovlige behandling af dine personoplysninger. Du kan også gøre indsigelse mod behandling af dine oplysninger til direkte markedsføring."
+    },
+    "right_to_data_portability": {
+      "heading": "Ret til at transmittere oplysninger (dataportabilitet)",
+      "paragraph_1": "Du har i visse tilfælde ret til at modtage personoplysninger om dig, som du selv har givet os, i et struktureret, almindeligt anvendt og maskinlæsbart format, og til at anmode om, at oplysningerne overføres til en anden dataansvarlig, når betingelserne herfor er opfyldt."
+    },
+    "withdrawal_of_consent": {
+      "heading": "Tilbagetrækning af samtykke",
+      "paragraph_1": "Når vores behandling af dine personoplysninger er baseret på dit samtykke, så har du ret til at trække dit samtykke tilbage."
+    },
+    "complaint_to_the_danish_data_protection_agency": {
+      "heading": "Klage til Datatilsynet",
+      "paragraph_1": "Du har ret til at indgive en klage til Datatilsynet, hvis du er utilfreds med den måde, vi behandler dine personoplysninger på. Du finder Datatilsynets kontaktoplysninger påwww.datatilsynet.dk.",
+      "paragraph_2": "Vi vil generelt opfordre dig til at læse mere om GDPR, så du er opdateret på reglerne."
+    }
   },
   "cookies": {
-    "c6b9b1e": "Cookies",
-    "2dd59b5": "1. Formål",
-    "db9219a": "Denne politik er udarbejdet i henhold til: Bekendtgørelse om krav til information og samtykke ved lagring af eller adgang til oplysninger i slutbrugeres terminaludstyrog har til formål at sikre, at slutbrugere af Selskabets hjemmeside (improveinvest.com & improveinvest.dk) er beskyttet mod uretmæssig lagring og videregivelse af disses oplysninger. Selskabets hjemmesider anvender cookies til at kunne give slutbrugere den bedste onlineoplevelse. Når slutbrugeren anvender vores stationære og mobile hjemmeside og acceptere denne politik, giver de samtykke til brugen af cookies i overensstemmelse med disse vilkår.",
-    "2d4b431": "2. Cookies",
-    "d29e018": "En cookie er en tekstfil der indeholder en datasekvens, som sendes fra en webserver til en webbrowser og lagres af browseren. Når en hjemmeside besøges, gemmes siden på brugerens computer, mobil eller tilsvarende med det formål at genkende brugeren, næste gang denne besøger hjemmesiden. Cookies kan ikke bruges til at køre programmer eller sende virus til brugerens computer. Nogle cookies bliver liggende på brugerens computer, efter at denne har lukket browseren, mens andre slettes efter 30 minutter eller når browseren lukkes.",
-    "30b150d": "3. Selskabets anvendelse af cookies",
+    "title": "Cookies",
+    "purpose": {
+      "heading": "1. Formål",
+      "paragraph_1": "Denne politik er udarbejdet i henhold til: Bekendtgørelse om krav til information og samtykke ved lagring af eller adgang til oplysninger i slutbrugeres terminaludstyrog har til formål at sikre, at slutbrugere af Selskabets hjemmeside (improveinvest.com & improveinvest.dk) er beskyttet mod uretmæssig lagring og videregivelse af disses oplysninger. Selskabets hjemmesider anvender cookies til at kunne give slutbrugere den bedste onlineoplevelse. Når slutbrugeren anvender vores stationære og mobile hjemmeside og acceptere denne politik, giver de samtykke til brugen af cookies i overensstemmelse med disse vilkår."
+    },
+    "cookie_definition": {
+      "heading": "2. Cookies",
+      "paragraph_1": "En cookie er en tekstfil der indeholder en datasekvens, som sendes fra en webserver til en webbrowser og lagres af browseren. Når en hjemmeside besøges, gemmes siden på brugerens computer, mobil eller tilsvarende med det formål at genkende brugeren, næste gang denne besøger hjemmesiden. Cookies kan ikke bruges til at køre programmer eller sende virus til brugerens computer. Nogle cookies bliver liggende på brugerens computer, efter at denne har lukket browseren, mens andre slettes efter 30 minutter eller når browseren lukkes."
+    },
+    "company_use_of_cookies": {
+      "heading": "3. Selskabets anvendelse af cookies"
+    },
     "block_3": {
       "cookie_policy_intro": "Selskabet kan bruge de oplysninger der modtages via besøgendes cookies til følgende formål:",
       "cookie_policy_a": "At genkende brugerens computer, når disse besøger Selskabets hjemmesider",
@@ -116,11 +164,12 @@
       "cookie_policy_e": "At spore brugeren mens disse navigerer på hjemmesiden",
       "cookie_policy_outro": "Selskabet bruger ikke cookies til markedsføring på tredjepartssider."
     },
-    "e0fe9a5": "4. Klager",
-    "cb602d8": "Klager over Selskabets brug af cookies kan rettes på info@improveinvest.com",
-    "bb67bdd": "5. Ikrafttræden",
-    "effective_date": {
-      "heading": "Ikrafttræden",
+    "complaints": {
+      "heading": "4. Klager",
+      "paragraph_1": "Klager over Selskabets brug af cookies kan rettes på info@improveinvest.com"
+    },
+    "entry_into_force": {
+      "heading": "5. Ikrafttræden",
       "description": "Denne version af cookiepolitik er gældende fra 21/8/2026.",
       "guide_to_contact": "Hvis du har et spørgsmål over cookiepolitikken, kan du kontakte Improve Invest A/S:",
       "contact": {
