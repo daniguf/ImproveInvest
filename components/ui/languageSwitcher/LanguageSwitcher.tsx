@@ -1,7 +1,7 @@
 "use client";
 
-import GlobeSVG from "@/components/assets/globe/GlobeSVG";
 import { LOCALES } from "@/lib/i18n";
+import { Globe } from "lucide-react";
 import { RefObject, useRef, useState, useTransition } from "react";
 import { useOnClickOutside } from "usehooks-ts";
 
@@ -32,7 +32,11 @@ const LanguageSwitcher: React.FC = () => {
       ref={navRef}
     >
       <div className="relative flex items-center justify-center">
-        <GlobeSVG setIsOpen={setIsOpen} />
+        <Globe
+          size={24}
+          className="cursor-pointer text-white hover:opacity-75"
+          onClick={() => setIsOpen(true)}
+        />
         {isOpen ? (
           <div className="absolute top-full -right-1/3 text-sm">
             <div

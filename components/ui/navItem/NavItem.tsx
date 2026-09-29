@@ -1,5 +1,6 @@
 "use client";
 
+import { ChevronDown, ChevronUp } from "lucide-react";
 import Link from "next/link";
 
 type Category = {
@@ -41,25 +42,9 @@ const NavItem: React.FC<INavItem> = ({
           )}
           {haveDropDown ? (
             isOpen ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="16px"
-                viewBox="0 -960 960 960"
-                width="16px"
-                fill="#1f1f1f"
-              >
-                <path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z" />
-              </svg>
+              <ChevronUp size={16} color="#1f1f1f" />
             ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="16px"
-                viewBox="0 -960 960 960"
-                width="16px"
-                fill="#1f1f1f"
-              >
-                <path d="M480-528 296-344l-56-56 240-240 240 240-56 56-184-184Z" />
-              </svg>
+              <ChevronDown size={16} color="#1f1f1f" />
             )
           ) : null}
         </div>
