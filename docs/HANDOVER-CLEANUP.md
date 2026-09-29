@@ -18,6 +18,78 @@ Severity key: 🔴 blocking / embarrassing · 🟠 should fix before handover ·
 
 ---
 
+## 0. Resolution status
+
+This report has been actioned on branch `chore/handover-cleanup`, cut from `dev` at
+`c080b38`. Findings 1–20 and 22 are resolved. What follows is the per-finding outcome;
+the sections further down are left as the audit wrote them, so they still describe the
+state of `dev`.
+
+| #   | Finding                                             | Outcome                                                                  |
+| --- | --------------------------------------------------- | ------------------------------------------------------------------------ |
+| 1   | `logs/consent-audit.log` committed                  | Fixed — untracked, `logs/` ignored. Still in history, see §7.            |
+| 2   | Two storage backends for the audit chain            | Fixed — both halves use Vercel Blob.                                     |
+| 3   | 267 KB `ImproveInvestLogo` component                | Deleted.                                                                 |
+| 4   | Unreferenced component/config directories           | Deleted.                                                                 |
+| 5   | Byte-identical `BaseTemplate` triplicates           | Deleted (nothing consumed them).                                         |
+| 6   | Machine-generated `i18n` keys and 4 dead namespaces | Fixed — see the note below, the audit undercounted the dead namespaces.  |
+| 7   | 0-byte `curl` at the repository root                | Deleted.                                                                 |
+| 8   | `app/manifest.json` placeholder                     | Renamed; the two icons are generated from the existing brand mark.       |
+| 9   | `.nvmrc` pins Node 18                               | Node 22; `engines.node` `>=20.9.0`.                                      |
+| 10  | README is framework boilerplate                     | Rewritten.                                                               |
+| 11  | No `.env.example`                                   | Added — six variables, not five (see below).                             |
+| 12  | `messages/versions/`                                | Deleted.                                                                 |
+| 13  | `sampleTextProp` scaffolding                        | Removed.                                                                 |
+| 14  | `lib/sanity.ts` duplicate client                    | Deleted.                                                                 |
+| 15  | Locale list hard-coded in five places               | Fixed — `lib/i18n.ts` is the single source.                              |
+| 16  | Four `eslint-disable` comments                      | Fixed — see the note below, three of them were _not_ unnecessary.        |
+| 17  | `console.log` on render paths                       | Removed.                                                                 |
+| 18  | ~27 MB of legacy Wix assets                         | **Deferred** — see "Deliberately not done".                              |
+| 19  | Unused dependencies, inert `resolutions`            | Removed; `packageManager` added.                                         |
+| 20  | Test harness unreachable                            | `test`, `test:watch`, `test:coverage` scripts added; CI runs them.       |
+| 21  | Slug page logs before its null check                | Fixed (the log is gone).                                                 |
+| 22  | No CI workflow                                      | `.github/workflows/ci.yml` runs lint, typecheck, format check and tests. |
+
+Three places where carrying the fix out contradicted the audit, worth knowing about:
+
+- **§4.2 — seven dead namespaces, not four.** Besides `header`, `om-os`,
+  `hvorfor-investere` and `hvem-er-improve-invest-a-s`, `home`, `esg`, `priip-kid`
+  and `projects` are referenced by nothing either (the pages for the last two are
+  now redirects). Removing all eight takes the English catalogue from 552 to 278
+  keys and, because 149 of the 150 missing Danish keys lived in them, leaves the
+  three locales at exact parity instead of needing 150 new translations.
+- **§4.1 — the hash keys are referenced.** They are not unreferenced at all:
+  `app/(app)/gdpr/page.tsx` and `app/(app)/cookies/page.tsx` call `t("a0ee3b9")`
+  and friends 79 times, so they were renamed rather than deleted.
+- **§5.3 — three of the four `eslint-disable` comments were load-bearing.** The
+  core `no-unused-vars` rule cannot parse type annotations, so it really was
+  flagging `onChange: (checked: boolean) => void`. `.ts`/`.tsx` now use the
+  typescript-eslint rule, which also fixes the "the two rules can disagree" note.
+  The fourth suppressed a genuine `set-state-in-effect`; the consent state is now
+  restored in a lazy client-only initialiser instead.
+
+### Deliberately not done
+
+- **§5.5 — asset handling and filenames.** Moving the images that are only reached
+  through the bundler out of `public/` would stop them being served twice, but it
+  also removes public URLs that something outside this repository may still point
+  at, and the `placeholder="blur"` prop needs the static import. Renaming
+  `public/other/potrait_Skærmbillede 2025-11-26 204620.jpg` and friends changes
+  live production URLs. Both are URL-visible changes that need a decision from
+  whoever owns the deployment, so they are left alone. The dead `image_src`
+  values in `messages/global.json` were removed.
+- **§6.10 — removing the `static.wixstatic.com` image host.** Done, contrary to
+  this list. Nothing referenced it.
+- **§7 — git history.** `logs/consent-audit.log` is still in history. Rewriting it
+  is destructive and has to be coordinated with everyone holding a clone, so it is
+  a decision for the receiving team.
+- **§9 — the ~27 MB of legacy Wix assets.** Left in place, as the audit advises:
+  nothing in this repository references them, but a Sanity editor may have pasted
+  one of those paths into a document body. Confirm against the production dataset
+  first.
+
+---
+
 ## 1. Executive summary
 
 The codebase is in reasonable working order — it builds, the App Router structure is
@@ -589,6 +661,29 @@ These could not be checked in this environment and should be run before handover
    outside the repository and was not reviewed.
 4. **Git history** was not walked commit-by-commit — only the tracked tree and the last 15
    commits' subjects.
+
+### 8.1 Results after the cleanup
+
+Run on the `chore/handover-cleanup` branch, Node 24.17.0 / npm 11.19.1:
+
+- `npm run lint` — clean (exit 0), including the three `eslint-disable` sites, which no
+  longer need suppressing.
+- `npm run typecheck` (`tsc --noEmit`) — clean (exit 0).
+- `npm run format:check` — clean; 15 files were unformatted before, now covered by CI.
+- `npm run build` — **compiles and prerenders all 17 routes**, but only with credentials:
+  it queries the Sanity dataset from `generateStaticParams` and constructs the Resend
+  client at module scope. Verified end-to-end with the Sanity client temporarily stubbed
+  and a dummy `RESEND_API_KEY`; without them the build stops at "Collecting page data" for
+  `/projekter/[slug]` and `/api/contact` respectively. Both are documented in
+  `.env.example` and the README.
+- `npm test` — Vitest discovers the 18 story files, but this machine's Playwright is a
+  revision behind the installed Chromium (`chromium_headless_shell-1217`), so the browser
+  never launched. Needs `npx playwright install chromium` once. Not a repository problem.
+- `npm run storybook` — not run.
+
+The remaining two open items are the ones that need a human: the git-history rewrite
+(§7) and the legacy assets (§9). Sanity document contents and the Vercel deployment
+configuration were still not inspected.
 
 ---
 
