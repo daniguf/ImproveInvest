@@ -1,12 +1,4 @@
 {
-  "header": {
-    "home": "Home",
-    "projects": "Projects",
-    "aboutUs": "About Us",
-    "contact": "Contact",
-    "whyInvest": "Why Invest?",
-    "whoIsImproveInvest": "Who is Improve Invest A/S"
-  },
   "footer": {
     "footer_top": {
       "company_desc_paragraph": "Improve Invest A/S is a renovation fund that carries out sustainable purchasing, renovation, and sale of properties",
@@ -27,168 +19,6 @@
       },
       "copy_right": "Copyright © Improve Invest"
     }
-  },
-  "esg": {
-    "esg_page_header_primary": "Policy for the Integration of Sustainability Risks (ESG)",
-    "table": {
-      "row_1": {
-        "col_1": "Applies to: ",
-        "col_2": "The Limited Company ImproveInvest A/S"
-      },
-      "row_2": {
-        "col_1": "Approved by :",
-        "col_2": "The Board of Directors of ImproveInvest A/S"
-      },
-      "row_3": {
-        "col_1": "Approved the: ",
-        "col_2": ""
-      },
-      "row_4": {
-        "col_1": "Legal basis: ",
-        "col_2": "EU Regulation 2019/2088/EU of 27 November 2019 on sustainability-related disclosures in the financial services sector (‘the Disclosure Regulation’), Executive Order no. 1254 of 11/06/2021 (Executive Order on the management and governance of financial institutions, etc.) §4."
-      },
-      "row_5": {
-        "col_1": "Version number. ",
-        "col_2": "1.0"
-      }
-    },
-    "block_1": {
-      "header": "1. Introduction",
-      "paragraph": "We all have a responsibility to help ensure that society continuously improves in the environmental, social, and governance (ESG) areas. This is central to all of us. The Limited Company ImproveInvest A/S aims to make investments in renovation projects that contribute to improvements within the ESG area, taking into account internal guidelines, investment policy, and overall risk and return objectives."
-    },
-    "block_2": {
-      "header": "2. Integration of Sustainability Risks (ESG) in the Investment Strategy",
-      "paragraph_1": "2.1. ImproveInvest A/S is active in investments in property renovation.",
-      "paragraph_2": "2.2. ImproveInvest A/S seeks to increase focus on the use of ESG-friendly products, and the company has therefore established a set of internal requirements for their application."
-    },
-    "block_3": {
-      "header": "3. Integration of Sustainability Risks (ESG) in the Renovation Process",
-      "paragraph_1": "3.1. Renovation Principles:",
-      "paragraph_2": "3.1.1. We always strive to follow Danish Standard's principles for responsible renovation.",
-      "paragraph_3": "3.1.2. We have a preference for renovating responsibly and choosing ESG-optimising materials.",
-      "paragraph_4": "3.2. Surplus Liquidity",
-      "paragraph_5": "3.2.1. The company's surplus liquidity is primarily placed in liquid deposit accounts with Danish banks that are not characterised by ESG-problematic behaviour.",
-      "paragraph_6": "3.2.2. Should the company's surplus liquidity be placed in short-term bonds, this will be in Danish bonds issued by the State, mortgage credit institutions, or corporate bonds.",
-      "paragraph_7": "3.2.3. No bonds will be purchased that are issued by companies involved in the development, production, distribution, or storage of conventional weapons, such as anti-personnel mines, cluster bombs, biological weapons, or chemical weapons.",
-      "paragraph_8": "3.2.4. No bonds will be purchased that are issued by companies that derive a large part of their income from particularly climate-damaging activities."
-    },
-    "block_4": {
-      "header": "4. Integration of Sustainability Risks (ESG) in the Remuneration Policy",
-      "paragraph": "4.1. ImproveInvest has an ambition to be competitively remunerated to attract the right competencies – this applies to both the executive management and contracted employees. This means that remuneration is set at a level that reflects the requirements and is competitive relative to current market conditions, regardless of gender. Remuneration consists exclusively of a fixed salary, including any pension."
-    },
-    "block_5": {
-      "header": "5. Update and Follow-up",
-      "paragraph": "5.1. ImproveInvest publishes the policy on its website, and the company continuously follows the market development within ESG renovation, and will revisit this policy at least annually."
-    },
-    "block_6": {
-      "header": "6. History",
-      "paragraph": "28.04.2024 Original version"
-    }
-  },
-  "om-os": {
-    "5e8a5f1": "WHO?",
-    "32ee4d1": "Jacques Skovgaard, Partner",
-    "7b7a0cb": "Jacques has more than 25 years of experience with investments in the financial sector, and has held leading positions with responsibility for investments, funds, and consulting at Danske Bank, Nordea, FIH, Alm Brand, and most recently as responsible for the entire Wealth Management at Sydbank.",
-    "d5fbc21": "Jacques has also been a member of several boards, including the board of the Stockbroker Association (Børsmæglerforeningen), two years of which he served as its chairman.",
-    "77e32ff": "Christian Storinggaard, Partner",
-    "6adf9e5": "Christian has more than 18 years of experience in the property and construction industry and has been involved in more than 17,000 m2 of renovation and new construction projects. Christian has been co-owner of development companies in the construction industry, as well as a rental company specialising in the rental of residential properties.",
-    "d515940": "Christian has also held leading positions at Ecolab (NSE: ECL), Nilfisk A/S, Dyson Limited, and Hempel A/S.",
-    "b7cba11": "Improve Invest A/S is registered with the Danish Financial Supervisory Authority (Finanstilsynet) as an AIF (Alternative Investment Fund). This imposes extra demands on our compliance and ongoing reporting. It makes setting up your investment a little more complicated, but it helps to ensure the credibility and correctness of Improve Invest A/S.",
-    "abc83eb": "Auditors & Tax Advisors:",
-    "f04c315": "Lawyers:"
-  },
-  "priip-kid": {
-    "block_0": "24.3.2026",
-    "block_1": "PRIIP KID (Key Information Document)",
-    "block_2": "24.March.2026",
-    "block_3": "&nbsp;",
-    "block_4": "Purpose",
-    "block_5": "This document contains key information about this investment product. This document is not marketing material. The information is required by law to help you understand the risk, costs, potential gains and losses of this product and to help you compare it with other products.",
-    "block_6": "Product",
-    "block_7": "The Limited Company ImproveInvest A/S (“the Fund”). CVR: 44720795. Is an Alternative Investment Fund (AIF), domiciled in Denmark. The Fund focuses on creating value through the purchase, renovation, and resale of properties in Denmark. The Fund is structured as an investor-owned limited company that owns the properties through subsidiaries. You invest in the Fund and become a co-owner of all underlying assets. ImproveInvest A/S is advised by ImproveInvest Administration ApS (“the Advisor”).",
-    "block_8": "Further information is available on the website www.improveinvest.dk",
-    "block_9": "Date of last update 24/03/2026",
-    "block_10": "Warning: You are about to buy a product that is not simple and may be difficult to understand.",
-    "block_11": "What is this product about?",
-    "block_12": "Goal: The Advisor of the Fund focuses on creating returns through the acquisition of properties in central attractive locations, characterised by major cities where the liquidity in property transactions is greatest. The Advisor seeks properties where earnings can be created by undertaking a carefully planned, meticulous, and thorough renovation. The renovation is carried out with the aim of maximum value creation upon resale. Value creation therefore lies in the renovation, not in speculation on price changes in the general housing market. The properties are expected to be sold after renovation is completed or after a shorter rental period. The detailed investment requirements can be found in the investment policy at www.improveinvest.dk. The company's value is based on a prudence principle, where the value is determined as the sum of assets. I.e., liquid funds and acquisitions valued at cost price. A value increase is not recorded on an ongoing basis, but only upon realised sale. Thus, a sum of the assets can always be easily and clearly calculated.",
-    "block_13": "Type: This is an independent limited company with 2 share classes, which is a registered provider of alternative investments with the Danish Financial Supervisory Authority (Finanstilsynet).",
-    "block_14": "Term: There is no fixed term for the Fund. The shares of the limited company are unlisted but can be traded between investors and between the company and investors. It is possible for share investors to sell their shares back to the company at the company's value without a fee after 5 years, and with 12 months' notice. If resale is desired within the first 5 years, a 15% fee is added, which is credited to the limited company. However, both buy-back horizons can be extended by the company's board by 12 months, and/or a proportional sale will be carried out.",
-    "block_15": "A decision on the winding-up of the limited company can be made according to the company's articles of association.",
-    "block_16": "Intended investors: The investment is aimed at semi-professional investors who deposit over DKK 750,000. The investment can be made through free funds, pension funds, or through CVR numbers (Business Registration Numbers).",
-    "block_17": "What are the risks?",
-    "block_18": "The summarised risk indicator below indicates the risk level of this product compared to other products. It shows the probability that the product will lose money due to market movements.",
-    "block_19": "In connection with the risk indicator, it is assumed that you keep the investment for 5 years.",
-    "block_20": "We have classified the investment as 3 out of 7, which is a medium-low risk. This means there is a medium-low risk of future losses. However, the product does not include any protection, so you may lose some or all of your investment.",
-    "block_21": "The return is affected by:",
-    "block_22": "Renovation effect risk: Expresses the risk that renovation costs exceed the increase in property value.",
-    "block_23": "Resale risk: Expresses the risk that the property cannot be resold or rented out due to effects in the local area, tax changes, or similar.",
-    "block_24": "Housing market risk: Expresses the risk of sudden and significant drops in the housing market during the period when the renovation is carried out.",
-    "block_25": "What return can I get?",
-    "block_26": "The table below shows the earnings under different scenarios if you invest DKK 1m. The earnings figures include all costs in the limited company, but not the costs you may pay to your external advisor. Your personal tax circumstances, which may also affect your net return, are not taken into account. The future return cannot be predicted accurately.",
-    "block_27": "The various scenarios are assessments of returns under different market conditions and are not a precise indicator.",
-    "block_28": "Scenarios for investment of DKK 1m",
-    "block_29": "1 year",
-    "block_30": "5 years",
-    "block_31": "Stress",
-    "block_32": "Possible value after costs",
-    "block_33": " 960.000",
-    "block_34": " 850.000",
-    "block_35": "Return",
-    "block_36": "-4%",
-    "block_37": "-15%",
-    "block_38": "Unfavourable",
-    "block_39": " 1.000.000",
-    "block_40": "0%",
-    "block_41": "Moderate",
-    "block_42": " 1.100.000",
-    "block_43": " 1.690.000",
-    "block_44": "+11%",
-    "block_45": "+69%",
-    "block_46": "Favourable",
-    "block_47": " 1.300.000",
-    "block_48": " 3.780.000",
-    "block_49": "+30%",
-    "block_50": "+278%",
-    "block_52": "What are the costs?",
-    "block_53": "If the person advising or selling you the product charges additional costs, that person is obliged to inform you about these costs and how your investment is affected.",
-    "block_54": "The Management Company receives a fee of 1.00% (settled as 0.25% each quarter) for management, audit, and regulatory costs. Furthermore, the management company receives a performance fee of 15% of the annual return after costs. The performance fee is calculated and settled annually based on the difference between the company's value at the start of the year compared to the company's value at the end of the year. The company's value is always calculated as the sum of assets, i.e., the sum of liquid funds and the cost price of existing projects. Value appreciation from the renovation is only recorded upon the realised sale of the project. The performance fee is also subject to a watermark principle. This means that no performance fee is settled until the total return after costs is positive. Therefore, if there is a year with a negative return, this must be included in the following year's return before a performance fee is settled.",
-    "block_55": "No extra surcharges or costs are ever imposed for the purchase of materials or craftmanship costs. All these costs are booked directly and without surcharge from a third party. However, for each property project, DKK 40,000 per commenced month is charged for the control and monitoring of the project.",
-    "block_56": "If DKK 1m is invested and the investment is assumed to develop as anticipated in the moderate scenario, the following costs will be incurred in the first year:",
-    "block_57": "Costs after the first year",
-    "block_58": "One-off costs upon establishment or withdrawal",
-    "block_59": "Establishment costs",
-    "block_60": "Establishment costs include expenses for the formation of the company. The amount is estimated at 0.5%, but in practice, it will depend on the actual expenses.",
-    "block_61": "DKK 6,000",
-    "block_62": "Withdrawal costs",
-    "block_63": "There is no fee for withdrawal.",
-    "block_64": "DKK 0",
-    "block_65": "Ongoing costs",
-    "block_66": "Management fee",
-    "block_67": "This cost includes the management fee and amounts to 0.25% per quarter.",
-    "block_68": "DKK 10,000",
-    "block_69": "Administration fee",
-    "block_70": "This cost is a payment for the planning, monitoring, and control of renovation projects and will depend on the number of projects.",
-    "block_71": "DKK 6,400",
-    "block_72": "Additional costs under special conditions",
-    "block_73": "Result-based fee",
-    "block_74": "There is no result-based fee",
-    "block_75": "Performance fee",
-    "block_76": "15% of the realised return is paid at the end of each year. If there have been years with a deficit, this must first be covered.",
-    "block_77": "DKK 19,500",
-    "block_78": "Upon withdrawal after 5 years, with an investment of DKK 1m, and the investment develops as described in the moderate scenario, the total accumulated costs will be:",
-    "block_79": "We assume that DKK 1m has been invested and that the investment follows the moderate scenario.",
-    "block_80": "Total costs after 5 years",
-    "block_81": "Total costs:",
-    "block_82": "DKK 222,000",
-    "block_83": "Annual cost-related consequences:",
-    "block_84": "2.56%",
-    "block_85": "This shows how costs affect your return each year during the investment period. It shows that your average annual return is expected to be 15.97% before costs and 13.40% after costs.",
-    "block_86": "How long should you keep it and options for withdrawing money along the way.",
-    "block_87": "Due to the time horizon of the renovation projects and the supervisory requirements, an investment horizon of 5 years is expected. After 5 years, it will be possible to withdraw the money from the project without a fee. If a resale is desired within the first 5 years, a 15% fee is added, which accrues to the limited company. A request for resale must be announced in writing to the company with 12 months' notice, and payment will be made upon the resale of the assets to the company. The sale is carried out at a value based on the company's value, i.e., the sum of liquid funds and the cost price of existing projects. If redemption represents more than 20% of the company's net asset value, the company may request the redemption to be postponed for up to a maximum of 12 months or partially proportionally for a period that the board considers to be in the company's best interest.",
-    "block_88": "HOW CAN I COMPLAIN?",
-    "block_89": "Complaints about the investment can be addressed to the investment manager, ImproveInvest Administration ApS, Strandvejen 125, 2900 Hellerup.",
-    "block_90": "OTHER RELEVANT INFORMATION",
-    "block_91": "Further information about the investment's structure, costs, and function can be found in the company's articles of association and the management agreement, which form the basis for the investment and which will be made available upon request to the company for review by potential investors prior to a final investment decision."
   },
   "gdpr": {
     "a0ee3b9": "Data Controller",
@@ -264,113 +94,6 @@
     "7842087": "You have the right to file a complaint with the Danish Data Protection Agency if you are dissatisfied with the way we process your personal data. You can find the contact information for the Danish Data Protection Agency at www.datatilsynet.dk.",
     "3903302": "We generally encourage you to read more about the GDPR so that you are updated on the rules."
   },
-  "home": {
-    "0513bdd": "Value Creation through Disciplined Property Investments",
-    "0513cdd": "We invest in the capital through the renovation and conversion of commercial properties into housing – with a clear method and focus.",
-    "64337c7": "Attractive investment in property renovation",
-    "88a3559": "About us",
-    "123sd14": "Explore Projects",
-    "45628s12": "Contact",
-    "cd55c26": "+45 20 80 39 39",
-
-    "29c1007": "ATTRACTIVE INVESTMENT IN PROPERTY RENOVATION",
-    "section_1": {
-      "paragraph_1": "STABLE RETURN - LOW RISK - INVESTMENT INDEPENDENT OF MARKET DEVELOPMENT",
-      "paragraph_2": "Risk diversification through investments in a pool of renovation projects.",
-      "paragraph_3": "Average historical return of 20% p.a. above the general market.",
-      "paragraph_4": "More than 18 years of experience in buying, renovating and selling properties.",
-      "paragraph_5": "More than 25 years of experience with investments and advisory on this.",
-      "paragraph_6": "Access to property projects which are only available through our own network.",
-      "paragraph_7": "An investment independent of market development.",
-      "paragraph_8": "Minimum deposit of DKK 750,000."
-    },
-    "56658cf": "STABLE RETURNS - LOW RISK - INVESTMENT INDEPENDENT OF MARKET DEVELOPMENTS",
-    "a2eb13b": "Risk diversification through investments in a pool of renovation projects. Average historical return of 20% p.a. over the general market. More than 18 years of experience in buying, renovating, and selling properties. More than 25 years of experience with investments and consulting on this. Access to property projects that are only available through our own network. An investment independent of market developments. Minimum deposit of DKK 750,000.",
-    "6929745": "With Improve Invest A/S you get:",
-    "section_2": {
-      "block_1": {
-        "header": "Ownership of property projects that are otherwise not available",
-        "paragraph_1": "Ownership of properties with good locations in Danish major cities.",
-        "paragraph_2": "Access to property projects which are only available via our own network.",
-        "paragraph_3": "Focus on property projects that are too large for smaller investors, and too small for institutional investors."
-      },
-      "block_2": {
-        "header": "A thoroughly tested concept",
-        "paragraph_1": "Based on a thoroughly tested concept with +18 years of experience in property renovation.",
-        "paragraph_2": "The founders of the fund have delivered an avg. annual return of 20% on previous projects.",
-        "paragraph_3": "Renovations are carried out by our own team of known craftsmen.",
-        "paragraph_4": "Good experience with purchasing building materials, which ensures large savings.",
-        "paragraph_5": "Quality control is performed by our own specialists.",
-        "paragraph_6": "We have over 25 years of experience with investments and are a registered provider of alternative investments with the Financial Supervisory Authority."
-      },
-      "block_3": {
-        "header": "Return and seriousness",
-        "paragraph_1": "Expected avg. annual return of 20%.",
-        "paragraph_2": "Opportunity for a wide range of potential upsides that can increase the return.",
-        "paragraph_3": "Founders of the fund have their own money invested in the fund.",
-        "paragraph_4": "Very low fixed costs (1%) with 15% performance-based fee. Not quite no cure no pay, but close.",
-        "paragraph_5": "Although historical return is not a guarantee of future return, the business model has proven to hold over many years - also during financial and Corona crises."
-      },
-      "block_4": {
-        "header": "Risk diversification",
-        "paragraph_1": "Alternative investment that contributes to risk diversification in your portfolio.",
-        "paragraph_2": "The investment does not correlate with the financial markets. Value is created through completed renovation.",
-        "paragraph_3": "Risk diversification through ownership in several renovation projects (and not just one project).",
-        "paragraph_4": "Investment in property projects that increase in value as the investment is made."
-      }
-    },
-    "96d36a2": "Ownership of property projects that are otherwise unavailable",
-    "bf46cca": "Ownership of properties with good locations in Danish major cities. Access to property projects that are only available through our own network. Focus on property projects that are too large for smaller investors, and too small for institutional investors.",
-    "d825883": "A tested concept",
-    "6116414": "Based on a tested concept with +18 years of experience in property renovation. The founders of the Fund have delivered an average annual return of 20% on previous projects. Renovations are carried out by our own team of known craftsmen. Good experience with the purchase of building materials, which ensures large savings. Quality control is performed by our own specialists. We have over 25 years of experience with investments and are a registered provider of alternative investments with the Danish Financial Supervisory Authority.",
-    "0ed3204": "Return and Seriousness",
-    "ffea26d": "Expected average annual return of 20%. Opportunity for a wide range of potential upsides that can increase the return. The founders of the Fund have invested their own money in the Fund. Very low fixed costs (1%) with a 15% performance-based fee. Not entirely no cure no pay, but close. Although historical returns are not a guarantee of future returns, the business model has proven resilient over many years - even during the financial and Corona crises.",
-    "4665d68": "Risk Diversification",
-    "307a167": "Alternative investment that contributes to risk diversification in your portfolio. The investment does not correlate with the financial markets. Value is created upon completion of the renovation. Risk diversification through ownership in several renovation projects (and not only one project). Investment in property projects that increase in value as the investment is made.",
-    "52f4110": "LIMITED RISK",
-    "section_3": {
-      "81aee53": "There is always risk associated with any investment. However, investing in Improve Invest A/S is an investment in real estate with good locations that are renovated and resold. The risk is therefore relatively low, as the majority of the invested capital is placed in a tangible asset (properties).",
-      "fa44e87": "There can be a risk related to resale, i.e., selling after renovation. To minimize this risk as much as possible, we only invest in properties located in densely populated areas. This ensures that the property can be resold.",
-      "25bab45": "We always calculate the investment's viability in relation to rental. Not because that is the intention, but if the sales target cannot be achieved initially, there must be a good return from temporary rental.",
-      "0aee6db": "To ensure the budget during the renovation process, all agreements are made at a fixed price. Furthermore, payment only occurs after the work is completed or the materials have been delivered.",
-      "e2c2fb9": "Additionally, we operate with 10% of the purchase amount being withheld and only paid out upon final approval of the project. These rules of engagement have historically proven to significantly limit renovation risk.",
-      "414f1ac": "We wish to optimize our investments by utilizing the stable Danish mortgage system, but even here we want limited risk, and therefore a maximum of 60% loan is taken out on each project.",
-      "a7c8044": "Renovations may require municipal approvals, and we work on the basis that projects are always purchased conditionally or with reservations if the renovation requires permits. This eliminates this risk.",
-      "44a6fb4": "Investors in the fund receive a share in all the projects that the fund renovates, not just a single project.",
-      "c58db7c": "For more information, see our Central Investor Information here:",
-      "bx354d4": "PRIIP KID"
-    },
-    "81aee53": "There is always risk associated with investment. But investment in Improve Invest A/S is an investment in fixed-term properties with good locations, that are renovated and sold again. The risk is therefore relatively low, as the main part of the invested amount lies in a tangible asset (properties).",
-    "fa44e87": "There may be a risk from resale, i.e., resale after the renovation. To reduce this risk as much as possible, we only make investments in properties located in densely populated areas. Thereby, we can ensure that the property can be resold.",
-    "25bab45": "We always perform a calculation of an investment in relation to rental. Not because it is the intention, but if the sales target cannot be achieved initially, there must be a good return from a temporary rental.",
-    "0aee6db": "To secure the budget in the renovation process, all agreements are concluded at a fixed price. Furthermore, payment only takes place after the work is completed or the materials have been delivered.",
-    "e2c2fb9": "We also work with 10% of the purchase amount being withheld and only paid out upon final approval of the project. Historically, these rules of conduct have proven to significantly limit the risk of renovation.",
-    "414f1ac": "We want to optimise our investments through the use of the stable Danish mortgage credit system, but here too we want a limited risk, and therefore a maximum of 60% loan is taken in each project.",
-    "a7c8044": "Renovations may require municipal approvals, and we work so that projects are always purchased conditionally or with reservations, provided that the renovation requires permits. This can eliminate this risk.",
-    "44a6fb4": "Investors in the Fund receive a share in all the projects that the Fund renovates, and not just in a single project.",
-    "c58db7c": "For more information, see our Key Information Document here: PRIIP KID",
-    "77af2ac": "RENOVATION WITH A FOCUS ON THE ENVIRONMENT",
-    "0b3c57d": "We believe that in the future there will be a growing demand for renovating homes instead of building new ones. This is particularly due to the desire to take greater environmental considerations. Or as Rambøll concludes in their report 'Analysis of Co2 emissions and total economy in renovation and new construction'. The analysis shows that it is most advantageous - both environmentally and in terms of total economy - to renovate rather than demolish and build new.” At Improve Invest A/S, environmental considerations are important to us.",
-    "91c3f5d": "We have therefore established a set of requirements for our own renovation:\nWe contribute significantly positively to at least one of the six EU Taxonomy environmental objectives.\nWe comply with the technical criteria described for the climate and environmental goal(s) chosen.\nWe comply with the 'Do No Significant Harm' (DNSH) criteria.\nWe comply with 'Minimum Social Safeguards'.\nThe points mentioned on this page are not exhaustive but are some concrete examples of the initiatives taken when Improve Invest A/S renovates.",
-    "888c09c": "AN IMPORTANT SOCIETAL MEGATREND",
-    "section_4": {
-      "e31e18a": "After the corona crisis, society's property usage has changed radically. We have all learned to shop online instead of in local stores, and it has become completely normal for many of us to work fully or partially from home.",
-      "1fbf97e": "There is therefore an increasing need for conversions of properties in major cities from office spaces and stores to housing. At the same time, it must be housing that is designed for the new post-corona reality. This conversion wave has already started in, for example, New York.",
-      "1a7dafe": "This development also places new demands on our housing. We now need to design our homes so that there is room for home workplaces - perhaps even for several of the residents in the dwelling.",
-      "869c435": "In addition, the Ministry of the Interior estimates that 6,500 new homes must be built per year in the capital area until 2023, to cover the needs of future population growth.",
-      "db14352": "Improve Invest renovations hit right at the heart of this important societal development. That is, conversions of office spaces and stores into new and modernly designed housing."
-    },
-    "e31e18a": "After the Corona crisis, society's property use has radically changed. We have all learned to shop online instead of at local businesses, and it has become completely normal for several of us to work fully or partially from home.",
-    "1fbf97e": "There is therefore an increasing need for conversion of properties in major cities from office spaces and businesses to residential units. These must simultaneously be homes designed for the new reality after Corona. This conversion wave has already started in, for example, New York.",
-    "1a7dafe": "This development also sets new demands for our homes. We now need to design our homes so that there is space for home workspaces - perhaps even for several residents in the home.",
-    "869c435": "In addition, the Ministry of the Interior estimates that 6,500 new homes must be built annually in the capital region until 2023 to cover the need for future population growth.",
-    "db14352": "Improve Invest renovations fit right into this important societal development. That is, conversion of office spaces and businesses into new and modern designed residential units.",
-    "c448d41": "Contact us today",
-    "d142928": "At Improve Invest A/S, we are proud that customer satisfaction is always our first priority. We will get back to your inquiry as soon as possible - typically within 24 hours.",
-    "89eaa93": "Improve Invest A/S\nStrandvejen 125\n2900 Hellerup",
-    "80dc7fb": "info@improveinvest.dk",
-    "917ee23": "First Name Last Name E-mail Phone No. Subject Message We keep your data private. See our GDPR Policy for more information Send"
-  },
   "cookies": {
     "c6b9b1e": "Cookies",
     "2dd59b5": "1. Purpose",
@@ -403,58 +126,6 @@
       }
     }
   },
-  "hvorfor-investere": {
-    "2b14617": "WHY INVEST IN PROPERTY RENOVATION?",
-    "2c8a566": "An investment in Improve Invest A/S is a significant building block in the composition of the optimal investment portfolio. Improve Invest A/S is built on a very simple concept: purchase, renovation with environmental considerations, and sale of properties in good locations. We reinvest the profit from sales to buy new properties. The above is a business model that the founders of Improve Invest A/S have been successful with for over 18 years.",
-    "f81253f": "Value creation is generated upon completion of the renovation, and since the renovation period is typically 6-12 months, the return is very little dependent on the development of the general market for properties, stocks, or bonds. Although historical returns are not a guarantee of future returns, the business model has proven resilient over many years - even during the financial and Corona crises.",
-    "2e93d30": "We purchase properties:",
-    "cb9f116": "That need renovation.\nThat are well-located (so they are marketable).\nWhere there is an opportunity for conversion or similar.\nThat are typically only available through our own network.\n(Properties that are otherwise unavailable to the public)",
-    "0a0ecfd": "We sell properties:",
-    "5b8cab3": "Typically through our own network.\nAt good prices, due to the quality of the renovation and the quality of the tenants.\nAfterward, principal and profit are reinvested in a new property.",
-    "aec8532": "With our own craftsmen, with whom we have worked for many years.\nWith quality materials that we purchase at good prices.\nIn high quality using our own quality control.\nQuickly, as we have developed our own renovation process.\nTaking environmental considerations into account. It is always more sustainable to renovate than to demolish and build new.",
-    "2b14617": "WHY INVEST IN PROPERTY RENOVATION?",
-    "block_1": "An investment in Improve Invest A/S is a significant building block in the composition of the optimal investment portfolio.",
-    "block_2": "Improve Invest A/S is built on a very simple concept: purchase, renovation with environmental considerations, and sale of properties with good location.",
-    "block_3": "We reinvest the profit from sales into the purchase of new properties.",
-    "block_4": "The above is a business model that the founders of Improve Invest A/S have been successful with for over 18 years.",
-    "block_5": "Value creation is achieved through completed renovation, and since the renovation process is typically 6-12 months, the return is very little dependent on the development in the general market for properties, stocks or bonds.",
-    "block_6": "Although historical returns are not a guarantee for future returns, the business model has proven to hold up over many years - also during financial and Corona crises.",
-    "2e93d30": "We buy properties:",
-    "block_7": "That need renovation.",
-    "block_8": "That are well located (so they are marketable).",
-    "block_9": "Where there is opportunity for conversion or similar.",
-    "block_10": "That are typically only available through our own network. (Properties that would otherwise not be available to the public)",
-    "0a0ecfd": "We sell properties:",
-    "block_11": "Typically through our own network.",
-    "block_12": "At good prices, due to the quality of the renovation and the quality of tenants.",
-    "block_13": "Thereafter, principal and profit are reinvested in a new property.",
-    "block_14": "With our own craftsmen, whom we have worked with for many years.",
-    "block_15": "With quality materials, which we purchase at good prices.",
-    "block_16": "At high quality using our own quality control.",
-    "block_17": "Quickly, as we have developed our own renovation process.",
-    "block_18": "With consideration for the environment. It is always more sustainable to renovate rather than demolish and build new."
-  },
-  "hvem-er-improve-invest-a-s": {
-    "bcd2427": "WHO IS IMPROVE INVEST A/S?",
-    "cfc7c7e": "Improve Invest A/S is a property fund that buys, renovates, and sells properties. Since 2005, the founders have bought, renovated, and sold properties, and have been involved in over 17,000 m2 of renovation and new construction projects.",
-    "7c6c981": "TESTED INVESTMENT CONCEPT",
-    "7ad0e79": "Improve Invest A/S is built on the idea of creating value through the acquisition of properties, renovation, and resale. Properties are typically found through an existing network of specialists with whom we have worked for many years, thus providing access to properties that are not available to the public.",
-    "4209968": "The renovation is then carried out by our own team of known craftsmen. People we have worked with for a long time, and whose quality and work ethic we know. We have very good experience in buying building materials, which can lead to significant savings in the projects.",
-    "e4544db": "We are present ourselves and conduct ongoing quality control, but also draw on experts when necessary. The properties are bought, renovated, and sold after completed renovation. It normally takes between 6-18 months. Improve Invest only works with properties in what we call 'liquid areas'. I.e., in the densely populated areas of Denmark, primarily the Capital Region.",
-    "a644292": "Our focus is on properties with a value between DKK 15 – 200 million. This is because Improve Invest A/S can exploit the lack of competition in these sizes of projects. If the value falls below DKK 15 million, master craftsmen and small investors will also participate, and if we exceed DKK 200 million, it will be interesting for institutional investors. Our projects are located right in the 'sweet spot' between these.",
-    "efb2273": "Our value creation is therefore not based on growth in the property market, but is created by the completed renovation of the project.",
-    "7ffb906": "The Management of Improve Invest A/S",
-    "5e8a5f1": "WHO?",
-    "32ee4d1": "Jacques Skovgaard, Partner",
-    "7b7a0cb": "Jacques has more than 25 years of experience with investments in the financial sector, and has held leading positions with responsibility for investments, funds, and consulting at Danske Bank, Nordea, FIH, Alm Brand, and most recently as responsible for the entire Wealth Management at Sydbank.",
-    "d5fbc21": "Jacques has also been a member of several boards, including the board of the Stockbroker Association (Børsmæglerforeningen), two years of which he served as its chairman.",
-    "77e32ff": "Christian Storinggaard, Partner",
-    "6adf9e5": "Christian has more than 18 years of experience in the property and construction industry and has been involved in more than 17,000 m2 of renovation and new construction projects. Christian has been co-owner of development companies in the construction industry, as well as a rental company specialising in the rental of residential properties.",
-    "d515940": "Christian has also held leading positions at Ecolab (NSE: ECL), Nilfisk A/S, Dyson Limited, and Hempel A/S.",
-    "b7cba11": "Improve Invest A/S is registered with the Danish Financial Supervisory Authority (Finanstilsynet) as an AIF (Alternative Investment Fund). This imposes extra demands on our compliance and ongoing reporting. It makes setting up your investment a little more complicated, but it helps to ensure the credibility and correctness of Improve Invest A/S.",
-    "abc83eb": "Auditors & Tax Advisors:",
-    "f04c315": "Lawyers:"
-  },
   "ContactForm": {
     "title": "Contact Us",
     "firstName": "First Name",
@@ -468,7 +139,6 @@
     "success": "Message sent successfully!",
     "error": "Failed to send message. Please try again.",
     "privacyConsent": "I have read and agree to the <gdpr>GDPR Policy</gdpr>. I consent to the processing of my data to handle this inquiry.",
-
     "validation": {
       "firstNameRequired": "First name is required",
       "lastNameRequired": "Last name is required",
@@ -500,8 +170,7 @@
           "href": "kontakt"
         },
         "read_more": {
-          "text": "Read about our decision model – MIRA",
-          "href": ""
+          "text": "Read about our decision model – MIRA"
         }
       }
     },
@@ -538,8 +207,7 @@
       },
       "cta": {
         "read_more": {
-          "text": "Read more about MIRA – our decision model",
-          "href": ""
+          "text": "Read more about MIRA – our decision model"
         }
       }
     },
@@ -755,7 +423,9 @@
                   "heading": "Capital expansion opens",
                   "description": "When Improve Invest A/S expands its capital, interested investors get the opportunity to become co-owners of the company and thereby all ongoing projects."
                 },
-                { "heading": "Minimum investment is DKK 750,000" },
+                {
+                  "heading": "Minimum investment is DKK 750,000"
+                },
                 {
                   "heading": "Free funds, pension, or VSO",
                   "description": "Investment can be made with private capital, via the Business Tax Scheme (VSO), or pension funds. The specific frameworks are always reviewed individually."
@@ -828,9 +498,6 @@
         }
       }
     }
-  },
-  "projects": {
-    "title": "Projects"
   },
   "about": {
     "title": "About Us",
@@ -915,7 +582,6 @@
       }
     }
   },
-
   "cookie_banner": {
     "heading": "Cookie Preferences",
     "description": "We use cookies to enhance your experience, analyze site traffic, and for marketing purposes. By clicking \"Accept All\", you consent to our use of cookies. Read our <cookiePolicy>Cookie Policy</cookiePolicy> and <gdprPolicy>GDPR Policy</gdprPolicy>.",
