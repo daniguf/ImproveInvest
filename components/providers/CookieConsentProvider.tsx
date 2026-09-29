@@ -1,4 +1,5 @@
 "use client";
+import { DEFAULT_LOCALE, resolveLocale } from "@/lib/i18n";
 import React, {
   createContext,
   ReactNode,
@@ -104,13 +105,11 @@ const getServerSnapshot = () => false;
 // The locale is only used to tag consent records, so it is read once from the
 // cookie the middleware sets. Only ever reached on the client.
 function readLocaleFromCookie(): string {
-  if (typeof document === "undefined") return "da";
-  return (
-    document.cookie
-      .split("; ")
-      .find((row) => row.startsWith("locale="))
-      ?.split("=")[1] || "da"
-  );
+  if (typeof document === "undefined") return DEFAULT_LOCALE;
+  const match = document.cookie
+    .split("; ")
+    .find((row) => row.startsWith("locale="));
+  return resolveLocale(match?.split("=")[1]);
 }
 
 interface InitialConsentState {

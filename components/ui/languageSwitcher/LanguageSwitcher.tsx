@@ -1,14 +1,14 @@
 "use client";
 
 import GlobeSVG from "@/components/assets/globe/GlobeSVG";
+import { LOCALES } from "@/lib/i18n";
 import { RefObject, useRef, useState, useTransition } from "react";
 import { useOnClickOutside } from "usehooks-ts";
 
-const languageOptions = [
-  { label: "DA", locale: "da" },
-  { label: "EN", locale: "en" },
-  { label: "DE", locale: "de" },
-];
+const languageOptions = LOCALES.map((locale) => ({
+  label: locale.toUpperCase(),
+  locale,
+}));
 
 const LanguageSwitcher: React.FC = () => {
   const [isPending, startTransition] = useTransition();

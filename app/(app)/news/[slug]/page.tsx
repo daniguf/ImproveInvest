@@ -1,9 +1,9 @@
 import Gallery from "@/components/features/gallery/Gallery";
+import { getLocale } from "@/lib/i18n.server";
 import { newsfeedItemBySlugQuery } from "@/lib/queries";
 import { sanityClient } from "@/sanity/client";
 import { Project } from "@/types/project";
 import { PortableText } from "next-sanity";
-import { cookies } from "next/headers";
 import { notFound } from "next/navigation";
 import { TypedObject } from "sanity";
 
@@ -20,8 +20,7 @@ export default async function NewsPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const store = await cookies();
-  const locale = store.get("locale")?.value || "da";
+  const locale = await getLocale();
   const project: Project = await sanityClient.fetch(newsfeedItemBySlugQuery, {
     slug,
     locale,

@@ -1,15 +1,12 @@
 import type { Preview } from "@storybook/nextjs-vite";
+import { DEFAULT_LOCALE, LOCALE_LABELS } from "../lib/i18n";
 import "../app/globals.css";
 import nextIntl from "./next-intl";
 
 const preview: Preview = {
   initialGlobals: {
-    locale: "da",
-    locales: {
-      da: "Dansk",
-      en: "English",
-      de: "Deutsch",
-    },
+    locale: DEFAULT_LOCALE,
+    locales: LOCALE_LABELS,
   },
   parameters: {
     controls: {

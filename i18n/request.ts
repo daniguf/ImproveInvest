@@ -1,12 +1,11 @@
 import { getRequestConfig } from "next-intl/server";
-import { cookies } from "next/headers";
 
-// const locales = ["da", "en", "de"];
+import { getLocale } from "@/lib/i18n.server";
 
 export default getRequestConfig(async () => {
-  // Static for now, we'll change this later
-  const store = await cookies();
-  const locale = store.get("locale")?.value || "da";
+  // getLocale() narrows the cookie value to a supported locale before it is
+  // interpolated into the messages import below.
+  const locale = await getLocale();
 
   return {
     locale,

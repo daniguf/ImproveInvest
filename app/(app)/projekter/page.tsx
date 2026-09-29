@@ -1,15 +1,14 @@
-import { allProjectsQuery } from "@/lib/queries"; // create this file as shown earlier
+import { getLocale } from "@/lib/i18n.server";
+import { allProjectsQuery } from "@/lib/queries";
 import { sanityFetch } from "@/lib/sanity-utils";
 import { urlFor } from "@/sanity/image";
 import { getFeaturedImage, Project } from "@/types/project";
 import { getTranslations } from "next-intl/server";
-import { cookies } from "next/headers";
 import Image from "next/image";
 import Link from "next/link";
 
 export default async function ProjectsPage() {
-  const store = await cookies();
-  const locale = store.get("locale")?.value || "da";
+  const locale = await getLocale();
   const projects: Project[] = await sanityFetch({
     query: allProjectsQuery,
     params: { locale },

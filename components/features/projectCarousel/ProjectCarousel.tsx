@@ -1,12 +1,11 @@
+import { getLocale } from "@/lib/i18n.server";
 import { allNewsfeedItemsQuery, allProjectsQuery } from "@/lib/queries";
 import { sanityFetch } from "@/lib/sanity-utils";
 import { Project } from "@/types/project";
-import { cookies } from "next/headers";
 import ProjectCarouselClient from "./ProjectCarouselClient";
 
 export default async function ProjectCarousel() {
-  const store = await cookies();
-  const locale = store.get("locale")?.value || "da";
+  const locale = await getLocale();
 
   const [projects, newsfeedItems] = await Promise.all([
     sanityFetch<Project[]>({
