@@ -95,17 +95,18 @@ async function logConsentToServer(
   }, 1000); // 1 second debounce
 }
 
-// The consent UI depends on browser-only state (localStorage, document.cookie),
-// so it must not render on the server or during hydration. `useSyncExternalStore`
-// gives us a hydration-safe "are we on the client yet?" flag: React renders the
-// server snapshot (`false`) for the hydration pass and re-renders with the client
-// snapshot (`true`) immediately afterwards.
+// `useSyncExternalStore` gives a hydration-safe "are we on the client yet?" flag:
+// React renders the server snapshot (`false`) for the hydration pass and
+// re-renders with the client snapshot (`true`) straight after. Consumers that read
+// browser-only state (localStorage, document.cookie) must wait for it; the page
+// content passed in as `children` deliberately does not, so that the site is
+// server-rendered rather than an empty client-only shell.
 const subscribeToNothing = () => () => {};
 const getClientSnapshot = () => true;
 const getServerSnapshot = () => false;
 
 // The locale is only used to tag consent records, so it is read once from the
-// cookie the middleware sets. Only ever reached on the client.
+// cookie the language switcher writes.
 function readLocaleFromCookie(): string {
   if (typeof document === "undefined") return DEFAULT_LOCALE;
   const match = document.cookie
@@ -126,9 +127,10 @@ const NO_CONSENT: ConsentState = {
   marketing: false,
 };
 
-// Restore any previously stored consent. Runs once per client mount, never on
-// the server: the provider renders `null` until hydrated, so restoring state
-// here cannot cause a hydration mismatch, and nothing has to be set in an effect.
+// Restore any previously stored consent. Called from a lazy state initialiser, so
+// it runs once per client mount and never on the server. Consumers that render
+// from the result are gated on `isClient`, so this cannot cause a hydration
+// mismatch, and nothing has to be set from an effect.
 function readInitialConsentState(): InitialConsentState {
   if (typeof window === "undefined") {
     return { consent: NO_CONSENT, hasConsented: false, forceShowBanner: true };
