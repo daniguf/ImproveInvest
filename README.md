@@ -217,12 +217,27 @@ Schemas live in `sanity/schema/` and are registered by hand in
   security(gdpr): reject the ?key= query parameter
   ```
 
-## CI
+## Checks
 
-[`.github/workflows/ci.yml`](.github/workflows/ci.yml) runs lint, typecheck and
-the Storybook test suite on every push and pull request. It deliberately does
-not run `npm run build`: that needs a reachable Sanity project and a Resend key,
-so the deploy pipeline owns it.
+**There is no CI workflow.** `.github/workflows/` has been removed, so the scripts
+in the table above are run manually. Three things are worth knowing before you run
+them on a fresh clone:
+
+- `npm run lint` and `npm run format:check` pass as-is.
+- `npm run typecheck` needs `npx next typegen` first. `next-env.d.ts` is
+  gitignored and Next only writes it on `next dev` / `next build`, but it is what
+  declares the module types for static image imports — without it `tsc` fails with
+  `TS2307: Cannot find module '@/public/…'`. `next typegen` writes it without
+  building, so it needs no credentials.
+- `npm test` does **not** currently pass: 15 of the 17 Storybook stories fail with
+  `No intl context found`. `.storybook/vitest.setup.ts` composes preview
+  annotations by hand and omits `storybook-next-intl/preview`, so the
+  `withNextIntl` decorator never runs under Vitest. `npm run storybook` and
+  `npm run build-storybook` are unaffected, because those load addon previews from
+  `.storybook/main.ts`.
+
+`npm run build` is not part of any automated check because it needs a reachable
+Sanity project and a Resend key, so the deploy pipeline owns it.
 
 ## Handover notes
 

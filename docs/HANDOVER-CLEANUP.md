@@ -46,9 +46,9 @@ state of `dev`.
 | 17  | `console.log` on render paths                       | Removed.                                                                                      |
 | 18  | ~27 MB of legacy Wix assets                         | **Deferred** — see "Deliberately not done".                                                   |
 | 19  | Unused dependencies, inert `resolutions`            | Removed; `packageManager` added.                                                              |
-| 20  | Test harness unreachable                            | `test`, `test:watch`, `test:coverage` scripts added; CI runs them.                            |
+| 20  | Test harness unreachable                            | `test`, `test:watch`, `test:coverage` scripts added. `npm test` does not pass — see T26.      |
 | 21  | Slug page logs before its null check                | Fixed (the log is gone).                                                                      |
-| 22  | No CI workflow                                      | `.github/workflows/ci.yml` runs lint, typecheck, format check and tests.                      |
+| 22  | No CI workflow                                      | Added, then removed — it never passed on a clean checkout. See T25/T26 in HANDOVER-TASKS.md.  |
 
 Three places where carrying the fix out contradicted the audit, worth knowing about:
 
