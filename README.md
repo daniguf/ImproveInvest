@@ -178,16 +178,3 @@ feat(projekter): add a filter for sold projects
 translation(da): add missing MIRA paragraph
 security(gdpr): reject the ?key= query parameter
 ```
-
-## Handover notes
-
-- **Git history still contains `logs/consent-audit.log`** — a local test artefact holding a
-  visitor IP and user-agent. It is untracked now, but still in history. Rewrite with
-  `git filter-repo` _before_ transferring the repository if that is unacceptable; the rewrite
-  is destructive and must be coordinated with anyone holding a clone.
-- The _Right to Restriction of Processing_ section of
-  [`app/(app)/gdpr/page.tsx`](<app/(app)/gdpr/page.tsx>) renders
-  `right_to_data_portability.paragraph_1`; it has no body text of its own yet.
-- `public/` holds roughly 27 MB of legacy Wix-era assets that nothing in this repository
-  references. A Sanity editor may have pasted one of those paths into a document body, so
-  check the production dataset before deleting them.
