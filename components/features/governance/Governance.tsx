@@ -3,10 +3,6 @@ import Heading from "@/components/ui/heading/Heading";
 import { useMessages } from "next-intl";
 import Link from "next/link";
 
-export interface IGovernance {
-  sampleTextProp: string;
-}
-
 const Governance = () => {
   const messages = useMessages();
   const bodyContentHeading = messages.landing_page.governance.heading;

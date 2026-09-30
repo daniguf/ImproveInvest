@@ -1,7 +1,7 @@
-// components/features/gallery/Gallery.tsx
 "use client";
 
-import { GalleryItem } from "@/sanity/schema/project";
+import { GalleryItem } from "@/types/project";
+import { Play, X } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -34,9 +34,6 @@ export default function Gallery({ items, className = "" }: GalleryProps) {
 
     // Handle Image items
     if (item._type === "Image") {
-      console.log("item", item);
-      console.log(item._type);
-
       const imageUrl = item.image?.asset?.url;
       if (!imageUrl) return null;
 
@@ -56,7 +53,6 @@ export default function Gallery({ items, className = "" }: GalleryProps) {
     }
 
     // Handle video items
-    console.log(item);
     if (item._type === "videoFile" && item.asset?.url) {
       if (isModal) {
         return (
@@ -84,13 +80,7 @@ export default function Gallery({ items, className = "" }: GalleryProps) {
           />
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center backdrop-blur-sm">
-              <svg
-                className="w-6 h-6 text-white ml-1"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path d="M8 5v14l11-7z" />
-              </svg>
+              <Play className="ml-1 h-6 w-6 text-white" fill="currentColor" />
             </div>
           </div>
         </div>
@@ -138,19 +128,7 @@ export default function Gallery({ items, className = "" }: GalleryProps) {
               onClick={closeModal}
               className="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors z-10"
             >
-              <svg
-                className="w-8 h-8"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
+              <X className="h-8 w-8" />
             </button>
 
             <div className="bg-white rounded-lg overflow-hidden">

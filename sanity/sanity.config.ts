@@ -3,6 +3,7 @@
 import { defineConfig, defineField } from "sanity";
 import { internationalizedArray } from "sanity-plugin-internationalized-array";
 import { structureTool } from "sanity/structure";
+import { DEFAULT_LOCALE, LOCALE_TITLES, LOCALES } from "../lib/i18n";
 import { dataset, projectId } from "./env";
 import schemas from "./schema";
 
@@ -14,12 +15,8 @@ export default defineConfig({
   plugins: [
     structureTool(),
     internationalizedArray({
-      languages: [
-        { id: "da", title: "Danish" },
-        { id: "en", title: "English" },
-        { id: "de", title: "German" },
-      ],
-      defaultLanguages: ["da"],
+      languages: LOCALES.map((id) => ({ id, title: LOCALE_TITLES[id] })),
+      defaultLanguages: [DEFAULT_LOCALE],
       fieldTypes: [
         "string", // Creates type: 'internationalizedArrayString'
         // Define your Portable Text field inline here:

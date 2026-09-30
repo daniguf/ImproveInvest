@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import HowWeCreateValue from "./HowWeCreateValue";
-import { mockHowWeCreateValueProps } from "./HowWeCreateValue.mocks";
 
 const meta = {
   component: HowWeCreateValue,
@@ -9,6 +8,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {
-  args: mockHowWeCreateValueProps,
-};
+export const Primary: Story = {};

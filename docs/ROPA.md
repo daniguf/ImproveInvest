@@ -10,7 +10,7 @@
 | **Contact**          | info@improveinvest.com                  |
 | **DPO/Responsible**  | [To be assigned / Board of Directors]   |
 | **Document Version** | 1.0                                     |
-| **Last Updated**     | 20-04-2026                            |
+| **Last Updated**     | 20-04-2026                              |
 | **Next Review**      | Annual or upon material change          |
 
 > ⚠️ **Important Note on Analytics**:  
@@ -159,11 +159,11 @@
 
 ## 🔹 Review & Approval
 
-| Role                        | Name         | Signature | Date |
-| --------------------------- | ------------ | --------- | ---- |
-| **Prepared By**             | Daniel Saleh |           |20-04-2027|
-| **Reviewed By (Legal/DPO)** | [Name/Title] |           |      |
-| **Approved By (Board)**     | [Name/Title] |           |      |
+| Role                        | Name         | Signature | Date       |
+| --------------------------- | ------------ | --------- | ---------- |
+| **Prepared By**             | Daniel Saleh |           | 20-04-2027 |
+| **Reviewed By (Legal/DPO)** | [Name/Title] |           |            |
+| **Approved By (Board)**     | [Name/Title] |           |            |
 
 **Next Scheduled Review**: 20-04-2027
 

@@ -22,7 +22,7 @@ const contactFormSchema = z.object({
 type ContactFormData = z.infer<typeof contactFormSchema>;
 
 export default function ContactForm() {
-  const t = useTranslations("ContactForm");
+  const t = useTranslations("contact_form");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<
     "idle" | "success" | "error"
@@ -55,8 +55,7 @@ export default function ContactForm() {
       } else {
         setSubmitStatus("error");
       }
-      // eslint-disable-next-line no-unused-vars, @typescript-eslint/no-unused-vars
-    } catch (error) {
+    } catch {
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
@@ -172,7 +171,7 @@ export default function ContactForm() {
           )}
         </div>
 
-        {/* ✅ GDPR Consent Checkbox */}
+        {/* GDPR Consent Checkbox */}
         <div className="form-group flex items-start gap-3 mb-6">
           <input
             type="checkbox"

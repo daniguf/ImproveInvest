@@ -2,7 +2,7 @@
 
 import MaxWidthWrapper from "@/components/layouts/maxWidthWrapper/MaxWidthWrapper";
 import { urlFor } from "@/sanity/image";
-import { getFeaturedImage, Project } from "@/sanity/schema/project";
+import { getFeaturedImage, Project } from "@/types/project";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
@@ -65,7 +65,6 @@ export default function ProjectCarouselClient({ items }: { items: Project[] }) {
         <div
           ref={scrollContainerRef}
           className="flex overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide bg-primary rounded-xl"
-          style={{ scrollbarWidth: "none" }}
         >
           {items.map((item) => (
             <div key={item._id} className="shrink-0 w-full snap-center p-4">
