@@ -45,8 +45,7 @@ async function main() {
           "Log chain is valid.",
           `  ${preRotation} of ${stats?.entries} entries predate the signing key`,
           `  (rotated; signatures are checked from ${SIGNATURES_VALID_FROM}) and were`,
-          "  checked against the hash chain only. Nothing in the log was rewritten;",
-          '  see docs/HANDOVER-CLEANUP.md, "Rotating CONSENT_LOG_HMAC_SECRET".',
+          "  checked against the hash chain only. Nothing in the log was rewritten.",
         ].join("\n")
       );
     } else {
@@ -85,7 +84,6 @@ async function main() {
           "  intact, so nothing in the log was rewritten. Only the signatures fail, which",
           "  is what a changed CONSENT_LOG_HMAC_SECRET looks like - including the case",
           "  where .env.local and Vercel hold different values for it.",
-          "  See docs/HANDOVER-CLEANUP.md.",
         ].join("\n")
       );
     } else {

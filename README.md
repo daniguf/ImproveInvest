@@ -253,5 +253,3 @@ Sanity project and a Resend key, so the deploy pipeline owns it.
   this repository references. A Sanity editor may have pasted one of those paths
   into a document body, so confirm against the production dataset before
   deleting them.
-- See [`docs/HANDOVER-CLEANUP.md`](docs/HANDOVER-CLEANUP.md) for the full audit
-  this work came out of.

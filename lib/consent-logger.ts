@@ -48,8 +48,7 @@ const HMAC_SECRET = process.env.CONSENT_LOG_HMAC_SECRET || "";
  * This is a fact about the log's history, not configuration, which is why it
  * lives here rather than in the environment. Set it to `null` to verify
  * signatures from the first entry, which reports the pre-rotation entries as
- * mismatches again. See docs/HANDOVER-CLEANUP.md, "Rotating
- * CONSENT_LOG_HMAC_SECRET".
+ * mismatches again.
  */
 export const SIGNATURES_VALID_FROM: string | null = "2026-09-29T18:00:00.000Z";
 
