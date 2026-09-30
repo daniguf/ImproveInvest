@@ -7,10 +7,6 @@ import Link from "next/link";
 
 import lab from "@/public/laboratorium.jpg";
 
-export interface IBuildingsWithIdententyAndPotential {
-  sampleTextProp: string;
-}
-
 const BuildingsWithIdententyAndPotential = () => {
   const messages = useMessages();
   const bodyContentHeading =

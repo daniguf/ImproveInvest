@@ -1,9 +1,8 @@
 import Mira from "@/components/features/mira/Mira";
-import { cookies } from "next/headers";
+import { getLocale } from "@/lib/i18n.server";
 
 export default async function MiraPage() {
-  const store = await cookies();
-  const locale = store.get("locale")?.value || "da";
+  const locale = await getLocale();
 
   return <Mira locale={locale} />;
 }

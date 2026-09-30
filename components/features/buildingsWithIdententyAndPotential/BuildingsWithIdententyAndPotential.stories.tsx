@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import BuildingsWithIdententyAndPotential from "./BuildingsWithIdententyAndPotential";
-import { mockBuildingsWithIdententyAndPotentialProps } from "./BuildingsWithIdententyAndPotential.mocks";
 
 const meta = {
   component: BuildingsWithIdententyAndPotential,
@@ -9,6 +8,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {
-  args: mockBuildingsWithIdententyAndPotentialProps,
-};
+export const Primary: Story = {};

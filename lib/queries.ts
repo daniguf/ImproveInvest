@@ -1,4 +1,3 @@
-// lib/queries.ts
 import { groq } from "next-sanity";
 
 // Query to get all projects

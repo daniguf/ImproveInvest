@@ -1,29 +1,21 @@
-import { readFile, writeFile } from "fs/promises";
 import { NextRequest, NextResponse } from "next/server";
-import { join } from "path";
 
-const LOG_FILE = join(process.cwd(), "logs", "consent-audit.log");
-const ADMIN_KEY = process.env.ADMIN_API_KEY || "";
+import { verifyAdmin } from "@/lib/adminAuth";
+import {
+  readLogContent,
+  redactEntry,
+  writeLogContent,
+} from "@/lib/consent-logger";
 
-// Verify admin authorization
-function verifyAdmin(request: NextRequest) {
-  const auth =
-    request.headers.get("x-admin-key") ||
-    request.nextUrl.searchParams.get("key");
-  if (!auth || auth !== ADMIN_KEY) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
-  return null;
-}
+// The consent audit chain lives in Vercel Blob (see lib/consent-logger.ts).
+// The deployed filesystem is ephemeral and read-only outside /tmp, so this
+// route must never read or write the log from local disk.
 
-// Read and parse consent logs
+// Read and parse consent logs. A read failure propagates rather than being
+// reported as "no records", so a DSAR request never silently returns empty.
 async function readLogs(): Promise<string[]> {
-  try {
-    const data = await readFile(LOG_FILE, "utf-8");
-    return data.trim().split("\n").filter(Boolean);
-  } catch {
-    return [];
-  }
+  const data = await readLogContent();
+  return data.trim().split("\n").filter(Boolean);
 }
 
 export async function GET(request: NextRequest) {
@@ -67,21 +59,17 @@ export async function DELETE(request: NextRequest) {
   const logs = await readLogs();
 
   if (bulk === true) {
-    // GDPR Art. 17: Anonymize instead of hard-delete to preserve audit chain
-    const anonymized = logs.map((line) => {
+    // GDPR Art. 17: redact instead of hard-deleting, so the hash chain survives.
+    // `redactEntry` recomputes the chain fields; without that the log would look
+    // tampered with from the erasure onwards.
+    const redacted = logs.map((line) => {
       try {
-        const entry = JSON.parse(line);
-        entry.ipAddress = "0.0.0.0";
-        entry.userAgent = "REDACTED";
-        entry.sessionId = "REDACTED";
-        entry.anonymizedAt = new Date().toISOString();
-        entry.reason = "DSAR_ERASURE_REQUEST";
-        return JSON.stringify(entry);
+        return JSON.stringify(redactEntry(JSON.parse(line)));
       } catch {
         return line;
       }
     });
-    await writeFile(LOG_FILE, anonymized.join("\n") + "\n");
+    await writeLogContent(redacted.join("\n") + "\n");
     return NextResponse.json(
       { success: true, action: "bulk_anonymized" },
       { status: 200 }
@@ -89,22 +77,17 @@ export async function DELETE(request: NextRequest) {
   }
 
   if (id) {
-    // Find and anonymize specific record
-    const updated = logs.map((line) => {
+    // Find and redact a specific record
+    const redacted = logs.map((line) => {
       try {
         const entry = JSON.parse(line);
-        if (entry.id === id || entry.sessionId === id) {
-          entry.ipAddress = "0.0.0.0";
-          entry.userAgent = "REDACTED";
-          entry.sessionId = "REDACTED";
-          entry.anonymizedAt = new Date().toISOString();
-        }
-        return JSON.stringify(entry);
+        if (entry.id !== id && entry.sessionId !== id) return line;
+        return JSON.stringify(redactEntry(entry));
       } catch {
         return line;
       }
     });
-    await writeFile(LOG_FILE, updated.join("\n") + "\n");
+    await writeLogContent(redacted.join("\n") + "\n");
     return NextResponse.json(
       { success: true, action: "record_anonymized" },
       { status: 200 }

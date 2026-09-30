@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import Footer from "./Footer";
-import { mockFooterProps } from "./Footer.mocks";
 
 const meta = {
   component: Footer,
@@ -9,6 +8,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {
-  args: mockFooterProps,
-};
+export const Primary: Story = {};

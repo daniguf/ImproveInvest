@@ -12,7 +12,7 @@ export default function HomePage() {
     <>
       <Hero />
       <ProjectCarousel />
-      <WhyInvest sampleTextProp="" />
+      <WhyInvest />
       <MarketStrategy />
       <InvestmentModel />
       <HowWeCreateValue />

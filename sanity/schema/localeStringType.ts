@@ -1,15 +1,15 @@
 import { defineType } from "sanity";
 
-// Since schemas are code, we can programmatically build
-// fields to hold translated values. We'll use this array
-// of languages to determine which fields to define.
-const supportedLanguages = [
-  { id: "da", title: "Danish", isDefault: true },
-  { id: "en", title: "English" },
-  { id: "de", title: "German" },
-];
+import { DEFAULT_LOCALE, LOCALE_TITLES, LOCALES } from "../../lib/i18n";
 
-export const baseLanguage = supportedLanguages.find((l) => l.isDefault);
+// Since schemas are code, we can programmatically build
+// fields to hold translated values. The language list comes
+// from lib/i18n.ts so it cannot drift from the rest of the app.
+const supportedLanguages = LOCALES.map((id) => ({
+  id,
+  title: LOCALE_TITLES[id],
+  isDefault: id === DEFAULT_LOCALE,
+}));
 
 export const localeString = defineType({
   title: "Localized string",

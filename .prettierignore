@@ -1,4 +1,11 @@
 .npm
 .next
 dist
+coverage
 node_modules
+storybook-static
+package-lock.json
+
+# static assets and local runtime output are not source
+public
+logs

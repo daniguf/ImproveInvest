@@ -8,10 +8,6 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "cdn.sanity.io",
       },
-      {
-        protocol: "https",
-        hostname: "static.wixstatic.com",
-      },
     ],
     qualities: [100, 75],
   },

@@ -15,6 +15,11 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Generated output. Flat config does not read .gitignore, so every build
+    // artefact has to be listed here or `npm run lint` lints it.
+    "storybook-static/**",
+    "coverage/**",
+    "logs/**",
   ]),
   {
     languageOptions: {
@@ -26,6 +31,25 @@ const eslintConfig = defineConfig([
   {
     rules: {
       "no-unused-vars": [
+        "error",
+        {
+          vars: "all",
+          args: "after-used",
+          caughtErrors: "all",
+          argsIgnorePattern: "^_",
+        },
+      ],
+    },
+  },
+  {
+    // The core `no-unused-vars` rule cannot see TypeScript syntax: it flags the
+    // parameter names inside type annotations (e.g. `onChange: (checked: boolean) => void`)
+    // and misreads TS-only constructs. For TS files the typescript-eslint rule is the
+    // authoritative one, configured with the same options so behaviour does not drift.
+    files: ["**/*.ts", "**/*.tsx"],
+    rules: {
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": [
         "error",
         {
           vars: "all",

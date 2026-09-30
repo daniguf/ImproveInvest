@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
 import Header from "./Header";
-import { mockHeaderProps } from "./Header.mocks";
 
 const meta = {
   component: Header,
@@ -9,6 +8,4 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = {
-  args: mockHeaderProps,
-};
+export const Primary: Story = {};
