@@ -28,6 +28,13 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      # `next-env.d.ts` is gitignored, so a fresh clone has no declarations for
+      # static image imports and `tsc` fails with TS2307. Next regenerates the
+      # file, but only on `next dev` / `next build`, neither of which runs here.
+      # `typegen` writes it without building, so it needs no credentials.
+      - name: Generate Next.js types
+        run: npx next typegen
+
       - name: Typecheck
         run: npm run typecheck
 
